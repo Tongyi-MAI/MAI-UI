@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAI-UI: Foundational GUI Agent for Mobile Intelligent Assistance</title>
+    <!-- 请确保你下载了 Mobile World 的 style.css 或者使用下面简化的内联样式 -->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    
+    <style>
+        /* 简单的补充样式，以防没有 style.css */
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1rem; }
+        .feature-card { background: #f8f9fa; padding: 1.5rem; border-radius: 8px; border: 1px solid #e9ecef; }
+        .highlight-text { color: #d63384; font-weight: bold; }
+        .stat-badge { display: inline-block; padding: 0.25em 0.4em; font-size: 75%; font-weight: 700; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25rem; background-color: #0d6efd; margin-left: 5px;}
+        .demo-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-top: 2rem; }
+        .demo-video-wrapper { position: relative; width: 100%; padding-bottom: 56.25%; background: #000; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+        .demo-video-wrapper video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; }
+        .demo-video-caption { text-align: center; font-size: 14px; color: #666; margin-top: 10px; }
+        @media (max-width: 768px) {
+            .demo-grid { grid-template-columns: 1fr; }
+        }
+        .grounding-tables-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; }
+        .grounding-table-wrapper { min-width: 0; }
+        .grounding-table-wrapper .benchmark-title { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; text-align: center; color: #333; }
+        .grounding-table-wrapper table { width: 100%; border-collapse: collapse; font-size: 0.85rem; border-top: 2px solid #333; border-bottom: 2px solid #333; }
+        .grounding-table-wrapper table thead th { padding: 0.5rem 0.3rem; text-align: center; font-weight: 600; border-bottom: 1px solid #333; font-size: 0.8rem; }
+        .grounding-table-wrapper table thead th[style*="center"] { text-align: center; }
+        .grounding-table-wrapper table tbody td { padding: 0.4rem 0.3rem; text-align: left; font-size: 0.8rem; }
+        .grounding-table-wrapper table tbody td:first-child { text-align: left; min-width: 120px; }
+        .grounding-table-wrapper table .group-header { font-weight: 600; text-align: center; font-style: italic; }
+        .grounding-table-wrapper table .val-cell { text-align: center; }
+        .grounding-table-wrapper table .sub-row { font-size: 0.75rem; }
+        @media (max-width: 1000px) {
+            .grounding-tables-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .grounding-tables-grid { grid-template-columns: 1fr; }
+        }
+        .navigation-tables-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 2rem; margin-top: 2rem; }
+        .navigation-table-wrapper { min-width: 0; }
+        .navigation-table-wrapper .benchmark-title { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; text-align: center; color: #333; }
+        .navigation-table-wrapper table { width: 100%; border-collapse: collapse; font-size: 0.9rem; border-top: 2px solid #333; border-bottom: 2px solid #333; }
+        .navigation-table-wrapper table thead th { padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 1px solid #333; }
+        .navigation-table-wrapper table thead th[style*="center"] { text-align: center; }
+        .navigation-table-wrapper table tbody td { padding: 0.5rem 0.75rem; text-align: left; }
+        .navigation-table-wrapper table tbody td:first-child { text-align: left; }
+        .navigation-table-wrapper table .group-header { font-weight: 600; text-align: center; font-style: italic; }
+        .navigation-table-wrapper table .val-cell { text-align: center; }
+        @media (max-width: 768px) {
+            .navigation-tables-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <main class="container">
+        <!-- Title Section -->
+        <header class="header">
+            <h1>MAI-UI: A Foundational GUI Agent for Mobile Intelligent Assistance</h1>
+            
+
+            <p class="authors">
+                <!-- 请替换为实际作者 -->
+                <span class="author">Hanzhang Zhou<sup>*</sup></span>,
+                <span class="author">Xu Zhang<sup>*</sup></span>,
+                <span class="author">Panrong Tong</span>,
+                <span class="author">Jianan Zhang</span>,
+                <span class="author">Liangyu Chen</span>,
+            </p>
+            <p class="authors">
+                
+                <span class="author">Quyu Kong</span>,
+                <span class="author">Chenglin Cai</span>,
+                <span class="author">Chen Liu</span>,
+                <span class="author">Yue Wang</span>,
+                <span class="author">Steven HOI<sup>†</sup></span>
+            </p>
+
+            <p class="affiliations">
+                Tongyi Group, Alibaba Group
+            </p>
+
+            <p style="text-align: center; font-size: 0.9rem; color: #666; margin-top: 0.5rem; margin-bottom: 1rem;">
+                <sup>*</sup>Lead contributors.<br>
+                All authors are core contributors.<br>
+                <sup>†</sup>Corresponding to yue.w@alibaba-inc.com
+            </p>
+
+
+            <div class="links">
+                <a href="https://arxiv.org/abs/2512.22047" class="link-btn">Paper (arXiv)</a>
+                <a href="https://github.com/Tongyi-MAI/MAI-UI" class="link-btn">Code (GitHub)</a>
+
+            </div>
+        </header>
+        
+        <!-- Demo Section -->
+        <section id="demo" class="section">
+            <h2>Mobile Intelligent Assistance in Real-World Scenarios.</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 2rem;">
+                Watch MAI-UI in action across different scenarios and capabilities.
+            </p>
+            <div class="demo-grid">
+                <div>
+                    <div class="demo-video-wrapper">
+                        <video controls>
+                            <source src="asset/office_v2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="demo-video-caption">Demo 1: Office Scenario</p>
+                </div>
+                <div>
+                    <div class="demo-video-wrapper">
+                        <video controls>
+                            <source src="asset/life.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="demo-video-caption">Demo 2: Daily Life Scenario</p>
+                </div>
+                <div>
+                    <div class="demo-video-wrapper">
+                        <video controls>
+                            <source src="asset/shopping.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="demo-video-caption">Demo 3: Shopping Scenario</p>
+                </div>
+                <div>
+                    <div class="demo-video-wrapper">
+                        <video controls>
+                            <source src="asset/go_out.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <p class="demo-video-caption">Demo 4: Travel Scenario</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Leaderboard (AndroidWorld) -->
+        <section id="leaderboard" class="section">
+            <h2>Overall performance across GUI grounding and navigation.</h2>
+            <img src="asset/SOTA_Performance.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <figcaption style="text-align: center; font-size: 14px; color: #666; margin-top: 10px;">MAI-UI achieves SOTA performance across GUI grounding, outperforming Gemini-3-Pro and Seed1.8 on ScreenSpot-Pro and significantly outperform existing models on UI-Vision,(Left) MAI-UI achieves SOTA performance on famous navigation benchmark AndroidWorld (Middle), and set a new SOTA performance on real-world benchmark MobileWorld (Right).</figcaption>
+
+<!-- 
+            <div class="table-wrapper">
+                <table id="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Model Variant</th>
+                            <th>Params</th>
+                            <th>Deployment</th>
+                            <th class="sortable">AndroidWorld (SR)</th>
+                            <th class="sortable">MobileWorld (SR)</th>
+                            <th class="sortable">GUI Odyssey (SR)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="highlight-row" style="background-color: #f0f8ff; font-weight: bold;">
+                            <td>MAI-UI-235B</td>
+                            <td>235B</td>
+                            <td>Cloud</td>
+                            <td>76.7% <span class="stat-badge">SOTA</span></td>
+                            <td>41.7%</td>
+                            <td>83.4%</td>
+                        </tr>
+                        <tr>
+                            <td>MAI-UI-32B</td>
+                            <td>32B</td>
+                            <td>Cloud/Edge</td>
+                            <td>73.3%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>MAI-UI-8B</td>
+                            <td>8B</td>
+                            <td>Device/Edge</td>
+                            <td>70.7%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>MAI-UI-2B</td>
+                            <td>2B</td>
+                            <td>On-Device</td>
+                            <td>49.1%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        
+                        <tr style="color: #666; font-style: italic;">
+                            <td>UI-Tars-2</td>
+                            <td>72B</td>
+                            <td>Cloud</td>
+                            <td>&lt; 76.7%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr style="color: #666; font-style: italic;">
+                            <td>Ferret-UI Lite</td>
+                            <td>-</td>
+                            <td>On-Device</td>
+                            <td>~28%</td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>-->
+        </section>
+
+        <!-- Overview -->
+        <section id="overview" class="section">
+            <h2>GUI grounding Overview</h2>
+            <h3>Data Pipeline</h3>
+            <img src="asset/grounding_pipeline.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <h3>Training Paradigm</h3>
+            <p>For GUI grounding, we followed Instruction-as-Reasoning paradigm in UI-Ins, we use a SFT stage to teach model reasoning and RL stage let model explore the appropriate reasoning pathway. </p>
+            <h3>Grounding Performance</h3>
+            
+            <div class="grounding-tables-grid">
+                <div class="grounding-table-wrapper">
+                    <div class="benchmark-title">ScreenSpot-Pro</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Model</th>
+                                <th style="text-align: center;">Avg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>Gemini-3-Pro</td>
+                                <td class="val-cell">72.7</td>
+                            </tr>
+                            <tr>
+                                <td>Seed1.8</td>
+                                <td class="val-cell">73.1</td>
+                            </tr>
+
+                            <tr>
+                                <td>GTA1-7B</td>
+                                <td class="val-cell">50.1</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Venus-7B</td>
+                                <td class="val-cell">50.8</td>
+                            </tr>
+
+                            <tr>
+                                <td>GUI-Owl-7B</td>
+                                <td class="val-cell">54.9</td>
+                            </tr>
+                            <tr>
+                                <td>GUI-Owl-32B</td>
+                                <td class="val-cell">58.0</td>
+                            </tr>
+                            <tr>
+                                <td>GTA1-32B</td>
+                                <td class="val-cell">63.6</td>
+                            </tr>
+
+                            <tr>
+                                <td>UI-Venus-72B</td>
+                                <td class="val-cell">61.9</td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>UI-MAI-2B</strong></td>
+                                <td class="val-cell">57.4</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell">62.8</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-8B</strong></td>
+                                <td class="val-cell">65.8</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell">70.9</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-32B</strong></td>
+                                <td class="val-cell">67.9</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell"><strong>73.5</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+    
+                <div class="grounding-table-wrapper">
+                    <div class="benchmark-title">UI-Vision</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Model</th>
+                                <th style="text-align: center;">Avg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+ 
+
+                            <tr>
+                                <td>InfiGUI-G1-3B</td>
+                                <td class="val-cell">22.0</td>
+                            </tr>
+                            <tr>
+                                <td>OS-Altas-7B</td>
+                                <td class="val-cell">9.0</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>Qwen3-VL-8B</td>
+                                <td class="val-cell">17.5</td>
+                            </tr> -->
+                            <!-- <tr>
+                                <td>UI-Tars-7B</td>
+                                <td class="val-cell">17.6</td>
+                            </tr> -->
+                            <tr>
+                                <td>UI-Tars-1.5-7B</td>
+                                <td class="val-cell">22.3</td>
+                            </tr>
+
+                            <tr>
+                                <td>UI-Venus-7B</td>
+                                <td class="val-cell">26.5</td>
+                            </tr>
+                            <tr>
+                                <td>InfiGUI-G1-7B</td>
+                                <td class="val-cell">26.1</td>
+                            </tr>
+                            <tr>
+                                <td>Phi-Ground</td>
+                                <td class="val-cell">27.2</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>Qwen3-VL-32B</td>
+                                <td class="val-cell">26.9</td>
+                            </tr> -->
+                            <tr>
+                                <td>UI-TARS-72B</td>
+                                <td class="val-cell">25.5</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Venus-72B</td>
+                                <td class="val-cell">36.8</td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>UI-MAI-2B</strong></td>
+                                <td class="val-cell">30.3</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell">31.9</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-8B</strong></td>
+                                <td class="val-cell">40.7</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell">42.4</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-32B</strong></td>
+                                <td class="val-cell">47.1</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell"><strong>49.2</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="grounding-table-wrapper">
+                    <div class="benchmark-title">MMBench-GUI L2</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Model</th>
+                                <th style="text-align: center;">Avg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <!-- <tr>
+                                <td>Qwen3-VL-2B</td>
+                                <td class="val-cell">46.5</td>
+                            </tr> -->
+                            <tr>
+                                <td>InfiGUI-G1-3B</td>
+                                <td class="val-cell">73.4</td>
+                            </tr>
+                            <tr>
+                                <td>OS-Atlas-7B</td>
+                                <td class="val-cell">41.4</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>Aguvis-7B</td>
+                                <td class="val-cell">45.7</td>
+                            </tr> -->
+                            <tr>
+                                <td>UI-TARS-1.5-7B</td>
+                                <td class="val-cell">64.3</td>
+                            </tr>
+                            <tr>
+                                <td>UGround-V1-7B</td>
+                                <td class="val-cell">65.7</td>
+                            </tr>
+                            <tr>
+                                <td>GTA1-7B</td>
+                                <td class="val-cell">78.5</td>
+                            </tr>
+                            <tr>
+                                <td>GUI-Owl-7B</td>
+                                <td class="val-cell">80.5</td>
+                            </tr>
+                            <tr>
+                                <td>InfiGUI-G1-7B</td>
+                                <td class="val-cell">80.8</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>Qwen3-VL-8B</td>
+                                <td class="val-cell">81.3</td>
+                            </tr> -->
+                            <!-- <tr>
+                                <td>Qwen3-VL-32B</td>
+                                <td class="val-cell">85.3</td>
+                            </tr> -->
+                            <tr>
+                                <td>GUI-Owl-32B</td>
+                                <td class="val-cell">83.0</td>
+                            </tr>
+                            <tr>
+                                <td>GTA1-32B</td>
+                                <td class="val-cell">83.4</td>
+                            </tr>
+                            <tr>
+                                <td>UI-TARS-DPO-72B</td>
+                                <td class="val-cell">74.3</td>
+                            </tr>
+                            <tr>
+                                <td>InternVL3-78B</td>
+                                <td class="val-cell">72.2</td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>UI-MAI-2B</strong></td>
+                                <td class="val-cell">82.6</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-8B</strong></td>
+                                <td class="val-cell">88.8</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-32B</strong></td>
+                                <td class="val-cell"><strong>91.3</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="grounding-table-wrapper">
+                    <div class="benchmark-title">OSWorld-G</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Agent Model</th>
+                                <th style="text-align: center;">Avg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                            <!-- <tr>
+                                <td>Seed1.5-VL</td>
+                                <td class="val-cell">62.9</td>
+                            </tr>
+
+                            <tr>
+                                <td>Jedi-3B</td>
+                                <td class="val-cell">50.9</td>
+                            </tr>
+                            <tr>
+                                <td>OS-Atlas-7B</td>
+                                <td class="val-cell">27.7</td>
+                            </tr> -->
+                            <!-- <tr>
+                                <td>UGround-7B</td>
+                                <td class="val-cell">36.4</td>
+                            </tr>
+                            <tr>
+                                <td>Aguvis-7B</td>
+                                <td class="val-cell">38.7</td>
+                            </tr> -->
+                            <!-- <tr>
+                                <td>UI-TARS-7B</td>
+                                <td class="val-cell">47.5</td>
+                            </tr> -->
+                            <tr>
+                                <td>UI-TARS-1.5-7B</td>
+                                <td class="val-cell">52.8</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>Jedi-7B</td>
+                                <td class="val-cell">54.1</td>
+                            </tr> -->
+                            <tr>
+                                <td>GTA1-7B</td>
+                                <td class="val-cell">55.1</td>
+                            </tr>
+                            <tr>
+                                <td>GUI-Owl-7B</td>
+                                <td class="val-cell">55.9</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Venus-7B</td>
+                                <td class="val-cell">58.8</td>
+                            </tr>
+                            <tr>
+                                <td>OpenCUA-32B</td>
+                                <td class="val-cell">59.6</td>
+                            </tr>
+                            <tr>
+                                <td>GUI-Owl-32B</td>
+                                <td class="val-cell">58.0</td>
+                            </tr>
+                            <tr>
+                                <td>GTA1-32B</td>
+                                <td class="val-cell">65.2</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>UI-TARS-72B</td>
+                                <td class="val-cell">57.1</td>
+                            </tr> -->
+                            <tr>
+                                <td>UI-Venus-72B</td>
+                                <td class="val-cell">70.4</td>
+                            </tr>
+
+                            <tr>
+                                <td><strong>UI-MAI-2B</strong></td>
+                                <td class="val-cell">52.0</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell">55.9</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-8B</strong></td>
+                                <td class="val-cell">60.1</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell">64.2</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-32B</strong></td>
+                                <td class="val-cell">67.6</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell"><strong>70.9</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="grounding-table-wrapper">
+                    <div class="benchmark-title">OSWorld-G-Refine</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Agent Model</th>
+                                <th style="text-align: center;">Avg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>Operator</td>
+                                <td class="val-cell">57.8</td>
+                            </tr>
+
+                            <tr>
+                                <td>Jedi-3B</td>
+                                <td class="val-cell">61.0</td>
+                            </tr>
+                            <tr>
+                                <td>Jedi-7B</td>
+                                <td class="val-cell">63.8</td>
+                            </tr>
+                            <tr>
+                                <td>UI-TARS-1.5-7B</td>
+                                <td class="val-cell">64.2</td>
+                            </tr>
+                            <tr>
+                                <td>GTA1-7B</td>
+                                <td class="val-cell">67.7</td>
+                            </tr>
+                            <tr>
+                                <td>Qwen2.5-VL-32B</td>
+                                <td class="val-cell">59.6</td>
+                            </tr>
+                            <tr>
+                                <td>OpenCUA-32B</td>
+                                <td class="val-cell">70.2</td>
+                            </tr>
+                            <tr>
+                                <td>GTA1-32B</td>
+                                <td class="val-cell">72.2</td>
+                            </tr>
+                            <!-- <tr>
+                                <td colspan="2" class="group-header">Ours</td>
+                            </tr> -->
+                            <tr>
+                                <td><strong>UI-MAI-2B</strong></td>
+                                <td class="val-cell">63.5</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell">66.3</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-8B</strong></td>
+                                <td class="val-cell">68.6</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell">72.9</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-32B</strong></td>
+                                <td class="val-cell">73.9</td>
+                            </tr>
+                            <tr class="sub-row">
+                                <td style="padding-left: 20px;"><em>+ Zoom-In</em></td>
+                                <td class="val-cell"><strong>75.0</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="grounding-table-wrapper">
+                    <div class="benchmark-title">ScreenSpot-V2</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Model</th>
+                                <th style="text-align: center;">Avg</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr>
+                                <td colspan="2" class="group-header">Open-Source Models</td>
+                            </tr> -->
+                            <tr>
+                                <td>Phi-ground</td>
+                                <td class="val-cell">83.8</td>
+                            </tr>
+                            <tr>
+                                <td>OS-Atlas-7B</td>
+                                <td class="val-cell">85.1</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>UGround-v1-7B</td>
+                                <td class="val-cell">87.7</td>
+                            </tr> -->
+                            <tr>
+                                <td>UI-Tars-1.5-7B</td>
+                                <td class="val-cell">89.0</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>UI-TARS-7B</td>
+                                <td class="val-cell">91.6</td>
+                            </tr> -->
+                            <tr>
+                                <td>OpenCUA-7B</td>
+                                <td class="val-cell">92.3</td>
+                            </tr>
+                            <tr>
+                                <td>GTA1-7B</td>
+                                <td class="val-cell">92.4</td>
+                            </tr>
+                            <tr>
+                                <td>GUI-Owl-7B</td>
+                                <td class="val-cell">92.8</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Venus-7B</td>
+                                <td class="val-cell">94.1</td>
+                            </tr>
+                            <tr>
+                                <td>GUI-Owl-32B</td>
+                                <td class="val-cell">93.2</td>
+                            </tr>
+                            <tr>
+                                <td>OpenCUA-32B</td>
+                                <td class="val-cell">93.4</td>
+                            </tr>
+                            <tr>
+                                <td>GTA1-32B</td>
+                                <td class="val-cell">95.2</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Venus-72B</td>
+                                <td class="val-cell">95.3</td>
+                            </tr>
+                            <!-- <tr>
+                                <td colspan="2" class="group-header">Ours</td>
+                            </tr> -->
+                            <tr>
+                                <td><strong>UI-MAI-2B</strong></td>
+                                <td class="val-cell">92.5</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-8B</strong></td>
+                                <td class="val-cell">95.2</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-32B</strong></td>
+                                <td class="val-cell"><strong>96.5</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contributions / Methodology -->
+        <section id="Navigation" class="section">
+            <h2>GUI Navigation Overview</h2>
+            <h3>Data Pipeline</h3>
+            <img src="asset/navigation_pipeline.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <h3>Reinforcement Learning Framework</h3>
+            <figure class="figure">
+                <!-- 这里放你的架构图 -->
+                <img src="asset/rl_framework.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+                <figcaption>Overview of the agentic reinforcement learning framework. The framework alternates between rollout phases where the latest policy interacts with online mobile environments to generate trajectories and training phases that progressively improve the policy using trajectory-level rewards.</figcaption>
+            </figure>
+            <h3>Rollout Processing</h3>
+            <figure class="figure">
+                <!-- 这里放你的架构图 -->
+                <img src="asset/rollout.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+                <figcaption> Detailed rollout process within the MobileAgentLoop. The agent loop asynchronously calls inference servers to generate actions and executes them in stateful environments across multiple turns, with hybrid verifiers evaluating complete trajectories to produce final rewards.</figcaption>
+            </figure>
+            <h3>Performance</h3>
+            
+            <div class="navigation-tables-grid">
+                <div class="navigation-table-wrapper">
+                    <div class="benchmark-title">AndroidWorld</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th style="text-align: center;">Paras.</th>
+                                <th style="text-align: center;">Success Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr>
+                                <td colspan="3" class="group-header">Baselines</td>
+                            </tr> -->
+                            <tr>
+                                <td>Qwen3-VL-2B</td>
+                                <td class="val-cell">2B</td>
+                                <td class="val-cell">36.4</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>ScaleCUA-3B</td>
+                                <td class="val-cell">3B</td>
+                                <td class="val-cell">23.7</td>
+                            </tr> -->
+                            <tr>
+                                <td>Ferret-UI Lite-3B</td>
+                                <td class="val-cell">3B</td>
+                                <td class="val-cell">28.0</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>UI-Tars-7B</td>
+                                <td class="val-cell">7B</td>
+                                <td class="val-cell">33.0</td>
+                            </tr> -->
+                            <tr>
+                                <td>UI-Tars-1.5-7B</td>
+                                <td class="val-cell">7B</td>
+                                <td class="val-cell">30.0</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Venus-7B</td>
+                                <td class="val-cell">7B</td>
+                                <td class="val-cell">49.1</td>
+                            </tr>
+                            <tr>
+                                <td>GUI-Owl-7B</td>
+                                <td class="val-cell">7B</td>
+                                <td class="val-cell">66.4</td>
+                            </tr>
+                            <tr>
+                                <td>Step-GUI-8B</td>
+                                <td class="val-cell">8B</td>
+                                <td class="val-cell">67.7</td>
+                            </tr>
+                            <tr>
+                                <td>Qwen3-VL-8B</td>
+                                <td class="val-cell">8B</td>
+                                <td class="val-cell">47.6</td>
+                            </tr>
+                            <tr>
+                                <td>Qwen3-VL-32B</td>
+                                <td class="val-cell">32B</td>
+                                <td class="val-cell">57.3</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>UI-Tars-SFT-72B</td>
+                                <td class="val-cell">72B</td>
+                                <td class="val-cell">46.6</td>
+                            </tr> -->
+                            <tr>
+                                <td>UI-Venus-72B</td>
+                                <td class="val-cell">72B</td>
+                                <td class="val-cell">65.9</td>
+                            </tr>
+                            <!-- <tr>
+                                <td>Seed1.5-VL</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">62.1</td>
+                            </tr> -->
+                            <tr>
+                                <td>Qwen3-VL-235B-A22B</td>
+                                <td class="val-cell">235B</td>
+                                <td class="val-cell">63.7</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Tars-1.5</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">64.2</td>
+                            </tr>
+                            <tr>
+                                <td>Gemini-2.5-Pro</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">69.7</td>
+                            </tr>
+                            <tr>
+                                <td>Seed1.8</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">70.7</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Tars-2</td>
+                                <td class="val-cell">230B</td>
+                                <td class="val-cell">73.3</td>
+                            </tr>
+                            <!-- <tr>
+                                <td colspan="3" class="group-header">Ours</td>
+                            </tr> -->
+                            <tr>
+                                <td><strong>UI-MAI-2B</strong></td>
+                                <td class="val-cell">2B</td>
+                                <td class="val-cell">49.1</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-8B</strong></td>
+                                <td class="val-cell">8B</td>
+                                <td class="val-cell">70.7</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-32B</strong></td>
+                                <td class="val-cell">32B</td>
+                                <td class="val-cell">73.3</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-235B-A22B</strong></td>
+                                <td class="val-cell">235B</td>
+                                <td class="val-cell"><strong>76.7</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="navigation-table-wrapper">
+                    <div class="benchmark-title">MobileWorld</div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Model</th>
+                                <th style="text-align: center;">GUI-Only (116)</th>
+                                <th style="text-align: center;">User-Int. (45)</th>
+                                <th style="text-align: center;">MCP (40)</th>
+                                <th style="text-align: center;">Overall</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="5" class="group-header">Agentic Framework</td>
+                            </tr>
+                            <tr>
+                                <td>Claude-4.5-Sonnet + UI-Ins-7B</td>
+                                <td class="val-cell">47.8</td>
+                                <td class="val-cell">37.8</td>
+                                <td class="val-cell">50.0</td>
+                                <td class="val-cell">43.8</td>
+                            </tr>
+                            <tr>
+                                <td>Gemini-3-Pro + UI-Ins-7B</td>
+                                <td class="val-cell">55.6</td>
+                                <td class="val-cell">24.4</td>
+                                <td class="val-cell">48.6</td>
+                                <td class="val-cell">46.3</td>
+                            </tr>
+                            <tr>
+                                <td>GPT-5 + UI-Ins-7B</td>
+                                <td class="val-cell">54.0</td>
+                                <td class="val-cell">62.2</td>
+                                <td class="val-cell">51.6</td>
+                                <td class="val-cell">51.7</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" class="group-header">End-to-End Model</td>
+                            </tr>
+                            <tr>
+                                <td>GUI-Owl-7B</td>
+                                <td class="val-cell">7.7</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">4.5</td>
+                            </tr>
+                            <tr>
+                                <td>GUI-Owl-32B</td>
+                                <td class="val-cell">8.5</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">5.5</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Venus-7B</td>
+                                <td class="val-cell">8.5</td>
+                                <td class="val-cell">2.3</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">5.5</td>
+                            </tr>
+                            <tr>
+                                <td>UI-Venus-72B</td>
+                                <td class="val-cell">16.4</td>
+                                <td class="val-cell">4.7</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">10.4</td>
+                            </tr>
+                            <tr>
+                                <td>Qwen3-VL-8B</td>
+                                <td class="val-cell">9.4</td>
+                                <td class="val-cell">0.0</td>
+                                <td class="val-cell">0.0</td>
+                                <td class="val-cell">5.5</td>
+                            </tr>
+                            <tr>
+                                <td>Qwen3-VL-32B</td>
+                                <td class="val-cell">11.9</td>
+                                <td class="val-cell">6.7</td>
+                                <td class="val-cell">2.7</td>
+                                <td class="val-cell">9.0</td>
+                            </tr>
+                            <tr>
+                                <td>Qwen3-VL-235B-A22B</td>
+                                <td class="val-cell">12.8</td>
+                                <td class="val-cell">4.4</td>
+                                <td class="val-cell">5.4</td>
+                                <td class="val-cell">9.5</td>
+                            </tr>
+                            <tr>
+                                <td>Doubao-1.5-UI-TARS</td>
+                                <td class="val-cell">26.3</td>
+                                <td class="val-cell">32.4</td>
+                                <td class="val-cell">-</td>
+                                <td class="val-cell">20.9</td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" class="group-header">Ours</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-8B</strong></td>
+                                <td class="val-cell">27.5</td>
+                                <td class="val-cell">22.2</td>
+                                <td class="val-cell">20.0</td>
+                                <td class="val-cell">24.9</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-32B</strong></td>
+                                <td class="val-cell">36.2</td>
+                                <td class="val-cell">46.7</td>
+                                <td class="val-cell">30.0</td>
+                                <td class="val-cell">37.3</td>
+                            </tr>
+                            <tr>
+                                <td><strong>UI-MAI-235B-A22B</strong></td>
+                                <td class="val-cell"><strong>39.7</strong></td>
+                                <td class="val-cell"><strong>51.1</strong></td>
+                                <td class="val-cell"><strong>37.5</strong></td>
+                                <td class="val-cell"><strong>41.7</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section id="device_cloud_collaboration" class="section">
+            <h2>Device-Cloud Collaboration</h2>
+            <h3>System Architecture</h3>
+            <img src="asset/device_cloud.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <h3>Performance</h3>
+            <img src="asset/cloud_device.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+        </section>
+        <section id="device_cloud_collaboration" class="section">
+            <h2>Evaluating in Real-World Benchmark</h2>
+            <h3>MobileWorld Benchmark</h3>
+            <p>To evaluate MAI-UI’s practical capabilities, we adopt our MOBILEWORLD benchmark, a comprehensive benchmark designed to bridge this evaluation gap. MOBILEWORLD features over 200 realistic tasks spanning 15+ opensource applications across critical domains including e-commerce (Mall4Uni, mirroring Temu/Amazon), enterprise communication (Mattermost, mirroring Microsoft Teams/Slack), social media (Mastodon, mirroring X/Twitter), and daily productivity tools.</p>
+            <h3>Case Study of MCP Call</h3>
+            <figure class="figure">
+                <!-- 这里放你的架构图 -->
+                <img src="asset/mcp.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+                <figcaption> Case studies of MCP tool using of MAI-UI. (a): Using MCP tools provide shortcuts that
+                    compress multiple UI actions into a few API calls; (b): Using MCP tools brings traditionally desktop-only
+                    workflows (e.g., GitHub commit search) to mobile. The user instruction for (a) is: “Compare the two
+                    apartment listings sent by the agent and determine which has the shorter driving time to Alibaba Xixi Campus
+                    (Zone C; 969 Wenyi West Road, Yuhang District, Hangzhou). Send the address of the nearer apartment to my
+                    friend Mia”.</figcaption>
+            </figure>
+            <h3>Case Study of User Interaction</h3>
+            <figure class="figure">
+                <!-- 这里放你的架构图 -->
+                <img src="asset/user_interaction.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+                <figcaption> A case study of agent user interaction. The user instruction is: “In the Downloads folder, locate
+                    resume file(s) downloaded within one month and send them to my HR colleague with the subject "candidates_cv".</figcaption>
+            </figure>
+
+        </section>
+        <!-- Citation -->
+        <section id="citation" class="section">
+            <h2>Citation</h2>
+            <p>If you find MAI-UI useful in your research, please cite our papers:</p>
+            <div class="code-block">
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                <pre><code class="language-bibtex">@misc{zhou2025maiuitechnicalreportrealworld,
+                    title={MAI-UI Technical Report: Real-World Centric Foundation GUI Agents}, 
+                    author={Hanzhang Zhou and Xu Zhang and Panrong Tong and Jianan Zhang and Liangyu Chen and Quyu Kong and Chenglin Cai and Chen Liu and Yue Wang and Jingren Zhou and Steven Hoi},
+                    year={2025},
+                    eprint={2512.22047},
+                    archivePrefix={arXiv},
+                    primaryClass={cs.CV},
+                    url={https://arxiv.org/abs/2512.22047}, 
+              }</code></pre>
+            </div>
+            <div class="code-block">
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                <pre><code class="language-bibtex">@misc{kong2025mobileworldbenchmarkingautonomousmobile,
+                    title={MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive, and MCP-Augmented Environments}, 
+                    author={Quyu Kong and Xu Zhang and Zhenyu Yang and Nolan Gao and Chen Liu and Panrong Tong and Chenglin Cai and Hanzhang Zhou and Jianan Zhang and Liangyu Chen and Zhidan Liu and Steven Hoi and Yue Wang},
+                    year={2025},
+                    eprint={2512.19432},
+                    archivePrefix={arXiv},
+                    primaryClass={cs.AI},
+                    url={https://arxiv.org/abs/2512.19432}, 
+              }</code></pre>
+            </div>
+            <div class="code-block">
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                <pre><code class="language-bibtex">@misc{chen2025uiinsenhancingguigrounding,
+                    title={UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning}, 
+                    author={Liangyu Chen and Hanzhang Zhou and Chenglin Cai and Jianan Zhang and Panrong Tong and Quyu Kong and Xu Zhang and Chen Liu and Yuqi Liu and Wenxuan Wang and Yue Wang and Qin Jin and Steven Hoi},
+                    year={2025},
+                    eprint={2510.20286},
+                    archivePrefix={arXiv},
+                    primaryClass={cs.CV},
+                    url={https://arxiv.org/abs/2510.20286}, 
+              }</code></pre>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Acknowledgements</h2>
+            <p>We thank the teams behind AndroidWorld, Mobile World, and other open-source benchmarks for facilitating this research.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>MAI-UI Team &middot; <a href="#">GitHub</a> &middot; <a href="#">License</a></p>
+    </footer>
+
+    <script>
+        hljs.highlightAll();
+        function copyCode(btn) {
+            const code = btn.nextElementSibling.querySelector('code').textContent;
+            navigator.clipboard.writeText(code).then(() => {
+                btn.textContent = 'Copied!';
+                setTimeout(() => btn.textContent = 'Copy', 2000);
+            });
+        }
+    </script>
+</body>
+</html>
+</html>
