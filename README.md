@@ -252,7 +252,7 @@ agent = MAIUINaivigationAgent(
 
 ## 📝 Citation
 
-If you find this project useful for your research, please consider citing our work:
+If you find this project useful for your research, please consider citing our works:
 
 ```bibtex
 @misc{zhou2025maiuitechnicalreportrealworld,
@@ -263,6 +263,24 @@ If you find this project useful for your research, please consider citing our wo
       archivePrefix={arXiv},
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2512.22047}, 
+}
+@misc{chen2025uiinsenhancingguigrounding,
+      title={UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning}, 
+      author={Liangyu Chen and Hanzhang Zhou and Chenglin Cai and Jianan Zhang and Panrong Tong and Quyu Kong and Xu Zhang and Chen Liu and Yuqi Liu and Wenxuan Wang and Yue Wang and Qin Jin and Steven Hoi},
+      year={2025},
+      eprint={2510.20286},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.20286}, 
+}
+@misc{kong2025mobileworldbenchmarkingautonomousmobile,
+      title={MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive, and MCP-Augmented Environments}, 
+      author={Quyu Kong and Xu Zhang and Zhenyu Yang and Nolan Gao and Chen Liu and Panrong Tong and Chenglin Cai and Hanzhang Zhou and Jianan Zhang and Liangyu Chen and Zhidan Liu and Steven Hoi and Yue Wang},
+      year={2025},
+      eprint={2512.19432},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2512.19432}, 
 }
 ```
 
