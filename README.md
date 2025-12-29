@@ -63,6 +63,14 @@ MAI-UI establishes new state-of-the-art across GUI grounding and mobile navigati
   </tr>
 </table>
 
+- Our device-cloud collaboration framework can dynamically select on-device or cloud execution based on task execution state and data sensitivity. It improves on-device performance by 33% and reduces cloud API calls by over 40%.
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><img src="./assets/img/dcc.jpg" alt="Device-cloud Collaboration"/><br/><b>Device-cloud Collaboration</b></td>
+  </tr>
+</table>
+
 ## 🎥 Demo
 
 ### Demo 1 - Living Scenario
