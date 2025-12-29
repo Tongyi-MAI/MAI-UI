@@ -1,0 +1,119 @@
+{
+  "columns": ["Category", "Model", "Max Steps", "Overall", "GUI-Only", "User-Int.", "MCP"],
+  "task_counts": {
+    "GUI-Only": 116,
+    "User-Int.": 45,
+    "MCP": 40
+  },
+  "results": [
+    {
+      "category": "Agentic",
+      "model": "GPT-5 + UI-Ins-7B",
+      "max_steps": 50,
+      "overall": 51.7,
+      "gui_only": 54.0,
+      "user_int": 62.2,
+      "mcp": 51.6
+    },
+    {
+      "category": "Agentic",
+      "model": "Gemini-3-Pro + UI-Ins-7B",
+      "max_steps": 50,
+      "overall": 46.3,
+      "gui_only": 55.6,
+      "user_int": 24.4,
+      "mcp": 48.6
+    },
+    {
+      "category": "Agentic",
+      "model": "Claude-4.5-Sonnet + UI-Ins-7B",
+      "max_steps": 50,
+      "overall": 43.8,
+      "gui_only": 47.8,
+      "user_int": 37.8,
+      "mcp": 50.0
+    },
+    {
+      "category": "End-to-End",
+      "model": "Doubao-1.5-UI-TARS",
+      "max_steps": 50,
+      "overall": 20.9,
+      "gui_only": 26.3,
+      "user_int": 32.4,
+      "mcp": null
+    },
+    {
+      "category": "End-to-End",
+      "model": "GELab-Zero-4B",
+      "max_steps": 50,
+      "overall": 10.9,
+      "gui_only": 16.1,
+      "user_int": 6.7,
+      "mcp": null
+    },
+    {
+      "category": "End-to-End",
+      "model": "UI-Venus-72B",
+      "max_steps": 50,
+      "overall": 10.4,
+      "gui_only": 16.4,
+      "user_int": null,
+      "mcp": null
+    },
+    {
+      "category": "End-to-End",
+      "model": "Qwen3-VL-235B-A22B",
+      "max_steps": 50,
+      "overall": 9.5,
+      "gui_only": 12.8,
+      "user_int": 4.4,
+      "mcp": 5.4
+    },
+    {
+      "category": "End-to-End",
+      "model": "Qwen3-VL-32B",
+      "max_steps": 50,
+      "overall": 9.0,
+      "gui_only": 11.9,
+      "user_int": 6.7,
+      "mcp": 2.7
+    },
+    {
+      "category": "End-to-End",
+      "model": "UI-Venus-7B",
+      "max_steps": 50,
+      "overall": 5.5,
+      "gui_only": 8.5,
+      "user_int": null,
+      "mcp": null
+    },
+    {
+      "category": "End-to-End",
+      "model": "GUI-Owl-32B",
+      "max_steps": 50,
+      "overall": 5.5,
+      "gui_only": 8.5,
+      "user_int": null,
+      "mcp": null
+    },
+    {
+      "category": "End-to-End",
+      "model": "Qwen3-VL-8B",
+      "max_steps": 50,
+      "overall": 5.5,
+      "gui_only": 9.4,
+      "user_int": 0.0,
+      "mcp": 0.0
+    },
+    {
+      "category": "End-to-End",
+      "model": "GUI-Owl-7B",
+      "max_steps": 50,
+      "overall": 4.5,
+      "gui_only": 7.7,
+      "user_int": null,
+      "mcp": null
+    }
+  ]
+}
+
