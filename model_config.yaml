@@ -1,0 +1,31 @@
+# MAI-UI 模型配置文件
+# Model Configuration for MAI-UI Web UI
+
+# vLLM 本地部署
+vllm_local:
+  display_name: "vLLM 本地"
+  api_base: "http://localhost:8000/v1"
+  api_key: ""
+  default_model: "MAI-UI-8B"
+
+# 备用配置示例
+vllm_2b:
+  display_name: "vLLM 本地 (2B)"
+  api_base: "http://localhost:8000/v1"
+  api_key: ""
+  default_model: "MAI-UI-2B"
+
+# OpenAI 兼容 API
+openai_compatible:
+  display_name: "OpenAI Compatible"
+  api_base: ""
+  api_key: ""
+  default_model: "MAI-UI-8B"
+
+# MCP 工具配置
+mcp_tools:
+  # 高德地图示例（需要申请 API Key）
+  amap:
+    enabled: false
+    api_key: ""
+  # 可扩展其他 MCP 工具

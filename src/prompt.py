@@ -40,6 +40,8 @@ For each function call, return the thinking process in <thinking> </thinking> ta
 {"action": "wait"}
 {"action": "terminate", "status": "success or fail"}
 {"action": "answer", "text": "xxx"} # Use escape characters \\', \\", and \\n in text part to ensure we can parse the text in normal python string format.
+{"action": "AWAKE", "text": "app_name"} # Open an app directly by its name (e.g. "WeChat"). Equivalent to "open".
+{"action": "INFO", "text": "xxx"} # Ask user for more info. Equivalent to "ask_user".
 
 
 ## Note
@@ -72,6 +74,8 @@ For each function call, return a json object with function name and arguments wi
 {"action": "wait"}
 {"action": "terminate", "status": "success or fail"}
 {"action": "answer", "text": "xxx"} # Use escape characters \\', \\", and \\n in text part to ensure we can parse the text in normal python string format.
+{"action": "AWAKE", "text": "app_name"} # Open an app directly by its name.
+{"action": "INFO", "text": "xxx"} # Ask user for more info.
 
 
 ## Note
@@ -108,6 +112,8 @@ For each function call, return the thinking process in <thinking> </thinking> ta
 {"action": "wait"}
 {"action": "terminate", "status": "success or fail"} 
 {"action": "answer", "text": "xxx"} # Use escape characters \\', \\", and \\n in text part to ensure we can parse the text in normal python string format.
+{"action": "AWAKE", "text": "app_name"} # Open an app directly by its name.
+{"action": "INFO", "text": "xxx"} # Ask user for more info.
 {"action": "ask_user", "text": "xxx"} # you can ask user for more information to complete the task.
 {"action": "double_click", "coordinate": [x, y]}
 

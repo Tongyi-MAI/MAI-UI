@@ -326,6 +326,7 @@ class MAIUINaivigationAgent(BaseAgent):
         self,
         instruction: str,
         images: List[Image.Image],
+        user_feedback: Optional[str] = None,
     ) -> List[Dict[str, Any]]:
         """
         Build the message list for the LLM API call.
@@ -377,23 +378,41 @@ class MAIUINaivigationAgent(BaseAgent):
             if image_num < len(images):
                 cur_image = images[image_num]
                 encoded_string = pil_to_base64(cur_image)
+                content = [{
+                    "type": "image_url",
+                    "image_url": {"url": f"data:image/png;base64,{encoded_string}"},
+                }]
+                
+                # Add user feedback if available
+                if user_feedback:
+                    content.append({
+                        "type": "text",
+                        "text": f"\nUser Feedback: {user_feedback}"
+                    })
+                
                 messages.append({
                     "role": "user",
-                    "content": [{
-                        "type": "image_url",
-                        "image_url": {"url": f"data:image/png;base64,{encoded_string}"},
-                    }],
+                    "content": content,
                 })
         else:
             # No history, just add the current image
             cur_image = images[0]
             encoded_string = pil_to_base64(cur_image)
+            content = [{
+                "type": "image_url",
+                "image_url": {"url": f"data:image/png;base64,{encoded_string}"},
+            }]
+            
+            # Add user feedback if available
+            if user_feedback:
+                content.append({
+                    "type": "text",
+                    "text": f"\nUser Feedback: {user_feedback}"
+                })
+
             messages.append({
                 "role": "user",
-                "content": [{
-                    "type": "image_url",
-                    "image_url": {"url": f"data:image/png;base64,{encoded_string}"},
-                }],
+                "content": content,
             })
 
         return messages
@@ -430,9 +449,12 @@ class MAIUINaivigationAgent(BaseAgent):
 
         # Prepare images
         images = self._prepare_images(screenshot_bytes)
+        
+        # Get user feedback from observation
+        user_feedback = obs.get("user_feedback")
 
         # Build messages
-        messages = self._build_messages(instruction, images)
+        messages = self._build_messages(instruction, images, user_feedback=user_feedback)
 
         # Make API call with retry logic
         max_retries = 3

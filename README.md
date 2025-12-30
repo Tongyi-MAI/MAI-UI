@@ -12,6 +12,7 @@
 
 ## 📰 News
 
+* 🎁 **[2025-12-30]** Added Gradio Web UI for interactive control and trajectory visualization!
 * 🎁 **[2025-12-29]** We release MAI-UI Technical Report on [arXiv](https://arxiv.org/abs/2512.22047)!
 * 🎁 **[2025-12-29]** Initial release of [MAI-UI-8B](https://huggingface.co/Tongyi-MAI/MAI-UI-8B) and [MAI-UI-2B](https://huggingface.co/Tongyi-MAI/MAI-UI-2B) models on Hugging Face.
 
@@ -246,6 +247,53 @@ agent = MAIUINaivigationAgent(
         "max_tokens": 2048,
     },
 )
+```
+
+### Step 5: Run Web UI (Alternative)
+
+We also provide a Gradio Web UI for interactive control:
+
+```bash
+python start_web_ui.py
+```
+
+Then visit `http://localhost:8868` in your browser.
+
+---
+
+## 🔧 Customization
+
+### Extending App Name Mapping (package_map.py)
+
+The `web_ui/package_map.py` file contains a mapping of Chinese app names to Android package names. This enables the agent to directly open apps like "微信" or "淘宝" without searching.
+
+**Adding your own apps:**
+
+1. Open `web_ui/package_map.py`
+2. Add entries to the `package_name_map` dictionary:
+
+```python
+package_name_map = {
+    # ... existing entries ...
+    
+    # Add your custom apps
+    "我的App": "com.example.myapp",
+    "自定义应用": "com.custom.app",
+}
+```
+
+3. The mapping supports fuzzy matching - if an exact match isn't found, the system will find the closest match using string similarity.
+
+**Getting package names:**
+
+You can find the package name of any installed app using:
+
+```bash
+# List all installed apps
+adb shell pm list packages
+
+# Search for a specific app
+adb shell pm list packages | grep wechat
 ```
 
 ---
