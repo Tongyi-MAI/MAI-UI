@@ -6,9 +6,94 @@ ADB 工具函数模块
 import subprocess
 import re
 import os
+import time
 from io import BytesIO
 from typing import Tuple, List, Optional, Union
 from PIL import Image
+
+
+# ============ 设备缓存 (优化内网穿透性能) ============
+class DeviceCache:
+    """
+    设备信息缓存，避免频繁调用 adb devices
+    适用于内网穿透等慢速网络环境
+    """
+    def __init__(self, cache_ttl: float = 30.0):
+        """
+        Args:
+            cache_ttl: 缓存有效期（秒），默认 30 秒
+        """
+        self._device_id: Optional[str] = None
+        self._devices: List[str] = []
+        self._resolution: Optional[Tuple[int, int]] = None
+        self._last_check: float = 0
+        self._cache_ttl = cache_ttl
+    
+    def get_device_id(self, force_refresh: bool = False) -> Optional[str]:
+        """获取缓存的设备 ID，过期则刷新"""
+        if force_refresh or self._is_expired():
+            self._refresh()
+        return self._device_id
+    
+    def get_devices(self, force_refresh: bool = False) -> List[str]:
+        """获取缓存的设备列表"""
+        if force_refresh or self._is_expired():
+            self._refresh()
+        return self._devices
+    
+    def set_device_id(self, device_id: str):
+        """手动设置设备 ID（用于 Web UI 选择设备）"""
+        self._device_id = device_id
+        self._last_check = time.time()
+    
+    def set_resolution(self, width: int, height: int):
+        """缓存设备分辨率"""
+        self._resolution = (width, height)
+    
+    def get_resolution(self) -> Optional[Tuple[int, int]]:
+        """获取缓存的分辨率"""
+        return self._resolution
+    
+    def invalidate(self):
+        """清除缓存"""
+        self._device_id = None
+        self._devices = []
+        self._resolution = None
+        self._last_check = 0
+    
+    def _is_expired(self) -> bool:
+        return time.time() - self._last_check > self._cache_ttl
+    
+    def _refresh(self):
+        """刷新设备列表（延迟调用避免循环导入）"""
+        # 直接使用 subprocess 避免循环导入
+        import subprocess
+        try:
+            result = subprocess.run(
+                ["adb", "devices"],
+                capture_output=True,
+                text=True,
+                encoding='utf-8',
+                errors='ignore',
+                timeout=10
+            )
+            self._devices = []
+            if result.returncode == 0:
+                lines = result.stdout.split('\n')[1:]
+                for line in lines:
+                    if '\tdevice' in line:
+                        device_id = line.split('\t')[0]
+                        self._devices.append(device_id)
+            
+            if self._devices and (not self._device_id or self._device_id not in self._devices):
+                self._device_id = self._devices[0]
+            self._last_check = time.time()
+        except Exception as e:
+            print(f"[DeviceCache] 刷新设备列表失败: {e}")
+
+
+# 全局设备缓存实例
+device_cache = DeviceCache(cache_ttl=30.0)
 
 
 # YADB 路径配置 (用于支持中文输入)
@@ -158,12 +243,42 @@ def disconnect_wireless_device(device_id: Optional[str] = None) -> Tuple[bool, s
         return False, f"断开连接出错: {str(e)}"
 
 
-def take_screenshot(device_id: Optional[str] = None) -> Image.Image:
+# ============ 截图临时目录配置 ============
+SCREENSHOT_TMP_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "logs", "tmp_screenshot")
+SCREENSHOT_REMOTE_DIR = "/sdcard"  # 手机端临时目录
+
+
+def take_screenshot_file_mode(
+    device_id: Optional[str] = None,
+    tmp_dir: str = SCREENSHOT_TMP_DIR,
+    timeout: int = 30,
+    max_retries: int = 3,
+    retry_delay: float = 1.0,
+    scale: float = 1.0,
+    use_cache: bool = True,
+    cleanup_remote: bool = True
+) -> Image.Image:
     """
-    截取设备屏幕
+    截取设备屏幕（文件模式，更适合内网穿透等慢速网络）
+    
+    实现方式（参考 gelab-zero）：
+    1. 在手机上执行 screencap 保存到 /sdcard
+    2. 用 adb pull 拉取到本地
+    3. 删除手机上的临时文件
+    
+    存储位置：
+    - 手机端临时：/sdcard/screenshot_xxx.png
+    - 电脑端：{logs}/tmp_screenshot/screenshot_xxx.png
     
     Args:
         device_id: 可选，指定设备 ID
+        tmp_dir: 本地临时目录，默认 {logs}/tmp_screenshot
+        timeout: 每个步骤的超时时间（秒），默认 30 秒
+        max_retries: 最大重试次数，默认 3 次
+        retry_delay: 重试间隔时间（秒），默认 1 秒
+        scale: 缩放比例 (0.1-1.0)，默认 1.0 不缩放
+        use_cache: 是否使用设备缓存，默认 True
+        cleanup_remote: 是否删除手机上的临时文件，默认 True
     
     Returns:
         PIL Image 对象
@@ -171,55 +286,276 @@ def take_screenshot(device_id: Optional[str] = None) -> Image.Image:
     Raises:
         Exception: 截图失败时抛出
     """
-    # 先检查是否有设备连接
-    devices, _ = get_adb_devices()
-    if not devices:
-        raise Exception("没有连接的 Android 设备，请先连接设备")
+    import uuid
     
-    # 如果没有指定设备，使用第一个
-    if not device_id and devices:
+    # 确保临时目录存在
+    if not os.path.exists(tmp_dir):
+        os.makedirs(tmp_dir)
+        print(f"[Screenshot] 创建临时目录: {tmp_dir}")
+    
+    # 使用缓存获取设备 ID
+    if use_cache and not device_id:
+        cached_id = device_cache.get_device_id()
+        if cached_id:
+            device_id = cached_id
+            print(f"[Screenshot] 使用缓存的设备 ID: {device_id}")
+    
+    # 如果没有缓存，检查设备
+    if not device_id:
+        devices, _ = get_adb_devices()
+        if not devices:
+            raise Exception("没有连接的 Android 设备，请先连接设备")
         device_id = devices[0]
+        device_cache.set_device_id(device_id)
+    
+    # 生成唯一文件名
+    filename = f"screenshot_{uuid.uuid4().hex[:8]}.png"
+    remote_path = f"{SCREENSHOT_REMOTE_DIR}/{filename}"
+    local_path = os.path.join(tmp_dir, filename)
+    
+    last_error = None
+    
+    for attempt in range(1, max_retries + 1):
+        try:
+            print(f"[Screenshot] 文件模式截图 (第 {attempt}/{max_retries} 次)...")
+            
+            # Step 1: 在手机上截图并保存到 /sdcard
+            cmd_capture = ["adb"]
+            if device_id:
+                cmd_capture.extend(["-s", device_id])
+            cmd_capture.extend(["shell", "screencap", "-p", remote_path])
+            
+            stdout, stderr, code = run_adb_command(cmd_capture, timeout=timeout)
+            if code != 0:
+                last_error = f"手机端截图失败: {stderr}"
+                print(f"[Screenshot] 步骤1失败 (尝试 {attempt}): {stderr}")
+                if attempt < max_retries:
+                    time.sleep(retry_delay)
+                continue
+            
+            print(f"[Screenshot] 手机端截图完成: {remote_path}")
+            
+            # Step 2: 拉取到本地
+            cmd_pull = ["adb"]
+            if device_id:
+                cmd_pull.extend(["-s", device_id])
+            cmd_pull.extend(["pull", remote_path, local_path])
+            
+            stdout, stderr, code = run_adb_command(cmd_pull, timeout=timeout)
+            if code != 0:
+                last_error = f"拉取截图失败: {stderr}"
+                print(f"[Screenshot] 步骤2失败 (尝试 {attempt}): {stderr}")
+                if attempt < max_retries:
+                    time.sleep(retry_delay)
+                continue
+            
+            print(f"[Screenshot] 拉取完成: {local_path}")
+            
+            # Step 3: 删除手机上的临时文件
+            if cleanup_remote:
+                cmd_rm = ["adb"]
+                if device_id:
+                    cmd_rm.extend(["-s", device_id])
+                cmd_rm.extend(["shell", "rm", remote_path])
+                run_adb_command(cmd_rm, timeout=10)  # 不阻塞，失败也无所谓
+            
+            # Step 4: 读取本地图片
+            if not os.path.exists(local_path):
+                last_error = f"本地文件不存在: {local_path}"
+                print(f"[Screenshot] 步骤4失败 (尝试 {attempt}): 文件不存在")
+                if attempt < max_retries:
+                    time.sleep(retry_delay)
+                continue
+            
+            image = Image.open(local_path)
+            original_size = image.size
+            
+            # 缓存分辨率
+            device_cache.set_resolution(original_size[0], original_size[1])
+            
+            # 缩放
+            if scale < 1.0:
+                new_width = int(original_size[0] * scale)
+                new_height = int(original_size[1] * scale)
+                image = image.resize((new_width, new_height), Image.Resampling.LANCZOS)
+                print(f"[Screenshot] Scaled: {original_size} -> {image.size}")
+            else:
+                print(f"[Screenshot] 成功: {image.size} mode={image.mode}")
+            
+            # 清理本地临时文件（可选，保留用于调试）
+            # os.remove(local_path)
+            
+            return image
+            
+        except Exception as e:
+            last_error = str(e)
+            print(f"[Screenshot] 异常 (尝试 {attempt}): {e}")
+            if attempt < max_retries:
+                time.sleep(retry_delay)
+    
+    # 所有重试都失败
+    raise Exception(f"截图失败（已重试 {max_retries} 次）: {last_error}")
+
+
+def take_screenshot(
+    device_id: Optional[str] = None,
+    timeout: int = 60,
+    max_retries: int = 3,
+    retry_delay: float = 2.0,
+    scale: float = 1.0,
+    use_cache: bool = True,
+    quality: int = 80
+) -> Image.Image:
+    """
+    截取设备屏幕（流模式，备用方案）
+    
+    使用 adb exec-out screencap 通过管道直接传输截图数据。
+    如果在内网穿透等慢速网络环境下遇到超时，建议使用 take_screenshot_file_mode()
+    
+    Args:
+        device_id: 可选，指定设备 ID（如果为空且 use_cache=True，则使用缓存）
+        timeout: 超时时间（秒），默认 60 秒（适用于慢速网络/内网穿透）
+        max_retries: 最大重试次数，默认 3 次
+        retry_delay: 重试间隔时间（秒），默认 2 秒
+        scale: 缩放比例 (0.1-1.0)，默认 1.0 不缩放，设为 0.5 可减少 75% 数据量
+        use_cache: 是否使用设备缓存，默认 True（避免频繁调用 adb devices）
+        quality: JPEG 压缩质量 (1-100)，用于返回时的可选压缩，默认 80
+    
+    Returns:
+        PIL Image 对象
+    
+    Raises:
+        Exception: 截图失败时抛出
+    """
+    
+    # 使用缓存获取设备 ID（避免频繁调用 adb devices）
+    if use_cache and not device_id:
+        cached_id = device_cache.get_device_id()
+        if cached_id:
+            device_id = cached_id
+            print(f"[Screenshot] 使用缓存的设备 ID: {device_id}")
+    
+    # 如果没有缓存，才检查设备
+    if not device_id:
+        devices, _ = get_adb_devices()
+        if not devices:
+            raise Exception("没有连接的 Android 设备，请先连接设备")
+        device_id = devices[0]
+        # 更新缓存
+        device_cache.set_device_id(device_id)
     
     cmd = ["adb"]
     if device_id:
         cmd.extend(["-s", device_id])
     cmd.extend(["exec-out", "screencap", "-p"])
     
-    stdout, stderr, code = run_adb_command(cmd, binary=True)
+    last_error = None
     
-    if code != 0:
-        print(f"[Screenshot] ADB Error: {stderr}")
-        raise Exception(f"截图命令执行失败: {stderr}")
+    for attempt in range(1, max_retries + 1):
+        try:
+            print(f"[Screenshot] 尝试截图 (第 {attempt}/{max_retries} 次, 超时 {timeout}s, 缩放 {scale})...")
+            
+            stdout, stderr, code = run_adb_command(cmd, binary=True, timeout=timeout)
+            
+            if code != 0:
+                last_error = f"截图命令执行失败: {stderr}"
+                print(f"[Screenshot] ADB Error (尝试 {attempt}): {stderr}")
+                if attempt < max_retries:
+                    print(f"[Screenshot] 等待 {retry_delay}s 后重试...")
+                    time.sleep(retry_delay)
+                continue
+            
+            if not stdout:
+                last_error = "截图数据为空，请检查设备连接状态"
+                print(f"[Screenshot] Empty stdout (尝试 {attempt})")
+                if attempt < max_retries:
+                    print(f"[Screenshot] 等待 {retry_delay}s 后重试...")
+                    time.sleep(retry_delay)
+                continue
+                
+            print(f"[Screenshot] Received {len(stdout)} bytes")
+            
+            # 查找 PNG 头 (89 50 4E 47 0D 0A 1A 0A)
+            png_header = b'\x89PNG\r\n\x1a\n'
+            if isinstance(stdout, str):
+                stdout = stdout.encode('latin-1')
+                
+            start_index = stdout.find(png_header)
+            if start_index == -1:
+                last_error = "截图数据无效: 未找到 PNG 头"
+                print(f"[Screenshot] No PNG header found (尝试 {attempt})")
+                if attempt < max_retries:
+                    print(f"[Screenshot] 等待 {retry_delay}s 后重试...")
+                    time.sleep(retry_delay)
+                continue
+            
+            if start_index > 0:
+                print(f"[Screenshot] Found PNG header at offset {start_index}, trimming...")
+                stdout = stdout[start_index:]
+            
+            try:
+                image = Image.open(BytesIO(stdout))
+                original_size = image.size
+                
+                # 缓存分辨率
+                device_cache.set_resolution(original_size[0], original_size[1])
+                
+                # 如果需要缩放
+                if scale < 1.0:
+                    new_width = int(original_size[0] * scale)
+                    new_height = int(original_size[1] * scale)
+                    image = image.resize((new_width, new_height), Image.Resampling.LANCZOS)
+                    print(f"[Screenshot] Scaled: {original_size} -> {image.size}")
+                else:
+                    print(f"[Screenshot] Valid image: {image.size} mode={image.mode}")
+                
+                return image
+                
+            except Exception as e:
+                last_error = f"截图数据解析失败: {e}"
+                print(f"[Screenshot] Image.open failed (尝试 {attempt}): {e}")
+                if attempt < max_retries:
+                    print(f"[Screenshot] 等待 {retry_delay}s 后重试...")
+                    time.sleep(retry_delay)
+                continue
+                
+        except Exception as e:
+            last_error = str(e)
+            print(f"[Screenshot] 异常 (尝试 {attempt}): {e}")
+            if attempt < max_retries:
+                print(f"[Screenshot] 等待 {retry_delay}s 后重试...")
+                time.sleep(retry_delay)
     
-    if not stdout:
-        print("[Screenshot] Empty stdout")
-        raise Exception(f"截图数据为空，请检查设备连接状态")
-        
-    print(f"[Screenshot] Received {len(stdout)} bytes")
+    # 所有重试都失败
+    raise Exception(f"截图失败（已重试 {max_retries} 次）: {last_error}")
+
+
+def take_screenshot_fast(
+    device_id: Optional[str] = None,
+    scale: float = 0.5,
+    timeout: int = 45
+) -> Image.Image:
+    """
+    快速截图（针对慢速网络优化）
     
-    # 查找 PNG 头 (89 50 4E 47 0D 0A 1A 0A)
-    png_header = b'\x89PNG\r\n\x1a\n'
-    if isinstance(stdout, str):
-        stdout = stdout.encode('latin-1')  # 再次确保是 bytes
-        
-    start_index = stdout.find(png_header)
-    if start_index == -1:
-        print(f"[Screenshot] No PNG header found")
-        print(f"[Screenshot] First 100 bytes: {stdout[:100]}")
-        raise Exception(f"截图数据无效: 未找到 PNG 头 (通常是因为 ADB 返回了文本警告信息)")
+    使用较小的缩放比例和缓存，减少数据传输量
     
-    if start_index > 0:
-        print(f"[Screenshot] Found PNG header at offset {start_index}, trimming warning message...")
-        stdout = stdout[start_index:]
+    Args:
+        device_id: 可选，指定设备 ID
+        scale: 缩放比例，默认 0.5（减少 75% 数据量）
+        timeout: 超时时间，默认 45 秒
     
-    try:
-        image = Image.open(BytesIO(stdout))
-        print(f"[Screenshot] Valid image: {image.size} mode={image.mode}")
-        return image
-    except Exception as e:
-        print(f"[Screenshot] Image.open failed: {e}")
-        print(f"[Screenshot] First 64 bytes hex: {stdout[:64].hex()}")
-        raise Exception(f"截图数据解析失败: {e}，请检查设备是否正常连接")
+    Returns:
+        PIL Image 对象
+    """
+    return take_screenshot(
+        device_id=device_id,
+        timeout=timeout,
+        max_retries=2,
+        retry_delay=1.5,
+        scale=scale,
+        use_cache=True
+    )
 
 
 def get_device_resolution(device_id: Optional[str] = None) -> Tuple[int, int]:

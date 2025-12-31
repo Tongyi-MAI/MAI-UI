@@ -26,7 +26,7 @@ from adb_utils import (
 )
 from trajectory_utils import (
     get_available_sessions, load_session_logs, logs_to_chatbot_messages,
-    image_to_base64, long_side_resize, draw_action_marker
+    image_to_base64, long_side_resize, draw_action_marker, export_trajectory_to_pdf
 )
 from agent_runner import AgentRunner, get_runner, reset_runner
 
@@ -247,32 +247,69 @@ def create_ui():
             }
         });
 
-        // 自动滚动到最新内容
+        // 自动滚动到最新内容（改进版）
+        var userScrolling = false;
+        var scrollTimeout = null;
+        
+        function setupScrollTracking() {
+            // 轨迹窗口滚动检测
+            var trajContainers = document.querySelectorAll('.trajectory-chatbot [data-testid="bot"], .trajectory-chatbot .bubble-wrap, .trajectory-chatbot [class*="message"]');
+            trajContainers.forEach(function(el) {
+                el.addEventListener('scroll', function() {
+                    userScrolling = true;
+                    clearTimeout(scrollTimeout);
+                    scrollTimeout = setTimeout(function() { userScrolling = false; }, 3000);
+                });
+            });
+        }
+        
+        setTimeout(setupScrollTracking, 2000);
+        
         setInterval(function() {
             // 日志窗口自动滚动
             let logEl = document.querySelector('#log-window');
+            let taskEnded = false;
             if (logEl && logEl.tagName === 'TEXTAREA') {
-                let taskEnded = logEl.value.includes('任务完成') || logEl.value.includes('⚪ 就绪');
+                taskEnded = logEl.value.includes('任务完成') || logEl.value.includes('⚪ 就绪') || logEl.value.includes('已停止');
                 if (!taskEnded) {
                     logEl.scrollTop = logEl.scrollHeight;
                 }
             }
 
-            // 轨迹窗口自动滚动
-            let trajEl = document.querySelector('.trajectory-chatbot');
-            if (trajEl) {
-                let scrollContainer = trajEl.querySelector('[class*="chatbot"]') || trajEl;
-                let logEl = document.querySelector('#log-window');
-                let taskEnded = false;
-                if (logEl && logEl.value) {
-                    taskEnded = logEl.value.includes('任务完成') || logEl.value.includes('⚪ 就绪');
-                }
-
-                if (!taskEnded) {
-                    scrollContainer.scrollTop = scrollContainer.scrollHeight;
+            // 轨迹窗口自动滚动（改进选择器）
+            if (!userScrolling && !taskEnded) {
+                // 尝试多种可能的滚动容器
+                var scrollTargets = [
+                    '.trajectory-chatbot > div > div',
+                    '.trajectory-chatbot [data-testid="bot"]',
+                    '.trajectory-chatbot .bubble-wrap',
+                    '.trajectory-chatbot > div'
+                ];
+                
+                for (var i = 0; i < scrollTargets.length; i++) {
+                    var el = document.querySelector(scrollTargets[i]);
+                    if (el && el.scrollHeight > el.clientHeight) {
+                        el.scrollTop = el.scrollHeight;
+                        break;
+                    }
                 }
             }
-        }, 100);
+        }, 200);
+        
+        // PDF 自动下载触发
+        var lastPdfLink = null;
+        setInterval(function() {
+            // 查找 gr.File 组件中的下载链接
+            var fileComponents = document.querySelectorAll('[data-testid="file"] a[download], .file-preview a[download], [class*="file"] a[href*=".pdf"]');
+            fileComponents.forEach(function(link) {
+                if (link.href && link.href.includes('.pdf') && link.href !== lastPdfLink) {
+                    lastPdfLink = link.href;
+                    // 自动触发下载
+                    console.log('[MAI-UI] Auto-downloading PDF:', link.href);
+                    link.click();
+                }
+            });
+        }, 500);
     })();
     </script>
     """
@@ -415,10 +452,13 @@ def create_ui():
                         gr.Markdown("### 📱 任务轨迹")
                         trajectory_output = gr.Chatbot(
                             label="轨迹回放",
-                            height=700,
+                            height=660,
                             show_label=False,
                             elem_classes=["trajectory-chatbot"]
                         )
+                        with gr.Row():
+                            export_pdf_btn = gr.Button("📄 导出 PDF", size="sm")
+                            export_file = gr.File(label="下载", visible=False)
                     
                     # 实时日志
                     with gr.Column(scale=1):
@@ -504,6 +544,18 @@ def create_ui():
             return messages
         
         session_dropdown.change(load_trajectory, inputs=[session_dropdown], outputs=[trajectory_output])
+        
+        # PDF 导出
+        def export_pdf_handler(session_id):
+            if not session_id:
+                return gr.update(value=None, visible=False)
+            pdf_path = export_trajectory_to_pdf(session_id)
+            if pdf_path:
+                return gr.update(value=pdf_path, visible=True)
+            else:
+                return gr.update(value=None, visible=False)
+        
+        export_pdf_btn.click(export_pdf_handler, inputs=[session_dropdown], outputs=[export_file])
         
         # Provider 变更
         def on_provider_change(provider):

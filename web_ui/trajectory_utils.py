@@ -14,7 +14,7 @@ from PIL import Image, ImageDraw
 LOGS_DIR = "d:/maigui/MAI-UI/logs"
 
 
-def long_side_resize(image: Image.Image, long_side: int = 400) -> Image.Image:
+def long_side_resize(image: Image.Image, long_side: int = 800) -> Image.Image:
     """
     将图片长边限制到指定尺寸
     
@@ -157,7 +157,7 @@ def logs_to_chatbot_messages(logs: List[Dict[str, Any]]) -> List[Dict[str, Any]]
         if screenshot_path and os.path.exists(screenshot_path):
             try:
                 img = Image.open(screenshot_path)
-                img = long_side_resize(img, 400)
+                img = long_side_resize(img, 800)
 
                 # 在图上绘制动作标记
                 img = draw_action_marker(img, action, action_type)
@@ -373,3 +373,163 @@ def trajectory_to_markdown(logs: List[Dict[str, Any]]) -> str:
         lines.append("---\n")
     
     return "\n".join(lines)
+
+
+def export_trajectory_to_pdf(
+    session_id: str,
+    logs_dir: str = LOGS_DIR,
+    output_path: Optional[str] = None
+) -> Optional[str]:
+    """
+    将轨迹导出为 PDF 文件
+    
+    Args:
+        session_id: Session ID
+        logs_dir: 日志目录
+        output_path: 输出文件路径，默认为 {logs_dir}/{session_id}/trajectory.pdf
+    
+    Returns:
+        生成的 PDF 文件路径，失败返回 None
+    """
+    try:
+        from reportlab.lib.pagesizes import A4
+        from reportlab.lib.units import mm
+        from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Image as RLImage, Table, TableStyle
+        from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+        from reportlab.lib import colors
+        from reportlab.pdfbase import pdfmetrics
+        from reportlab.pdfbase.ttfonts import TTFont
+    except ImportError:
+        print("[ERROR] 需要安装 reportlab: pip install reportlab")
+        return None
+    
+    # 加载日志
+    logs = load_session_logs(session_id, logs_dir)
+    if not logs:
+        print(f"[ERROR] 没有找到日志: {session_id}")
+        return None
+    
+    # 输出路径
+    if output_path is None:
+        output_path = os.path.join(logs_dir, session_id, "trajectory.pdf")
+    
+    # 确保目录存在
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    
+    # 尝试注册中文字体
+    try:
+        # Windows 默认中文字体
+        font_paths = [
+            "C:/Windows/Fonts/msyh.ttc",  # 微软雅黑
+            "C:/Windows/Fonts/simsun.ttc",  # 宋体
+            "C:/Windows/Fonts/simhei.ttf",  # 黑体
+        ]
+        font_registered = False
+        for fp in font_paths:
+            if os.path.exists(fp):
+                pdfmetrics.registerFont(TTFont('ChineseFont', fp))
+                font_registered = True
+                break
+    except Exception as e:
+        print(f"[WARNING] 注册中文字体失败: {e}")
+        font_registered = False
+    
+    # 创建 PDF
+    doc = SimpleDocTemplate(
+        output_path,
+        pagesize=A4,
+        rightMargin=20*mm,
+        leftMargin=20*mm,
+        topMargin=20*mm,
+        bottomMargin=20*mm
+    )
+    
+    # 样式
+    styles = getSampleStyleSheet()
+    if font_registered:
+        title_style = ParagraphStyle(
+            'ChineseTitle',
+            parent=styles['Heading1'],
+            fontName='ChineseFont',
+            fontSize=18,
+            spaceAfter=12
+        )
+        body_style = ParagraphStyle(
+            'ChineseBody',
+            parent=styles['Normal'],
+            fontName='ChineseFont',
+            fontSize=10,
+            leading=14
+        )
+    else:
+        title_style = styles['Heading1']
+        body_style = styles['Normal']
+    
+    # 构建内容
+    story = []
+    
+    # 标题
+    story.append(Paragraph(f"任务轨迹: {session_id}", title_style))
+    story.append(Spacer(1, 10*mm))
+    
+    for log in logs:
+        step_index = log.get("step_index", 0)
+        thinking = log.get("thinking", "")
+        action_type = log.get("action_type", "unknown")
+        action = log.get("action", {})
+        message = log.get("message", "")
+        timestamp = log.get("timestamp", "")
+        screenshot_path = log.get("screenshot_path", "")
+        
+        # 步骤标题
+        story.append(Paragraph(f"<b>Step {step_index}</b> - {timestamp}", body_style))
+        story.append(Spacer(1, 2*mm))
+        
+        # 思考
+        if thinking:
+            thinking_short = thinking[:200] + "..." if len(thinking) > 200 else thinking
+            story.append(Paragraph(f"<i>思考:</i> {thinking_short}", body_style))
+        
+        # 动作
+        action_text = format_action(action_type, action)
+        story.append(Paragraph(f"<b>动作:</b> {action_text}", body_style))
+        
+        # 结果
+        story.append(Paragraph(f"<b>结果:</b> {message}", body_style))
+        
+        # 截图（带标记的）
+        marked_path = screenshot_path.replace('.png', '_marked.png') if screenshot_path else ""
+        img_path = marked_path if os.path.exists(marked_path) else screenshot_path
+        
+        if img_path and os.path.exists(img_path):
+            try:
+                # 使用 PIL 获取尺寸
+                pil_img = Image.open(img_path)
+                img_w, img_h = pil_img.size
+                
+                # 计算缩放后的尺寸（最大宽度 160mm）
+                max_width = 160 * mm
+                max_height = 200 * mm
+                scale = min(max_width / img_w, max_height / img_h, 1.0)
+                
+                rl_img = RLImage(img_path, width=img_w * scale, height=img_h * scale)
+                story.append(Spacer(1, 3*mm))
+                story.append(rl_img)
+            except Exception as e:
+                print(f"[WARNING] 加载图片失败: {e}")
+        
+        story.append(Spacer(1, 8*mm))
+        
+        # 分隔线
+        story.append(Paragraph("<hr/>", body_style))
+        story.append(Spacer(1, 5*mm))
+    
+    # 生成 PDF
+    try:
+        doc.build(story)
+        print(f"[PDF] 导出成功: {output_path}")
+        return output_path
+    except Exception as e:
+        print(f"[ERROR] PDF 生成失败: {e}")
+        return None
+

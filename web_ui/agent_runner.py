@@ -19,7 +19,7 @@ if src_dir not in sys.path:
     sys.path.insert(0, src_dir)
 
 from adb_utils import (
-    take_screenshot, tap_device, long_press_device, swipe_direction,
+    take_screenshot, take_screenshot_file_mode, tap_device, long_press_device, swipe_direction,
     input_text_yadb, press_system_button, open_app, get_device_resolution
 )
 
@@ -174,7 +174,8 @@ class AgentRunner:
             # 1. 截图
             print(f"[AgentRunner] Step {self.step_count + 1}: Taking screenshot...")
             self.step_count += 1
-            screenshot = take_screenshot(self.device_id)
+            # 使用文件模式截图（更适合内网穿透等慢速网络）
+            screenshot = take_screenshot_file_mode(self.device_id)
             print(f"[AgentRunner] Screenshot captured: {screenshot.size}")
             
             # 2. 调用 Agent 预测
