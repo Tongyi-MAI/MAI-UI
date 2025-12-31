@@ -190,7 +190,110 @@ git clone https://github.com/Tongyi-MAI/MAI-UI.git
 cd MAI-UI
 ```
 
-### 步骤 2：使用 vLLM 启动模型 API 服务
+### 步骤 2：安卓设备执行环境搭建
+
+为了让 MAI-UI 能够控制手机执行任务，你需要完成以下步骤来配置手机执行环境：
+
+1. 在手机上开启开发者模式和 USB 调试。
+2. 安装 ADB 工具，并确保电脑可以通过 ADB 连接手机。（如果你已经安装过 adb 工具，可跳过此步骤）
+3. 通过 USB 数据线将手机连接到电脑，并使用 `adb devices` 命令确认连接成功。
+
+#### 步骤 2.1：开启开发者模式和 USB 调试
+
+通常可以按如下步骤在安卓手机上开启开发者模式和 USB 调试：
+
+1. 打开手机上的「设置」应用。
+2. 找到「关于手机」或「系统」选项，连续点击「版本号」10 次以上，直到看到"您已处于开发者模式"或类似提示。
+3. 返回「设置」主页面，找到「开发者选项」。**【重要，必须开启】**
+4. 在「开发者选项」中，找到并开启「USB 调试」功能，按照屏幕提示完成 USB 调试的启用。**【重要，必须开启】**
+
+不同品牌手机的具体步骤可能略有差异，请根据实际情况调整。一般可以搜索「*<手机品牌>* 如何开启开发者模式」获得具体教程。
+
+#### 步骤 2.2：安装 ADB 工具
+
+ADB（Android Debug Bridge，安卓调试桥）是连接安卓设备与电脑进行通信的工具。
+
+**Windows 用户：**
+
+1. 下载 ADB 工具压缩包：https://dl.google.com/android/repository/platform-tools-latest-windows.zip 并解压到合适的位置。
+2. 将解压后的文件夹路径加入系统环境变量：
+   - 在「开始」菜单中右键点击「计算机」，选择「属性」
+   - 点击「高级系统设置」
+   - 点击「环境变量」按钮
+   - 在「系统变量」区域找到并选中「Path」变量，然后点击「编辑」
+   - 点击「新建」，然后输入 ADB 工具解压后的路径
+   - 点击「确定」保存更改
+
+**Mac 和 Linux 用户：**
+
+1. 安装 Homebrew（如果尚未安装）：
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+2. 使用以下命令安装 ADB 工具：
+```bash
+brew install android-platform-tools
+```
+
+#### 步骤 2.3：将安卓设备连接到电脑
+
+使用 USB 数据线将手机连接到电脑后，执行：
+
+```bash
+adb devices
+```
+
+如果连接成功，你会看到类似如下的输出：
+
+```bash
+List of devices attached
+AN2CVB4C28000731        device
+```
+
+如果没有看到任何设备，请检查数据线连接是否正常，以及手机上的 USB 调试选项是否正确开启。首次连接手机时，手机上可能会弹出授权提示，只需选择「允许」即可。
+
+#### Web UI 中的无线调试（推荐）
+
+1. **准备设备**
+   - 确保手机和电脑在同一 WiFi 网络
+   - 手机上：设置 → 开发者选项 → 无线调试（启用）
+
+2. **连接无线设备**
+   - 打开 Web UI (http://localhost:8868)
+   - 在左侧面板找到「📶 无线调试」部分
+   - 输入手机的 IP 地址（可以在手机的无线调试设置中查看）
+   - 端口默认为 5555，根据你的实际手机情况修改
+   - 点击「🔗 连接无线设备」按钮
+
+3. **USB 转无线**
+   - 如果您的设备是 USB 连接：
+   - 点击「📡 启用TCP/IP模式（USB转无线）」
+   - 系统会自动获取设备 IP 并启用无线模式
+   - 断开 USB 线后即可使用无线连接
+
+4. **管理设备**
+   - 点击「🔄 检查设备状态」查看所有已连接的设备
+   - 点击「📋 ADB设备列表」获取详细的设备连接信息
+   - 点击「🔄 重启ADB服务」解决 ADB 连接问题
+   - 系统会显示设备类型：🔌 USB 或 📶 无线
+   - 点击「✂️ 断开无线设备」可以断开无线连接
+
+**命令行方式：**
+
+```bash
+# 通过 WiFi 连接
+adb connect 192.168.1.100:5555
+
+# 验证连接
+adb devices
+
+# 重启 ADB 服务
+adb kill-server
+adb start-server
+```
+
+### 步骤 3：使用 vLLM 启动模型 API 服务
 
 从 HuggingFace 下载模型并使用 vLLM 部署 API 服务：
 
@@ -198,7 +301,117 @@ cd MAI-UI
 - [MAI-UI-2B](https://huggingface.co/Tongyi-MAI/MAI-UI-2B)
 - [MAI-UI-8B](https://huggingface.co/Tongyi-MAI/MAI-UI-8B)
 
-**使用 vLLM 部署模型：**
+#### 方式 A：使用 Docker 部署（推荐 Windows 用户使用）
+
+**前置要求：**
+- 已安装 Docker Desktop 并启用 WSL2 后端
+- NVIDIA GPU（计算能力 7.0+，如 RTX 20xx/30xx/40xx、A100 等）
+- 已安装 NVIDIA 驱动和 NVIDIA Container Toolkit
+
+**步骤 1：拉取官方 vLLM Docker 镜像：**
+
+```bash
+docker pull vllm/vllm-openai:latest
+```
+
+**步骤 2：运行 vLLM API 服务**
+
+根据模型来源选择以下方式之一：
+
+| 方式 | 模型来源 | 优点 | 缺点 |
+|------|----------|------|------|
+| 方式 1 | 本地模型文件 | 启动快、可离线使用 | 需要预先下载 |
+| 方式 2 | HuggingFace 在线 | 自动下载、始终最新 | 需要网络、首次启动慢 |
+
+**方式 1：使用本地模型（推荐）**
+
+如果你已经将模型下载到本地磁盘：
+
+```bash
+# Linux/Mac
+docker run -d --gpus all \
+    -v /path/to/your/MAI-UI-8B:/model \
+    -p 8000:8000 \
+    --ipc=host \
+    --name vllm-mai \
+    vllm/vllm-openai:latest \
+    --model /model \
+    --served-model-name MAI-UI-8B \
+    --trust-remote-code \
+    --max-model-len 8192
+```
+
+```powershell
+# Windows PowerShell
+# ⚠️ 请将 D:/path/to/your/MAI-UI-8B 替换为你的实际模型路径
+docker run -d --gpus all `
+    -v D:/path/to/your/MAI-UI-8B:/model `
+    -p 8000:8000 `
+    --ipc=host `
+    --name vllm-mai `
+    vllm/vllm-openai:latest `
+    --model /model `
+    --served-model-name MAI-UI-8B `
+    --trust-remote-code `
+    --max-model-len 8192
+```
+
+**方式 2：从 HuggingFace 下载**
+
+如果你想自动从 HuggingFace 下载模型：
+
+```bash
+# Linux/Mac
+docker run -d --gpus all \
+    -v ~/.cache/huggingface:/root/.cache/huggingface \
+    -p 8000:8000 \
+    --ipc=host \
+    --name vllm-mai \
+    vllm/vllm-openai:latest \
+    --model Tongyi-MAI/MAI-UI-8B \
+    --served-model-name MAI-UI-8B \
+    --trust-remote-code \
+    --max-model-len 8192
+```
+
+```powershell
+# Windows PowerShell
+docker run -d --gpus all `
+    -v ${env:USERPROFILE}/.cache/huggingface:/root/.cache/huggingface `
+    -p 8000:8000 `
+    --ipc=host `
+    --name vllm-mai `
+    vllm/vllm-openai:latest `
+    --model Tongyi-MAI/MAI-UI-8B `
+    --served-model-name MAI-UI-8B `
+    --trust-remote-code `
+    --max-model-len 8192
+```
+
+> 💡 **Docker 参数说明：**
+> | 参数 | 说明 |
+> |------|------|
+> | `-d` | 后台运行容器 |
+> | `--gpus all` | 启用所有 GPU（`--gpus device=0` 指定特定 GPU） |
+> | `-v <主机>:<容器>` | 挂载模型文件卷 |
+> | `--ipc=host` | 共享主机 IPC 命名空间（多进程必需） |
+> | `--name vllm-mai` | 容器命名，方便管理 |
+> | `--max-model-len 8192` | 限制上下文长度以减少显存占用 |
+> | `--shm-size=16G` | 如有需要，增加共享内存 |
+
+**验证容器是否正常运行：**
+
+```bash
+docker logs vllm-mai
+```
+
+**停止并删除容器：**
+
+```bash
+docker stop vllm-mai && docker rm vllm-mai
+```
+
+#### 方式 B：使用 pip 部署（Linux/WSL）
 
 ```bash
 # 安装 vLLM
@@ -218,17 +431,17 @@ python -m vllm.entrypoints.openai.api_server \
 > - 根据 GPU 数量调整 `--tensor-parallel-size` 以进行多 GPU 推理
 > - 模型将在 `http://localhost:8000/v1` 提供服务
 
-### 步骤 3：安装依赖
+### 步骤 4：安装依赖
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 步骤 4：运行 Cookbook 示例
+### 步骤 5：运行 Cookbook 示例
 
 我们在 `cookbook/` 目录提供了两个 Notebook：
 
-#### 4.1 Grounding 演示
+#### 5.1 Grounding 演示
 
 `grounding.ipynb` 演示如何使用 MAI Grounding Agent 定位 UI 元素：
 
@@ -253,7 +466,7 @@ agent = MAIGroundingAgent(
 )
 ```
 
-#### 4.2 Navigation Agent 演示
+#### 5.2 Navigation Agent 演示
 
 `run_agent.ipynb` 演示完整的 UI 导航智能体：
 
@@ -276,7 +489,7 @@ agent = MAIUINaivigationAgent(
         "max_tokens": 2048,
     },
 )
-### 步骤 5：运行 Web UI（可选）
+### 步骤 6：运行 Web UI（可选）
 
 我们还提供了一个基于 Gradio 的 Web UI，以实现交互式控制和轨迹回放：
 
