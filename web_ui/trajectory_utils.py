@@ -409,9 +409,9 @@ def export_trajectory_to_pdf(
         print(f"[ERROR] 没有找到日志: {session_id}")
         return None
     
-    # 输出路径
+    # 输出路径 - 使用 session_id 命名
     if output_path is None:
-        output_path = os.path.join(logs_dir, session_id, "trajectory.pdf")
+        output_path = os.path.join(logs_dir, session_id, f"trajectory_{session_id}.pdf")
     
     # 确保目录存在
     os.makedirs(os.path.dirname(output_path), exist_ok=True)

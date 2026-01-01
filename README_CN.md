@@ -567,30 +567,41 @@ vllm_local:
 
 ## 🔧 自定义配置
 
-### 扩展应用名映射 (package_map.py)
+### 📦 应用映射扫描
 
-`web_ui/package_map.py` 文件包含了中文应用名到 Android 包名的映射。这使得 Agent 可以直接打开像 "微信" 或 "淘宝" 这样的应用而无需搜索。
+自动扫描设备上已安装的应用，建立**中文应用名→包名**的映射，让 Agent 可以直接打开应用。
 
-**添加自定义应用：**
+**文件结构：**
 
-1. 打开 `web_ui/package_map.py`
-2. 在 `package_name_map` 字典中添加条目：
-
-```python
-package_name_map = {
-    # ... 现有条目 ...
-    
-    # 添加您的自定义应用
-    "我的App": "com.example.myapp",
-    "自定义应用": "com.custom.app",
-}
+```
+项目根目录/
+├── default_package_map.yaml      # 默认映射库（160+条，项目提供）
+├── user_package_map.yaml         # 用户映射（扫描结果+自定义）
+├── user_package_map.yaml.example # 模板文件
+└── aapt2-8.5.0-11315950-windows/ # aapt2 工具（Windows）
 ```
 
-3. 该映射支持模糊匹配 - 如果未找到精确匹配，系统将使用字符串相似度找到最接近的匹配项。
+**功能特性：**
+
+- **实时加载**：修改 YAML 文件后立即生效，无需重启程序
+- **智能扫描**：优先从映射表匹配（秒级），未匹配的自动用 aapt2 深度解析
+- **优先级**：`user_package_map.yaml` > `default_package_map.yaml`
+
+**使用方法：**
+
+1. 直接编辑 `default_package_map.yaml` 添加映射
+2. 或复制 `user_package_map.yaml.example` 为 `user_package_map.yaml` 添加自定义映射
+
+**⏱️ 扫描时间参考：**
+
+| 匹配方式 | 单个应用耗时 | 说明 |
+|---------|-------------|------|
+| 映射表匹配 | <1 秒 | 从 160+ 条映射中快速查找 |
+| 深度解析 | 5-15 秒 | 拉取 APK 并用 aapt2 解析 |
+
+> ⚠️ **注意**：深度扫描大量应用可能需要较长时间。建议先手动编辑 YAML 文件添加常用应用。
 
 **获取包名：**
-
-您可以使用以下命令查找任何已安装应用的包名：
 
 ```bash
 # 列出所有已安装的应用

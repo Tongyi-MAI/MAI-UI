@@ -403,6 +403,7 @@ def create_ui():
                     with gr.Row():
                         submit_btn = gr.Button("▶ 执行", variant="primary", scale=2, elem_id="submit-btn")
                         step_btn = gr.Button("⏭ 单步", scale=1)
+                        pause_btn = gr.Button("⏸ 暂停", scale=1)
                         stop_btn = gr.Button("⏹ 停止", variant="stop", scale=1)
                 
                 # 3. 参数配置
@@ -431,6 +432,15 @@ def create_ui():
                         value=default_cfg.get("default_model", "MAI-UI-8B"),
                         interactive=True
                     )
+                    
+                    with gr.Row():
+                        check_model_btn = gr.Button("🔍 检测连接", size="sm", scale=1)
+                        model_status = gr.Textbox(
+                            label="状态",
+                            value="",
+                            interactive=False,
+                            scale=3
+                        )
                     
                     with gr.Row():
                         device_dd = gr.Dropdown(label="当前设备", choices=[], value=None, scale=3)
@@ -570,7 +580,67 @@ def create_ui():
         
         provider_dd.change(on_provider_change, inputs=[provider_dd], outputs=[base_url_input, api_key_input, model_name_input])
         
-        # 截图
+        # 模型连接检查
+        def check_model_connection(base_url, model_name, api_key):
+            """检查模型连接状态"""
+            if not base_url:
+                return "⚠️ 请先填写 Base URL"
+            if not model_name:
+                return "⚠️ 请先填写模型名称"
+            
+            import requests
+            base = base_url.rstrip('/')
+            headers = {"Content-Type": "application/json"}
+            if api_key:
+                headers["Authorization"] = f"Bearer {api_key}"
+            
+            # 判断是本地还是在线
+            is_local = "localhost" in base or "127.0.0.1" in base or "0.0.0.0" in base
+            api_type = "本地" if is_local else "在线"
+            
+            # 直接测试 /chat/completions 接口
+            try:
+                url = base + '/chat/completions'
+                test_payload = {
+                    "model": model_name,
+                    "messages": [{"role": "user", "content": "test"}],
+                    "max_tokens": 1
+                }
+                response = requests.post(url, json=test_payload, headers=headers, timeout=15)
+                
+                if response.status_code == 200:
+                    return f"✅ 连接成功 ({api_type})\n📍 {base}\n🤖 {model_name}"
+                elif response.status_code == 404:
+                    return f"❌ 模型 {model_name} 不存在"
+                else:
+                    try:
+                        err_msg = response.json().get('error', {}).get('message', response.text[:80])
+                    except:
+                        err_msg = response.text[:80]
+                    return f"❌ 请求失败 ({response.status_code})\n{err_msg}"
+            except requests.exceptions.ConnectionError:
+                return f"❌ 无法连接 {base}"
+            except requests.exceptions.Timeout:
+                return f"❌ 连接超时"
+            except Exception as e:
+                return f"❌ {str(e)[:60]}"
+        
+        check_model_btn.click(
+            fn=check_model_connection,
+            inputs=[base_url_input, model_name_input, api_key_input],
+            outputs=[model_status]
+        )
+        
+        # 暂停任务
+        def pause_task():
+            global runner
+            if runner and runner.is_running:
+                runner.pause()
+                return "⏸ 已暂停 - 输入新指令后点击执行继续"
+            return "⚪ 没有运行中的任务"
+        
+        pause_btn.click(pause_task, outputs=task_status)
+        
         # 启动 scrcpy
         scrcpy_btn.click(start_scrcpy, outputs=[scrcpy_status])
 
@@ -588,6 +658,7 @@ def create_ui():
         def start_task(instruction, base_url, model_name, device, auto_reply):
             """
             执行任务 - 使用生成器实现实时流式更新
+            支持从暂停状态恢复,此时新指令将作为用户反馈注入
             """
             global runner
             
@@ -596,15 +667,26 @@ def create_ui():
                 return
             
             try:
-                runner = reset_runner(
-                    llm_base_url=base_url,
-                    model_name=model_name,
-                    device_id=device if device else None
-                )
-                runner.auto_reply_enabled = auto_reply
-                
-                session_id = runner.start_task(instruction)
-                log_text = f"[{session_id}] 任务已启动: {instruction}\n"
+                # 检查是否从暂停状态恢复
+                is_resume = False
+                if runner and runner.is_paused:
+                    # 恢复暂停的任务,将新指令作为用户反馈
+                    runner.resume()
+                    runner.pending_user_feedback = instruction  # 下一步会使用这个反馈
+                    runner.auto_reply_enabled = auto_reply
+                    session_id = runner.session_id
+                    log_text = f"[{session_id}] 任务已恢复,注入指令: {instruction}\n"
+                    is_resume = True
+                else:
+                    # 创建新任务
+                    runner = reset_runner(
+                        llm_base_url=base_url,
+                        model_name=model_name,
+                        device_id=device if device else None
+                    )
+                    runner.auto_reply_enabled = auto_reply
+                    session_id = runner.start_task(instruction)
+                    log_text = f"[{session_id}] 任务已启动: {instruction}\n"
                 
                 # 立即返回初始状态
                 yield "🟢 运行中", [], log_text

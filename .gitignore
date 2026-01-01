@@ -79,3 +79,5 @@ logs/
 # Local configuration
 .env.local
 config.local.py
+model_config.yaml
+user_package_map.yaml

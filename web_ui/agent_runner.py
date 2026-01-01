@@ -82,6 +82,7 @@ class AgentRunner:
         self.should_stop = False
         self.waiting_for_input = False
         self.user_input: Optional[str] = None
+        self.pending_user_feedback: Optional[str] = None  # 恢复时注入的指令
         
         # 当前任务
         self.current_instruction: Optional[str] = None
@@ -194,11 +195,13 @@ class AgentRunner:
                 
                 obs = {"screenshot": pred_screenshot}
                 
-                # 如果有待消费的用户输入，传给 Agent
-                if self.user_input:
-                    print(f"[AgentRunner] Passing user feedback to agent: {self.user_input}")
-                    obs["user_feedback"] = self.user_input
-                    self.user_input = None # 消费掉一次输入
+                # 如果有待消费的用户输入或恢复时的注入指令，传给 Agent
+                feedback = self.pending_user_feedback or self.user_input
+                if feedback:
+                    print(f"[AgentRunner] Passing user feedback to agent: {feedback}")
+                    obs["user_feedback"] = feedback
+                    self.pending_user_feedback = None  # 消费掉
+                    self.user_input = None
                 prediction, action = self.agent.predict(self.current_instruction, obs)
                 print(f"[AgentRunner] Agent prediction raw: {prediction[:100]}...")
                 print(f"[AgentRunner] Agent action: {action}")
@@ -259,8 +262,8 @@ class AgentRunner:
             elif action_type == "AWAKE":
                 # AWAKE 动作 (gelab-zero 兼容): 直接打开应用
                 app_name = action.get("text", "") or action.get("value", "")
-                success = open_app(app_name, self.device_id)
-                return success, f"唤醒应用 (AWAKE): {app_name}"
+                success, msg = open_app(app_name, self.device_id, prefer_awake=True)
+                return success, f"唤醒应用 (AWAKE): {msg}"
             
             elif action_type == "INFO":
                 # INFO 动作 (gelab-zero 兼容): 等同于 ask_user
@@ -334,8 +337,8 @@ class AgentRunner:
             
             elif action_type == "open":
                 app_name = action.get("text", "")
-                success = open_app(app_name, self.device_id)
-                return success, f"打开应用: {app_name}"
+                success, msg = open_app(app_name, self.device_id, prefer_awake=True)
+                return success, msg
             
             elif action_type == "wait":
                 time.sleep(2)
@@ -474,7 +477,13 @@ class AgentRunner:
                 if result.action_type == "terminate":
                     break
             
-            time.sleep(step_delay)
+            # 将延迟分成小段，以便能快速响应停止请求
+            delay_elapsed = 0.0
+            while delay_elapsed < step_delay:
+                if self.should_stop:
+                    break
+                time.sleep(0.1)
+                delay_elapsed += 0.1
     
     def pause(self):
         """暂停任务"""
@@ -494,7 +503,9 @@ class AgentRunner:
         """停止任务"""
         with self._lock:
             self.should_stop = True
-            self._notify_status("⏹ 正在停止任务...")
+            self.is_running = False
+            self.is_paused = False
+            self._notify_status("⏹ 任务已停止")
     
     def _finish_task(self, status: str):
         """结束任务"""

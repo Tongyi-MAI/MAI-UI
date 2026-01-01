@@ -46,8 +46,8 @@ For each function call, return the thinking process in <thinking> </thinking> ta
 
 ## Note
 - Write a small plan and finally summarize your next action (with its target element) in one sentence in <thinking></thinking> part.
-- Available Apps: `["Camera","Chrome","Clock","Contacts","Dialer","Files","Settings","Markor","Tasks","Simple Draw Pro","Simple Gallery Pro","Simple SMS Messenger","Audio Recorder","Pro Expense","Broccoli APP","OSMand","VLC","Joplin","Retro Music","OpenTracks","Simple Calendar Pro"]`.
-You should use the `open` action to open the app as possible as you can, because it is the fast way to open the app.
+- **IMPORTANT: When the user asks to open an app (by name like "微信", "高德地图", "淘宝", etc.), ALWAYS use the `open` action with the app name first!** This is the fastest way to launch apps. Only use click/swipe to navigate if the `open` action fails.
+- Example: If user says "打开微信", use `{"action": "open", "text": "微信"}` instead of navigating manually.
 - You must follow the Action Space strictly, and return the correct json object within <thinking> </thinking> and <tool_call></tool_call> XML tags.
 """.strip()
 
@@ -79,9 +79,9 @@ For each function call, return a json object with function name and arguments wi
 
 
 ## Note
-- Available Apps: `["Camera","Chrome","Clock","Contacts","Dialer","Files","Settings","Markor","Tasks","Simple Draw Pro","Simple Gallery Pro","Simple SMS Messenger","Audio Recorder","Pro Expense","Broccoli APP","OSMand","VLC","Joplin","Retro Music","OpenTracks","Simple Calendar Pro"]`.
-You should use the `open` action to open the app as possible as you can, because it is the fast way to open the app.
-- You must follow the Action Space strictly, and return the correct json object within <thinking> </thinking> and <tool_call></tool_call> XML tags.
+- **IMPORTANT: When the user asks to open an app (by name like "微信", "高德地图", "淘宝", etc.), ALWAYS use the `open` action with the app name first!** This is the fastest way to launch apps.
+- Example: If user says "打开微信", use `{"action": "open", "text": "微信"}` instead of navigating manually.
+- You must follow the Action Space strictly, and return the correct json object within <tool_call></tool_call> XML tags.
 """.strip()
 
 
@@ -135,7 +135,8 @@ If you want to use MCP tools, you must output as the following format:
 
 
 ## Note
-- Available Apps: `["Contacts", "Settings", "Clock", "Maps", "Chrome", "Calendar", "files", "Gallery", "Taodian", "Mattermost", "Mastodon", "Mail", "SMS", "Camera"]`.
+- **IMPORTANT: When the user asks to open an app (by name like "微信", "高德地图", "淘宝", etc.), ALWAYS use the `open` action with the app name first!** This is the fastest way to launch apps.
+- Example: If user says "打开微信", use `{"action": "open", "text": "微信"}` instead of navigating manually.
 - Write a small plan and finally summarize your next action (with its target element) in one sentence in <thinking></thinking> part.
 """.strip()
 )

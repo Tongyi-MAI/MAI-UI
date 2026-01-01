@@ -834,7 +834,32 @@ def press_system_button(button: str, device_id: Optional[str] = None) -> bool:
     return code == 0
 
 
-def open_app(app_name: str, device_id: Optional[str] = None) -> bool:
+def check_package_exists(package_name: str, device_id: Optional[str] = None) -> bool:
+    """
+    检查应用包是否存在于设备上
+    
+    Args:
+        package_name: 包名
+        device_id: 可选，指定设备 ID
+    
+    Returns:
+        是否存在
+    """
+    cmd = ["adb"]
+    if device_id:
+        cmd.extend(["-s", device_id])
+    cmd.extend(["shell", "pm", "path", package_name])
+    
+    stdout, _, code = run_adb_command(cmd, timeout=10)
+    return code == 0 and "package:" in stdout
+
+
+def open_app(
+    app_name: str,
+    device_id: Optional[str] = None,
+    prefer_awake: bool = True,
+    fallback_to_search: bool = True
+) -> Tuple[bool, str]:
     """
     通过应用名称打开应用
     支持中文应用名（如"微信"）和包名（如"com.tencent.mm"）
@@ -842,29 +867,68 @@ def open_app(app_name: str, device_id: Optional[str] = None) -> bool:
     Args:
         app_name: 应用名称或包名
         device_id: 可选，指定设备 ID
+        prefer_awake: 如果为 True，优先尝试用包名直接启动 (推荐)
+        fallback_to_search: AWAKE 失败时是否返回"需要搜索"状态
     
     Returns:
-        是否成功
+        Tuple of (success, message)
+        - success: 是否成功启动
+        - message: 状态消息，如果需要搜索则包含 "NEED_SEARCH"
     """
     # 尝试解析应用名到包名
+    package_name = None
     try:
         from package_map import find_package_name
         package_name = find_package_name(app_name)
         print(f"[App] 解析应用名: {app_name} -> {package_name}")
     except Exception as e:
-        # 如果解析失败，直接使用原始名称（可能已经是包名）
-        package_name = app_name
-        print(f"[App] 使用原始包名: {app_name}")
+        # 如果解析失败，检查是否本身就是包名格式
+        if "." in app_name and app_name.count(".") >= 2:
+            package_name = app_name
+            print(f"[App] 使用原始包名: {app_name}")
+        else:
+            print(f"[App] 无法解析应用名: {app_name}, 错误: {e}")
+            if fallback_to_search:
+                return False, f"NEED_SEARCH:{app_name}"
+            return False, f"无法解析应用名: {app_name}"
     
-    cmd = ["adb"]
-    if device_id:
-        cmd.extend(["-s", device_id])
+    if prefer_awake and package_name:
+        # 先检查应用是否存在
+        if check_package_exists(package_name, device_id):
+            # 使用 monkey 命令启动应用
+            cmd = ["adb"]
+            if device_id:
+                cmd.extend(["-s", device_id])
+            cmd.extend(["shell", "monkey", "-p", package_name, "-c", "android.intent.category.LAUNCHER", "1"])
+            
+            _, _, code = run_adb_command(cmd)
+            if code == 0:
+                return True, f"已启动: {app_name} ({package_name})"
+            else:
+                # monkey 失败,尝试 am start
+                cmd2 = ["adb"]
+                if device_id:
+                    cmd2.extend(["-s", device_id])
+                cmd2.extend(["shell", "am", "start", "-n", f"{package_name}/.MainActivity"])
+                _, _, code2 = run_adb_command(cmd2)
+                if code2 == 0:
+                    return True, f"已启动 (am): {app_name}"
+                
+                # 都失败了
+                if fallback_to_search:
+                    return False, f"NEED_SEARCH:{app_name}"
+                return False, f"启动失败: {app_name}"
+        else:
+            # 应用不存在
+            print(f"[App] 应用未安装: {package_name}")
+            if fallback_to_search:
+                return False, f"NEED_SEARCH:{app_name}"
+            return False, f"应用未安装: {app_name}"
     
-    # 使用 monkey 命令启动应用
-    cmd.extend(["shell", "monkey", "-p", package_name, "-c", "android.intent.category.LAUNCHER", "1"])
-    
-    _, _, code = run_adb_command(cmd)
-    return code == 0
+    # 不优先 AWAKE 或没有包名，返回需要搜索
+    if fallback_to_search:
+        return False, f"NEED_SEARCH:{app_name}"
+    return False, f"无法启动: {app_name}"
 
 
 def restart_adb() -> Tuple[bool, str]:

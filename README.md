@@ -486,30 +486,41 @@ Then visit `http://localhost:8868` in your browser.
 
 ## 🔧 Customization
 
-### Extending App Name Mapping (package_map.py)
+### 📦 App Mapping Scanner
 
-The `web_ui/package_map.py` file contains a mapping of Chinese app names to Android package names. This enables the agent to directly open apps like "微信" or "淘宝" without searching.
+Automatically scan installed apps on the device and build a **Chinese app name → package name** mapping, enabling the agent to directly open apps.
 
-**Adding your own apps:**
+**File Structure:**
 
-1. Open `web_ui/package_map.py`
-2. Add entries to the `package_name_map` dictionary:
-
-```python
-package_name_map = {
-    # ... existing entries ...
-    
-    # Add your custom apps
-    "我的App": "com.example.myapp",
-    "自定义应用": "com.custom.app",
-}
+```
+Project Root/
+├── default_package_map.yaml      # Default mapping library (160+ entries)
+├── user_package_map.yaml         # User mappings (scan results + custom)
+├── user_package_map.yaml.example # Template file
+└── aapt2-8.5.0-11315950-windows/ # aapt2 tool (Windows)
 ```
 
-3. The mapping supports fuzzy matching - if an exact match isn't found, the system will find the closest match using string similarity.
+**Features:**
+
+- **Real-time Loading**: Changes to YAML files take effect immediately, no restart needed
+- **Smart Scanning**: Prioritizes mapping table (instant), auto-parses unknown apps with aapt2
+- **Priority**: `user_package_map.yaml` > `default_package_map.yaml`
+
+**Usage:**
+
+1. Directly edit `default_package_map.yaml` to add mappings
+2. Or copy `user_package_map.yaml.example` to `user_package_map.yaml` for custom mappings
+
+**⏱️ Scan Time Reference:**
+
+| Match Type | Time per App | Description |
+|-----------|-------------|-------------|
+| Mapping Match | <1 sec | Quick lookup from 160+ mappings |
+| Deep Parse | 5-15 sec | Pull APK and parse with aapt2 |
+
+> ⚠️ **Note**: Deep scanning many apps may take a long time. Consider manually editing YAML files first.
 
 **Getting package names:**
-
-You can find the package name of any installed app using:
 
 ```bash
 # List all installed apps

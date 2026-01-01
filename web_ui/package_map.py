@@ -1,251 +1,143 @@
+"""
+应用名称 -> 包名 映射模块
+
+映射完全从 YAML 文件加载，实时读取，无需重启程序:
+1. default_package_map.yaml - 默认通用映射（项目提供的常用应用）
+2. user_package_map.yaml - 用户自定义映射（优先级最高）
+
+修改 YAML 文件后立即生效，无需重启程序。
+"""
+
+import os
 import difflib
 
-package_name_map = {
-    "天气": "com.coloros.weather2",
-    "家人守护": "com.coloros.familyguard",
-    "美柚": "com.lingan.seeyou",
-    "百度极速版": "com.baidu.searchbox.lite",
-    "58同城": "com.wuba",
-    "知乎": "com.zhihu.android",
-    "滴滴出行": "com.sdu.didi.psnger",
-    "计算器": "com.coloros.calculator",
-    "掌上生活": "com.cmbchina.ccd.pluto.cmbActivity",
-    "飞猪旅行": "com.taobao.trip",
-    "网易有道词典": "com.youdao.dict",
-    "百度贴吧": "com.baidu.tieba",
-    "腾讯新闻": "com.tencent.news",
-    "淘宝闪购": "me.ele",
-    "饿了么": "me.ele",
-    "百度输入法": "com.baidu.input",
-    "优酷视频": "com.youku.phone",
-    "抖音": "com.ss.android.ugc.aweme",
-    "今日头条": "com.ss.android.article.news",
-    "酷我音乐": "cn.kuwo.player",
-    "oppo社区": "com.oppo.community",
-    "夸克": "com.quark.browser",
-    "邮件": "com.android.email",
-    "美团": "com.sankuai.meituan",
-    "剪映": "com.lemon.lv",
-    "酷狗概念版": "com.kugou.android.lite",
-    "酷狗音乐": "com.kugou.android",
-    "网易邮箱大师": "com.netease.mail",
-    "番茄免费小说": "com.dragon.read",
-    "yy": "com.duowan.mobile",
-    "qq": "com.tencent.mobileqq",
-    "小宇宙": "app.podcast.cosmos",
-    "指南针": "com.coloros.compass2",
-    "oppo视频": "com.heytap.yoli",
-    "天猫": "com.tmall.wireless",
-    "抖音商城": "com.ss.android.ugc.livelite",
-    "点淘": "com.taobao.live",
-    "录音": "com.coloros.soundrecorder",
-    "哔哩哔哩": "tv.danmaku.bili",
-    "B站": "tv.danmaku.bili",
-    "soul": "cn.soulapp.android",
-    "高德地图": "com.autonavi.minimap",
-    "懂车帝": "com.ss.android.auto",
-    "小红书": "com.xingin.xhs",
-    "咪咕视频": "com.cmcc.cmvideo",
-    "拼多多": "com.xunmeng.pinduoduo",
-    "微信读书": "com.tencent.weread",
-    "蘑菇街": "com.mogujie",
-    "大众点评": "com.dianping.v1",
-    "云闪付": "com.unionpay",
-    "好看视频": "com.baidu.haokan",
-    "AIAgentDemo": "com.stepfun.aiagent.demo",
-    "qq浏览器": "com.tencent.mtt",
-    "文件管理": "com.coloros.filemanager",
-    "豆瓣": "com.douban.frodo",
-    "日历": "com.coloros.calendar",
-    "游戏助手": "com.oplus.games",
-    "网易云音乐": "com.netease.cloudmusic",
-    "中国联通": "com.sinovatech.unicom.ui",
-    "喜马拉雅": "com.ximalaya.ting.android",
-    # "美团外卖": "com.sankuai.meituan.takeoutnew",
-    "主题商店": "com.heytap.themestore",
-    "飞书": "com.ss.android.lark",
-    "红袖读书": "com.hongxiu.app",
-    "全民K歌": "com.tencent.karaoke",
-    "抖音火山版": "com.ss.android.ugc.live",
-    "美图秀秀": "com.mt.mtxx.mtxx",
-    "拾程旅行": "com.hnjw.shichengtravel",
-    "中国电信": "com.ct.client",
-    "时钟": "com.coloros.alarmclock",
-    "快对": "com.kuaiduizuoye.scan",
-    "钱包": "com.finshell.wallet",
-    "快手极速版": "com.kuaishou.nebula",
-    "文件随心开": "andes.oplus.documentsreader",
-    "微博": "com.sina.weibo",
-    "墨迹天气": "com.moji.mjweather",
-    "kimi 智能助手": "com.moonshot.kimichat",
-    "起点读书": "com.qidian.QDReader",
-    "逍遥游": "com.redteamobile.roaming",
-    "豆包": "com.larus.nova",
-    "平安好车主": "com.pingan.carowner",
-    "去哪儿旅行": "com.Qunar",
-    "银联可信服务安全组件": "com.unionpay.tsmservice",
-    "腾讯微视": "com.tencent.weishi",
-    "网上国网": "com.sgcc.wsgw.cn",
-    "作业帮": "com.baidu.homework",
-    "阅读": "com.heytap.reader",
-    "keep": "com.gotokeep.keep",
-    "蜻蜓FM": "fm.qingting.qtradio",
-    "禅定空间": "com.oneplus.brickmode",
-    "腾讯地图": "com.tencent.map",
-    "虎牙直播": "com.duowan.kiwi",
-    "番茄畅听音乐版": "com.xs.fm.lite",
-    "今日头条极速版": "com.ss.android.article.lite",
-    "转转": "com.wuba.zhuanzhuan",
-    "芒果TV": "com.hunantv.imgo.activity",
-    "便签": "com.coloros.note",
-    "UC浏览器": "com.UCMobile",
-    "百度文库": "com.baidu.wenku",
-    "小猿搜题": "com.fenbi.android.solar",
-    "腾讯文档": "com.tencent.docs",
-    "携程旅行": "ctrip.android.view",
-    "wpsoffice": "cn.wps.moffice_eng",
-    "哈啰": "com.jingyao.easybike",
-    "中国移动": "com.greenpoint.android.mc10086.activity",
-    "唯品会": "com.achievo.vipshop",
-    "手机 搬家": "com.coloros.backuprestore",
-    "安逸花": "com.msxf.ayh",
-    "汽水音乐": "com.luna.music",
-    "音乐": "com.heytap.music",
-    "小猿口算": "com.fenbi.android.leo",
-    "MOMO陌陌": "com.immomo.momo",
-    "支付宝": "com.eg.android.AlipayGphone",
-    "爱奇艺": "com.qiyi.video",
-    "DataCollection": "com.example.datacollection",
-    "番茄畅听": "com.xs.fm",
-    "语音翻译": "com.coloros.translate",
-    "文件随心开": "cn.wps.moffice.lite",
-    "无线耳机": "com.oplus.melody",
-    "得物": "com.shizhuang.duapp",
-    "西瓜视频": "com.ss.android.article.video",
-    "网易新闻": "com.netease.newsreader.activity",
-    "腾讯视频": "com.tencent.qqlive",
-    "淘宝特价版": "com.taobao.litetao",
-    "七猫免费小说": "com.kmxs.reader",
-    "自如": "com.ziroom.ziroomcustomer",
-    "爱奇艺极速版": "com.qiyi.video.lite",
-    "淘宝": "com.taobao.taobao",
-    "斗鱼": "air.tv.douyu.android",
-    "快手": "com.smile.gifmaker",
-    "扫描全能王": "com.intsig.camscanner",
-    "买单吧": "com.bankcomm.maidanba",
-    "飞连": "com.volcengine.corplink",
-    "菜鸟": "com.cainiao.wireless",
-    "盒马": "com.wudaokou.hippo",
-    "阿里巴巴": "com.alibaba.wireless",
-    "智能家居": "com.heytap.smarthome",
-    "小布指令": "com.coloros.shortcuts",
-    "闲鱼": "com.taobao.idlefish",
-    "游戏中心": "com.nearme.gamecenter",
-    "搜狗输入法": "com.sohu.inputmethod.sogou",
-    "QQ邮箱": "com.tencent.androidqqmail",
-    "百度网盘": "com.baidu.netdisk",
-    "QC浏览器": "com.fjhkf.gxdsmls",
-    "酷安": "com.coolapk.market",
-    "QQ音乐": "com.tencent.qqmusic",
-    "百度": "com.baidu.searchbox",
-    "抖音极速版": "com.ss.android.ugc.aweme.lite",
-    "铁路12306": "com.MobileTicket",
-    "OPPO商城": "com.oppo.store",
-    "自由收藏": "com.coloros.favorite",
-    "我的OPPO": "com.oplus.member",
-    "掌阅": "com.chaozh.iReaderFree",
-    "腾讯会议": "com.tencent.wemeet.app",
-    "企业微信": "com.tencent.wework",
-    "健康": "com.heytap.health",
-    "微信": "com.tencent.mm",
-    "京东": "com.jingdong.app.mall",
-    "肯德基": "com.yek.android.kfc.activitys",
-    "搜狐视频": "com.sohu.sohuvideo",
-    "百度地图": "com.baidu.BaiduMap",
-    "山姆会员商店": "cn.samsclub.app",
-    "大麦": "cn.damai",
-    "醒图": "com.ss.android.picshow",
-    "设置": "com.android.settings",
-    "王者荣耀": "com.tencent.tmgp.sgame",
-    "随手记": "com.mymoney",
-    "钢琴块二": "com.cmplay.tiles2_cn",
-    "麦当劳": "com.mcdonalds.gma.cn",
-    "寻艺": "com.vlinkage.xunyee",
-    "京东到家": "com.jingdong.pdj",
-    "小象超市": "com.meituan.retail.v.android",
-    "京东金融": "com.jd.jrapp",
-    "猫眼": "com.sankuai.movie",
-    "红果免费短剧": "com.phoenix.read",
-    "三角洲行动": "com.tencent.tmgp.dfm",
-    "航旅纵横": "com.umetrip.android.msky.app",
-    "淘票票": "com.taobao.movie.android",
-    "学习强国": "cn.xuexi.android",
-    "小米商城": "com.xiaomi.shop",
-    "浏览器": "com.android.browser",
-    "look": "com.vision.haokan",
-    "什么值得买": "com.smzdm.client.android",
-    "妙兜": "com.agent.miaodou",
-    "瑞幸咖啡": "com.lucky.luckyclient",
-    "豆瓣阅读": "com.douban.book.reader",
-    "钉钉": "com.alibaba.android.rimet",
-    "达美乐披萨": "com.android.permissioncontroller",
-    "同程旅行": "com.tongcheng.android",
-    "opentracks": "de.dennisguse.opentracks",
-    "simple sms messenger": "com.simplemobiletools.smsmessenger",
-    "joplin": "net.cozic.joplin",
-    "miniwob": "com.google.androidenv.miniwob",
-    "simple gallery pro": "com.simplemobiletools.gallery.pro",
-    "simple gallery": "com.simplemobiletools.gallery.pro",
-    "gallery": "com.simplemobiletools.gallery.pro",
-    "audio recorder": "com.dimowner.audiorecorder",
-    "broccoli": "com.flauschcode.broccoli",
-    "simple calendar pro": "com.simplemobiletools.calendar.pro",   
-    "simple draw pro": "com.simplemobiletools.draw.pro",
-    "draw": "com.simplemobiletools.draw.pro",
-    "clipper": "ca.zgrs.clipper",
-    "retro music": "code.name.monkey.retromusic",
-    "arduia pro expense": "com.arduia.expense",
-    "markor": "net.gsantner.markor",
-    "tasks": "org.tasks",
-    "osmAnd": "net.osmand",
-    "给到": "com.guanaitong",
-    "百词斩": "com.jiongji.andriod.card",
+# 获取项目根目录
+_PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+_DEFAULT_MAP_FILE = os.path.join(_PROJECT_ROOT, "default_package_map.yaml")
+_USER_MAP_FILE = os.path.join(_PROJECT_ROOT, "user_package_map.yaml")
 
-}
 
-import difflib 
-
-def find_package_name(app_name):
-    app_name_lowered = app_name.lower()
-    package_name = package_name_map.get(app_name_lowered, None)
+def _load_yaml_map(file_path: str) -> dict:
+    """从 YAML 文件加载映射"""
+    if not os.path.exists(file_path):
+        return {}
     
+    try:
+        import yaml
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f)
+            return data if isinstance(data, dict) else {}
+    except ImportError:
+        # 没有 yaml 库，使用简单解析
+        mapping = {}
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith('#') and ':' in line:
+                        parts = line.split(':', 1)
+                        if len(parts) == 2:
+                            key = parts[0].strip().strip('"').strip("'")
+                            value = parts[1].strip().strip('"').strip("'")
+                            if key and value:
+                                mapping[key] = value
+            return mapping
+        except Exception:
+            return {}
+    except Exception:
+        return {}
+
+
+def get_package_name_map() -> dict:
+    """
+    实时获取合并的映射表（每次调用都重新加载）
+    
+    加载顺序：默认映射 -> 用户映射（覆盖）
+    修改 YAML 文件后立即生效，无需重启程序
+    
+    Returns:
+        合并后的 {应用名: 包名} 映射字典
+    """
+    # 1. 加载默认映射
+    merged_map = _load_yaml_map(_DEFAULT_MAP_FILE)
+    
+    # 2. 加载用户映射并合并（用户映射优先级更高）
+    user_map = _load_yaml_map(_USER_MAP_FILE)
+    merged_map.update(user_map)
+    
+    return merged_map
+
+
+# 为了向后兼容，提供一个属性访问方式
+# 注意：这个变量在模块加载时只执行一次，不会实时刷新
+# 如需实时刷新，请使用 get_package_name_map() 函数
+package_name_map = get_package_name_map()
+
+
+def reload_package_name_map():
+    """
+    刷新全局映射表（如果需要兼容旧代码）
+    """
+    global package_name_map
+    package_name_map = get_package_name_map()
+
+
+def find_package_name(app_name: str) -> str:
+    """
+    根据应用名查找包名（实时读取 YAML）
+    
+    查找顺序:
+    1. 精确匹配（大小写敏感）
+    2. 小写匹配
+    3. 模糊匹配
+    
+    Args:
+        app_name: 应用名称
+        
+    Returns:
+        包名
+        
+    Raises:
+        AssertionError: 找不到匹配的包名
+    """
+    # 实时加载映射表
+    current_map = get_package_name_map()
+    
+    app_name_lowered = app_name.lower()
+    
+    # 1. 精确匹配
+    if app_name in current_map:
+        return current_map[app_name]
+    
+    # 2. 小写匹配
+    map_lowered = {k.lower(): v for k, v in current_map.items()}
+    if app_name_lowered in map_lowered:
+        return map_lowered[app_name_lowered]
+    
+    # 3. 模糊匹配
     max_match = {
         "name": None,
         "score": 0
     }
     
-    if package_name is None:
-        # to search a similar app name
-        for key in package_name_map.keys():
-            # Use the lowercase input for comparison
-            score = difflib.SequenceMatcher(None, app_name_lowered, key.lower()).ratio() 
-            
-            if score > max_match["score"]:
-                max_match["name"] = key
-                max_match["score"] = score
-        
-        # Check if a match was found with a score > 0 (or some threshold, though the assert below only checks if name is not None)
-        assert max_match['name'] is not None, f"Cannot find package name for app {app_name}"
-        
-        # We retrieve the actual package name using the original (correctly cased) key from the map
-        package_name = package_name_map[max_match['name']]
-
-    return package_name
+    for key in current_map.keys():
+        score = difflib.SequenceMatcher(None, app_name_lowered, key.lower()).ratio()
+        if score > max_match["score"]:
+            max_match["name"] = key
+            max_match["score"] = score
+    
+    assert max_match['name'] is not None, f"Cannot find package name for app {app_name}"
+    
+    return current_map[max_match['name']]
 
 
-def get_list_of_package_names():
+def get_list_of_package_names() -> list:
     """
-    Return a list of all package names.
+    获取所有应用映射列表（实时读取）
+    
+    Returns:
+        [{"app_name": "微信", "package_name": "com.tencent.mm"}, ...]
     """
-    applications = [{"app_name": app_name, "package_name": package_name} for app_name, package_name in package_name_map.items()]
-    return applications
+    current_map = get_package_name_map()
+    return [{"app_name": app_name, "package_name": package_name} 
+            for app_name, package_name in current_map.items()]
