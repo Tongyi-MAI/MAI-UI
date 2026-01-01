@@ -8,6 +8,13 @@ vllm_local:
   api_key: ""
   default_model: "MAI-UI-8B"
 
+# Ollama 本地部署
+ollama_local:
+  display_name: "Ollama 本地"
+  api_base: "http://localhost:11434/v1"
+  api_key: "ollama"
+  default_model: "MAI-UI-8B"
+
 # 备用配置示例
 vllm_2b:
   display_name: "vLLM 本地 (2B)"

@@ -67,6 +67,7 @@ venv.bak/
 *.swp
 *.swo
 *~
+*.code-workspace
 
 # macOS
 .DS_Store

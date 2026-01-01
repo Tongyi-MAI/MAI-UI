@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": ".."
+			"path": "../../stepfunai/gelab-zero"
 		},
 		{
-			"path": "../../stepfunai/gelab-zero"
+			"path": "."
 		}
 	],
 	"settings": {}
