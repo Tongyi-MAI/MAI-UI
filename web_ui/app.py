@@ -402,7 +402,7 @@ def create_ui():
                     )
                     
                     with gr.Row():
-                        submit_btn = gr.Button("▶ 执行", variant="primary", scale=2, elem_id="submit-btn")
+                        submit_btn = gr.Button("▶ 执行/回复", variant="primary", scale=2, elem_id="submit-btn")
                         step_btn = gr.Button("⏭ 单步", scale=1)
                         pause_btn = gr.Button("⏸ 暂停", scale=1)
                         stop_btn = gr.Button("⏹ 停止", variant="stop", scale=1)
@@ -463,6 +463,80 @@ def create_ui():
 
                     list_apps_btn = gr.Button("📲 获取应用列表", size="sm")
                     app_list_output = gr.Textbox(label="应用列表", lines=3, interactive=False)
+                    
+                    # 应用映射管理 (移植自 gelab-zero)
+                    gr.Markdown("---")
+                    gr.Markdown("#### 📦 应用映射管理")
+                    
+                    with gr.Row():
+                        scan_apps_btn = gr.Button("🔍 扫描应用", variant="primary", size="sm")
+                        deep_scan_chk = gr.Checkbox(label="深度扫描", value=True, scale=0)
+                    scan_status = gr.Textbox(label="扫描状态", interactive=False, lines=2)
+                    
+                    # 应用映射编辑器
+                    with gr.Accordion("📝 应用映射编辑器", open=False):
+                        with gr.Tabs():
+                            # Tab 1: 映射表预览
+                            with gr.TabItem("📋 列表"):
+                                with gr.Row():
+                                    refresh_df_btn = gr.Button("🔄 刷新", size="sm")
+                                    stats_btn = gr.Button("📊 统计", size="sm")
+                                mapping_df = gr.Dataframe(
+                                    label="应用名称 -> 包名映射",
+                                    headers=["应用名", "包名"],
+                                    datatype=["str", "str"],
+                                    interactive=False,
+                                    row_count=(10, "dynamic")
+                                )
+                                mapping_stats_txt = gr.Textbox(
+                                    label="统计信息",
+                                    value="",
+                                    interactive=False,
+                                    lines=2
+                                )
+                            
+                            # Tab 2: 包名搜索
+                            with gr.TabItem("🔎 搜索"):
+                                search_input = gr.Textbox(
+                                    label="应用名称",
+                                    placeholder="输入应用名 (如: 微信)",
+                                    lines=1
+                                )
+                                search_btn = gr.Button("🔎 查找包名", size="sm")
+                                search_result = gr.Textbox(
+                                    label="查找结果",
+                                    lines=4,
+                                    interactive=False
+                                )
+                            
+                            # Tab 3: YAML 编辑器
+                            with gr.TabItem("✏️ 编辑"):
+                                mapping_textbox = gr.Textbox(
+                                    label="应用名称 -> 包名映射 (YAML格式)",
+                                    lines=10,
+                                    placeholder="微信: com.tencent.mm\n抖音: com.ss.android.ugc.aweme\n# 注释行以 # 开头",
+                                    interactive=True
+                                )
+                                with gr.Row():
+                                    load_mapping_btn = gr.Button("📥 加载", size="sm")
+                                    save_mapping_btn = gr.Button("💾 保存", size="sm", variant="primary")
+                                    refresh_mapping_btn = gr.Button("🔄 刷新", size="sm")
+                                mapping_status = gr.Textbox(label="操作状态", lines=1, interactive=False)
+                            
+                            # Tab 4: 批量导入
+                            with gr.TabItem("📥 导入"):
+                                gr.Markdown("**格式**: 应用名:包名 (一行一个)")
+                                import_text = gr.Textbox(
+                                    label="批量导入",
+                                    placeholder="微信:com.tencent.mm\n抖音:com.ss.android.ugc.aweme",
+                                    lines=6
+                                )
+                                import_btn = gr.Button("📥 导入", size="sm", variant="primary")
+                                import_result = gr.Textbox(
+                                    label="导入结果",
+                                    lines=3,
+                                    interactive=False
+                                )
             
             # ========== 右栏：可视化 ==========
             with gr.Column(scale=2, min_width=600):
@@ -665,12 +739,11 @@ def create_ui():
             outputs=[model_status]
         )
         
-        # 暂停任务
-        def pause_task():
+        # 暂停任务 (gelab-zero风格：返回runner的状态消息)
+        def pause_task() -> str:
             global runner
             if runner and runner.is_running:
-                runner.pause()
-                return "⏸ 已暂停 - 输入新指令后点击执行继续"
+                return runner.pause()
             return "⚪ 没有运行中的任务"
         
         pause_btn.click(pause_task, outputs=task_status)
@@ -700,47 +773,41 @@ def create_ui():
             }"""
         )
         
-        # ========== 核心：任务执行 ==========
+        # ========== 核心：智能执行 (gelab-zero风格) ==========
         
         def start_task(instruction, base_url, model_name, device, auto_reply, max_steps):
             """
-            执行任务 - 使用生成器实现实时流式更新
-            支持从暂停状态恢复,此时新指令将作为用户反馈注入
+            智能执行 - 根据当前状态决定行为 (gelab-zero风格)
+            - 情况1: 处于暂停状态 → 作为注入指令恢复
+            - 情况2: 无输入且运行中 → 返回当前状态
+            - 情况3: 运行中且等待输入 → 作为回复发送
+            - 情况4: 运行中 → 提示先暂停/停止
+            - 情况5: 空闲 → 启动新任务
             """
             global runner
             
-            if not instruction.strip():
-                yield "⚠️ 请输入任务指令", [], ""
-                return
-            
-            try:
-                # 检查是否从暂停状态恢复
-                is_resume = False
-                if runner and runner.is_paused:
-                    # 恢复暂停的任务,将新指令作为用户反馈
-                    runner.resume()
-                    runner.pending_user_feedback = instruction  # 下一步会使用这个反馈
-                    runner.auto_reply_enabled = auto_reply
-                    session_id = runner.session_id
-                    log_text = f"[{session_id}] 任务已恢复,注入指令: {instruction}\n"
-                    is_resume = True
-                else:
-                    # 创建新任务
-                    runner = reset_runner(
-                        llm_base_url=base_url,
-                        model_name=model_name,
-                        device_id=device if device else None
-                    )
-                    runner.auto_reply_enabled = auto_reply
-                    session_id = runner.start_task(instruction)
-                    log_text = f"[{session_id}] 任务已启动: {instruction}\n"
+            # 情况1: 处于暂停状态 → 作为注入指令恢复
+            if runner and runner.is_paused:
+                paused_session = runner.paused_session_id or runner.session_id
+                if not paused_session:
+                    runner.clear_pause_state()
+                    yield "⚠️ 没有可继续的会话", [], ""
+                    return
                 
-                # 立即返回初始状态
+                # 恢复并注入
+                injection = instruction.strip() if instruction.strip() else None
+                runner.resume(injection=injection)
+                runner.auto_reply_enabled = auto_reply
+                session_id = paused_session
+                log_text = f"[{session_id}] 任务已恢复"
+                if injection:
+                    log_text += f",注入指令: {injection}"
+                log_text += "\n"
+                
                 yield "🟢 运行中", [], log_text
                 
-                # 流式执行
+                # 继续执行流式循环
                 for result in runner.auto_run(max_steps=int(max_steps), step_delay=1.5):
-                    # 检查是否已停止
                     if runner.should_stop or not runner.is_running:
                         log_text += "\n\n⏹ 任务已停止"
                         trajectory = logs_to_chatbot_messages(load_session_logs(session_id))
@@ -748,8 +815,6 @@ def create_ui():
                         return
                     
                     log_text += f"\n步骤 {result.step_index}: {result.action_type} - {result.message}"
-                    
-                    # 加载最新轨迹
                     trajectory = logs_to_chatbot_messages(load_session_logs(session_id))
                     
                     if result.action_type == "terminate":
@@ -762,10 +827,77 @@ def create_ui():
                         yield "🟡 等待输入", trajectory, log_text
                         return
                     
-                    # 每步都 yield，实现实时更新
                     yield runner.get_status(), trajectory, log_text
                     
-                    # yield 后再检查一次是否需要停止
+                    if runner.should_stop or not runner.is_running:
+                        log_text += "\n\n⏹ 任务已停止"
+                        trajectory = logs_to_chatbot_messages(load_session_logs(session_id))
+                        yield "⏹ 已停止", trajectory, log_text
+                        return
+                
+                # 最终状态
+                trajectory = logs_to_chatbot_messages(load_session_logs(session_id))
+                yield runner.get_status(), trajectory, log_text
+                return
+            
+            # 情况2: 无输入时仅返回当前状态
+            if not instruction.strip() and runner and runner.is_running:
+                yield runner.get_status(), [], ""
+                return
+            
+            # 情况3: 任务运行中且等待输入 → 作为回复发送
+            if runner and runner.is_running and runner.waiting_for_input:
+                runner.provide_user_input(instruction.strip())
+                yield runner.get_status(), [], f"[回复] {instruction.strip()}\n"
+                return
+            
+            # 情况4: 任务运行中 → 提示先暂停/停止
+            if runner and runner.is_running:
+                yield "⚠️ 任务运行中，请先暂停或停止", [], ""
+                return
+            
+            # 情况5: 空闲/无任务 → 启动新任务
+            if not instruction.strip():
+                yield "⚠️ 请输入任务指令", [], ""
+                return
+            
+            try:
+                # 创建新任务
+                runner = reset_runner(
+                    llm_base_url=base_url,
+                    model_name=model_name,
+                    device_id=device if device else None
+                )
+                runner.auto_reply_enabled = auto_reply
+                session_id = runner.start_task(instruction)
+                log_text = f"[{session_id}] 任务已启动: {instruction}\n"
+                
+                # 立即返回初始状态
+                yield "🟢 运行中", [], log_text
+                
+                # 流式执行
+                for result in runner.auto_run(max_steps=int(max_steps), step_delay=1.5):
+                    if runner.should_stop or not runner.is_running:
+                        log_text += "\n\n⏹ 任务已停止"
+                        trajectory = logs_to_chatbot_messages(load_session_logs(session_id))
+                        yield "⏹ 已停止", trajectory, log_text
+                        return
+                    
+                    log_text += f"\n步骤 {result.step_index}: {result.action_type} - {result.message}"
+                    trajectory = logs_to_chatbot_messages(load_session_logs(session_id))
+                    
+                    if result.action_type == "terminate":
+                        log_text += f"\n\n✅ 任务完成: {result.action.get('status', 'unknown')}"
+                        yield runner.get_status(), trajectory, log_text
+                        return
+                    
+                    if result.action_type == "ask_user":
+                        log_text += f"\n\n🟡 等待用户输入..."
+                        yield "🟡 等待输入", trajectory, log_text
+                        return
+                    
+                    yield runner.get_status(), trajectory, log_text
+                    
                     if runner.should_stop or not runner.is_running:
                         log_text += "\n\n⏹ 任务已停止"
                         trajectory = logs_to_chatbot_messages(load_session_logs(session_id))
@@ -821,11 +953,12 @@ def create_ui():
             outputs=[task_status, trajectory_output, log_output]
         )
         
-        # 停止任务
+        # 停止任务 (确保清除暂停状态)
         def stop_task():
             global runner
             if runner:
                 runner.stop()
+                runner.clear_pause_state()  # 确保彻底清除暂停状态
                 return "⏹ 已停止"
             return "⚪ 就绪"
         
@@ -845,6 +978,100 @@ def create_ui():
             return gr.Dropdown(choices=sessions, value=sessions[0] if sessions else None)
         
         timer.tick(fn=poll_updates, outputs=[session_dropdown])
+        
+        # === 应用映射功能事件绑定 (移植自 gelab-zero) ===
+        from web_ui.package_map_ui import (
+            scan_apps_with_progress,
+            get_package_mapping_dataframe,
+            search_package_by_name,
+            batch_import_mappings,
+            get_mapping_statistics,
+            load_user_mapping_yaml,
+            save_user_mapping_yaml
+        )
+        from web_ui.package_scanner import load_user_package_map, save_user_package_map, get_user_package_map_path
+        
+        def scan_apps_to_mapping(deep_scan):
+            """扫描应用并更新映射"""
+            try:
+                import subprocess
+                result = subprocess.run(["adb", "devices"], capture_output=True, text=True, timeout=5)
+                device_lines = [l for l in result.stdout.split('\n')[1:] if '\tdevice' in l]
+                if not device_lines:
+                    return "❌ 没有检测到已连接的设备"
+                
+                device_id = device_lines[0].split('\t')[0]
+                logs, status, count = scan_apps_with_progress(device_id=device_id, deep_scan=deep_scan)
+                return status
+            except Exception as e:
+                return f"❌ 扫描失败: {str(e)[:100]}"
+        
+        scan_apps_btn.click(fn=scan_apps_to_mapping, inputs=[deep_scan_chk], outputs=[scan_status])
+        
+        # DataFrame 刷新
+        refresh_df_btn.click(fn=lambda: get_package_mapping_dataframe(), outputs=[mapping_df])
+        
+        # 统计信息
+        def get_stats_text():
+            stats = get_mapping_statistics()
+            return (
+                f"默认映射: {stats['default_count']} 条\n"
+                f"用户映射: {stats['user_count']} 条 (独有: {stats['user_only_count']})"
+            )
+        
+        stats_btn.click(fn=get_stats_text, outputs=[mapping_stats_txt])
+        
+        # 包名搜索
+        search_btn.click(fn=search_package_by_name, inputs=[search_input], outputs=[search_result])
+        
+        # YAML 编辑器事件
+        def load_mapping_yaml():
+            """加载 YAML 映射到编辑器"""
+            try:
+                mapping = load_user_package_map()
+                if not mapping:
+                    return "# 映射表为空，请先扫描或手动添加\n# 格式: 应用名称: 包名", f"ℹ️ 映射文件: {get_user_package_map_path()}"
+                
+                lines = ["# 用户自定义应用映射（可编辑）", ""]
+                for name, pkg in sorted(mapping.items()):
+                    lines.append(f"{name}: {pkg}")
+                return "\n".join(lines), f"✅ 已加载 {len(mapping)} 条映射"
+            except Exception as e:
+                return f"# 加载失败: {e}", f"❌ {str(e)[:50]}"
+        
+        load_mapping_btn.click(fn=load_mapping_yaml, outputs=[mapping_textbox, mapping_status])
+        refresh_mapping_btn.click(fn=load_mapping_yaml, outputs=[mapping_textbox, mapping_status])
+        
+        def save_mapping_yaml(yaml_content):
+            """保存编辑器内容到 YAML"""
+            try:
+                mapping = {}
+                for line in yaml_content.strip().split('\n'):
+                    line = line.strip()
+                    if not line or line.startswith('#'):
+                        continue
+                    if ':' in line:
+                        parts = line.split(':', 1)
+                        key = parts[0].strip().strip('"').strip("'")
+                        value = parts[1].strip().strip('"').strip("'")
+                        if key and value:
+                            mapping[key] = value
+                
+                if not mapping:
+                    return "⚠️ 没有有效的映射条目"
+                
+                success = save_user_package_map(mapping)
+                if success:
+                    return f"✅ 已保存 {len(mapping)} 条映射"
+                else:
+                    return "❌ 保存失败"
+            except Exception as e:
+                return f"❌ 保存出错: {str(e)[:50]}"
+        
+        save_mapping_btn.click(fn=save_mapping_yaml, inputs=[mapping_textbox], outputs=[mapping_status])
+        
+        # 批量导入
+        import_btn.click(fn=batch_import_mappings, inputs=[import_text], outputs=[import_result])
     
     return demo, custom_css, lightbox_head
 

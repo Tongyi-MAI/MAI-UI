@@ -104,6 +104,8 @@ class AgentRunner:
         self.waiting_for_input = False
         self.user_input: Optional[str] = None
         self.pending_user_feedback: Optional[str] = None  # 恢复时注入的指令
+        self.paused_session_id: Optional[str] = None  # 暂停时保存的session ID (gelab-zero风格)
+        self.injected_instruction: Optional[str] = None  # 持久的注入指令，替代原始任务
         
         # 当前任务
         self.current_instruction: Optional[str] = None
@@ -240,6 +242,16 @@ class AgentRunner:
                 prediction = ""
             
             action_type = action.get("action", "unknown")
+            
+            # 2.5 执行前再次检查暂停状态 (关键修复: 确保用户暂停能立即生效)
+            if self.is_paused:
+                print(f"[AgentRunner] 暂停检测: 在执行动作前发现暂停状态，放弃执行")
+                return None
+            
+            if self.should_stop:
+                print(f"[AgentRunner] 停止检测: 在执行动作前发现停止状态")
+                self._finish_task("stopped")
+                return None
             
             # 3. 执行动作
             print(f"[AgentRunner] Executing action: {action_type}")
@@ -498,9 +510,11 @@ class AgentRunner:
             if self.should_stop or not self.is_running:
                 break
             
+            # 关键修复: 暂停时直接退出生成器，而不是循环等待
+            # 这样 Gradio UI 才能更新，用户才能看到暂停状态
             if self.is_paused:
-                time.sleep(0.5)
-                continue
+                print("[AgentRunner] auto_run: 检测到暂停，退出生成器")
+                return  # 直接退出，而不是 continue
             
             result = self.step()
             if result:
@@ -508,27 +522,49 @@ class AgentRunner:
                 
                 if result.action_type == "terminate":
                     break
+            else:
+                # step() 返回 None 可能是因为暂停或停止
+                if self.is_paused or self.should_stop:
+                    print("[AgentRunner] auto_run: step 返回 None，检测到暂停/停止，退出")
+                    return
             
-            # 将延迟分成小段，以便能快速响应停止请求
+            # 将延迟分成小段，以便能快速响应停止/暂停请求
             delay_elapsed = 0.0
             while delay_elapsed < step_delay:
-                if self.should_stop:
+                if self.should_stop or self.is_paused:
                     break
                 time.sleep(0.1)
                 delay_elapsed += 0.1
     
-    def pause(self):
-        """暂停任务"""
+    def pause(self) -> str:
+        """暂停任务，返回状态消息 (gelab-zero风格)"""
         with self._lock:
             if self.is_running:
                 self.is_paused = True
-                self._notify_status("⏸ 任务已暂停")
+                self.paused_session_id = self.session_id
+                status = f"⏸ 已暂停 (Session: {self.session_id[:8] if self.session_id else 'unknown'}...) - 输入修正指令后点击 [执行/回复] 继续"
+                self._notify_status(status)
+                return status
+            return "⚪ 没有运行中的任务"
     
-    def resume(self):
-        """恢复任务"""
+    def resume(self, injection: str = None):
+        """恢复任务，可选注入指令 (gelab-zero风格)
+        
+        如果有injection，会更新current_instruction为新指令，
+        同时第一步也会作为高优先级user_feedback传递
+        """
         with self._lock:
             if self.is_running and self.is_paused:
+                if injection:
+                    # 关键修复: 更新current_instruction以确保后续步骤使用新指令
+                    old_instruction = self.current_instruction
+                    self.current_instruction = injection
+                    self.pending_user_feedback = injection  # 第一步也作为高优先级反馈
+                    self.injected_instruction = injection  # 保存原始注入
+                    print(f"[AgentRunner] 用户注入指令: {injection}")
+                    print(f"[AgentRunner] 任务指令已更新: {old_instruction[:30]}... -> {injection}")
                 self.is_paused = False
+                self.paused_session_id = None
                 self._notify_status("▶ 任务已恢复")
     
     def stop(self):
@@ -537,7 +573,18 @@ class AgentRunner:
             self.should_stop = True
             self.is_running = False
             self.is_paused = False
+            self.paused_session_id = None
+            self.pending_user_feedback = None
+            self.injected_instruction = None
             self._notify_status("⏹ 任务已停止")
+    
+    def clear_pause_state(self):
+        """清除暂停状态 (gelab-zero兼容)"""
+        with self._lock:
+            self.is_paused = False
+            self.paused_session_id = None
+            self.pending_user_feedback = None
+            self.injected_instruction = None
     
     def _finish_task(self, status: str):
         """结束任务"""
