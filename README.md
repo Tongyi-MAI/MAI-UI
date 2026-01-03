@@ -236,6 +236,8 @@ If you do not see any devices, please check if the USB cable and USB debugging s
 
 #### Wireless Debugging in Web UI (Recommended)
 
+> ⚠️ **Important**: For new phones or after re-enabling developer mode, you must first connect via USB cable at least once. This initial USB connection authorizes the computer for ADB access. Once authorized, you can use wireless debugging without USB connection going forward.
+
 1. **Prepare Device**
    - Ensure phone and computer are on the same WiFi network
    - On phone: Settings → Developer Options → Wireless Debugging (Enable)
