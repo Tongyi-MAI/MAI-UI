@@ -1,0 +1,210 @@
+# 默认应用名称 -> 包名映射
+# 
+# 此文件包含市面上常用应用的中文名→包名映射
+# 用户可以编辑此文件添加/修改映射
+# 扫描时会优先使用此映射，匹配不到的才进行深度扫描
+#
+# 格式: 应用中文名: 包名
+# 
+
+# ========== 社交通讯 ==========
+微信: com.tencent.mm
+QQ: com.tencent.mobileqq
+微博: com.sina.weibo
+钉钉: com.alibaba.android.rimet
+飞书: com.ss.android.lark
+企业微信: com.tencent.wework
+MOMO陌陌: com.immomo.momo
+soul: cn.soulapp.android
+
+# ========== 短视频/直播 ==========
+抖音: com.ss.android.ugc.aweme
+抖音极速版: com.ss.android.ugc.aweme.lite
+抖音火山版: com.ss.android.ugc.live
+抖音商城: com.ss.android.ugc.livelite
+快手: com.smile.gifmaker
+快手极速版: com.kuaishou.nebula
+小红书: com.xingin.xhs
+哔哩哔哩: tv.danmaku.bili
+B站: tv.danmaku.bili
+西瓜视频: com.ss.android.article.video
+虎牙直播: com.duowan.kiwi
+斗鱼: air.tv.douyu.android
+腾讯微视: com.tencent.weishi
+
+# ========== 视频播放 ==========
+腾讯视频: com.tencent.qqlive
+爱奇艺: com.qiyi.video
+爱奇艺极速版: com.qiyi.video.lite
+优酷视频: com.youku.phone
+芒果TV: com.hunantv.imgo.activity
+咪咕视频: com.cmcc.cmvideo
+搜狐视频: com.sohu.sohuvideo
+好看视频: com.baidu.haokan
+
+# ========== 音乐音频 ==========
+QQ音乐: com.tencent.qqmusic
+网易云音乐: com.netease.cloudmusic
+酷狗音乐: com.kugou.android
+酷狗概念版: com.kugou.android.lite
+酷我音乐: cn.kuwo.player
+汽水音乐: com.luna.music
+喜马拉雅: com.ximalaya.ting.android
+蜻蜓FM: fm.qingting.qtradio
+番茄畅听: com.xs.fm
+番茄畅听音乐版: com.xs.fm.lite
+全民K歌: com.tencent.karaoke
+小宇宙: app.podcast.cosmos
+
+# ========== 电商购物 ==========
+淘宝: com.taobao.taobao
+淘宝特价版: com.taobao.litetao
+天猫: com.tmall.wireless
+京东: com.jingdong.app.mall
+京东到家: com.jingdong.pdj
+京东金融: com.jd.jrapp
+拼多多: com.xunmeng.pinduoduo
+唯品会: com.achievo.vipshop
+闲鱼: com.taobao.idlefish
+蘑菇街: com.mogujie
+得物: com.shizhuang.duapp
+转转: com.wuba.zhuanzhuan
+什么值得买: com.smzdm.client.android
+
+# ========== 外卖/生活服务 ==========
+美团: com.sankuai.meituan
+淘宝闪购: me.ele
+盒马: com.wudaokou.hippo
+小象超市: com.meituan.retail.v.android
+大众点评: com.dianping.v1
+菜鸟: com.cainiao.wireless
+菜鸟裹裹: com.cainiao.wireless
+肯德基: com.yek.android.kfc.activitys
+麦当劳: com.mcdonalds.gma.cn
+瑞幸咖啡: com.lucky.luckyclient
+山姆会员商店: cn.samsclub.app
+
+# ========== 出行旅游 ==========
+高德地图: com.autonavi.minimap
+百度地图: com.baidu.BaiduMap
+腾讯地图: com.tencent.map
+滴滴出行: com.sdu.didi.psnger
+哈啰: com.jingyao.easybike
+携程旅行: ctrip.android.view
+飞猪旅行: com.taobao.trip
+去哪儿旅行: com.Qunar
+同程旅行: com.tongcheng.android
+铁路12306: com.MobileTicket
+航旅纵横: com.umetrip.android.msky.app
+
+# ========== 新闻资讯 ==========
+今日头条: com.ss.android.article.news
+今日头条极速版: com.ss.android.article.lite
+腾讯新闻: com.tencent.news
+网易新闻: com.netease.newsreader.activity
+百度: com.baidu.searchbox
+百度极速版: com.baidu.searchbox.lite
+懂车帝: com.ss.android.auto
+
+# ========== 阅读学习 ==========
+微信读书: com.tencent.weread
+掌阅: com.chaozh.iReaderFree
+起点读书: com.qidian.QDReader
+番茄免费小说: com.dragon.read
+七猫免费小说: com.kmxs.reader
+红袖读书: com.hongxiu.app
+红果免费短剧: com.phoenix.read
+豆瓣阅读: com.douban.book.reader
+百度文库: com.baidu.wenku
+网易有道词典: com.youdao.dict
+百词斩: com.jiongji.andriod.card
+作业帮: com.baidu.homework
+快对: com.kuaiduizuoye.scan
+小猿搜题: com.fenbi.android.solar
+小猿口算: com.fenbi.android.leo
+学习强国: cn.xuexi.android
+
+# ========== 支付/金融 ==========
+支付宝: com.eg.android.AlipayGphone
+云闪付: com.unionpay
+招商银行: cmbchina.ccd.pluto.cmbActivity
+买单吧: com.bankcomm.maidanba
+掌上生活: com.cmbchina.ccd.pluto.cmbActivity
+
+# ========== 通讯运营商 ==========
+中国移动: com.greenpoint.android.mc10086.activity
+中国联通: com.sinovatech.unicom.ui
+中国电信: com.ct.client
+
+# ========== 工具效率 ==========
+百度网盘: com.baidu.netdisk
+夸克: com.quark.browser
+UC浏览器: com.UCMobile
+QQ浏览器: com.tencent.mtt
+搜狗输入法: com.sohu.inputmethod.sogou
+百度输入法: com.baidu.input
+wpsoffice: cn.wps.moffice_eng
+腾讯文档: com.tencent.docs
+扫描全能王: com.intsig.camscanner
+Keep: com.gotokeep.keep
+邮件: com.android.email
+网易邮箱大师: com.netease.mail
+QQ邮箱: com.tencent.androidqqmail
+腾讯会议: com.tencent.wemeet.app
+随手记: com.mymoney
+墨迹天气: com.moji.mjweather
+
+# ========== 娱乐游戏 ==========
+王者荣耀: com.tencent.tmgp.sgame
+三角洲行动: com.tencent.tmgp.dfm
+钢琴块二: com.cmplay.tiles2_cn
+
+# ========== 图片视频编辑 ==========
+美图秀秀: com.mt.mtxx.mtxx
+剪映: com.lemon.lv
+醒图: com.ss.android.picshow
+
+# ========== 房产租房 ==========
+自如: com.ziroom.ziroomcustomer
+58同城: com.wuba
+
+# ========== 票务娱乐 ==========
+猫眼: com.sankuai.movie
+淘票票: com.taobao.movie.android
+大麦: cn.damai
+
+# ========== 社区/兴趣 ==========
+知乎: com.zhihu.android
+豆瓣: com.douban.frodo
+酷安: com.coolapk.market
+百度贴吧: com.baidu.tieba
+腾讯漫画: com.qq.ac.android
+
+# ========== AI 应用 ==========
+豆包: com.larus.nova
+kimi智能助手: com.moonshot.kimichat
+
+# ========== 品牌商城 ==========
+小米商城: com.xiaomi.shop
+OPPO商城: com.oppo.store
+
+# ========== 其他常用 ==========
+阿里巴巴: com.alibaba.wireless
+妙兜: com.agent.miaodou
+给到: com.guanaitong
+平安好车主: com.pingan.carowner
+网上国网: com.sgcc.wsgw.cn
+银联可信服务安全组件: com.unionpay.tsmservice
+YY: com.duowan.mobile
+
+# ========== 系统/通用应用 ==========
+设置: com.android.settings
+浏览器: com.android.browser
+日历: com.coloros.calendar
+计算器: com.coloros.calculator
+时钟: com.coloros.alarmclock
+天气: com.coloros.weather2
+指南针: com.coloros.compass2
+录音: com.coloros.soundrecorder
+便签: com.coloros.note
+文件管理: com.coloros.filemanager

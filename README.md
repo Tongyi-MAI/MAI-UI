@@ -9,9 +9,20 @@
 
 ![Overview PDF](./assets/img/overview.png)
 
+## ✨ Highlights
+
+This repository provides the official implementation of **MAI-UI**, a foundation GUI agent for Android automation. Key features include:
+
+- 🖥️ **Gradio Web UI** - Interactive control panel with real-time trajectory visualization and device management
+- 📱 **ADB Integration** - USB and wireless debugging support with scrcpy screen mirroring
+- 🤖 **Multi-Model Support** - Pre-configured templates for vLLM, Qwen, OpenAI, and custom providers
+- 🔧 **MCP Tools** - External tool integration (e.g., AMap navigation)
+- 📦 **App Mapping** - Chinese app name to package name mapping for direct app launching
+- ⚡ **One-Click Setup** - Automated dependency checking and environment validation
 
 ## 📰 News
 
+* 🎁 **[2025-12-30]** Added Gradio Web UI for interactive control and trajectory visualization!
 * 🎁 **[2025-12-29]** We release MAI-UI Technical Report on [arXiv](https://arxiv.org/abs/2512.22047)!
 * 🎁 **[2025-12-29]** Initial release of [MAI-UI-8B](https://huggingface.co/Tongyi-MAI/MAI-UI-8B) and [MAI-UI-2B](https://huggingface.co/Tongyi-MAI/MAI-UI-2B) models on Hugging Face.
 
@@ -160,7 +171,112 @@ git clone https://github.com/Tongyi-MAI/MAI-UI.git
 cd MAI-UI
 ```
 
-### Step 2: Start Model API Service with vLLM
+### Step 2: Android Device Execution Environment Setup
+
+To enable MAI-UI to control your phone for task execution, you need to complete the following steps:
+
+1. Enable developer mode and USB debugging on the phone.
+2. Install the ADB tool and ensure that the computer can connect to the phone via ADB. (Skip if you already have ADB installed)
+3. Connect the phone to the computer via USB cable and use `adb devices` command to confirm connection.
+
+#### Step 2.1: Enable Developer Mode and USB Debugging
+
+Generally, you can enable developer mode and USB debugging on Android phones by following these steps:
+
+1. Go to the "Settings" app on your phone.
+2. Find the "About Phone" or "System" option, and tap on the "Build Number" 10+ times until you see a message saying "You are now a developer."
+3. Go back to the main "Settings" menu and find "Developer Options." **【Important, must enable】**
+4. In "Developer Options," find and enable the "USB Debugging" feature. **【Important, must enable】**
+
+Different phone brands may have slight variations, so please adjust according to your specific situation. Generally, searching for "*<phone brand>* how to enable developer mode" will yield relevant tutorials.
+
+#### Step 2.2: Install ADB Tool
+
+ADB (Android Debug Bridge) is a bridge tool for communication between Android devices and computers.
+
+**Windows Users:**
+
+1. Download the ADB tool package: https://dl.google.com/android/repository/platform-tools-latest-windows.zip and extract it to a suitable location.
+2. Add the extracted folder path to the system environment variables:
+   - Right-click "Computer" in the "Start" menu and select "Properties"
+   - Click "Advanced system settings"
+   - Click the "Environment Variables" button
+   - In "System variables," find and select "Path," then click "Edit"
+   - Click "New" and enter the extracted path of the ADB tool package
+   - Click "OK" to save changes
+
+**Mac and Linux Users:**
+
+1. Install Homebrew (if not already installed):
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+2. Install the ADB tool:
+```bash
+brew install android-platform-tools
+```
+
+#### Step 2.3: Connect Android Device to Computer
+
+After connecting your phone to the computer using a USB cable, run:
+
+```bash
+adb devices
+```
+
+If the connection is successful, you will see output similar to:
+
+```bash
+List of devices attached
+AN2CVB4C28000731        device
+```
+
+If you do not see any devices, please check if the USB cable and USB debugging settings are correctly enabled. When connecting for the first time, an authorization prompt may pop up on the phone; select "Allow."
+
+#### Wireless Debugging in Web UI (Recommended)
+
+> ⚠️ **Important**: For new phones or after re-enabling developer mode, you must first connect via USB cable at least once. This initial USB connection authorizes the computer for ADB access. Once authorized, you can use wireless debugging without USB connection going forward.
+
+1. **Prepare Device**
+   - Ensure phone and computer are on the same WiFi network
+   - On phone: Settings → Developer Options → Wireless Debugging (Enable)
+
+2. **Connect Wireless Device**
+   - Open Web UI (http://localhost:8868)
+   - Find "📶 Wireless Debugging" section in the left panel
+   - Enter the phone's IP address (visible in phone's wireless debugging settings)
+   - Port defaults to 5555, modify as your phone settings
+   - Click "🔗 Connect Wireless Device" button
+
+3. **USB to Wireless**
+   - If your device is USB connected:
+   - Click "📡 Enable TCP/IP Mode (USB to Wireless)"
+   - System will automatically get device IP and enable wireless mode
+   - Disconnect USB cable and use wireless connection
+
+4. **Manage Devices**
+   - Click "🔄 Check Device Status" to view all connected devices
+   - Click "📋 ADB Device List" to get detailed device connection information
+   - Click "🔄 Restart ADB Service" to resolve ADB connection issues
+   - System will show device type: 🔌 USB or 📶 Wireless
+   - Click "✂️ Disconnect Wireless Device" to disconnect wireless connection
+
+**Command Line Method:**
+
+```bash
+# Connect via WiFi
+adb connect 192.168.1.100:5555
+
+# Verify connection
+adb devices
+
+# Restart ADB service
+adb kill-server
+adb start-server
+```
+
+### Step 3: Start Model API Service with vLLM
 
 Download the model from HuggingFace and deploy the API service using vLLM:
 
@@ -168,7 +284,117 @@ HuggingFace model path:
 - [MAI-UI-2B](https://huggingface.co/Tongyi-MAI/MAI-UI-2B)
 - [MAI-UI-8B](https://huggingface.co/Tongyi-MAI/MAI-UI-8B)
 
-Deploy the model using vLLM:
+#### Option A: Deploy with Docker (Recommended for Windows)
+
+**Prerequisites:**
+- Docker Desktop installed with WSL2 backend enabled
+- NVIDIA GPU with compute capability 7.0+ (e.g., RTX 20xx/30xx/40xx, A100, etc.)
+- NVIDIA drivers and NVIDIA Container Toolkit installed
+
+**Step 1: Pull the official vLLM Docker image:**
+
+```bash
+docker pull vllm/vllm-openai:latest
+```
+
+**Step 2: Run the vLLM API server**
+
+Choose one of the following methods based on your model source:
+
+| Method | Model Source | Pros | Cons |
+|--------|--------------|------|------|
+| Method 1 | Local model files | Faster startup, offline capable | Requires pre-download |
+| Method 2 | HuggingFace online | Auto-download, always latest | Requires internet, first-run slow |
+
+**Method 1: Using Local Model (Recommended)**
+
+If you have already downloaded the model to your local disk:
+
+```bash
+# Linux/Mac
+docker run -d --gpus all \
+    -v /path/to/your/MAI-UI-8B:/model \
+    -p 8000:8000 \
+    --ipc=host \
+    --name vllm-mai \
+    vllm/vllm-openai:latest \
+    --model /model \
+    --served-model-name MAI-UI-8B \
+    --trust-remote-code \
+    --max-model-len 8192
+```
+
+```powershell
+# Windows PowerShell
+# ⚠️ Replace D:/path/to/your/MAI-UI-8B with your actual model path
+docker run -d --gpus all `
+    -v D:/path/to/your/MAI-UI-8B:/model `
+    -p 8000:8000 `
+    --ipc=host `
+    --name vllm-mai `
+    vllm/vllm-openai:latest `
+    --model /model `
+    --served-model-name MAI-UI-8B `
+    --trust-remote-code `
+    --max-model-len 8192
+```
+
+**Method 2: Download from HuggingFace**
+
+If you want to download the model from HuggingFace automatically:
+
+```bash
+# Linux/Mac
+docker run -d --gpus all \
+    -v ~/.cache/huggingface:/root/.cache/huggingface \
+    -p 8000:8000 \
+    --ipc=host \
+    --name vllm-mai \
+    vllm/vllm-openai:latest \
+    --model Tongyi-MAI/MAI-UI-8B \
+    --served-model-name MAI-UI-8B \
+    --trust-remote-code \
+    --max-model-len 8192
+```
+
+```powershell
+# Windows PowerShell
+docker run -d --gpus all `
+    -v ${env:USERPROFILE}/.cache/huggingface:/root/.cache/huggingface `
+    -p 8000:8000 `
+    --ipc=host `
+    --name vllm-mai `
+    vllm/vllm-openai:latest `
+    --model Tongyi-MAI/MAI-UI-8B `
+    --served-model-name MAI-UI-8B `
+    --trust-remote-code `
+    --max-model-len 8192
+```
+
+> 💡 **Docker Parameter Reference:**
+> | Parameter | Description |
+> |-----------|-------------|
+> | `-d` | Run container in background |
+> | `--gpus all` | Enable all GPUs (`--gpus device=0` for specific GPU) |
+> | `-v <host>:<container>` | Mount volume for model files |
+> | `--ipc=host` | Share host IPC namespace (required for multi-process) |
+> | `--name vllm-mai` | Container name for easy management |
+> | `--max-model-len 8192` | Limit context length to reduce VRAM usage |
+> | `--shm-size=16G` | Increase shared memory if needed |
+
+**Verify the container is running:**
+
+```bash
+docker logs vllm-mai
+```
+
+**Stop and remove the container:**
+
+```bash
+docker stop vllm-mai && docker rm vllm-mai
+```
+
+#### Option B: Deploy with pip (Linux/WSL)
 
 ```bash
 # Install vLLM
@@ -188,17 +414,17 @@ python -m vllm.entrypoints.openai.api_server \
 > - Adjust `--tensor-parallel-size` based on your GPU count for multi-GPU inference
 > - The model will be served at `http://localhost:8000/v1`
 
-### Step 3: Install Dependencies
+### Step 4: Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Step 4: Run cookbook notebooks
+### Step 5: Run Cookbook Notebooks
 
 We provide two notebooks in the `cookbook/` directory:
 
-#### 4.1 Grounding Demo
+#### 5.1 Grounding Demo
 
 The `grounding.ipynb` demonstrates how to use the MAI Grounding Agent to locate UI elements:
 
@@ -223,7 +449,7 @@ agent = MAIGroundingAgent(
 )
 ```
 
-#### 4.2 Navigation Agent Demo
+#### 5.2 Navigation Agent Demo
 
 The `run_agent.ipynb` demonstrates the full UI navigation agent:
 
@@ -246,6 +472,64 @@ agent = MAIUINaivigationAgent(
         "max_tokens": 2048,
     },
 )
+```
+
+### Step 6: Run Web UI (Alternative)
+
+We also provide a Gradio Web UI for interactive control:
+
+```bash
+python start_web_ui.py
+```
+
+Then visit `http://localhost:8868` in your browser.
+
+---
+
+## 🔧 Customization
+
+### 📦 App Mapping Scanner
+
+Automatically scan installed apps on the device and build a **Chinese app name → package name** mapping, enabling the agent to directly open apps.
+
+**File Structure:**
+
+```
+Project Root/
+├── default_package_map.yaml      # Default mapping library (160+ entries)
+├── user_package_map.yaml         # User mappings (scan results + custom)
+├── user_package_map.yaml.example # Template file
+└── aapt2-8.5.0-11315950-windows/ # aapt2 tool (Windows)
+```
+
+**Features:**
+
+- **Real-time Loading**: Changes to YAML files take effect immediately, no restart needed
+- **Smart Scanning**: Prioritizes mapping table (instant), auto-parses unknown apps with aapt2
+- **Priority**: `user_package_map.yaml` > `default_package_map.yaml`
+
+**Usage:**
+
+1. Directly edit `default_package_map.yaml` to add mappings
+2. Or copy `user_package_map.yaml.example` to `user_package_map.yaml` for custom mappings
+
+**⏱️ Scan Time Reference:**
+
+| Match Type | Time per App | Description |
+|-----------|-------------|-------------|
+| Mapping Match | <1 sec | Quick lookup from 160+ mappings |
+| Deep Parse | 5-15 sec | Pull APK and parse with aapt2 |
+
+> ⚠️ **Note**: Deep scanning many apps may take a long time. Consider manually editing YAML files first.
+
+**Getting package names:**
+
+```bash
+# List all installed apps
+adb shell pm list packages
+
+# Search for a specific app
+adb shell pm list packages | grep wechat
 ```
 
 ---

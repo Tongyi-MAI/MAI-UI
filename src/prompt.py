@@ -40,12 +40,20 @@ For each function call, return the thinking process in <thinking> </thinking> ta
 {"action": "wait"}
 {"action": "terminate", "status": "success or fail"}
 {"action": "answer", "text": "xxx"} # Use escape characters \\', \\", and \\n in text part to ensure we can parse the text in normal python string format.
+{"action": "AWAKE", "text": "app_name"} # Open an app directly by its name (e.g. "WeChat"). Equivalent to "open".
+{"action": "INFO", "text": "xxx"} # Ask user for more info. Equivalent to "ask_user".
 
+
+## Behavior Rules
+1. Track your previous action. If it was a swipe, do NOT swipe in the same direction more than 5 times consecutively.
+2. If you swipe in the same direction 2-3 times but the screen content doesn't change significantly (likely reached the boundary), try swiping in the **opposite direction**.
+3. Different apps may require different swipe directions to view history or more content. Adjust flexibly based on actual screen feedback.
+4. Strictly follow the user's instructions. If you have had a conversation with the user, prioritize the **latest instruction**.
 
 ## Note
 - Write a small plan and finally summarize your next action (with its target element) in one sentence in <thinking></thinking> part.
-- Available Apps: `["Camera","Chrome","Clock","Contacts","Dialer","Files","Settings","Markor","Tasks","Simple Draw Pro","Simple Gallery Pro","Simple SMS Messenger","Audio Recorder","Pro Expense","Broccoli APP","OSMand","VLC","Joplin","Retro Music","OpenTracks","Simple Calendar Pro"]`.
-You should use the `open` action to open the app as possible as you can, because it is the fast way to open the app.
+- **IMPORTANT: When the user asks to open an app (by name like "微信", "高德地图", "淘宝", etc.), ALWAYS use the `open` action with the app name first!** This is the fastest way to launch apps. Only use click/swipe to navigate if the `open` action fails.
+- Example: If user says "打开微信", use `{"action": "open", "text": "微信"}` instead of navigating manually.
 - You must follow the Action Space strictly, and return the correct json object within <thinking> </thinking> and <tool_call></tool_call> XML tags.
 """.strip()
 
@@ -72,12 +80,20 @@ For each function call, return a json object with function name and arguments wi
 {"action": "wait"}
 {"action": "terminate", "status": "success or fail"}
 {"action": "answer", "text": "xxx"} # Use escape characters \\', \\", and \\n in text part to ensure we can parse the text in normal python string format.
+{"action": "AWAKE", "text": "app_name"} # Open an app directly by its name.
+{"action": "INFO", "text": "xxx"} # Ask user for more info.
 
+
+## Behavior Rules
+1. Track your previous action. If it was a swipe, do NOT swipe in the same direction more than 5 times consecutively.
+2. If you swipe in the same direction 2-3 times but the screen content doesn't change significantly (likely reached the boundary), try swiping in the **opposite direction**.
+3. Different apps may require different swipe directions to view history or more content. Adjust flexibly based on actual screen feedback.
+4. Strictly follow the user's instructions. If you have had a conversation with the user, prioritize the **latest instruction**.
 
 ## Note
-- Available Apps: `["Camera","Chrome","Clock","Contacts","Dialer","Files","Settings","Markor","Tasks","Simple Draw Pro","Simple Gallery Pro","Simple SMS Messenger","Audio Recorder","Pro Expense","Broccoli APP","OSMand","VLC","Joplin","Retro Music","OpenTracks","Simple Calendar Pro"]`.
-You should use the `open` action to open the app as possible as you can, because it is the fast way to open the app.
-- You must follow the Action Space strictly, and return the correct json object within <thinking> </thinking> and <tool_call></tool_call> XML tags.
+- **IMPORTANT: When the user asks to open an app (by name like "微信", "高德地图", "淘宝", etc.), ALWAYS use the `open` action with the app name first!** This is the fastest way to launch apps.
+- Example: If user says "打开微信", use `{"action": "open", "text": "微信"}` instead of navigating manually.
+- You must follow the Action Space strictly, and return the correct json object within <tool_call></tool_call> XML tags.
 """.strip()
 
 
@@ -108,6 +124,8 @@ For each function call, return the thinking process in <thinking> </thinking> ta
 {"action": "wait"}
 {"action": "terminate", "status": "success or fail"} 
 {"action": "answer", "text": "xxx"} # Use escape characters \\', \\", and \\n in text part to ensure we can parse the text in normal python string format.
+{"action": "AWAKE", "text": "app_name"} # Open an app directly by its name.
+{"action": "INFO", "text": "xxx"} # Ask user for more info.
 {"action": "ask_user", "text": "xxx"} # you can ask user for more information to complete the task.
 {"action": "double_click", "coordinate": [x, y]}
 
@@ -128,8 +146,15 @@ If you want to use MCP tools, you must output as the following format:
 {% endif -%}
 
 
+## Behavior Rules
+1. Track your previous action. If it was a swipe, do NOT swipe in the same direction more than 5 times consecutively.
+2. If you swipe in the same direction 2-3 times but the screen content doesn't change significantly (likely reached the boundary), try swiping in the **opposite direction**.
+3. Different apps may require different swipe directions to view history or more content. Adjust flexibly based on actual screen feedback.
+4. Strictly follow the user's instructions. If you have had a conversation with the user, prioritize the **latest instruction**.
+
 ## Note
-- Available Apps: `["Contacts", "Settings", "Clock", "Maps", "Chrome", "Calendar", "files", "Gallery", "Taodian", "Mattermost", "Mastodon", "Mail", "SMS", "Camera"]`.
+- **IMPORTANT: When the user asks to open an app (by name like "微信", "高德地图", "淘宝", etc.), ALWAYS use the `open` action with the app name first!** This is the fastest way to launch apps.
+- Example: If user says "打开微信", use `{"action": "open", "text": "微信"}` instead of navigating manually.
 - Write a small plan and finally summarize your next action (with its target element) in one sentence in <thinking></thinking> part.
 """.strip()
 )
