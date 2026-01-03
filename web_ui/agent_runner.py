@@ -88,7 +88,8 @@ class AgentRunner:
         model_name: str = "MAI-UI-8B",
         device_id: Optional[str] = None,
         logs_dir: str = "d:/maigui/MAI-UI/logs",
-        tools: Optional[List[Dict[str, Any]]] = None
+        tools: Optional[List[Dict[str, Any]]] = None,
+        return_to_desktop_on_start: bool = True  # 是否在新任务开始时先返回桌面
     ):
         self.llm_base_url = llm_base_url
         self.model_name = model_name
@@ -96,6 +97,7 @@ class AgentRunner:
         self.logs_dir = logs_dir
         self.tools = tools
         self.auto_reply_enabled = False  # 是否启用自动回复
+        self.return_to_desktop_on_start = return_to_desktop_on_start  # 新任务开始时先返回桌面
         
         # 状态
         self.is_running = False
@@ -172,6 +174,20 @@ class AgentRunner:
             self._init_agent()
             if self.agent:
                 self.agent.reset()
+            
+            # 返回桌面（确保任务从桌面开始）
+            if self.return_to_desktop_on_start:
+                self._notify_status("🏠 正在返回桌面...")
+                try:
+                    success = press_system_button("home", self.device_id)
+                    if success:
+                        import time
+                        time.sleep(0.5)  # 等待桌面加载
+                        print("[AgentRunner] 已返回桌面，任务将从桌面开始")
+                    else:
+                        print("[AgentRunner] 返回桌面失败，继续执行任务")
+                except Exception as e:
+                    print(f"[AgentRunner] 返回桌面出错: {e}")
             
             self._notify_status("🟢 任务已开始")
             

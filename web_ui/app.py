@@ -392,6 +392,7 @@ def create_ui():
                     )
                     
                     auto_reply_chk = gr.Checkbox(label="🤖 自动回复 (Auto-Reply)", value=False)
+                    return_to_desktop_chk = gr.Checkbox(label="🏠 执行前返回桌面", value=True, info="每次新任务开始时先返回桌面")
                     
                     user_input = gr.Textbox(
                         label="任务指令",
@@ -775,7 +776,7 @@ def create_ui():
         
         # ========== 核心：智能执行 (gelab-zero风格) ==========
         
-        def start_task(instruction, base_url, model_name, device, auto_reply, max_steps):
+        def start_task(instruction, base_url, model_name, device, auto_reply, return_to_desktop, max_steps):
             """
             智能执行 - 根据当前状态决定行为 (gelab-zero风格)
             - 情况1: 处于暂停状态 → 作为注入指令恢复
@@ -866,7 +867,8 @@ def create_ui():
                 runner = reset_runner(
                     llm_base_url=base_url,
                     model_name=model_name,
-                    device_id=device if device else None
+                    device_id=device if device else None,
+                    return_to_desktop_on_start=return_to_desktop
                 )
                 runner.auto_reply_enabled = auto_reply
                 session_id = runner.start_task(instruction)
@@ -913,12 +915,12 @@ def create_ui():
         
         submit_btn.click(
             start_task,
-            inputs=[user_input, base_url_input, model_name_input, device_dd, auto_reply_chk, max_steps_slider],
+            inputs=[user_input, base_url_input, model_name_input, device_dd, auto_reply_chk, return_to_desktop_chk, max_steps_slider],
             outputs=[task_status, trajectory_output, log_output]
         )
         
         # 单步执行
-        def step_task(instruction, base_url, model_name, device, auto_reply, current_logs):
+        def step_task(instruction, base_url, model_name, device, auto_reply, return_to_desktop, current_logs):
             global runner
             
             if runner is None or not runner.is_running:
@@ -929,7 +931,8 @@ def create_ui():
                 runner = reset_runner(
                     llm_base_url=base_url,
                     model_name=model_name,
-                    device_id=device if device else None
+                    device_id=device if device else None,
+                    return_to_desktop_on_start=return_to_desktop
                 )
                 runner.auto_reply_enabled = auto_reply
                 runner.start_task(instruction)
@@ -949,7 +952,7 @@ def create_ui():
         
         step_btn.click(
             step_task,
-            inputs=[user_input, base_url_input, model_name_input, device_dd, auto_reply_chk, log_output],
+            inputs=[user_input, base_url_input, model_name_input, device_dd, auto_reply_chk, return_to_desktop_chk, log_output],
             outputs=[task_status, trajectory_output, log_output]
         )
         
