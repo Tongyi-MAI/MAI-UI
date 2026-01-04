@@ -40,10 +40,11 @@ def save_screenshot(screenshot: Image.Image, path: str) -> None:
   screenshot.save(path)
   print(f"Screenshot saved in {path}")
 
-def extract_click_coordinates(action: Dict[str, Any]) -> Tuple[float, float]:
-    x = action.get('coordinate')[0]
-    y = action.get('coordinate')[1]
-    action_corr = (x, y)
+def extract_click_coordinates(action: Dict[str, Any]) -> Tuple[float, float] | None:
+    coord = action.get('coordinate')
+    if not coord:
+        return None
+    action_corr = (coord[0], coord[1])
     return action_corr
 
 # Function to draw points on an image
