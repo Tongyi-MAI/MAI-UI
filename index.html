@@ -2,126 +2,116 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MAI-UI: Foundational GUI Agent for Mobile Intelligent Assistance</title>
-  
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
-  <link rel="stylesheet" href="style.css">
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAI-UI: Foundational GUI Agent for Mobile Intelligent Assistance</title>
+    <!-- 请确保你下载了 Mobile World 的 style.css 或者使用下面简化的内联样式 -->
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Noto+Serif:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    
+    <style>
+        /* 简单的补充样式，以防没有 style.css */
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 1rem; }
+        .feature-card { background: #f8f9fa; padding: 1.5rem; border-radius: 8px; border: 1px solid #e9ecef; }
+        .highlight-text { color: #d63384; font-weight: bold; }
+        .stat-badge { display: inline-block; padding: 0.25em 0.4em; font-size: 75%; font-weight: 700; line-height: 1; color: #fff; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25rem; background-color: #0d6efd; margin-left: 5px;}
+        .demo-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; margin-top: 2rem; }
+        .demo-video-wrapper { position: relative; width: 100%; padding-bottom: 56.25%; background: #000; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+        .demo-video-wrapper video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; }
+        .demo-video-caption { text-align: center; font-size: 14px; color: #666; margin-top: 10px; }
+        @media (max-width: 768px) {
+            .demo-grid { grid-template-columns: 1fr; }
+        }
+        .grounding-tables-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; }
+        .grounding-table-wrapper { min-width: 0; }
+        .grounding-table-wrapper .benchmark-title { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; text-align: center; color: #333; }
+        .grounding-table-wrapper table { width: 100%; border-collapse: collapse; font-size: 0.85rem; border-top: 2px solid #333; border-bottom: 2px solid #333; }
+        .grounding-table-wrapper table thead th { padding: 0.5rem 0.3rem; text-align: center; font-weight: 600; border-bottom: 1px solid #333; font-size: 0.8rem; }
+        .grounding-table-wrapper table thead th[style*="center"] { text-align: center; }
+        .grounding-table-wrapper table tbody td { padding: 0.4rem 0.3rem; text-align: left; font-size: 0.8rem; }
+        .grounding-table-wrapper table tbody td:first-child { text-align: left; min-width: 120px; }
+        .grounding-table-wrapper table .group-header { font-weight: 600; text-align: center; font-style: italic; }
+        .grounding-table-wrapper table .val-cell { text-align: center; }
+        .grounding-table-wrapper table .sub-row { font-size: 0.75rem; }
+        @media (max-width: 1000px) {
+            .grounding-tables-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 768px) {
+            .grounding-tables-grid { grid-template-columns: 1fr; }
+        }
+        .navigation-tables-grid { display: grid; grid-template-columns: 1fr 1.5fr; gap: 2rem; margin-top: 2rem; }
+        .navigation-table-wrapper { min-width: 0; }
+        .navigation-table-wrapper .benchmark-title { font-size: 1rem; font-weight: 600; margin-bottom: 0.75rem; text-align: center; color: #333; }
+        .navigation-table-wrapper table { width: 100%; border-collapse: collapse; font-size: 0.9rem; border-top: 2px solid #333; border-bottom: 2px solid #333; }
+        .navigation-table-wrapper table thead th { padding: 0.75rem; text-align: left; font-weight: 600; border-bottom: 1px solid #333; }
+        .navigation-table-wrapper table thead th[style*="center"] { text-align: center; }
+        .navigation-table-wrapper table tbody td { padding: 0.5rem 0.75rem; text-align: left; }
+        .navigation-table-wrapper table tbody td:first-child { text-align: left; }
+        .navigation-table-wrapper table .group-header { font-weight: 600; text-align: center; font-style: italic; }
+        .navigation-table-wrapper table .val-cell { text-align: center; }
+        @media (max-width: 768px) {
+            .navigation-tables-grid { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
 
 <body>
-  <!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu" onclick="document.getElementById('navbarMenu').classList.toggle('is-active'); this.classList.toggle('is-active');">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-    <div id="navbarMenu" class="navbar-menu">
-      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-        <a class="navbar-item" href="#">
-          <span class="icon">
-            <i class="fas fa-home"></i>
-          </span>
-        </a>
-        <a class="navbar-item" href="#demo">Demo</a>
-        <a class="navbar-item" href="#Grounding">Grounding</a>
-        <a class="navbar-item" href="#Naviga">Overview</a>
-        <a class="navbar-item" href="#Navigation">Navigation</a>
-        <a class="navbar-item" href="#device_cloud_collaboration">Device-Cloud</a>
-        <a class="navbar-item" href="#citation">Citation</a>
-      </div>
-    </div>
-  </nav> -->
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">
-              MAI-UI: A Foundational GUI Agent for Mobile Intelligent Assistance
-            </h1>
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">
-                <a>Hanzhang Zhou</a><sup>*</sup>,</span>
-              <span class="author-block">
-                <a>Xu Zhang</a><sup>*</sup>,</span>
-              <span class="author-block">
-                <a>Panrong Tong</a>,</span>
-              <span class="author-block">
-                <a>Jianan Zhang</a>,</span>
-              <span class="author-block">
-                <a>Liangyu Chen</a>,</span>
-              <br>
-              <span class="author-block">
-                <a>Quyu Kong</a>,</span>
-              <span class="author-block">
-                <a>Chenglin Cai</a>,</span>
-              <span class="author-block">
-                <a>Chen Liu</a>,</span>
-              <span class="author-block">
-                <a>Yue Wang</a><sup>†</sup>,</span>
-              <span class="author-block">
-                <a>Jingren Zhou</a>,</span>
-              <span class="author-block">
-                <a>Steven HOI</a>,</span>
+
+    <main class="container">
+        <!-- Title Section -->
+        <header class="header">
+            <h1>MAI-UI: A Foundational GUI Agent for Mobile Intelligent Assistance</h1>
+            
+
+            <p class="authors">
+                <!-- 请替换为实际作者 -->
+                <span class="author">Hanzhang Zhou<sup>*</sup></span>,
+                <span class="author">Xu Zhang<sup>*</sup></span>,
+                <span class="author">Panrong Tong</span>,
+                <span class="author">Jianan Zhang</span>,
+                <span class="author">Liangyu Chen</span>,
+            </p>
+            <p class="authors">
+                
+                <span class="author">Quyu Kong</span>,
+                <span class="author">Chenglin Cai</span>,
+                <span class="author">Chen Liu</span>,
+                <span class="author">Yue Wang<sup>†</sup></span>,
+                <span class="author">Jingren Zhou</span>,
+                <span class="author">Steven HOI</span>
+            </p>
+
+            <p class="affiliations">
+                Tongyi Group, Alibaba Group
+            </p>
+
+            <p style="text-align: center; font-size: 0.9rem; color: #666; margin-top: 0.5rem; margin-bottom: 1rem;">
+                <sup>*</sup>Lead contributors.<br>
+                All authors are core contributors.<br>
+                <sup>†</sup>Corresponding to yue.w@alibaba-inc.com
+            </p>
+
+
+            <div class="links">
+                <a href="https://arxiv.org/abs/2512.22047" class="link-btn">Paper (arXiv)</a>
+                <a href="https://github.com/Tongyi-MAI/MAI-UI" class="link-btn">Code (GitHub)</a>
+
             </div>
-
-            <div class="is-size-5 publication-authors">
-              <span class="author-block"><sup>1</sup>Tongyi Group, Alibaba Group</span>
-              <span class="author-block"><sup>*</sup>Lead contributors</span>
-              <span class="author-block"><sup>†</sup>Corresponding to yue.w@alibaba-inc.com</span>
-            </div>
-
-            <br>
-            <div class="column has-text-centered">
-              <div class="publication-links">
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/2512.22047" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="ai ai-arxiv"></i>
-                    </span>
-                    <span>Paper</span>
-                  </a>
-                </span>
-                <span class="link-block">
-                  <a href="https://github.com/Tongyi-MAI/MAI-UI" class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <main>
-  <section class="section">
-    <div class="container is-max-desktop">
+        </header>
+        
         <!-- Demo Section -->
-      <section id="demo">
-            <h2 class="title is-3">Mobile Intelligent Assistance in Real-World Scenarios.</h2>
-            <div class="content has-text-centered">
-              <p style="color: #666; margin-bottom: 2rem;">
+        <section id="demo" class="section">
+            <h2>Mobile Intelligent Assistance in Real-World Scenarios.</h2>
+            <p style="text-align: center; color: #666; margin-bottom: 2rem;">
                 Watch MAI-UI in action across different scenarios and capabilities.
-              </p>
-            </div>
+            </p>
             <div class="demo-grid">
                 <div>
                     <div class="demo-video-wrapper">
@@ -160,19 +150,13 @@
                     <p class="demo-video-caption">Demo 4: Travel Scenario</p>
                 </div>
             </div>
-      </section>
-    </div>
-  </section>
+        </section>
         
-  <section class="section">
-    <div class="container is-max-desktop">
-      <!-- Leaderboard (AndroidWorld) -->
-      <section id="leaderboard">
-            <h2 class="title is-3">Overall performance across GUI grounding and navigation.</h2>
-            <div class="content has-text-justified">
-              <img src="asset/SOTA_Performance.png" class="responsive-image" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
-              <figcaption style="text-align: center; font-size: 14px; color: #666; margin-top: 10px;">MAI-UI achieves SOTA performance across GUI grounding, outperforming Gemini-3-Pro and Seed1.8 on ScreenSpot-Pro and significantly outperform existing models on UI-Vision,(Left) MAI-UI achieves SOTA performance on famous navigation benchmark AndroidWorld (Middle), and set a new SOTA performance on real-world benchmark MobileWorld (Right).</figcaption>
-            </div>
+        <!-- Leaderboard (AndroidWorld) -->
+        <section id="leaderboard" class="section">
+            <h2>Overall performance across GUI grounding and navigation.</h2>
+            <img src="asset/SOTA_Performance.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <figcaption style="text-align: center; font-size: 14px; color: #666; margin-top: 10px;">MAI-UI achieves SOTA performance across GUI grounding, outperforming Gemini-3-Pro and Seed1.8 on ScreenSpot-Pro and significantly outperform existing models on UI-Vision,(Left) MAI-UI achieves SOTA performance on famous navigation benchmark AndroidWorld (Middle), and set a new SOTA performance on real-world benchmark MobileWorld (Right).</figcaption>
 
 <!-- 
             <div class="table-wrapper">
@@ -240,24 +224,16 @@
                     </tbody>
                 </table>
             </div>-->
-      </section>
-    </div>
-  </section>
+        </section>
 
-  <section class="section">
-    <div class="container is-max-desktop">
-      <!-- Overview -->
-      <section id="overview">
-            <h2 class="title is-3">GUI grounding Overview</h2>
-            <h3 class="title is-4">Data Pipeline</h3>
-            <div class="content has-text-justified">
-              <img src="asset/grounding_pipeline.png" class="responsive-image" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
-            </div>
-            <h3 class="title is-4">Training Paradigm</h3>
-            <div class="content has-text-justified">
-              <p>For GUI grounding, we followed Instruction-as-Reasoning paradigm in UI-Ins, we use a SFT stage to teach model reasoning and RL stage let model explore the appropriate reasoning pathway. </p>
-            </div>
-            <h3 class="title is-4">Grounding Performance</h3>
+        <!-- Overview -->
+        <section id="overview" class="section">
+            <h2>GUI grounding Overview</h2>
+            <h3>Data Pipeline</h3>
+            <img src="asset/grounding_pipeline.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <h3>Training Paradigm</h3>
+            <p>For GUI grounding, we followed Instruction-as-Reasoning paradigm in UI-Ins, we use a SFT stage to teach model reasoning and RL stage let model explore the appropriate reasoning pathway. </p>
+            <h3>Grounding Performance</h3>
             
             <div class="grounding-tables-grid">
                 <div class="grounding-table-wrapper">
@@ -771,34 +747,26 @@
                     </table>
                 </div>
             </div>
-      </section>
-    </div>
-  </section>
+        </section>
 
-  <section class="section">
-    <div class="container is-max-desktop">
-      <!-- Contributions / Methodology -->
-      <section id="Navigation">
-            <h2 class="title is-3">GUI Navigation Overview</h2>
-            <h3 class="title is-4">Data Pipeline</h3>
-            <div class="content has-text-justified">
-              <img src="asset/navigation_pipeline.png" class="responsive-image" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
-            </div>
-            <h3 class="title is-4">Reinforcement Learning Framework</h3>
-            <div class="content has-text-justified">
-              <figure class="figure">
-                <img src="asset/rl_framework.png" alt="MAI-UI System Architecture" class="responsive-image" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+        <!-- Contributions / Methodology -->
+        <section id="Navigation" class="section">
+            <h2>GUI Navigation Overview</h2>
+            <h3>Data Pipeline</h3>
+            <img src="asset/navigation_pipeline.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <h3>Reinforcement Learning Framework</h3>
+            <figure class="figure">
+                <!-- 这里放你的架构图 -->
+                <img src="asset/rl_framework.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
                 <figcaption>Overview of the agentic reinforcement learning framework. The framework alternates between rollout phases where the latest policy interacts with online mobile environments to generate trajectories and training phases that progressively improve the policy using trajectory-level rewards.</figcaption>
-              </figure>
-            </div>
-            <h3 class="title is-4">Rollout Processing</h3>
-            <div class="content has-text-justified">
-              <figure class="figure">
-                <img src="asset/rollout.png" alt="MAI-UI System Architecture" class="responsive-image" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            </figure>
+            <h3>Rollout Processing</h3>
+            <figure class="figure">
+                <!-- 这里放你的架构图 -->
+                <img src="asset/rollout.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
                 <figcaption> Detailed rollout process within the MobileAgentLoop. The agent loop asynchronously calls inference servers to generate actions and executes them in stateful environments across multiple turns, with hybrid verifiers evaluating complete trajectories to produce final rewards.</figcaption>
-              </figure>
-            </div>
-            <h3 class="title is-4">Performance</h3>
+            </figure>
+            <h3>Performance</h3>
             
             <div class="navigation-tables-grid">
                 <div class="navigation-table-wrapper">
@@ -1055,19 +1023,12 @@
                     </table>
                 </div>
             </div>
-      </section>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <section id="device_cloud_collaboration">
-            <h2 class="title is-3">Device-Cloud Collaboration</h2>
-            <h3 class="title is-4">System Architecture</h3>
-            <div class="content has-text-justified">
-              <img src="asset/device_cloud.png" class="responsive-image" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
-            </div>
-            <h3 class="title is-4">Demo</h3>
+        </section>
+        <section id="device_cloud_collaboration" class="section">
+            <h2>Device-Cloud Collaboration</h2>
+            <h3>System Architecture</h3>
+            <img src="asset/device_cloud.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <h3>Demo</h3>
             <div class="demo-grid">
                 <div>
                     <div class="demo-video-wrapper">
@@ -1088,55 +1049,40 @@
                     <p class="demo-video-caption">Device-cloud collaboration for complex tasks, requiring cloud model invocation when the task is beyond the device models capabilities.</p>
                 </div>
             </div>
-            <h3 class="title is-4">Performance</h3>
-            <div class="content has-text-justified">
-              <img src="asset/cloud_device.jpg" class="responsive-image" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
-            </div>
-      </section>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container is-max-desktop">
-      <section id="real_world_benchmark">
-            <h2 class="title is-3">Evaluating in Real-World Benchmark</h2>
-            <h3 class="title is-4">MobileWorld Benchmark</h3>
-            <div class="content has-text-justified">
-              <p>To evaluate MAI-UI's practical capabilities, we adopt our MOBILEWORLD benchmark, a comprehensive benchmark designed to bridge this evaluation gap. MOBILEWORLD features over 200 realistic tasks spanning 15+ opensource applications across critical domains including e-commerce (Mall4Uni, mirroring Temu/Amazon), enterprise communication (Mattermost, mirroring Microsoft Teams/Slack), social media (Mastodon, mirroring X/Twitter), and daily productivity tools.</p>
-            </div>
-            <h3 class="title is-4">Case Study of MCP Call</h3>
-            <div class="content has-text-justified">
-              <figure class="figure">
-                <img src="asset/mcp.png" alt="MAI-UI System Architecture" class="responsive-image" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <h3>Performance</h3>
+            <img src="asset/cloud_device.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+        </section>
+        <section id="device_cloud_collaboration" class="section">
+            <h2>Evaluating in Real-World Benchmark</h2>
+            <h3>MobileWorld Benchmark</h3>
+            <p>To evaluate MAI-UI’s practical capabilities, we adopt our MOBILEWORLD benchmark, a comprehensive benchmark designed to bridge this evaluation gap. MOBILEWORLD features over 200 realistic tasks spanning 15+ opensource applications across critical domains including e-commerce (Mall4Uni, mirroring Temu/Amazon), enterprise communication (Mattermost, mirroring Microsoft Teams/Slack), social media (Mastodon, mirroring X/Twitter), and daily productivity tools.</p>
+            <h3>Case Study of MCP Call</h3>
+            <figure class="figure">
+                <!-- 这里放你的架构图 -->
+                <img src="asset/mcp.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
                 <figcaption> Case studies of MCP tool using of MAI-UI. (a): Using MCP tools provide shortcuts that
-                  compress multiple UI actions into a few API calls; (b): Using MCP tools brings traditionally desktop-only
-                  workflows (e.g., GitHub commit search) to mobile. The user instruction for (a) is: "Compare the two
-                  apartment listings sent by the agent and determine which has the shorter driving time to Alibaba Xixi Campus
-                  (Zone C; 969 Wenyi West Road, Yuhang District, Hangzhou). Send the address of the nearer apartment to my
-                  friend Mia".</figcaption>
-              </figure>
-            </div>
+                    compress multiple UI actions into a few API calls; (b): Using MCP tools brings traditionally desktop-only
+                    workflows (e.g., GitHub commit search) to mobile. The user instruction for (a) is: “Compare the two
+                    apartment listings sent by the agent and determine which has the shorter driving time to Alibaba Xixi Campus
+                    (Zone C; 969 Wenyi West Road, Yuhang District, Hangzhou). Send the address of the nearer apartment to my
+                    friend Mia”.</figcaption>
+            </figure>
 
-            <h3 class="title is-4">Case Study of User Interaction</h3>
-            <div class="content has-text-justified">
-              <figure class="figure">
-                <img src="asset/user_interaction.png" alt="MAI-UI System Architecture" class="responsive-image" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
-                <figcaption> A case study of agent user interaction. The user instruction is: "In the Downloads folder, locate
-                  resume file(s) downloaded within one month and send them to my HR colleague with the subject "candidates_cv".</figcaption>
-              </figure>
-            </div>
-      </section>
-    </div>
-  </section>
 
-  <section class="section">
-    <div class="container is-max-desktop">
-      <!-- Citation -->
-      <section id="citation">
-            <h2 class="title is-3">Citation</h2>
-            <div class="content has-text-justified">
-              <p>If you find MAI-UI useful in your research, please cite our papers:</p>
-            </div>
+
+            <h3>Case Study of User Interaction</h3>
+            <figure class="figure">
+                <!-- 这里放你的架构图 -->
+                <img src="asset/user_interaction.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+                <figcaption> A case study of agent user interaction. The user instruction is: “In the Downloads folder, locate
+                    resume file(s) downloaded within one month and send them to my HR colleague with the subject "candidates_cv".</figcaption>
+            </figure>
+
+        </section>
+        <!-- Citation -->
+        <section id="citation" class="section">
+            <h2>Citation</h2>
+            <p>If you find MAI-UI useful in your research, please cite our papers:</p>
             <div class="code-block">
                 <button class="copy-btn" onclick="copyCode(this)">Copy</button>
                 <pre><code class="language-bibtex">@misc{zhou2025maiuitechnicalreportrealworld,
@@ -1173,33 +1119,25 @@
                     url={https://arxiv.org/abs/2510.20286}, 
               }</code></pre>
             </div>
-      </section>
-    </div>
-  </section>
-  </main>
+        </section>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="content has-text-centered">
-        <a class="icon-link" href="https://github.com/Tongyi-MAI/MAI-UI">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-      <div class="content has-text-centered">
-        <p>MAI-UI Team &middot; <a href="https://github.com/Tongyi-MAI/MAI-UI">GitHub</a> &middot; <a href="#">License</a></p>
-      </div>
-    </div>
-  </footer>
 
-  <script>
-    hljs.highlightAll();
-    function copyCode(btn) {
-      const code = btn.nextElementSibling.querySelector('code').textContent;
-      navigator.clipboard.writeText(code).then(() => {
-        btn.textContent = 'Copied!';
-        setTimeout(() => btn.textContent = 'Copy', 2000);
-      });
-    }
-  </script>
+    </main>
+
+    <footer class="footer">
+        <p>MAI-UI Team &middot; <a href="#">GitHub</a> &middot; <a href="#">License</a></p>
+    </footer>
+
+    <script>
+        hljs.highlightAll();
+        function copyCode(btn) {
+            const code = btn.nextElementSibling.querySelector('code').textContent;
+            navigator.clipboard.writeText(code).then(() => {
+                btn.textContent = 'Copied!';
+                setTimeout(() => btn.textContent = 'Copy', 2000);
+            });
+        }
+    </script>
 </body>
+</html>
 </html>
