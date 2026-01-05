@@ -154,14 +154,19 @@ body {
   margin-bottom: 48px;
 }
 
-.section h2 {
+.section h2,
+h2 {
   font-family: 'Noto Serif', Georgia, serif;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 16px;
-  color: #111;
+  color: #000;
   border-bottom: 1px solid #eee;
   padding-bottom: 8px;
+}
+
+h3 {
+  color: #000;
 }
 
 .section p {
@@ -188,6 +193,11 @@ body {
   font-size: 14px;
   color: #555;
   line-height: 1.6;
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
 }
 
 /* Figure Placeholder */

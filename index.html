@@ -177,7 +177,7 @@
         <!-- Leaderboard (AndroidWorld) -->
         <section id="leaderboard" class="section">
             <h2>Overall performance across GUI grounding and navigation.</h2>
-            <img src="asset/SOTA_Performance.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <img src="asset/SOTA_Performance.png" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
             <figcaption style="text-align: center; font-size: 14px; color: #666; margin-top: 10px;">MAI-UI achieves SOTA performance across GUI grounding, outperforming Gemini-3-Pro and Seed1.8 on ScreenSpot-Pro and significantly outperform existing models on UI-Vision,(Left) MAI-UI achieves SOTA performance on famous navigation benchmark AndroidWorld (Middle), and set a new SOTA performance on real-world benchmark MobileWorld (Right).</figcaption>
 
 <!-- 
@@ -252,7 +252,7 @@
         <section id="overview" class="section">
             <h2>GUI grounding Overview</h2>
             <h3>Data Pipeline</h3>
-            <img src="asset/grounding_pipeline.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <img src="asset/grounding_pipeline.png" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
             <h3>Training Paradigm</h3>
             <p>For GUI grounding, we followed Instruction-as-Reasoning paradigm in UI-Ins, we use a SFT stage to teach model reasoning and RL stage let model explore the appropriate reasoning pathway. </p>
             <h3>Grounding Performance</h3>
@@ -775,17 +775,17 @@
         <section id="Navigation" class="section">
             <h2>GUI Navigation Overview</h2>
             <h3>Data Pipeline</h3>
-            <img src="asset/navigation_pipeline.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <img src="asset/navigation_pipeline.png" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
             <h3>Reinforcement Learning Framework</h3>
             <figure class="figure">
                 <!-- 这里放你的架构图 -->
-                <img src="asset/rl_framework.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+                <img src="asset/rl_framework.png" alt="MAI-UI System Architecture" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
                 <figcaption>Overview of the agentic reinforcement learning framework. The framework alternates between rollout phases where the latest policy interacts with online mobile environments to generate trajectories and training phases that progressively improve the policy using trajectory-level rewards.</figcaption>
             </figure>
             <h3>Rollout Processing</h3>
             <figure class="figure">
                 <!-- 这里放你的架构图 -->
-                <img src="asset/rollout.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+                <img src="asset/rollout.png" alt="MAI-UI System Architecture" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
                 <figcaption> Detailed rollout process within the MobileAgentLoop. The agent loop asynchronously calls inference servers to generate actions and executes them in stateful environments across multiple turns, with hybrid verifiers evaluating complete trajectories to produce final rewards.</figcaption>
             </figure>
             <h3>Performance</h3>
@@ -815,11 +815,11 @@
                                 <td class="val-cell">3B</td>
                                 <td class="val-cell">23.7</td>
                             </tr> -->
-                            <tr>
+                            <!-- <tr>
                                 <td>Ferret-UI Lite-3B</td>
                                 <td class="val-cell">3B</td>
                                 <td class="val-cell">28.0</td>
-                            </tr>
+                            </tr> -->
                             <!-- <tr>
                                 <td>UI-Tars-7B</td>
                                 <td class="val-cell">7B</td>
@@ -1049,7 +1049,7 @@
         <section id="device_cloud_collaboration" class="section">
             <h2>Device-Cloud Collaboration</h2>
             <h3>System Architecture</h3>
-            <img src="asset/device_cloud.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <img src="asset/device_cloud.png" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
             <h3>Demo</h3>
             <div class="demo-grid">
                 <div>
@@ -1072,7 +1072,7 @@
                 </div>
             </div>
             <h3>Performance</h3>
-            <img src="asset/cloud_device.png" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+            <img src="asset/cloud_device.png" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
         </section>
         <section id="device_cloud_collaboration" class="section">
             <h2>Evaluating in Real-World Benchmark</h2>
@@ -1081,7 +1081,7 @@
             <h3>Case Study of MCP Call</h3>
             <figure class="figure">
                 <!-- 这里放你的架构图 -->
-                <img src="asset/mcp.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+                <img src="asset/mcp.png" alt="MAI-UI System Architecture" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
                 <figcaption> Case studies of MCP tool using of MAI-UI. (a): Using MCP tools provide shortcuts that
                     compress multiple UI actions into a few API calls; (b): Using MCP tools brings traditionally desktop-only
                     workflows (e.g., GitHub commit search) to mobile. The user instruction for (a) is: “Compare the two
@@ -1095,7 +1095,7 @@
             <h3>Case Study of User Interaction</h3>
             <figure class="figure">
                 <!-- 这里放你的架构图 -->
-                <img src="asset/user_interaction.png" alt="MAI-UI System Architecture" style="width: 100%; max-width: 800px; border: 1px solid #ddd; border-radius: 8px;">
+                <img src="asset/user_interaction.png" alt="MAI-UI System Architecture" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
                 <figcaption> A case study of agent user interaction. The user instruction is: “In the Downloads folder, locate
                     resume file(s) downloaded within one month and send them to my HR colleague with the subject "candidates_cv".</figcaption>
             </figure>
