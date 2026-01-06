@@ -352,9 +352,14 @@ class MAIUINaivigationAgent(BaseAgent):
         history_responses = self.history_responses
 
         if len(history_responses) > 0:
+            # Only the last (history_n - 1) history responses need images,
+            start_image_idx = max(0, len(history_responses) - (self.history_n - 1))
+            
             for history_idx, history_response in enumerate(history_responses):
-                # Only include images for recent history (last history_n responses)
-                if history_idx + self.history_n >= len(history_responses):
+                # Only include images for the last (history_n - 1) history responses
+                should_include_image = (history_idx >= start_image_idx)
+                
+                if should_include_image:
                     # Add image before the assistant response
                     if image_num < len(images) - 1:
                         cur_image = images[image_num]
@@ -366,8 +371,9 @@ class MAIUINaivigationAgent(BaseAgent):
                                 "image_url": {"url": f"data:image/png;base64,{encoded_string}"},
                             }],
                         })
-                        image_num += 1
-
+                    image_num += 1
+                
+                # Always add the assistant response (regardless of whether an image is included)
                 messages.append({
                     "role": "assistant",
                     "content": [{"type": "text", "text": history_response}],
