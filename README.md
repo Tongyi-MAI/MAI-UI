@@ -18,7 +18,6 @@
 ## 📑 Table of Contents
 
 - [📖 Background](#-background)
-- [🏆 Results](#-results)
 - [🎥 Demo](#-demo)
 - [🚀 Quick Start](#-installation--quick-start)
 - [📝 Citation](#-citation)
@@ -27,10 +26,13 @@
 
 ## 📖 Background
 
-The development of GUI agents could revolutionize the next generation of human-computer interaction. Motivated by this vision, we present MAI-UI, a family of foundation GUI agents spanning the full spectrum of sizes, including 2B, 8B, 32B, and 235B-A22B variants. We identify four key challenges to realistic deployment: the lack of native agent–user interaction, the limits of UI-only operation, the absence of a practical deployment architecture, and brittleness in dynamic environments. MAI-UI addresses these issues with a unified methodology: a self-evolving data pipeline that expands the navigation data to include user interaction and MCP tool calls, a native device–cloud collaboration system that routes execution by task state, and an online RL framework with advanced optimizations to scale parallel environments and context length. 
+In this project, we present MAI-UI, a family of foundation GUI agents spanning the full spectrum of sizes, including 2B, 8B, 32B, and 235B-A22B variants. Our contribution includes:
+- Agent-user interaction and MCP augmentation: enabling agent to interact with user and use MCP tools to complete the task.
+- Device–cloud collaboration system: dynamically selecting on-device or cloud execution based on task execution state and data sensitivity.
+- Reinforcement learning in dynamic environments: scaling parallel environments (up to 512) and context length (up to 50).
 
 
-## 🏆 Results
+<!-- ## 🏆 Results
 
 MAI-UI establishes new state-of-the-art across GUI grounding and mobile navigation. 
 
@@ -69,7 +71,7 @@ MAI-UI establishes new state-of-the-art across GUI grounding and mobile navigati
   <tr>
     <td align="center" width="50%"><img src="./assets/img/dcc.jpg" alt="Device-cloud Collaboration"/><br/><b>Device-cloud Collaboration</b></td>
   </tr>
-</table>
+</table> -->
 
 ## 🎥 Demo
 
