@@ -14,9 +14,10 @@
 """Base agent class for mobile GUI automation agents."""
 
 from abc import ABC, abstractmethod
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Tuple, Optional
 
 from unified_memory import TrajMemory, TrajStep
+from performance_monitor import PerformanceMonitor
 
 
 class BaseAgent(ABC):
@@ -34,6 +35,7 @@ class BaseAgent(ABC):
             task_id="",
             steps=[],
         )
+        self.performance_monitor: Optional[PerformanceMonitor] = None
 
     @property
     def thoughts(self) -> List[str]:
@@ -98,6 +100,30 @@ class BaseAgent(ABC):
             task_id="",
             steps=[],
         )
+
+    def init_performance_monitor(
+        self,
+        task_id: str,
+        task_goal: str,
+        metrics_dir: Optional[str] = None
+    ) -> PerformanceMonitor:
+        """
+        Initialize performance monitoring for this agent.
+
+        Args:
+            task_id: Unique identifier for the task
+            task_goal: Description of the task goal
+            metrics_dir: Optional directory to save metrics logs
+
+        Returns:
+            Initialized PerformanceMonitor instance
+        """
+        self.performance_monitor = PerformanceMonitor(
+            task_id=task_id,
+            task_goal=task_goal,
+            metrics_dir=metrics_dir
+        )
+        return self.performance_monitor
 
     def load_traj(self, traj_memory: TrajMemory) -> None:
         """
