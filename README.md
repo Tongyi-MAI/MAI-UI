@@ -7,6 +7,7 @@
   <a href="https://tongyi-mai.github.io/MAI-UI-blog/"><img src="https://img.shields.io/badge/🌐%20Website-MAI%20UI-blue" alt="Website" /></a>
   <a href="https://tongyi-mai.github.io/MobileWorld/"><img src="https://img.shields.io/badge/🌐%20Website-MobileWorld-blue" alt="Website" /></a>
   <a href="https://huggingface.co/Tongyi-MAI"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Model-orange" alt="Hugging Face Model" /></a>
+  <a href="https://www.modelscope.cn/organization/Tongyi-MAI"><img src="https://img.shields.io/badge/🤖%20ModelScope-Model-purple" alt="ModelScope Model" /></a>
 </p>
 
 We present **MAI-UI**, a family of GUI agent foundation models spanning the full spectrum of sizes, including **2B**, **8B**, **32B**, and **235B-A22B** variants. Our core contribution includes:
