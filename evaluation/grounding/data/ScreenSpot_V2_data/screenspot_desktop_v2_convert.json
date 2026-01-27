@@ -1,0 +1,6682 @@
+[
+    {
+        "img_filename": "pc_ede36f9b-1154-4f76-b7f8-c15d7d3f9b6e.png",
+        "bbox": [
+            910,
+            78,
+            954,
+            112
+        ],
+        "instruction": "close this window",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_0",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5e09e8e9-7ef6-44be-ad54-aeaeac151897.png",
+        "bbox": [
+            835,
+            0,
+            871,
+            30
+        ],
+        "instruction": "minimize this window",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_1",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_2c6dc6ea-fd6f-4cbb-9954-2d6a68610a48.png",
+        "bbox": [
+            1477,
+            450,
+            1661,
+            680
+        ],
+        "instruction": "view solitaire daily challenges",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_2",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b072d03a-51cb-4dd6-bdeb-152d3fd44e6b.png",
+        "bbox": [
+            176,
+            202,
+            275,
+            303
+        ],
+        "instruction": "open the Microsoft store",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_3",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_ac2d2c5e-fe5a-4233-95b4-2de18ef76a9e.png",
+        "bbox": [
+            635,
+            360,
+            677,
+            423
+        ],
+        "instruction": "adjust the style",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_4",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f0122b91-3f8b-4510-9a6e-f0239d84b94e.png",
+        "bbox": [
+            697,
+            63,
+            731,
+            95
+        ],
+        "instruction": "minimize calculator",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_5",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_354a6cb2-3fe0-4cea-950c-d7f8e01fdf45.png",
+        "bbox": [
+            843,
+            7,
+            891,
+            46
+        ],
+        "instruction": "open the download page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_6",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_d6b09201-c944-4ad9-a0a2-ff78e8f056ce.png",
+        "bbox": [
+            1,
+            434,
+            68,
+            500
+        ],
+        "instruction": "open the help menu",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_7",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_db6b6fa2-11cc-4b06-88cb-22c180f07a3b.png",
+        "bbox": [
+            9,
+            0,
+            44,
+            31
+        ],
+        "instruction": "save the file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_8",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6dfa677c-7772-46fb-8c83-14a33b0806b4.png",
+        "bbox": [
+            316,
+            0,
+            917,
+            38
+        ],
+        "instruction": "search for software ",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_9",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_bc9ed2f6-79c1-4a35-bcb5-4760bf4ed57d.png",
+        "bbox": [
+            880,
+            6,
+            916,
+            37
+        ],
+        "instruction": "add this page to favourites",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_10",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_2c56f301-8e71-4498-8e52-44b37ac1a298.png",
+        "bbox": [
+            458,
+            133,
+            910,
+            169
+        ],
+        "instruction": "choose language for windows",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_11",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e618dc7e-8ffb-4a37-a317-9d3908c38395.png",
+        "bbox": [
+            883,
+            496,
+            945,
+            540
+        ],
+        "instruction": "input method toolbar",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_12",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_54779155-8627-4cac-8ea6-98277cfe0647.png",
+        "bbox": [
+            778,
+            4,
+            816,
+            45
+        ],
+        "instruction": "access the personal account interface",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_13",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_ad16765f-de52-4903-b406-fb5213b94db9.png",
+        "bbox": [
+            924,
+            496,
+            957,
+            540
+        ],
+        "instruction": "network and internet settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_14",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1ebb6beb-3187-45a6-a5a6-e50aa9a327e5.png",
+        "bbox": [
+            813,
+            0,
+            847,
+            32
+        ],
+        "instruction": "open a new tab",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_15",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_221d3c5a-0a1b-456e-9676-7b5ff95cc1b1.png",
+        "bbox": [
+            10,
+            84,
+            60,
+            123
+        ],
+        "instruction": "click the file processing menu",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_16",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_a8b0f843-7aaf-4369-ac2b-a121f1ccb024.png",
+        "bbox": [
+            1,
+            30,
+            42,
+            69
+        ],
+        "instruction": "open settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_17",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7f0b3e40-e5f5-462b-96c3-e8a97a3a504b.png",
+        "bbox": [
+            2,
+            48,
+            321,
+            88
+        ],
+        "instruction": "open the music library",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_18",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8f88d498-d49a-4ab5-8aa6-aafa1428c3b7.png",
+        "bbox": [
+            177,
+            69,
+            459,
+            97
+        ],
+        "instruction": "copy the file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_19",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_870d6da1-bc85-4e74-a1bd-ef6f975c2146.png",
+        "bbox": [
+            855,
+            495,
+            931,
+            540
+        ],
+        "instruction": "check the date and time menu",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_20",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_45c2712a-337d-4b6b-a47b-37ca4d5bdddd.png",
+        "bbox": [
+            0,
+            354,
+            260,
+            396
+        ],
+        "instruction": "open the sleep mode",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_21",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_133ac2cd-3eb3-4d45-be35-255a83831f97.png",
+        "bbox": [
+            607,
+            8,
+            956,
+            44
+        ],
+        "instruction": "search for local files",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_22",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_bd6711e1-ddc1-4873-8cf1-19654285f4ea.png",
+        "bbox": [
+            0,
+            0,
+            40,
+            32
+        ],
+        "instruction": "view the personal account",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_23",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_83462e63-b0cd-4921-9d19-8a534ed445c7.png",
+        "bbox": [
+            916,
+            13,
+            960,
+            52
+        ],
+        "instruction": "click the \"settings and more\" button",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_24",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_2b40c066-2f8f-4389-8df8-e70e8dfc1309.png",
+        "bbox": [
+            894,
+            0,
+            960,
+            64
+        ],
+        "instruction": "full-screen display",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_25",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1f371830-d909-41ac-a340-921a594f05b0.png",
+        "bbox": [
+            2,
+            0,
+            34,
+            30
+        ],
+        "instruction": "undo",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_26",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_14fd6f5f-37d5-4b22-953e-626e11044f3e.png",
+        "bbox": [
+            918,
+            336,
+            959,
+            382
+        ],
+        "instruction": "Add a new shortcut to the toolbar",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_27",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8834317b-7d08-40f1-9036-40743aba5d70.png",
+        "bbox": [
+            204,
+            205,
+            290,
+            289
+        ],
+        "instruction": "open local disk E",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_28",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_fa28755f-aee4-48f3-a484-02e670a6ff8f.png",
+        "bbox": [
+            537,
+            127,
+            816,
+            152
+        ],
+        "instruction": "create a new file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_29",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_712496c8-6588-4b57-a89d-b17eaecc761b.png",
+        "bbox": [
+            6,
+            470,
+            110,
+            511
+        ],
+        "instruction": "open player settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_30",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b1f1df2a-6c3d-40f9-ac70-dea7925c85dc.png",
+        "bbox": [
+            296,
+            157,
+            420,
+            194
+        ],
+        "instruction": "set up onedrive",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_31",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_61beef4d-1a93-47b3-8aff-ba0f7774cb43.png",
+        "bbox": [
+            605,
+            261,
+            622,
+            278
+        ],
+        "instruction": "fill in red",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_32",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_73f3744f-675f-44e3-8c55-ef34bdce0da9.png",
+        "bbox": [
+            420,
+            121,
+            725,
+            394
+        ],
+        "instruction": "open map",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_33",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_488287f0-9da5-4c6a-b236-109d3df56137.png",
+        "bbox": [
+            875,
+            253,
+            916,
+            286
+        ],
+        "instruction": "maximize window",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_34",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_eb0b756c-e471-40eb-bfaa-06b432094ac6.png",
+        "bbox": [
+            0,
+            105,
+            317,
+            145
+        ],
+        "instruction": "open account protection",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_35",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_dd51aeab-7e2c-40aa-82e6-0f870e49e6ba.png",
+        "bbox": [
+            605,
+            15,
+            666,
+            108
+        ],
+        "instruction": "add equation ",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_36",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_41efdca0-442c-471e-8188-45457f9287c3.png",
+        "bbox": [
+            601,
+            19,
+            638,
+            53
+        ],
+        "instruction": "minimize the window",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_37",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8ce8a3b6-c2a9-4b69-986e-34b7d96e27ef.png",
+        "bbox": [
+            213,
+            63,
+            479,
+            132
+        ],
+        "instruction": "view the devices",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_38",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_80ab83db-da70-4a1d-b10e-a438a59b2197.png",
+        "bbox": [
+            299,
+            175,
+            481,
+            209
+        ],
+        "instruction": "Adjust screen timeout",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_39",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_0c634288-11b9-498f-8fb6-582e26ea17c9.png",
+        "bbox": [
+            165,
+            467,
+            218,
+            519
+        ],
+        "instruction": "start playback",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_40",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_dfd488a9-d3c6-4e00-844a-6d56834a367e.png",
+        "bbox": [
+            145,
+            12,
+            209,
+            102
+        ],
+        "instruction": "set the screenshot option",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_41",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_17bc1fc0-a71c-453d-a431-5ebcddeff38f.png",
+        "bbox": [
+            560,
+            603,
+            1655,
+            806
+        ],
+        "instruction": "add the subtitle",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_42",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_05f0185e-a291-4e4c-a777-ffb2c46037c6.png",
+        "bbox": [
+            390,
+            183,
+            694,
+            431
+        ],
+        "instruction": "adjust light rotation",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_43",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_aae370cb-9618-497e-8877-1a862725d28e.png",
+        "bbox": [
+            225,
+            139,
+            266,
+            208
+        ],
+        "instruction": "click the colour 2 button",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_44",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f317f992-32e1-4470-ab0b-31910a70bcd4.png",
+        "bbox": [
+            561,
+            308,
+            1654,
+            597
+        ],
+        "instruction": "add the title",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_45",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_776b1aa0-a892-4461-b03a-88253e628426.png",
+        "bbox": [
+            18,
+            15,
+            62,
+            54
+        ],
+        "instruction": "refresh the page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_46",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_580035fc-f55e-4817-b0c5-b741fb034cd0.png",
+        "bbox": [
+            441,
+            458,
+            473,
+            509
+        ],
+        "instruction": "click the button to play previous track",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_47",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_ac6779f8-a188-4633-bfcc-ab05ada6848c.png",
+        "bbox": [
+            872,
+            40,
+            909,
+            72
+        ],
+        "instruction": "pin to taskbar",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_48",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3b590e58-aab0-42c4-9b74-7d1a6b7f26fe.png",
+        "bbox": [
+            17,
+            52,
+            500,
+            88
+        ],
+        "instruction": "enter the wegameapps folder",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_49",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_4ba904da-bd51-42ea-a96f-c5681c630058.png",
+        "bbox": [
+            232,
+            417,
+            320,
+            459
+        ],
+        "instruction": "check hourly weather",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_50",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_4cb20510-1be3-4ef8-ac47-2b49f4463555.png",
+        "bbox": [
+            0,
+            498,
+            48,
+            540
+        ],
+        "instruction": "open the menu of windows",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_51",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f9867d85-5680-44ac-9bea-23acf5c9cc71.png",
+        "bbox": [
+            0,
+            0,
+            79,
+            84
+        ],
+        "instruction": "open the recycle bin",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_52",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_155fc26b-cddb-4a03-b636-322a45c054e6.png",
+        "bbox": [
+            912,
+            8,
+            955,
+            51
+        ],
+        "instruction": "open settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_53",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_942d98d0-92d0-49ab-bc98-49a700c1822b.png",
+        "bbox": [
+            552,
+            37,
+            710,
+            153
+        ],
+        "instruction": "check weather on tuesday",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_54",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_aa124117-8877-4805-9c69-0ce80e1afc71.png",
+        "bbox": [
+            0,
+            247,
+            318,
+            293
+        ],
+        "instruction": "open the playlists",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_55",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e650b1a7-a1e4-4cb4-a2f0-a50f04ce9925.png",
+        "bbox": [
+            0,
+            498,
+            348,
+            540
+        ],
+        "instruction": "click the search bar",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_56",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_88dde48f-6594-4f17-b117-3529b2bde02e.png",
+        "bbox": [
+            7,
+            203,
+            35,
+            242
+        ],
+        "instruction": "back to previous folder",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_57",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5b1e5fe2-e063-463f-ab56-2b09d17b88a5.png",
+        "bbox": [
+            154,
+            352,
+            254,
+            451
+        ],
+        "instruction": "open Samsung Printer Center",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_58",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8ed762cb-06dd-493f-b770-7e02298433f8.png",
+        "bbox": [
+            732,
+            29,
+            787,
+            66
+        ],
+        "instruction": "turn on the mixed reality",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_59",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_56d9172e-1780-4fb7-8377-f9987b87508c.png",
+        "bbox": [
+            894,
+            126,
+            937,
+            178
+        ],
+        "instruction": "delete the downloaded file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_60",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5165f0b8-ea19-448e-bcfc-66de25666bb9.png",
+        "bbox": [
+            0,
+            26,
+            64,
+            91
+        ],
+        "instruction": "open the menu",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_61",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_ecf34119-ce66-4699-a169-60e5279a650f.png",
+        "bbox": [
+            660,
+            401,
+            959,
+            465
+        ],
+        "instruction": "switch to english",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_62",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_445877f4-ba58-468b-97b6-e770b1a9f02a.png",
+        "bbox": [
+            77,
+            0,
+            359,
+            28
+        ],
+        "instruction": "open the file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_63",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_92e1062b-0d4a-4e14-8b25-b79e4b6c9b55.png",
+        "bbox": [
+            392,
+            50,
+            733,
+            86
+        ],
+        "instruction": "search for settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_64",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_09e2a811-2e5f-4cfc-9d6c-97acda34edf7.png",
+        "bbox": [
+            747,
+            302,
+            920,
+            328
+        ],
+        "instruction": "gradient option",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_65",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_c7974702-d944-412f-83b2-61f92cf3c68c.png",
+        "bbox": [
+            872,
+            12,
+            960,
+            43
+        ],
+        "instruction": "share the file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_66",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_04d51f86-b324-4eb6-82f5-c8cd6cb3e79c.png",
+        "bbox": [
+            568,
+            256,
+            650,
+            307
+        ],
+        "instruction": "chech visibility",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_67",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3a625c5d-db8a-41fb-b533-16a7c8a4f345.png",
+        "bbox": [
+            887,
+            20,
+            924,
+            56
+        ],
+        "instruction": "refresh the page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_68",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_17904586-d58c-4f1d-8c1e-6a6697353b14.png",
+        "bbox": [
+            792,
+            13,
+            948,
+            78
+        ],
+        "instruction": "sign in",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_69",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_25eca08c-57eb-45b0-8c0b-79ccec8400ff.png",
+        "bbox": [
+            901,
+            0,
+            934,
+            22
+        ],
+        "instruction": "minimize the window.",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_70",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_cefd90d7-4af2-4370-b71e-8d4d5954c21e.png",
+        "bbox": [
+            620,
+            458,
+            702,
+            512
+        ],
+        "instruction": "number 5",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_71",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8fc42b3c-c8bc-4866-b787-aed98a86d614.png",
+        "bbox": [
+            183,
+            24,
+            499,
+            68
+        ],
+        "instruction": "view sound settings.",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_72",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_a2b172fe-7e11-4795-8424-c18d5b65a009.png",
+        "bbox": [
+            503,
+            149,
+            600,
+            186
+        ],
+        "instruction": "get help",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_73",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_07faaa86-6e6b-457b-9a51-9b30edff21da.png",
+        "bbox": [
+            916,
+            455,
+            960,
+            496
+        ],
+        "instruction": "share the current page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_74",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_ec8508be-641d-492a-bccc-a8279ae5bf9b.png",
+        "bbox": [
+            78,
+            29,
+            125,
+            120
+        ],
+        "instruction": "check the shape option",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_75",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_733fbb76-a188-4804-a2c6-788acf844d7c.png",
+        "bbox": [
+            105,
+            47,
+            147,
+            80
+        ],
+        "instruction": "back to previous page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_76",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_02a8e358-8282-498b-b82e-c0f2b1b8d26a.png",
+        "bbox": [
+            614,
+            45,
+            959,
+            78
+        ],
+        "instruction": "search for files on disk e:",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_77",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6f580940-6536-452e-9310-f9ebb87879eb.png",
+        "bbox": [
+            613,
+            52,
+            686,
+            138
+        ],
+        "instruction": "edit with paint 3d",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_78",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8c0c6fa3-39d8-4633-aeb1-6544036c85bf.png",
+        "bbox": [
+            913,
+            504,
+            943,
+            540
+        ],
+        "instruction": "adjust the volume",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_79",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_ecde084e-e461-4c7c-9ddc-bccabc874747.png",
+        "bbox": [
+            30,
+            399,
+            138,
+            436
+        ],
+        "instruction": "learn more",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_80",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_140cfa7d-6933-4591-ae0d-a1eadda2d7b5.png",
+        "bbox": [
+            703,
+            51,
+            863,
+            124
+        ],
+        "instruction": "open videos folder",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_81",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5a8a71e4-4c80-4b17-b724-a6b6d48a339f.png",
+        "bbox": [
+            610,
+            499,
+            733,
+            540
+        ],
+        "instruction": "check weather forecast",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_82",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_986f4ae9-9dd8-4c5c-b3d8-fb3fb5557d17.png",
+        "bbox": [
+            145,
+            13,
+            226,
+            69
+        ],
+        "instruction": "multiplicate",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_83",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6dfaf0c7-a3e5-4e71-8431-5eeb9fb8e493.png",
+        "bbox": [
+            527,
+            243,
+            889,
+            279
+        ],
+        "instruction": "see more information",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_84",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_89fc8216-3292-418c-864f-edcce3c34dc5.png",
+        "bbox": [
+            790,
+            444,
+            832,
+            483
+        ],
+        "instruction": "adjust volume in the music player",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_85",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_c00e575a-fa2d-47c7-83cc-9f4e99f15720.png",
+        "bbox": [
+            0,
+            459,
+            260,
+            500
+        ],
+        "instruction": "restart the computer",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_86",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b2579d6f-b494-47e3-872a-5e42a43f251a.png",
+        "bbox": [
+            782,
+            394,
+            928,
+            424
+        ],
+        "instruction": "adjust screen size",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_87",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_79eaf625-93f5-42a4-977e-71aba5418ff4.png",
+        "bbox": [
+            11,
+            120,
+            156,
+            142
+        ],
+        "instruction": "go to the desktop",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_88",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1f3eb0eb-2ab2-4e48-b278-de334846ee0d.png",
+        "bbox": [
+            406,
+            81,
+            757,
+            372
+        ],
+        "instruction": "choose the pig",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_89",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6a8d5384-ca12-4ae2-b14c-4c9dc08d4896.png",
+        "bbox": [
+            97,
+            33,
+            1648,
+            68
+        ],
+        "instruction": "input a url",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_90",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_c0996a5a-3af1-487b-9060-7b1a6779e42f.png",
+        "bbox": [
+            59,
+            92,
+            380,
+            134
+        ],
+        "instruction": "go to the homepage",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_91",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e18b4420-34da-4d60-889e-924a76fb5094.png",
+        "bbox": [
+            840,
+            11,
+            882,
+            48
+        ],
+        "instruction": "open the favourites",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_92",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_4c43fbd2-d84e-4bb4-8169-7a748530c1af.png",
+        "bbox": [
+            56,
+            393,
+            494,
+            510
+        ],
+        "instruction": "choose wechat",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_93",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7e37689a-0657-4856-8adf-72a21ee640c9.png",
+        "bbox": [
+            251,
+            163,
+            478,
+            413
+        ],
+        "instruction": "check windows keyboard shortcuts",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_94",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_bb73a431-c05e-47a8-bd27-8c7cbc2f7f23.png",
+        "bbox": [
+            116,
+            22,
+            342,
+            50
+        ],
+        "instruction": "view the file sorting method",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_95",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b4d4f0c2-5f8e-409e-ac20-b1a2c7d6f440.png",
+        "bbox": [
+            2,
+            100,
+            80,
+            192
+        ],
+        "instruction": "open Microsoft edge",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_96",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5da8f8cd-8ba2-490a-86e0-5c82421a9bee.png",
+        "bbox": [
+            322,
+            67,
+            601,
+            93
+        ],
+        "instruction": "click to open the file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_97",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_2d42ba96-b43d-4f3f-81c1-80c8c107ca1c.png",
+        "bbox": [
+            8,
+            33,
+            297,
+            67
+        ],
+        "instruction": "search for files",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_98",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_4392332d-683f-4746-bbb2-e9287d9cdae0.png",
+        "bbox": [
+            308,
+            203,
+            389,
+            287
+        ],
+        "instruction": "set the second photo as wallpaper",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_99",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_977de16a-870e-48f3-8a38-ec9e1efb9f77.png",
+        "bbox": [
+            555,
+            238,
+            716,
+            288
+        ],
+        "instruction": "add a language",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_100",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_16d04f01-66a7-45df-a189-66c29fa935d7.png",
+        "bbox": [
+            321,
+            482,
+            475,
+            519
+        ],
+        "instruction": "open files",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_101",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_d077a08e-e927-4daa-aaf1-2f2385eefa04.png",
+        "bbox": [
+            227,
+            188,
+            415,
+            423
+        ],
+        "instruction": "play the \"spider solitaire\"",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_102",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_01c641cb-aa78-4bae-80ea-dda820dd00eb.png",
+        "bbox": [
+            109,
+            144,
+            160,
+            217
+        ],
+        "instruction": "view paste option",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_103",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_9c3204c7-8a02-406a-8dee-5b363887258c.png",
+        "bbox": [
+            0,
+            21,
+            50,
+            60
+        ],
+        "instruction": "back to the previous page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_104",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_471e7c2d-8c16-4626-9b8e-7e0fd79e3a32.png",
+        "bbox": [
+            181,
+            448,
+            212,
+            500
+        ],
+        "instruction": "click to play the next track",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_105",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f92a83db-cb5b-4295-af83-3606639056be.png",
+        "bbox": [
+            273,
+            26,
+            340,
+            54
+        ],
+        "instruction": "review option",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_106",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_daa34642-1973-424e-a752-3b309fa6512b.png",
+        "bbox": [
+            907,
+            499,
+            957,
+            540
+        ],
+        "instruction": "check for two unread messages",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_107",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_58d89b93-10e2-41fe-8b6d-3532fd3bb832.png",
+        "bbox": [
+            0,
+            407,
+            50,
+            452
+        ],
+        "instruction": "view windows settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_108",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_79377abe-731c-4d3b-ab04-b332c4054b81.png",
+        "bbox": [
+            412,
+            326,
+            484,
+            371
+        ],
+        "instruction": "dismiss the account protection",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_109",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_9d04d927-2a44-4e0d-b752-57abf0a0522f.png",
+        "bbox": [
+            2,
+            23,
+            47,
+            65
+        ],
+        "instruction": "back to the previous page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_110",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_c8b036c3-da02-490e-a09b-0a42b8d9f344.png",
+        "bbox": [
+            0,
+            391,
+            47,
+            433
+        ],
+        "instruction": "personal account options",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_111",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3f7ea28c-0425-4837-a540-dc5bb23449b8.png",
+        "bbox": [
+            48,
+            25,
+            106,
+            54
+        ],
+        "instruction": "design option",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_112",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            960,
+            540
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7e7fa34c-9bb9-43bb-bad6-a7e62e7d0f95.png",
+        "bbox": [
+            52,
+            79,
+            299,
+            111
+        ],
+        "instruction": "open paint 3d",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_113",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            645,
+            635
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7e7fa34c-9bb9-43bb-bad6-a7e62e7d0f95.png",
+        "bbox": [
+            322,
+            154,
+            418,
+            250
+        ],
+        "instruction": "open microsoft edge",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_114",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            645,
+            635
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7e7fa34c-9bb9-43bb-bad6-a7e62e7d0f95.png",
+        "bbox": [
+            1,
+            593,
+            40,
+            634
+        ],
+        "instruction": "turn off the computer",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_115",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            645,
+            635
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+        "bbox": [
+            4,
+            54,
+            302,
+            91
+        ],
+        "instruction": "switch to home",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_116",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1196,
+            927
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+        "bbox": [
+            4,
+            3,
+            45,
+            33
+        ],
+        "instruction": "click the \"back to previous page\" button",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_117",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1196,
+            927
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+        "bbox": [
+            319,
+            277,
+            560,
+            325
+        ],
+        "instruction": "open fax option",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_118",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1196,
+            927
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+        "bbox": [
+            925,
+            370,
+            1056,
+            393
+        ],
+        "instruction": "need some help",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_119",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1196,
+            927
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5377c04c-7d8f-4377-b1ed-d7994722871f.png",
+        "bbox": [
+            12,
+            201,
+            349,
+            251
+        ],
+        "instruction": "check email and account",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_120",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            780,
+            634
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5377c04c-7d8f-4377-b1ed-d7994722871f.png",
+        "bbox": [
+            112,
+            2,
+            196,
+            44
+        ],
+        "instruction": "switch to documents",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_121",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            780,
+            634
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5377c04c-7d8f-4377-b1ed-d7994722871f.png",
+        "bbox": [
+            370,
+            509,
+            502,
+            543
+        ],
+        "instruction": "view the game for me",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_122",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            780,
+            634
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_70f27c18-7de8-4445-b6fe-202fa17bbe04.png",
+        "bbox": [
+            149,
+            62,
+            173,
+            93
+        ],
+        "instruction": "use pencil tool",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_123",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            839,
+            638
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_70f27c18-7de8-4445-b6fe-202fa17bbe04.png",
+        "bbox": [
+            283,
+            60,
+            325,
+            127
+        ],
+        "instruction": "click to choose shapes",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_124",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            839,
+            638
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_70f27c18-7de8-4445-b6fe-202fa17bbe04.png",
+        "bbox": [
+            368,
+            59,
+            410,
+            128
+        ],
+        "instruction": "select a new size",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_125",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            839,
+            638
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_70f27c18-7de8-4445-b6fe-202fa17bbe04.png",
+        "bbox": [
+            63,
+            58,
+            106,
+            128
+        ],
+        "instruction": "use the select tool",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_126",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            839,
+            638
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3b7dab65-2cc4-4545-be95-93d4d2576b47.png",
+        "bbox": [
+            615,
+            229,
+            836,
+            448
+        ],
+        "instruction": "view the setting of protection of pc",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_127",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3b7dab65-2cc4-4545-be95-93d4d2576b47.png",
+        "bbox": [
+            1099,
+            520,
+            1303,
+            747
+        ],
+        "instruction": "view the get organized tips",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_128",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_44159aab-93c3-4ef6-8841-67a11225ca3f.png",
+        "bbox": [
+            6,
+            157,
+            435,
+            214
+        ],
+        "instruction": "log in using google account",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_129",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            456,
+            491
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_44159aab-93c3-4ef6-8841-67a11225ca3f.png",
+        "bbox": [
+            9,
+            396,
+            444,
+            443
+        ],
+        "instruction": "check advanced setup",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_130",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            456,
+            491
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b34a8be5-2b1f-40fa-b348-41aac2bfb952.png",
+        "bbox": [
+            185,
+            432,
+            371,
+            484
+        ],
+        "instruction": "check the detail of uv index",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_131",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1202,
+            935
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b34a8be5-2b1f-40fa-b348-41aac2bfb952.png",
+        "bbox": [
+            624,
+            263,
+            753,
+            291
+        ],
+        "instruction": "see full forecast",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_132",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1202,
+            935
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b34a8be5-2b1f-40fa-b348-41aac2bfb952.png",
+        "bbox": [
+            0,
+            181,
+            47,
+            231
+        ],
+        "instruction": "the internet icon",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_133",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1202,
+            935
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_efc1c0f0-366b-47a0-8e3f-0d197023a2bb.png",
+        "bbox": [
+            9,
+            232,
+            327,
+            280
+        ],
+        "instruction": "play the Klondike game",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_134",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1200,
+            934
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_efc1c0f0-366b-47a0-8e3f-0d197023a2bb.png",
+        "bbox": [
+            972,
+            32,
+            1136,
+            100
+        ],
+        "instruction": "sign in",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_135",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1200,
+            934
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f2244f33-a9c9-44e7-bacb-3e51f72d619e.png",
+        "bbox": [
+            2,
+            120,
+            249,
+            155
+        ],
+        "instruction": "choose standard mode",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_136",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            480,
+            531
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f2244f33-a9c9-44e7-bacb-3e51f72d619e.png",
+        "bbox": [
+            6,
+            397,
+            255,
+            436
+        ],
+        "instruction": "adjust the volume",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_137",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            480,
+            531
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_639ab093-46ed-4332-9229-125647aad9da.png",
+        "bbox": [
+            2,
+            2,
+            32,
+            32
+        ],
+        "instruction": "add a new one",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_138",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            362,
+            313
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_639ab093-46ed-4332-9229-125647aad9da.png",
+        "bbox": [
+            211,
+            274,
+            251,
+            310
+        ],
+        "instruction": "insert an image",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_139",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            362,
+            313
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_57bf0c6a-5cdb-43c9-a807-7b1d83f5ab08.png",
+        "bbox": [
+            5,
+            78,
+            277,
+            116
+        ],
+        "instruction": "view the timer",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_140",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            955,
+            662
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_57bf0c6a-5cdb-43c9-a807-7b1d83f5ab08.png",
+        "bbox": [
+            560,
+            555,
+            680,
+            585
+        ],
+        "instruction": "click get start",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_141",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            955,
+            662
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_57bf0c6a-5cdb-43c9-a807-7b1d83f5ab08.png",
+        "bbox": [
+            4,
+            199,
+            276,
+            234
+        ],
+        "instruction": "view world clock",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_142",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            955,
+            662
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_050e2feb-60bf-401e-b6b0-28c0fe490347.png",
+        "bbox": [
+            338,
+            29,
+            409,
+            83
+        ],
+        "instruction": "insert 3d shapes item",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_143",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1198,
+            934
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_050e2feb-60bf-401e-b6b0-28c0fe490347.png",
+        "bbox": [
+            949,
+            29,
+            1008,
+            82
+        ],
+        "instruction": "undo",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_144",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1198,
+            934
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_050e2feb-60bf-401e-b6b0-28c0fe490347.png",
+        "bbox": [
+            962,
+            235,
+            1060,
+            298
+        ],
+        "instruction": "click \"select all\"",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_145",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1198,
+            934
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_050e2feb-60bf-401e-b6b0-28c0fe490347.png",
+        "bbox": [
+            962,
+            544,
+            1001,
+            588
+        ],
+        "instruction": "rotate left",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_146",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1198,
+            934
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7b437f7a-8819-467b-b5a6-96e8588f15a2.png",
+        "bbox": [
+            3,
+            845,
+            292,
+            911
+        ],
+        "instruction": "check the updates",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_147",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1202,
+            934
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7b437f7a-8819-467b-b5a6-96e8588f15a2.png",
+        "bbox": [
+            515,
+            864,
+            581,
+            920
+        ],
+        "instruction": "view in youtube",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_148",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1202,
+            934
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_56c33426-0532-47dd-bf74-2a560c5a63f0.png",
+        "bbox": [
+            2,
+            57,
+            65,
+            128
+        ],
+        "instruction": "empty recycle bin",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_149",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            853,
+            541
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_56c33426-0532-47dd-bf74-2a560c5a63f0.png",
+        "bbox": [
+            138,
+            59,
+            187,
+            128
+        ],
+        "instruction": "restore all items",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_150",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            853,
+            541
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1f6ac92f-9273-4758-a571-d0c831bb1dba.png",
+        "bbox": [
+            4,
+            450,
+            313,
+            484
+        ],
+        "instruction": "check microphone permissions",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_151",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1203,
+            932
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1f6ac92f-9273-4758-a571-d0c831bb1dba.png",
+        "bbox": [
+            924,
+            292,
+            1079,
+            347
+        ],
+        "instruction": "give feedback",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_152",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1203,
+            932
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_85012b9e-3058-4501-a9c7-6415d31c7699.png",
+        "bbox": [
+            347,
+            396,
+            540,
+            426
+        ],
+        "instruction": "check the properties",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_153",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1202,
+            932
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_85012b9e-3058-4501-a9c7-6415d31c7699.png",
+        "bbox": [
+            331,
+            593,
+            765,
+            649
+        ],
+        "instruction": "change adapter options",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_154",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1202,
+            932
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5df0bc8e-3005-4a32-b824-0318d6a05bdd.png",
+        "bbox": [
+            346,
+            268,
+            473,
+            398
+        ],
+        "instruction": "report a problem",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_155",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1199,
+            933
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5df0bc8e-3005-4a32-b824-0318d6a05bdd.png",
+        "bbox": [
+            2,
+            161,
+            316,
+            197
+        ],
+        "instruction": "switch to feedback",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_156",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1199,
+            933
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_731487b7-f192-464c-8fc7-95af0962861f.png",
+        "bbox": [
+            23,
+            96,
+            357,
+            150
+        ],
+        "instruction": "check microphone",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_157",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            399,
+            454
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_731487b7-f192-464c-8fc7-95af0962861f.png",
+        "bbox": [
+            125,
+            40,
+            166,
+            57
+        ],
+        "instruction": "switch to sounds",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_158",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            399,
+            454
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6f79b56c-2b0f-471d-9f9d-93932c69a0ce.png",
+        "bbox": [
+            1025,
+            141,
+            1129,
+            268
+        ],
+        "instruction": "check my apple id",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_159",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1362
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6f79b56c-2b0f-471d-9f9d-93932c69a0ce.png",
+        "bbox": [
+            1018,
+            368,
+            1139,
+            515
+        ],
+        "instruction": "view the language & region settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_160",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1362
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6f79b56c-2b0f-471d-9f9d-93932c69a0ce.png",
+        "bbox": [
+            859,
+            952,
+            972,
+            1105
+        ],
+        "instruction": "open time machine",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_161",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1362
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6f79b56c-2b0f-471d-9f9d-93932c69a0ce.png",
+        "bbox": [
+            41,
+            954,
+            151,
+            1082
+        ],
+        "instruction": "check desplay settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_162",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1362
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6f79b56c-2b0f-471d-9f9d-93932c69a0ce.png",
+        "bbox": [
+            39,
+            761,
+            150,
+            925
+        ],
+        "instruction": "software update",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_163",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1362
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_66906e9c-dc3c-49e9-aaf0-0e7d5efc97db.png",
+        "bbox": [
+            492,
+            141,
+            640,
+            184
+        ],
+        "instruction": "switch to desktop settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_164",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1340,
+            1156
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_66906e9c-dc3c-49e9-aaf0-0e7d5efc97db.png",
+        "bbox": [
+            347,
+            209,
+            697,
+            250
+        ],
+        "instruction": "show screen saver after",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_165",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1340,
+            1156
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_66906e9c-dc3c-49e9-aaf0-0e7d5efc97db.png",
+        "bbox": [
+            99,
+            425,
+            277,
+            572
+        ],
+        "instruction": "choose the ken burns as screen saver",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_166",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1340,
+            1156
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_772a850b-eb35-4efb-9767-ef0eadeb70f0.png",
+        "bbox": [
+            672,
+            145,
+            814,
+            279
+        ],
+        "instruction": "switch to dark mode",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_167",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1340,
+            1424
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_772a850b-eb35-4efb-9767-ef0eadeb70f0.png",
+        "bbox": [
+            499,
+            396,
+            803,
+            436
+        ],
+        "instruction": "choose highlight color",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_168",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1340,
+            1424
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_772a850b-eb35-4efb-9767-ef0eadeb70f0.png",
+        "bbox": [
+            500,
+            891,
+            807,
+            937
+        ],
+        "instruction": "select default web browser",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_169",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1340,
+            1424
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_772a850b-eb35-4efb-9767-ef0eadeb70f0.png",
+        "bbox": [
+            502,
+            794,
+            925,
+            835
+        ],
+        "instruction": "jump to the spot that's clicked",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_170",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1340,
+            1424
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3ffab0d5-e99d-47b8-9684-ec9d8d063419.png",
+        "bbox": [
+            681,
+            243,
+            794,
+            288
+        ],
+        "instruction": "switch to apps",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_171",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1064
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3ffab0d5-e99d-47b8-9684-ec9d8d063419.png",
+        "bbox": [
+            78,
+            845,
+            131,
+            887
+        ],
+        "instruction": "add a new preferred language",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_172",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1064
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3ffab0d5-e99d-47b8-9684-ec9d8d063419.png",
+        "bbox": [
+            335,
+            982,
+            673,
+            1025
+        ],
+        "instruction": "translation languages setting",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_173",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1064
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3ffab0d5-e99d-47b8-9684-ec9d8d063419.png",
+        "bbox": [
+            1048,
+            982,
+            1233,
+            1026
+        ],
+        "instruction": "advanced setting",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_174",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1064
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_819d6d6a-0ea9-46e0-869d-e17d271381ca.png",
+        "bbox": [
+            635,
+            13,
+            713,
+            64
+        ],
+        "instruction": "check the battery",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_175",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1316,
+            1050
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_819d6d6a-0ea9-46e0-869d-e17d271381ca.png",
+        "bbox": [
+            987,
+            13,
+            1047,
+            61
+        ],
+        "instruction": "open siri",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_176",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1316,
+            1050
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_819d6d6a-0ea9-46e0-869d-e17d271381ca.png",
+        "bbox": [
+            526,
+            274,
+            670,
+            437
+        ],
+        "instruction": "open mind2web folder",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_177",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1316,
+            1050
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_15bd214f-b45f-48f8-8125-21d79373a99e.png",
+        "bbox": [
+            969,
+            105,
+            1241,
+            233
+        ],
+        "instruction": "switch on do not disturb mode",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_178",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1272,
+            1042
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_15bd214f-b45f-48f8-8125-21d79373a99e.png",
+        "bbox": [
+            969,
+            250,
+            1098,
+            376
+        ],
+        "instruction": "adjust keyboard brightness",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_179",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1272,
+            1042
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_15bd214f-b45f-48f8-8125-21d79373a99e.png",
+        "bbox": [
+            683,
+            683,
+            1241,
+            808
+        ],
+        "instruction": "go to music app",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_180",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1272,
+            1042
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_15bd214f-b45f-48f8-8125-21d79373a99e.png",
+        "bbox": [
+            701,
+            211,
+            890,
+            274
+        ],
+        "instruction": "check bluetooth",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_181",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1272,
+            1042
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_a4c60b7d-7f78-4255-8804-2dfbd297e09b.png",
+        "bbox": [
+            20,
+            150,
+            237,
+            197
+        ],
+        "instruction": "view files from airdrop",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_182",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1600,
+            1116
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_a4c60b7d-7f78-4255-8804-2dfbd297e09b.png",
+        "bbox": [
+            19,
+            376,
+            238,
+            420
+        ],
+        "instruction": "view downloads files",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_183",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1600,
+            1116
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_a4c60b7d-7f78-4255-8804-2dfbd297e09b.png",
+        "bbox": [
+            542,
+            390,
+            675,
+            561
+        ],
+        "instruction": "open synapse folder",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_184",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1600,
+            1116
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_33eb9249-4ee4-4752-9541-8466efda3845.png",
+        "bbox": [
+            1800,
+            1558,
+            1844,
+            1610
+        ],
+        "instruction": "zoom out",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_185",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2052,
+            1642
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_33eb9249-4ee4-4752-9541-8466efda3845.png",
+        "bbox": [
+            1846,
+            1556,
+            1891,
+            1611
+        ],
+        "instruction": "zoom in",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_186",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2052,
+            1642
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_33eb9249-4ee4-4752-9541-8466efda3845.png",
+        "bbox": [
+            198,
+            104,
+            385,
+            149
+        ],
+        "instruction": "switch to device",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_187",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2052,
+            1642
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_33eb9249-4ee4-4752-9541-8466efda3845.png",
+        "bbox": [
+            33,
+            1563,
+            316,
+            1619
+        ],
+        "instruction": "share my location",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_188",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2052,
+            1642
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_dde13919-4c5b-49a1-8c8a-7d03f363c7ac.png",
+        "bbox": [
+            837,
+            2,
+            1114,
+            59
+        ],
+        "instruction": "check the date and time",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_189",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1116,
+            648
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_dde13919-4c5b-49a1-8c8a-7d03f363c7ac.png",
+        "bbox": [
+            509,
+            1,
+            576,
+            65
+        ],
+        "instruction": "connect wifi",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_190",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1116,
+            648
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e2bd639a-f297-48fd-bee0-3b7044b0ad57.png",
+        "bbox": [
+            26,
+            453,
+            582,
+            579
+        ],
+        "instruction": "drag the slider to adjust volume",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_191",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            606,
+            744
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e2bd639a-f297-48fd-bee0-3b7044b0ad57.png",
+        "bbox": [
+            457,
+            165,
+            582,
+            292
+        ],
+        "instruction": "use the screen mirroring",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_192",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            606,
+            744
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7ba3945d-3975-45f3-9145-71805a9723de.png",
+        "bbox": [
+            958,
+            98,
+            1040,
+            154
+        ],
+        "instruction": "turn off airdrop",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_193",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1098,
+            620
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7ba3945d-3975-45f3-9145-71805a9723de.png",
+        "bbox": [
+            471,
+            176,
+            1065,
+            245
+        ],
+        "instruction": "set as contacts only",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_194",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1098,
+            620
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e5c3f9ae-de8d-4457-8bdc-7c0aba699f38.png",
+        "bbox": [
+            470,
+            351,
+            1064,
+            417
+        ],
+        "instruction": "open work mode ",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_195",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1098,
+            698
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e5c3f9ae-de8d-4457-8bdc-7c0aba699f38.png",
+        "bbox": [
+            469,
+            494,
+            1066,
+            556
+        ],
+        "instruction": "check focus preferences",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_196",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1098,
+            698
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e5c3f9ae-de8d-4457-8bdc-7c0aba699f38.png",
+        "bbox": [
+            328,
+            1,
+            403,
+            67
+        ],
+        "instruction": "select input method",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_197",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1098,
+            698
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_be3ea55b-e1f3-478a-8982-a05f37cc910f.png",
+        "bbox": [
+            181,
+            20,
+            248,
+            83
+        ],
+        "instruction": "back to previous page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_198",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            894
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_be3ea55b-e1f3-478a-8982-a05f37cc910f.png",
+        "bbox": [
+            1245,
+            801,
+            1315,
+            864
+        ],
+        "instruction": "question about bluetooth",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_199",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            894
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_65c6ab58-5f56-4a53-a65d-5e88511bbe0f.png",
+        "bbox": [
+            646,
+            3,
+            714,
+            78
+        ],
+        "instruction": "share this guide to someone",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_200",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            790,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_65c6ab58-5f56-4a53-a65d-5e88511bbe0f.png",
+        "bbox": [
+            720,
+            3,
+            776,
+            82
+        ],
+        "instruction": "search in macos user guide",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_201",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            790,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_65c6ab58-5f56-4a53-a65d-5e88511bbe0f.png",
+        "bbox": [
+            14,
+            539,
+            489,
+            607
+        ],
+        "instruction": "open bluetooth preferences for me",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_202",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            790,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_015a0262-924c-4ced-9f4d-23d07f94a657.png",
+        "bbox": [
+            179,
+            169,
+            775,
+            247
+        ],
+        "instruction": "hidden all shortcut",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_203",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1178,
+            650
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_015a0262-924c-4ced-9f4d-23d07f94a657.png",
+        "bbox": [
+            180,
+            3,
+            272,
+            72
+        ],
+        "instruction": "open wechat",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_204",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1178,
+            650
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_2773ea59-8493-4c89-957a-d2ec661e6384.png",
+        "bbox": [
+            995,
+            254,
+            1217,
+            298
+        ],
+        "instruction": "turn wifi off",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_205",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1332,
+            1268
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_2773ea59-8493-4c89-957a-d2ec661e6384.png",
+        "bbox": [
+            37,
+            1092,
+            88,
+            1139
+        ],
+        "instruction": "add a device",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_206",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1332,
+            1268
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_2773ea59-8493-4c89-957a-d2ec661e6384.png",
+        "bbox": [
+            88,
+            1091,
+            141,
+            1142
+        ],
+        "instruction": "remove a network connected device",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_207",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1332,
+            1268
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_afcc8160-1ef9-4413-8d5e-b3aa88b2a879.png",
+        "bbox": [
+            531,
+            569,
+            1047,
+            610
+        ],
+        "instruction": "select the interface in the bar",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_208",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1268
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_afcc8160-1ef9-4413-8d5e-b3aa88b2a879.png",
+        "bbox": [
+            905,
+            711,
+            1052,
+            759
+        ],
+        "instruction": "create the new service",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_209",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1268
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_cc362e8f-6ef3-4273-9dfb-baeab56ad760.png",
+        "bbox": [
+            351,
+            457,
+            1049,
+            556
+        ],
+        "instruction": "turn on low power mode",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_210",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1336,
+            1020
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_cc362e8f-6ef3-4273-9dfb-baeab56ad760.png",
+        "bbox": [
+            2,
+            532,
+            304,
+            603
+        ],
+        "instruction": "check battery usage history",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_211",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1336,
+            1020
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f344a1f6-cbf8-4115-9c9b-a9dfd00fbfe7.png",
+        "bbox": [
+            444,
+            184,
+            881,
+            240
+        ],
+        "instruction": "show emoji & symbols",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_212",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1246,
+            758
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f344a1f6-cbf8-4115-9c9b-a9dfd00fbfe7.png",
+        "bbox": [
+            445,
+            360,
+            882,
+            421
+        ],
+        "instruction": "open keyboard preferences",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_213",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1246,
+            758
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_cddf10f9-43a9-4cce-9b1b-df4aaf216f6d.png",
+        "bbox": [
+            36,
+            916,
+            92,
+            961
+        ],
+        "instruction": "add a new account",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_214",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1334,
+            1000
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_cddf10f9-43a9-4cce-9b1b-df4aaf216f6d.png",
+        "bbox": [
+            985,
+            22,
+            1308,
+            80
+        ],
+        "instruction": "search for account",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_215",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1334,
+            1000
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_63f20c0b-0abc-4cd5-a3cb-2ea0cb2ba3c8.png",
+        "bbox": [
+            179,
+            455,
+            1158,
+            497
+        ],
+        "instruction": "cancel the calculator",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_216",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1336,
+            1218
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_63f20c0b-0abc-4cd5-a3cb-2ea0cb2ba3c8.png",
+        "bbox": [
+            707,
+            245,
+            853,
+            291
+        ],
+        "instruction": "switch to privacy",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_217",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1336,
+            1218
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_514bf9d5-ca63-4d33-94cb-dc1b11994199.png",
+        "bbox": [
+            1024,
+            444,
+            1236,
+            630
+        ],
+        "instruction": "switch to alerts mode",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_218",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1336,
+            1454
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_514bf9d5-ca63-4d33-94cb-dc1b11994199.png",
+        "bbox": [
+            585,
+            329,
+            681,
+            394
+        ],
+        "instruction": "disable \"allow notifications\" setting",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_219",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1336,
+            1454
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_ed2173e7-c929-4f52-9777-db36a36e0c3e.png",
+        "bbox": [
+            529,
+            267,
+            620,
+            339
+        ],
+        "instruction": "switch on do not disturb mode",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_220",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1334,
+            1454
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b93bf9fd-afa5-40c0-b103-48f235f3ffe0.png",
+        "bbox": [
+            965,
+            226,
+            1248,
+            273
+        ],
+        "instruction": "change user's password",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_221",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1002
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b93bf9fd-afa5-40c0-b103-48f235f3ffe0.png",
+        "bbox": [
+            25,
+            887,
+            120,
+            979
+        ],
+        "instruction": "unlock to make changes",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_222",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1002
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6ca110ef-dfac-49fe-a9eb-4ba4f621cbdc.png",
+        "bbox": [
+            1,
+            766,
+            397,
+            833
+        ],
+        "instruction": "check app limits",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_223",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1254
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6ca110ef-dfac-49fe-a9eb-4ba4f621cbdc.png",
+        "bbox": [
+            1,
+            896,
+            396,
+            958
+        ],
+        "instruction": "view the always allowed apps",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_224",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1338,
+            1254
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_cb3fc7f0-9ed8-4692-8610-0f32b929a5a3.png",
+        "bbox": [
+            203,
+            400,
+            892,
+            456
+        ],
+        "instruction": "turn on \"user apple watch to unlock\"",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_225",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1334,
+            1174
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_cb3fc7f0-9ed8-4692-8610-0f32b929a5a3.png",
+        "bbox": [
+            675,
+            154,
+            814,
+            200
+        ],
+        "instruction": "view firewall",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_226",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1334,
+            1174
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8c34d9b6-4f21-4cfa-a277-8a4fe45c9ef7.png",
+        "bbox": [
+            672,
+            149,
+            855,
+            199
+        ],
+        "instruction": "switch to time zone settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_227",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1334,
+            1076
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_35c339d2-810d-4bbe-93db-0c1db024638f.png",
+        "bbox": [
+            1827,
+            99,
+            2078,
+            335
+        ],
+        "instruction": "open pycharm",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_228",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2648,
+            1730
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_35c339d2-810d-4bbe-93db-0c1db024638f.png",
+        "bbox": [
+            473,
+            701,
+            772,
+            987
+        ],
+        "instruction": "open anaconda",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_229",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2648,
+            1730
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_75eae2f4-193e-4365-a5f1-b9b5340d02ff.png",
+        "bbox": [
+            1284,
+            0,
+            1374,
+            106
+        ],
+        "instruction": "delete this email",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_230",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1906,
+            1340
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_75eae2f4-193e-4365-a5f1-b9b5340d02ff.png",
+        "bbox": [
+            1667,
+            0,
+            1749,
+            103
+        ],
+        "instruction": "forward email",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_231",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1906,
+            1340
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1e16b18c-5d91-4155-9e49-4ad5d9453fc7.png",
+        "bbox": [
+            872,
+            0,
+            970,
+            106
+        ],
+        "instruction": "search in emails",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_232",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            970,
+            1340
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1e16b18c-5d91-4155-9e49-4ad5d9453fc7.png",
+        "bbox": [
+            561,
+            693,
+            651,
+            745
+        ],
+        "instruction": "view attachment",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_233",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            970,
+            1340
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_63a274e4-38e1-4a50-a102-33b31aee3a62.png",
+        "bbox": [
+            1013,
+            19,
+            1113,
+            91
+        ],
+        "instruction": "add images",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_234",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1130,
+            952
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_63a274e4-38e1-4a50-a102-33b31aee3a62.png",
+        "bbox": [
+            1025,
+            106,
+            1103,
+            162
+        ],
+        "instruction": "add a recipient",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_235",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1130,
+            952
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_63a274e4-38e1-4a50-a102-33b31aee3a62.png",
+        "bbox": [
+            808,
+            19,
+            892,
+            91
+        ],
+        "instruction": "adjust font size",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_236",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1130,
+            952
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5392df82-37d6-41f3-838d-2afa1062dcc8.png",
+        "bbox": [
+            2,
+            917,
+            376,
+            980
+        ],
+        "instruction": "check junk emails",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_237",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1910,
+            1340
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_5392df82-37d6-41f3-838d-2afa1062dcc8.png",
+        "bbox": [
+            376,
+            103,
+            939,
+            260
+        ],
+        "instruction": "open the first email from researchgate",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_238",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1910,
+            1340
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_fe30b885-865a-442e-a8f5-0e9924f256fd.png",
+        "bbox": [
+            42,
+            567,
+            1225,
+            1303
+        ],
+        "instruction": "open the image in memo",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_239",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1268,
+            1310
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_fe30b885-865a-442e-a8f5-0e9924f256fd.png",
+        "bbox": [
+            918,
+            9,
+            1013,
+            90
+        ],
+        "instruction": "lock the memo",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_240",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1268,
+            1310
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_9237faf6-9f95-4157-9d0b-aafa67f7b675.png",
+        "bbox": [
+            1103,
+            87,
+            1333,
+            145
+        ],
+        "instruction": "share throught airdrop",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_241",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1336,
+            1314
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1d6fb8dc-8ba5-4c0d-a532-188e5d579686.png",
+        "bbox": [
+            18,
+            104,
+            423,
+            161
+        ],
+        "instruction": "search in app store",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_242",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1996,
+            1298
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1d6fb8dc-8ba5-4c0d-a532-188e5d579686.png",
+        "bbox": [
+            1917,
+            877,
+            1996,
+            1020
+        ],
+        "instruction": "next page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_243",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1996,
+            1298
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6d0b3e39-872b-48ec-b894-0490106eb629.png",
+        "bbox": [
+            1880,
+            10,
+            1961,
+            94
+        ],
+        "instruction": "share this page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_244",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2000,
+            1372
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_6d0b3e39-872b-48ec-b894-0490106eb629.png",
+        "bbox": [
+            172,
+            15,
+            242,
+            90
+        ],
+        "instruction": "back to previous page",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_245",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2000,
+            1372
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8be15b4a-65cc-4e89-94a2-3b6b571f41e2.png",
+        "bbox": [
+            1054,
+            211,
+            1210,
+            292
+        ],
+        "instruction": "get the bear markdown notes app",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_246",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1998,
+            1370
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8be15b4a-65cc-4e89-94a2-3b6b571f41e2.png",
+        "bbox": [
+            517,
+            323,
+            1216,
+            466
+        ],
+        "instruction": "view the pixelmator app",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_247",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1998,
+            1370
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_4a9b8c51-5db6-4325-a6e0-8a0f9801e25d.png",
+        "bbox": [
+            504,
+            250,
+            963,
+            346
+        ],
+        "instruction": "open business categories",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_248",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1998,
+            1370
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_4a9b8c51-5db6-4325-a6e0-8a0f9801e25d.png",
+        "bbox": [
+            1795,
+            1229,
+            1897,
+            1328
+        ],
+        "instruction": "download fantastical from icloud",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_249",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1998,
+            1370
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_a2300b43-a1e0-4da9-aed4-3543b507d9a3.png",
+        "bbox": [
+            518,
+            231,
+            1203,
+            872
+        ],
+        "instruction": "view the 2023 app store awards",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_250",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2000,
+            1372
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_01625ab1-9757-4dc4-8da0-a9c946d3b76a.png",
+        "bbox": [
+            355,
+            39,
+            415,
+            84
+        ],
+        "instruction": "back to previous folder",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_251",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1598,
+            894
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_01625ab1-9757-4dc4-8da0-a9c946d3b76a.png",
+        "bbox": [
+            886,
+            175,
+            1033,
+            384
+        ],
+        "instruction": "open d1_one",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_252",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1598,
+            894
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_09fff6da-5dd8-4288-a0e7-f503273c1908.png",
+        "bbox": [
+            1411,
+            804,
+            1563,
+            869
+        ],
+        "instruction": "open the file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_253",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1598,
+            898
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_09fff6da-5dd8-4288-a0e7-f503273c1908.png",
+        "bbox": [
+            354,
+            809,
+            595,
+            858
+        ],
+        "instruction": "create a new document",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_254",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1598,
+            898
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f01bc231-56c4-4aba-9dd4-fd6271be0f8e.png",
+        "bbox": [
+            475,
+            248,
+            722,
+            296
+        ],
+        "instruction": "show the files in list",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_255",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1600,
+            898
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_bf63137d-d442-4bb9-a145-e07cb48abb64.png",
+        "bbox": [
+            307,
+            192,
+            533,
+            532
+        ],
+        "instruction": "open a blank document",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_256",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2154,
+            1514
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_bf63137d-d442-4bb9-a145-e07cb48abb64.png",
+        "bbox": [
+            29,
+            109,
+            147,
+            236
+        ],
+        "instruction": "my account",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_257",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2154,
+            1514
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e73c6749-043f-4a24-8e56-6c829f78255d.png",
+        "bbox": [
+            513,
+            134,
+            576,
+            191
+        ],
+        "instruction": "enlarge font size",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_258",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1710,
+            1554
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e73c6749-043f-4a24-8e56-6c829f78255d.png",
+        "bbox": [
+            438,
+            2,
+            499,
+            63
+        ],
+        "instruction": "save file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_259",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1710,
+            1554
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8fc1a1fb-00b9-4fe6-8fd3-4784ab2274e8.png",
+        "bbox": [
+            645,
+            127,
+            739,
+            260
+        ],
+        "instruction": "add a new pen",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_260",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1714,
+            1558
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8fc1a1fb-00b9-4fe6-8fd3-4784ab2274e8.png",
+        "bbox": [
+            352,
+            133,
+            437,
+            244
+        ],
+        "instruction": "choose the red pen",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_261",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1714,
+            1558
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_0205fe68-a787-4651-8cfa-495802d6beb6.png",
+        "bbox": [
+            221,
+            131,
+            347,
+            251
+        ],
+        "instruction": "adjust orientation",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_262",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1712,
+            1560
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_0205fe68-a787-4651-8cfa-495802d6beb6.png",
+        "bbox": [
+            884,
+            175,
+            1045,
+            219
+        ],
+        "instruction": "adjust the left indent",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_263",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1712,
+            1560
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_00b0c9f6-b24f-4bff-b492-12117b50e63b.png",
+        "bbox": [
+            95,
+            256,
+            202,
+            370
+        ],
+        "instruction": "insert a shape",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_264",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1708,
+            1556
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_00b0c9f6-b24f-4bff-b492-12117b50e63b.png",
+        "bbox": [
+            580,
+            258,
+            703,
+            370
+        ],
+        "instruction": "add a screenshot",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_265",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1708,
+            1556
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3f805781-f2fe-45dc-8bc5-e62d12f1c359.png",
+        "bbox": [
+            879,
+            797,
+            1091,
+            1020
+        ],
+        "instruction": "add a sunburst chart",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_266",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1710,
+            1558
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_3f805781-f2fe-45dc-8bc5-e62d12f1c359.png",
+        "bbox": [
+            283,
+            0,
+            381,
+            61
+        ],
+        "instruction": "turn on auto save",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_267",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1710,
+            1558
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_41147eb1-3e27-4aa0-b9f9-71363b9be5c9.png",
+        "bbox": [
+            407,
+            771,
+            534,
+            812
+        ],
+        "instruction": "switch to 20 size font",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_268",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1710,
+            1558
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_41147eb1-3e27-4aa0-b9f9-71363b9be5c9.png",
+        "bbox": [
+            1554,
+            66,
+            1696,
+            123
+        ],
+        "instruction": "share the word file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_269",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1710,
+            1558
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_c2ffa4d3-4cf7-4813-986d-d741f1260c4c.png",
+        "bbox": [
+            205,
+            420,
+            1017,
+            475
+        ],
+        "instruction": "choose ms pgothic for heading",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_270",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1714,
+            1556
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_c2ffa4d3-4cf7-4813-986d-d741f1260c4c.png",
+        "bbox": [
+            205,
+            1342,
+            1019,
+            1408
+        ],
+        "instruction": "choose apple chancery",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_271",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1714,
+            1556
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_71e8f8bd-7ff0-4846-ada6-ce337a0f5ebc.png",
+        "bbox": [
+            358,
+            65,
+            485,
+            126
+        ],
+        "instruction": "switch to design",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_272",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2190,
+            1706
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_9eebe928-6d8a-4de5-8212-039d0282b082.png",
+        "bbox": [
+            1316,
+            553,
+            1385,
+            613
+        ],
+        "instruction": "rotate title box",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_273",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2192,
+            1704
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b113f651-ec99-4a84-8c15-ff0fc1aee615.png",
+        "bbox": [
+            1197,
+            572,
+            2098,
+            636
+        ],
+        "instruction": "bullets and numbering settings",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_274",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2190,
+            1696
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_38236247-66f3-4ad3-aeb0-bc4783335a46.png",
+        "bbox": [
+            393,
+            1087,
+            766,
+            1148
+        ],
+        "instruction": "sign up for free",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_275",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1158,
+            1402
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_38236247-66f3-4ad3-aeb0-bc4783335a46.png",
+        "bbox": [
+            393,
+            1173,
+            771,
+            1234
+        ],
+        "instruction": "sign in",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_276",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1158,
+            1402
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_18a939a5-8f77-4519-9c7a-d62b11e7b878.png",
+        "bbox": [
+            185,
+            253,
+            968,
+            337
+        ],
+        "instruction": "input the email address",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_277",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1164,
+            1398
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_ac718327-53b2-49c1-8707-d12220913fc1.png",
+        "bbox": [
+            1511,
+            55,
+            1569,
+            113
+        ],
+        "instruction": "debug",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_278",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2300,
+            1590
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_45480159-6b1b-4528-9109-dab1905c62b7.png",
+        "bbox": [
+            520,
+            349,
+            704,
+            399
+        ],
+        "instruction": "check file colors",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_279",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1802,
+            1398
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7656e3c5-00b1-4be7-9103-9890b837342f.png",
+        "bbox": [
+            0,
+            424,
+            467,
+            472
+        ],
+        "instruction": "check python interpreter",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_280",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1800,
+            1400
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_7656e3c5-00b1-4be7-9103-9890b837342f.png",
+        "bbox": [
+            0,
+            282,
+            467,
+            327
+        ],
+        "instruction": "view plugins",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_281",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1800,
+            1400
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8c77197f-8be9-485a-bf32-989a8a66fbae.png",
+        "bbox": [
+            748,
+            158,
+            1705,
+            209
+        ],
+        "instruction": "select python interpreter",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_282",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1802,
+            1402
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8c77197f-8be9-485a-bf32-989a8a66fbae.png",
+        "bbox": [
+            509,
+            256,
+            559,
+            307
+        ],
+        "instruction": "add a new package",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_283",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1802,
+            1402
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_155db9b3-fe88-41cb-81d1-d51f37ba5970.png",
+        "bbox": [
+            519,
+            139,
+            919,
+            207
+        ],
+        "instruction": "cancel showing plots in tool windows",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_284",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1802,
+            1398
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_668258b4-f214-4a57-a500-d03aa94b0e65.png",
+        "bbox": [
+            38,
+            1009,
+            98,
+            1058
+        ],
+        "instruction": "pause the debugger",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_285",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2292,
+            1590
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_668258b4-f214-4a57-a500-d03aa94b0e65.png",
+        "bbox": [
+            2192,
+            779,
+            2258,
+            834
+        ],
+        "instruction": "minimize the debug panel",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_286",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2292,
+            1590
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f656ce46-13af-4cd1-9126-f3c45a4e696c.png",
+        "bbox": [
+            78,
+            603,
+            1124,
+            639
+        ],
+        "instruction": "select the gzip file format",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_287",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1198,
+            822
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e9abfe29-8665-47e1-ba30-f79a0089278a.png",
+        "bbox": [
+            473,
+            190,
+            725,
+            242
+        ],
+        "instruction": "hide menu icon",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_288",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1462,
+            1042
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_e9abfe29-8665-47e1-ba30-f79a0089278a.png",
+        "bbox": [
+            685,
+            55,
+            796,
+            150
+        ],
+        "instruction": "switch to display",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_289",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1462,
+            1042
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_ec085abc-591d-4dcc-830c-defddc958f47.png",
+        "bbox": [
+            351,
+            571,
+            714,
+            615
+        ],
+        "instruction": "buy betterdisplay pro",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_290",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1462,
+            686
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_c69e46cd-d2a9-4dbf-8d0a-4532b750a691.png",
+        "bbox": [
+            185,
+            1132,
+            307,
+            1244
+        ],
+        "instruction": "start record",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_291",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1574,
+            1262
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_141ec1f5-ccf8-42f0-8b0b-8aba284ce81a.png",
+        "bbox": [
+            1381,
+            17,
+            1467,
+            94
+        ],
+        "instruction": "search in activity monitor",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_292",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1478,
+            1294
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_141ec1f5-ccf8-42f0-8b0b-8aba284ce81a.png",
+        "bbox": [
+            1,
+            360,
+            1476,
+            411
+        ],
+        "instruction": "check the google chrome app",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_293",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1478,
+            1294
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_857c0a8b-5f0f-4d6a-966f-789b594622c9.png",
+        "bbox": [
+            555,
+            18,
+            634,
+            85
+        ],
+        "instruction": "terminate this process",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_294",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1478,
+            1288
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_857c0a8b-5f0f-4d6a-966f-789b594622c9.png",
+        "bbox": [
+            640,
+            17,
+            710,
+            87
+        ],
+        "instruction": "detail information",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_295",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1478,
+            1288
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_dc199113-7c34-4cc2-85cb-e9b552b87b05.png",
+        "bbox": [
+            1024,
+            20,
+            1094,
+            89
+        ],
+        "instruction": "add a shortcut",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_296",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1658,
+            1382
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_dc199113-7c34-4cc2-85cb-e9b552b87b05.png",
+        "bbox": [
+            1,
+            100,
+            451,
+            164
+        ],
+        "instruction": "open gallery",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_297",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1658,
+            1382
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_2c2b6cbd-39cf-4bd2-80aa-d953890c21e5.png",
+        "bbox": [
+            1496,
+            204,
+            1753,
+            248
+        ],
+        "instruction": "switch to apps",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_298",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1776,
+            1392
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_2c2b6cbd-39cf-4bd2-80aa-d953890c21e5.png",
+        "bbox": [
+            1254,
+            628,
+            1745,
+            686
+        ],
+        "instruction": "add a send message action",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_299",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1776,
+            1392
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_64c386c3-9d87-4c91-b712-c1d9ab9216ae.png",
+        "bbox": [
+            1144,
+            16,
+            1210,
+            87
+        ],
+        "instruction": "run the shortcut",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_300",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1774,
+            1392
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_64c386c3-9d87-4c91-b712-c1d9ab9216ae.png",
+        "bbox": [
+            1037,
+            13,
+            1118,
+            92
+        ],
+        "instruction": "share the shortcut",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_301",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1774,
+            1392
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b313a50d-ac5e-4189-beb9-3f5ceb67e536.png",
+        "bbox": [
+            501,
+            124,
+            713,
+            370
+        ],
+        "instruction": "open paper named flamingo",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_302",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1524,
+            940
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b313a50d-ac5e-4189-beb9-3f5ceb67e536.png",
+        "bbox": [
+            1426,
+            14,
+            1506,
+            83
+        ],
+        "instruction": "search in files",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_303",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1524,
+            940
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_97ce9c11-f20b-4294-982a-f01241c81576.png",
+        "bbox": [
+            746,
+            19,
+            808,
+            84
+        ],
+        "instruction": "enlarge the font",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_304",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1380,
+            1244
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_97ce9c11-f20b-4294-982a-f01241c81576.png",
+        "bbox": [
+            836,
+            19,
+            1359,
+            85
+        ],
+        "instruction": "search in dictionary",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_305",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            1380,
+            1244
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_1inyhi.png",
+        "bbox": [
+            12,
+            433,
+            79,
+            497
+        ],
+        "instruction": "open vscode",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_306",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_8g2jf6.png",
+        "bbox": [
+            797,
+            128,
+            847,
+            165
+        ],
+        "instruction": "adjust font color",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_307",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_b5q1tt.png",
+        "bbox": [
+            1547,
+            358,
+            1989,
+            403
+        ],
+        "instruction": "view battery usage of last 10 days",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_308",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_drcjo3.png",
+        "bbox": [
+            2691,
+            1569,
+            2772,
+            1635
+        ],
+        "instruction": "download microsoft word from cloud",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_309",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_dyxzuj.png",
+        "bbox": [
+            1337,
+            275,
+            1643,
+            323
+        ],
+        "instruction": "adjust mouse speed",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_310",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_dzpr8m.png",
+        "bbox": [
+            1475,
+            473,
+            1571,
+            508
+        ],
+        "instruction": "empty the trash",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_311",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_f6eng1.png",
+        "bbox": [
+            702,
+            857,
+            1039,
+            1192
+        ],
+        "instruction": "play dance pop station music",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_312",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_gtda7d.png",
+        "bbox": [
+            2425,
+            403,
+            2509,
+            482
+        ],
+        "instruction": "open google drive",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_313",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_j6tmln.png",
+        "bbox": [
+            906,
+            181,
+            1015,
+            215
+        ],
+        "instruction": "install LXD app",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_314",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_js1st2.png",
+        "bbox": [
+            2279,
+            397,
+            2546,
+            428
+        ],
+        "instruction": "click to restart the computer",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_315",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_krzgko.png",
+        "bbox": [
+            2262,
+            78,
+            2292,
+            106
+        ],
+        "instruction": "add current webpage to favourites",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_316",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_nuyjna.png",
+        "bbox": [
+            1554,
+            391,
+            1602,
+            421
+        ],
+        "instruction": "Add a wired connection device",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_317",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_o4nd16.png",
+        "bbox": [
+            707,
+            644,
+            896,
+            674
+        ],
+        "instruction": "select all folders",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_318",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_odcu20.png",
+        "bbox": [
+            2207,
+            76,
+            2854,
+            122
+        ],
+        "instruction": "search in this folder",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_319",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_oyo43s.png",
+        "bbox": [
+            927,
+            130,
+            967,
+            162
+        ],
+        "instruction": "center the selected text",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_320",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_p4xo8z.png",
+        "bbox": [
+            1132,
+            403,
+            1724,
+            457
+        ],
+        "instruction": "add a new input method",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_321",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_pl3ry1.png",
+        "bbox": [
+            2632,
+            143,
+            2802,
+            202
+        ],
+        "instruction": "update all available apps",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_322",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_qao1zc.png",
+        "bbox": [
+            1610,
+            800,
+            1773,
+            963
+        ],
+        "instruction": "open nac client ",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_323",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_rvnx5q.png",
+        "bbox": [
+            1137,
+            355,
+            1735,
+            413
+        ],
+        "instruction": "select a new time format",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_324",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_st4s1n.png",
+        "bbox": [
+            772,
+            755,
+            1077,
+            830
+        ],
+        "instruction": "view get more help",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_325",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_suf989.png",
+        "bbox": [
+            996,
+            755,
+            1207,
+            805
+        ],
+        "instruction": "do not save this file",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_326",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_u77zz1.png",
+        "bbox": [
+            553,
+            1688,
+            641,
+            1769
+        ],
+        "instruction": "open the map app",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_327",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_umvv32.png",
+        "bbox": [
+            962,
+            740,
+            1477,
+            773
+        ],
+        "instruction": "switch to NAT network connections",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_328",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_uuhwlx.png",
+        "bbox": [
+            1309,
+            526,
+            1423,
+            658
+        ],
+        "instruction": "open the calculator",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_329",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_vcud9k.png",
+        "bbox": [
+            269,
+            127,
+            382,
+            259
+        ],
+        "instruction": "insert a new slide",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_330",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_z7ydq8.png",
+        "bbox": [
+            1466,
+            644,
+            1613,
+            780
+        ],
+        "instruction": "view more information about bomber",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_331",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_zuyj00.png",
+        "bbox": [
+            1744,
+            281,
+            2002,
+            334
+        ],
+        "instruction": "adjust the options of  \"show previous\"",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_332",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2880,
+            1800
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "pc_aaaaaa.png",
+        "bbox": [
+            701,
+            321,
+            1118,
+            355
+        ],
+        "instruction": "enter my full name",
+        "instruction_cn": "",
+        "id": "screenspot_desktop_v2_333",
+        "application": "screenspot_desktop_v2",
+        "platform": "v2",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    }
+]

