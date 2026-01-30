@@ -64,7 +64,7 @@ python -m vllm.entrypoints.openai.api_server \
 Once the server is running, use the client script to perform the evaluation:
 
 ```bash
-python evaluate_vllm_server.py \
+python eval_server.py \
     --dataset_dir data/ScreenSpot_Pro_data \
     --image_root <Your_Image_Dir>\
     --output_file ./SSPro.jsonl \
