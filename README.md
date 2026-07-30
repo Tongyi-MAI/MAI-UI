@@ -10,6 +10,8 @@
   <a href="https://www.modelscope.cn/organization/Tongyi-MAI"><img src="https://img.shields.io/badge/🤖%20ModelScope-Model-purple" alt="ModelScope Model" /></a>
 </p>
 
+> 🚀 **New:** Our follow-up work **[Qwen-UI-Agent](https://tongyi-mai.github.io/Qwen-UI-Agent)** is out — a next-generation, real-world centric foundation GUI agent spanning mobile, computer-use, web, and DeepSearch. See the [News](#-news) section below.
+
 We present **MAI-UI**, a family of GUI agent foundation models spanning the full spectrum of sizes, including **2B**, **8B**, **32B**, and **235B-A22B** variants. Our core contribution includes:
 - **🔧 Agent-user interaction and MCP augmentation**: enabling agent to interact with user and use MCP tools to complete the task.
 - **☁️ Device–cloud collaboration system**: dynamically selecting on-device or cloud execution based on task execution state and data sensitivity.
@@ -23,6 +25,7 @@ We present **MAI-UI**, a family of GUI agent foundation models spanning the full
 </p>
 
 ## 📰 News
+* **[2026-07-30]** 🚀 **Introducing Qwen-UI-Agent**: Our follow-up work, [**Qwen-UI-Agent**](https://tongyi-mai.github.io/Qwen-UI-Agent), extends MAI-UI into a real-world centric foundation GUI agent spanning **mobile, computer-use, web, and DeepSearch** environments. It unifies GUI operations with CLI execution in a single action space, emits batched actions per model turn, and is trained with online RL on trajectories exceeding **100 turns** across over **10,000 concurrent environments**. Qwen-UI-Agent achieves **82.1%** on MobileWorld, **92.2%** on MobileWorld-Real, **97.5%** on AndroidDaily, **79.5%** on OSWorld-Verified, **73.6%** on WebArena, **75.0%** on BrowseComp-ZH, and **81.5%** on ScreenSpot-Pro — competitive with or surpassing frontier models including Claude Opus 4.8, Gemini 3.1 Pro, and GPT-5.6 Sol.
 * **[2026-03-20]** 📄 **Blog Posts**: Our [Grounding](https://tongyi-mai.github.io/MAI-UI-blog/Grounding-Blog) and [Navigation](https://tongyi-mai.github.io/MAI-UI-blog/MobileWorld-Blog-Post) Blog Posts are available now! 
 * **[2026-01-15]** 🥇 **New Record on AndroidWorld**: MAI-UI-235B takes #1 on the [AndroidWorld Leaderboard](https://docs.google.com/spreadsheets/d/1cchzP9dlTZ3WXQTfYNhh3avxoLipqHN75v1Tb86uhHo/edit?gid=0#gid=0) for pure-vision, end-to-end models with a 76.7% success rate.
 * **[2026-01-13]** 🥇 **MAI-UI Sweeps ScreenSpot-Pro**: MAI-UI (32B, 8B, 2B) now ranks #1 in all size categories on the [ScreenSpot-Pro leaderboard](https://gui-agent.github.io/grounding-leaderboard/). We achieved record scores of 67.9%, 65.7%, and 57.4% respectively—notably reaching these benchmarks **without any zoom-in tricks**.
