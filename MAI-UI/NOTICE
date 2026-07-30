@@ -1,0 +1,36 @@
+MAI-UI Mobile
+Copyright (c) 2025, Alibaba Cloud and its affiliates
+
+This product is licensed under the Apache License 2.0 (see LICENSE file).
+
+================================================================================
+
+This product contains third-party software components under the following licenses:
+
+--------------------------------------------------------------------------------
+Jinja2 (https://palletsprojects.com/p/jinja/)
+License: BSD-3-Clause
+Copyright (c) 2007 by the Pallets team
+
+--------------------------------------------------------------------------------
+NumPy (https://numpy.org/)
+License: BSD-3-Clause
+Copyright (c) 2005-2023, NumPy Developers
+
+--------------------------------------------------------------------------------
+OpenAI Python Client (https://github.com/openai/openai-python)
+License: Apache License 2.0
+Copyright (c) OpenAI
+
+--------------------------------------------------------------------------------
+Pillow (https://python-pillow.org/)
+License: HPND (Historical Permission Notice and Disclaimer)
+Copyright (c) 1997-2011 by Secret Labs AB
+Copyright (c) 1995-2011 by Fredrik Lundh
+Copyright (c) 2010-2023 by Jeffrey A. Clark (Alex) and contributors
+
+================================================================================
+
+For the full license texts of these components, please refer to their respective
+project websites listed above.
+

