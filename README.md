@@ -1,32 +1,50 @@
 <p align="center">
-  <img src="./assets/img/mai_title_v1.png" alt="MAI-UI" />
+  <a href="https://tongyi-mai.github.io/Qwen-UI-Agent">
+    <img src="./Qwen-UI-Agent/assets/img/qwen_mai_title_hd.png" alt="MAI-UI × Qwen-UI-Agent" />
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2512.22047"><img src="https://img.shields.io/badge/📄%20arXiv-Paper-red" alt="arXiv" /></a>
+  <a href="https://tongyi-mai.github.io/Qwen-UI-Agent/"><img src="https://img.shields.io/badge/🌐%20Website-Qwen--UI--Agent-blue" alt="Qwen-UI-Agent Website" /></a>
+  <a href="https://tongyi-mai.github.io/Qwen-UI-Agent/Qwen-UI-Agent-Technical-Report.pdf"><img src="https://img.shields.io/badge/📄%20Report-Qwen--UI--Agent-red" alt="Qwen-UI-Agent Technical Report" /></a>
+  <img src="https://img.shields.io/badge/📄%20arXiv-Paper-red" alt="arXiv" />
   <a href="https://tongyi-mai.github.io/MAI-UI-blog/"><img src="https://img.shields.io/badge/🌐%20Website-MAI%20UI-blue" alt="Website" /></a>
   <a href="https://tongyi-mai.github.io/MobileWorld/"><img src="https://img.shields.io/badge/🌐%20Website-MobileWorld-blue" alt="Website" /></a>
-  <a href="https://huggingface.co/Tongyi-MAI"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Model-orange" alt="Hugging Face Model" /></a>
-  <a href="https://www.modelscope.cn/organization/Tongyi-MAI"><img src="https://img.shields.io/badge/🤖%20ModelScope-Model-purple" alt="ModelScope Model" /></a>
 </p>
-
-> 🚀 **New:** Our follow-up work **[Qwen-UI-Agent](https://tongyi-mai.github.io/Qwen-UI-Agent)** is out — a next-generation, real-world centric foundation GUI agent spanning mobile, computer-use, web, and DeepSearch. See the [News](#-news) section below.
-
-We present **MAI-UI**, a family of GUI agent foundation models spanning the full spectrum of sizes, including **2B**, **8B**, **32B**, and **235B-A22B** variants. Our core contribution includes:
-- **🔧 Agent-user interaction and MCP augmentation**: enabling agent to interact with user and use MCP tools to complete the task.
-- **☁️ Device–cloud collaboration system**: dynamically selecting on-device or cloud execution based on task execution state and data sensitivity.
-- **📈 Dynamic RL Scaling**: large-scale reinforcement learning with scaling parallel environments (up to **512**) and context length (up to **50**).
-- **🏆 State-of-the-Art Performance**: MAI-UI establishes new benchmark SOTA results across GUI grounding and navigation tasks.
 
 <p align="center">
-  <img src="./assets/img/overview.png" alt="Overview" width="800">
-  <br>
-  <em>Overview of MAI-UI performance</em>
+  <img src="./Qwen-UI-Agent/assets/img/maiui_to_qwenuiagent_evolution_v5.png" alt="Evolution from MAI-UI 1.0 to Qwen-UI-Agent" width="850">
 </p>
 
+We present **Qwen-UI-Agent**, a real-world-centric foundation GUI agent that unifies **mobile**, **computer**, **browser**, and **DeepSearch** scenarios in a single model. Our core contributions include:
+
+- 📱 **Real-device training & evaluation**: We build a live mobile environment of **100+** physical smartphones covering **150+** apps for task construction, trajectory collection, training, and evaluation, together with **MobileWorld-Real**, a self-built real-device benchmark (**400+** tasks across **100+** apps) that closes the sim-to-real gap.
+
+- ⌨️ **Hybrid GUI + CLI action space with batched actions**: Beyond GUI operations, the agent directly executes Bash commands and emits multiple actions in a single decision. In computer-use tasks, CLI commands and GUI clicks emerge as the two dominant action types, and ~**40%** of action outputs are batched.
+
+- 📈 **Scalable long-horizon online RL**: We run online reinforcement learning over trajectories exceeding **100** steps, with ~**10,000** parallel environments rolling out concurrently to accelerate rollout generation.
+
+- 🔄 **AutoResearch-style data flywheel**: Agents construct tasks, environments, and verifiers, diagnose failures, and plan subsequent iterations, significantly reducing human effort in capability iteration.
+
+- 🔔 **Proactive service & cross-platform workflows**: A harness layer enables the agent to proactively initiate tasks from real-world signals (e.g., a flight-cancellation notification), present decision-ready plans for user confirmation, and execute stateful workflows across mobile and computer.
+
+- 🏆 **State-of-the-art performance**: **82.1%** on MobileWorld, **92.2%** on MobileWorld-Real, **97.5%** on AndroidDaily, **79.5%** on OSWorld-Verified, **40.0%** (partial score) on OSWorld-v2, **73.6%** on WebArena, and **81.5%** on ScreenSpot-Pro.
+
+<p align="center">
+  <img src="./Qwen-UI-Agent/assets/img/performance_6panel_v3.png" alt="Qwen-UI-Agent performance across six benchmarks" width="1000">
+  <br>
+  <em>Qwen-UI-Agent performance across six GUI benchmarks</em>
+</p>
+
+## Projects
+
+- [**Qwen-UI-Agent**](./Qwen-UI-Agent/) — follow-up work. Visit the [project website](https://tongyi-mai.github.io/Qwen-UI-Agent).
+- [**MAI-UI 1.0**](./MAI-UI/) — archived original repository content.
+
 ## 📰 News
+
 * **[2026-07-30]** 🚀 **Introducing Qwen-UI-Agent**: Our follow-up work, [**Qwen-UI-Agent**](https://tongyi-mai.github.io/Qwen-UI-Agent), extends MAI-UI into a real-world centric foundation GUI agent spanning **mobile, computer-use, web, and DeepSearch** environments. It unifies GUI operations with CLI execution in a single action space, emits batched actions per model turn, and is trained with online RL on trajectories exceeding **100 turns** across over **10,000 concurrent environments**. Qwen-UI-Agent achieves **82.1%** on MobileWorld, **92.2%** on MobileWorld-Real, **97.5%** on AndroidDaily, **79.5%** on OSWorld-Verified, **73.6%** on WebArena, **75.0%** on BrowseComp-ZH, and **81.5%** on ScreenSpot-Pro — competitive with or surpassing frontier models including Claude Opus 4.8, Gemini 3.1 Pro, and GPT-5.6 Sol.
-* **[2026-03-20]** 📄 **Blog Posts**: Our [Grounding](https://tongyi-mai.github.io/MAI-UI-blog/Grounding-Blog) and [Navigation](https://tongyi-mai.github.io/MAI-UI-blog/MobileWorld-Blog-Post) Blog Posts are available now! 
+* **[2026-03-20]** 📄 **Blog Posts**: Our [Grounding](https://tongyi-mai.github.io/MAI-UI-blog/Grounding-Blog) and [Navigation](https://tongyi-mai.github.io/MAI-UI-blog/MobileWorld-Blog-Post) Blog Posts are available now!
 * **[2026-01-15]** 🥇 **New Record on AndroidWorld**: MAI-UI-235B takes #1 on the [AndroidWorld Leaderboard](https://docs.google.com/spreadsheets/d/1cchzP9dlTZ3WXQTfYNhh3avxoLipqHN75v1Tb86uhHo/edit?gid=0#gid=0) for pure-vision, end-to-end models with a 76.7% success rate.
 * **[2026-01-13]** 🥇 **MAI-UI Sweeps ScreenSpot-Pro**: MAI-UI (32B, 8B, 2B) now ranks #1 in all size categories on the [ScreenSpot-Pro leaderboard](https://gui-agent.github.io/grounding-leaderboard/). We achieved record scores of 67.9%, 65.7%, and 57.4% respectively—notably reaching these benchmarks **without any zoom-in tricks**.
 * **[2026-01-04]** 🤝 We're Hiring! We're actively looking for Research Scientists, Engineers, and Interns to work on foundational GUI agents and their applications. Interested candidates please send your resume to: yue.w@alibaba-inc.com
@@ -37,234 +55,83 @@ We present **MAI-UI**, a family of GUI agent foundation models spanning the full
 ## 📑 Table of Contents
 
 - [🎥 Demo](#-demo)
-- [🚀 Quick Start](#-installation--quick-start)
 - [📝 Citation](#-citation)
 - [📧 Contact](#-contact)
 - [📄 License](#-license)
 
-
-<!-- 
-## 🏆 Results
-
-MAI-UI establishes new state-of-the-art across GUI grounding and mobile navigation. 
-
-- On grounding benchmarks, it reaches 73.5% on ScreenSpot-Pro, 91.3% on MMBench GUI L2, 70.9% on OSWorld-G, and 49.2% on UI-Vision, surpassing Gemini-3-Pro and Seed1.8 on ScreenSpot-Pro. 
-
-<table align="center">
-  <tr>
-    <td align="center"><img src="./assets/img/sspro.jpg" alt="ScreenSpot-Pro Results"/><br/><b>ScreenSpot-Pro</b></td>
-    <td align="center"><img src="./assets/img/uivision.jpg" alt="UI-Vision Results"/><br/><b>UI-Vision</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="./assets/img/mmbench.jpg" alt="MMBench GUI L2 Results"/><br/><b>MMBench GUI L2</b></td>
-    <td align="center"><img src="./assets/img/osworld-g.jpg" alt="OSWorld-G Results"/><br/><b>OSWorld-G</b></td>
-  </tr>
-</table>
-
-- On mobile GUI navigation, it sets a new SOTA of 76.7% on AndroidWorld, surpassing UI-Tars-2, Gemini-2.5-Pro and Seed1.8. On MobileWorld, MAI-UI obtains 41.7% success rate, significantly outperforming end-to-end GUI models and competitive with Gemini-3-Pro based agentic frameworks. 
-<table align="center">
-  <tr>
-    <td align="center"><img src="./assets/img/aw.jpg" alt="AndroidWorld Results"/><br/><b>AndroidWorld</b></td>
-    <td align="center"><img src="./assets/img/mw.jpg" alt="MobileWorld Results"/><br/><b>MobileWorld</b></td>
-  </tr>
-</table>
-
-- Our online RL experiments show significant gains from scaling parallel environments from 32 to 512 (+5.2 points) and increasing environment step budget from 15 to 50 (+4.3 points).
-<table align="center">
-  <tr>
-    <td align="center" width="50%"><img src="./assets/img/rl.jpg" alt="Online RL Results"/><br/><b>Online RL Results</b></td>
-    <td align="center" width="50%"><img src="./assets/img/rl_env.jpg" alt="RL Environment Scaling"/><br/><b>RL Environment Scaling</b></td>
-  </tr>
-</table>
-
-- Our device-cloud collaboration framework can dynamically select on-device or cloud execution based on task execution state and data sensitivity. It improves on-device performance by 33% and reduces cloud API calls by over 40%.
-
-<table align="center">
-  <tr>
-    <td align="center" width="50%"><img src="./assets/img/dcc.jpg" alt="Device-cloud Collaboration"/><br/><b>Device-cloud Collaboration</b></td>
-  </tr>
-</table> -->
-
 ## 🎥 Demo
 
-### Demo 1 - Daily Life Scenario
+Explore all interactive examples on the [Qwen-UI-Agent project website](https://tongyi-mai.github.io/Qwen-UI-Agent/#demos). Click a preview below to watch the corresponding demo.
 
-Trigger `ask_user` for more information to complete the task.
+### Demo 1 - Real-device Mobile Use
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./assets/gif/living.gif" height="400" alt="Daily Life Demo."/>
-      <br/><b>User instruction: 去盒马买菜，买一份雪花牛肉卷、一份娃娃菜、一份金针菇，再随便买一个豆制品。对了，去日历中待办里检查下我老婆有什么要在盒马买的，我确认下要不要一起买</b>
-    </td>
-  </tr>
-</table>
+**Recipe research + e-shopping**
 
-### Demo 2 - Navigation
+The agent extracts a recipe and its ingredients from Douyin, then carries that information into Hema to complete a time-constrained grocery order.
 
-Use `mcp_call` to invoke AMap tools for navigation.
+> **User instruction:** I’m planning to make “passion-fruit sour-soup beef” tonight. Search Douyin for the most-saved photo-and-text post, save it, and remember the ingredients I need to prepare. Then, in the Hema app, purchase all the ingredients mentioned in the post—excluding seasonings—select delivery for 18:45 today, and place the order.
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./assets/gif/navigation.gif" height="400" alt="Navigation Demo."/>
-      <br/><b>User instruction: 我现在在阿里巴巴云谷园区，我要先去 招商银行取钱，再去城西银泰城。帮我规划公交地铁出行的路线，选一家在4公里以内的、用时最短的招商银行，两段行程总时间不要超过2小时，把规划行程记在笔 记中我一会看，标题为下午行程，内容为两段行程细节</b>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://tongyi-mai.github.io/Qwen-UI-Agent/demos/source/mobile-gui-shopping-hd.mp4">
+    <img src="./Qwen-UI-Agent/assets/demo/mobile-gui-shopping-poster.jpg" height="420" alt="Recipe research and e-shopping demo" />
+  </a>
+</p>
 
-### Demo 3 - Shopping
+### Demo 2 - Computer Use
 
- Cross-apps collaboration to complete the task.
+**Home-office setup + scaled layout**
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./assets/gif/shopping.gif" height="400" alt="Shopping Demo."/>
-      <br/><b>User instruction: Search “timeless earth 2026” on Xiaohongshu, save the one product image to your photo album, then use the saved image on Taobao to search for the same item and  add it to my shopping cart.</b>
-    </td>
-  </tr>
-</table>
+The agent researches products across public websites, checks price, compatibility, and physical dimensions, then produces three source-linked plans and a to-scale HTML desk layout.
 
-### Demo 4 - Work
+> **User instruction:** I have a 120 × 60 cm desk and want a home-office setup with a total budget no more than CNY 4,000. Using public websites, compare several monitors, monitor arms, keyboards, and desk lamps in each category, and add other useful items if space allows. Ensure every monitor is within its arm’s weight capacity and that all equipment fits reasonably on the desk. Prepare three value-focused plans at approximately CNY 1,000, CNY 2,000, and CNY 4,000, with recommendation rationales, product reviews, and corresponding links. Draw each desktop layout to scale so I can see how it fits. Do not purchase anything. Present the final result as an HTML file.
 
-Cross-apps collaboration to complete the task.
+<p align="center">
+  <a href="https://tongyi-mai.github.io/Qwen-UI-Agent/demos/source/computer-use-home-office-hd.mp4">
+    <img src="./Qwen-UI-Agent/assets/demo/computer-use-home-office-poster.jpg" height="420" alt="Home-office setup and scaled layout demo" />
+  </a>
+</p>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./assets/gif/work.gif" height="400" alt="Work Demo."/>
-      <br/><b>User instruction: 我需要紧急出差上海，帮我去12306查询现在最早从杭州西站去上海虹桥、有二等座票的班次，在钉钉前沿技术研讨群里把到达时间同步给大家，再把我和水番的会议日程改到明天同一时间，在群里发消息@他，礼貌解释因为临时出差调整会议时间，询问他明天是否有空</b>
-    </td>
-  </tr>
-</table>
+### Demo 3 - Cross-device GUI Use
 
-### Demo 5 - Device-only
+**Mobile receipts → PC expense report**
 
-Device-cloud collaboration for simple tasks, no need cloud model invocation.
+The agent finds receipt images on the phone, transfers and renames them in the designated PC folder, then extracts the details into a consolidated Excel expense report.
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./assets/gif/dcc_simple_task.gif" height="400" alt="Device-cloud Collaboration Demo."/>
-      <br/><b>User Instruction: 去飞猪查询12月25日去，28日回，杭州到三亚的往返机票</b>
-    </td>
-  </tr>
-</table>
+> **User instruction:** Locate and organize receipt images in the photo gallery, transfer them to the designated PC directory, and generate a consolidated expense report from the receipt details.
 
-### Demo 6 - Device-cloud Collaboration
+<p align="center">
+  <a href="https://tongyi-mai.github.io/Qwen-UI-Agent/demos/source/cross-device-mobile-receipts-pc-hd.mp4">
+    <img src="./Qwen-UI-Agent/assets/demo/cross-device-mobile-receipts-pc-poster.jpg" height="420" alt="Cross-device mobile receipts to PC expense report demo" />
+  </a>
+</p>
 
-Device-cloud collaboration for complex tasks, requiring cloud model invocation when the task is beyond the device models capabilities.
+### Demo 4 - Mobile Use + Deep Research
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="./assets/gif/dcc_complex_task.gif" height="400" alt="Device-cloud Collaboration Demo."/>
-      <br/><b>User Instruction: 去淘票票给我买一张25号下午的疯狂动物城2的电影票，选亲橙里的电影院，中间的座位，加一份可乐和爆米花的单人餐，停在最后的订单界面</b>
-    </td>
-  </tr>
-</table>
+**Weight-loss fact-check → Douyin comment**
 
-## 🚀 Installation & Quick Start
+The agent extracts claims from a live social video, verifies them against papers and authoritative health sources, then returns to the mobile app to write an evidence-aware response.
 
-### Step 1: Clone the Repository
+> **User instruction:** First, open Douyin and find a video discussing evidence-based weight loss, then identify its main claims. Search for relevant research papers, official sources, and authoritative health information to determine whether the video contains any false or misleading statements or omits important conditions and caveats. After completing the verification, return to Douyin. If the video contains false or misleading information, write a comment that identifies the specific issue and briefly explains the supporting evidence. If the content is largely accurate, write a comment that acknowledges its main points while adding any necessary conditions or caveats.
 
-```bash
-git clone https://github.com/Tongyi-MAI/MAI-UI.git
-cd MAI-UI
-```
+<p align="center">
+  <a href="https://www.bilibili.com/video/BV1mt3C6AEJm/">
+    <img src="./Qwen-UI-Agent/assets/demo/mobile-deep-research-poster.jpg" height="420" alt="Mobile GUI and Deep Research fact-checking demo" />
+  </a>
+</p>
 
-### Step 2: Start Model API Service with vLLM
+### Demo 5 - Proactive Service
 
-Download the model from HuggingFace and deploy the API service using vLLM:
+**Cancelled flight → alternatives**
 
-HuggingFace model path:  
-- [MAI-UI-2B](https://huggingface.co/Tongyi-MAI/MAI-UI-2B)
-- [MAI-UI-8B](https://huggingface.co/Tongyi-MAI/MAI-UI-8B)
+The agent detects a cancellation in the notification stream, opens live travel services, compares air and rail inventory, and returns ranked alternatives without booking on the user’s behalf.
 
-Deploy the model using vLLM:
+> **User instruction:** When a notification says that CA1517 from Beijing Capital T3 to Shanghai Hongqiao T2 on July 26 has been cancelled, proactively find alternative flights and high-speed trains from Beijing to Shanghai. Compare departure and arrival times, fares, seat availability, and reliability; recommend options that still arrive before the user’s 14:00 CTO presentation, and leave the final booking choice to the user.
 
-
-```bash
-# Install vLLM
-pip install vllm==0.11.0  # vllm==0.11.0 and transformers>=4.57.0
-
-# Start vLLM API server (replace MODEL_PATH with your local model path or HuggingFace model ID)
-python -m vllm.entrypoints.openai.api_server \
-    --model <huggingface_model_path> \
-    --served-model-name MAI-UI-8B \
-    --host 0.0.0.0 \
-    --port 8000 \
-    --tensor-parallel-size 1 \
-    --trust-remote-code
-```
-
-> 💡 **Tips:**
-> - IMPORTANT: Must use `VLLM=0.11.0`
-> - Adjust `--tensor-parallel-size` based on your GPU count for multi-GPU inference
-> - The model will be served at `http://localhost:8000/v1`
-
-### Step 3: Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 4: Run cookbook notebooks
-
-We provide two notebooks in the `cookbook/` directory:
-
-#### 4.1 Grounding Demo
-
-The `grounding.ipynb` demonstrates how to use the MAI Grounding Agent to locate UI elements:
-
-```bash
-cd cookbook
-jupyter notebook grounding.ipynb
-```
-
-Before running, update the API endpoint in the notebook:
-
-```python
-agent = MAIGroundingAgent(
-    llm_base_url="http://localhost:8000/v1",  # Update to your vLLM server address
-    model_name="MAI-UI-8B",                   # Use the served model name
-    runtime_conf={
-        "history_n": 3,
-        "temperature": 0.0,
-        "top_k": -1,
-        "top_p": 1.0,
-        "max_tokens": 2048,
-    },
-)
-```
-
-#### 4.2 Navigation Agent Demo
-
-The `run_agent.ipynb` demonstrates the full UI navigation agent:
-
-```bash
-cd cookbook
-jupyter notebook run_agent.ipynb
-```
-
-Similarly, update the API endpoint configuration:
-
-```python
-agent = MAIUINaivigationAgent(
-    llm_base_url="http://localhost:8000/v1",  # Update to your vLLM server address
-    model_name="MAI-UI-8B",                   # Use the served model name
-    runtime_conf={
-        "history_n": 3,
-        "temperature": 0.0,
-        "top_k": -1,
-        "top_p": 1.0,
-        "max_tokens": 2048,
-    },
-)
-```
-
----
+<p align="center">
+  <a href="https://tongyi-mai.github.io/Qwen-UI-Agent/demos/source/proactive-flight-recovery-hd.mp4">
+    <img src="./Qwen-UI-Agent/assets/demo/proactive-flight-recovery-poster.jpg" height="420" alt="Proactive cancelled-flight recovery demo" />
+  </a>
+</p>
 
 ## 📝 Citation
 
@@ -298,6 +165,9 @@ For questions and support, please contact:
 - **Hanzhang Zhou**  
   Email: [hanzhang.zhou@alibaba-inc.com](mailto:hanzhang.zhou@alibaba-inc.com)
 
+- **Panrong Tong**  
+  Email: [panrong.tpr@alibaba-inc.com](mailto:panrong.tpr@alibaba-inc.com)
+
 - **Xu Zhang**  
   Email: [hanguang.zx@alibaba-inc.com](mailto:hanguang.zx@alibaba-inc.com)
 
@@ -306,8 +176,7 @@ For questions and support, please contact:
 
 ## 📄 License
 
-MAI-UI Mobile is a foundation GUI agent developed by Alibaba Cloud and licensed under the Apache License (Version 2.0).
+Qwen-UI-Agent is a foundation GUI agent developed by Alibaba and licensed under the Apache License (Version 2.0).
 
-This product contains various third-party components under other open source licenses. 
-See the NOTICE file for more information.
-
+This product contains various third-party components under other open source licenses.
+See the [archived NOTICE](./MAI-UI/NOTICE) file for more information.

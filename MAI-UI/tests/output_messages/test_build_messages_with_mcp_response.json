@@ -1,0 +1,60 @@
+[
+  {
+    "role": "system",
+    "content": [
+      {
+        "type": "text",
+        "text": "You are a GUI agent. You are given a task and your action history, with screenshots. You need to perform the next action to complete the task. \n\n## Output Format\nFor each function call, return the thinking process in <thinking> </thinking> tags, and a json object with function name and arguments within <tool_call></tool_call> XML tags:\n```\n<thinking>\n...\n</thinking>\n<tool_call>\n{\"name\": \"mobile_use\", \"arguments\": <args-json-object>}\n</tool_call>\n```\n\n## Action Space\n\n{\"action\": \"click\", \"coordinate\": [x, y]}\n{\"action\": \"long_press\", \"coordinate\": [x, y]}\n{\"action\": \"type\", \"text\": \"\"}\n{\"action\": \"swipe\", \"direction\": \"up or down or left or right\", \"coordinate\": [x, y]} # \"coordinate\" is optional. Use the \"coordinate\" if you want to swipe a specific UI element.\n{\"action\": \"open\", \"text\": \"app_name\"}\n{\"action\": \"drag\", \"start_coordinate\": [x1, y1], \"end_coordinate\": [x2, y2]}\n{\"action\": \"system_button\", \"button\": \"button_name\"} # Options: back, home, menu, enter \n{\"action\": \"wait\"}\n{\"action\": \"terminate\", \"status\": \"success or fail\"} \n{\"action\": \"answer\", \"text\": \"xxx\"} # Use escape characters \\', \\\", and \\n in text part to ensure we can parse the text in normal python string format.\n{\"action\": \"ask_user\", \"text\": \"xxx\"} # you can ask user for more information to complete the task.\n{\"action\": \"double_click\", \"coordinate\": [x, y]}\n\n## MCP Tools\nYou are also provided with MCP tools, you can use them to complete the task.\n{\"name\": \"get_weather\", \"description\": \"Get current weather for a location\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location\": {\"type\": \"string\", \"description\": \"City name\"}}}}\n\nIf you want to use MCP tools, you must output as the following format:\n```\n<thinking>\n...\n</thinking>\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call>\n```\n## Note\n- Available Apps: `[\"Contacts\", \"Settings\", \"Clock\", \"Maps\", \"Chrome\", \"Calendar\", \"files\", \"Gallery\", \"Taodian\", \"Mattermost\", \"Mastodon\", \"Mail\", \"SMS\", \"Camera\"]`.\n- Write a small plan and finally summarize your next action (with its target element) in one sentence in <thinking></thinking> part."
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Get the current weather"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_DATA]"
+        }
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "type": "text",
+        "text": "<thinking>\nGetting weather\n</thinking>\n<tool_call>\n{\"name\":\"mobile_use\",\"arguments\":{\"action\":\"mcp_tool\",\"tool_name\":\"get_weather\"}}\n</tool_call>"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "text",
+        "text": "Weather: Sunny, 25°C"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "image_url",
+        "image_url": {
+          "url": "[IMAGE_DATA]"
+        }
+      }
+    ]
+  }
+]

