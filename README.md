@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://tongyi-mai.github.io/Qwen-UI-Agent/"><img src="https://img.shields.io/badge/🌐%20Website-Qwen--UI--Agent-blue" alt="Qwen-UI-Agent Website" /></a>
   <a href="https://tongyi-mai.github.io/Qwen-UI-Agent/Qwen-UI-Agent-Technical-Report.pdf"><img src="https://img.shields.io/badge/📄%20Report-Qwen--UI--Agent-red" alt="Qwen-UI-Agent Technical Report" /></a>
-  <img src="https://img.shields.io/badge/📄%20arXiv-Paper-red" alt="arXiv" />
+  <a href="https://arxiv.org/abs/2607.28227"><img src="https://img.shields.io/badge/📄%20arXiv-Paper-red" alt="arXiv" /></a>
   <a href="https://tongyi-mai.github.io/MAI-UI-blog/"><img src="https://img.shields.io/badge/🌐%20Website-MAI%20UI-blue" alt="Website" /></a>
   <a href="https://tongyi-mai.github.io/MobileWorld/"><img src="https://img.shields.io/badge/🌐%20Website-MobileWorld-blue" alt="Website" /></a>
 </p>
@@ -138,6 +138,13 @@ The agent detects a cancellation in the notification stream, opens live travel s
 If you find this project useful for your research, please consider citing our works:
 
 ```bibtex
+@article{zhou2026qwen_ui_agent,
+  title={{Qwen-UI-Agent} Technical Report: Toward Next-Generation Real-World Centric Foundation {GUI} Agents},
+  author={Zhou, Hanzhang and Tong, Panrong and Zhang, Xu and Kong, Quyu and Cai, Chenglin and Xia, Tianyu and Zhang, Gongjie and Zhang, Jianan and Li, Long and Chen, Long and Wang, Lei and Dai, Gaole and Li, Pengxiang and Chen, Liangyu and Wang, Yue and Hoi, Steven},
+  journal={arXiv preprint arXiv:2607.28227},
+  year={2026}
+}
+
 @article{zhou2025mai,
   title={MAI-UI Technical Report: Real-World Centric Foundation GUI Agents},
   author={Zhou, Hanzhang and Zhang, Xu and Tong, Panrong and Zhang, Jianan and Chen, Liangyu and Kong, Quyu and Cai, Chenglin and Liu, Chen and Wang, Yue and Zhou, Jingren and others},
