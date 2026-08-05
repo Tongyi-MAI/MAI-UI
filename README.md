@@ -31,9 +31,9 @@ We present **Qwen-UI-Agent**, a real-world-centric foundation GUI agent that uni
 - 🏆 **State-of-the-art performance**: **82.1%** on MobileWorld, **92.2%** on MobileWorld-Real, **97.5%** on AndroidDaily, **79.5%** on OSWorld-Verified, **40.0%** (partial score) on OSWorld-v2, **73.6%** on WebArena, and **81.5%** on ScreenSpot-Pro.
 
 <p align="center">
-  <img src="./Qwen-UI-Agent/assets/img/performance_6panel_v3.png" alt="Qwen-UI-Agent performance across six benchmarks" width="1000">
+  <img src="./Qwen-UI-Agent/assets/img/performance_8panel.png" alt="Qwen-UI-Agent performance across eight benchmarks" width="1000">
   <br>
-  <em>Qwen-UI-Agent performance across six GUI benchmarks</em>
+  <em>Qwen-UI-Agent performance across eight GUI benchmarks</em>
 </p>
 
 ## Projects
