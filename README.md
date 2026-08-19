@@ -38,8 +38,8 @@ We present **Qwen-UI-Agent**, a real-world-centric foundation GUI agent that uni
 
 ## Projects
 
-- [**Qwen-UI-Agent**](./Qwen-UI-Agent/) — follow-up work. Visit the [project website](https://tongyi-mai.github.io/Qwen-UI-Agent).
-- [**MAI-UI 1.0**](./MAI-UI/) — archived original repository content.
+- [**Qwen-UI-Agent**](./Qwen-UI-Agent/) — continuation work of MAI-UI. Visit the [project website](https://tongyi-mai.github.io/Qwen-UI-Agent).
+- [**MAI-UI 1.0**](./MAI-UI/) — original MAI-UI repository content. Visit the [project website](https://tongyi-mai.github.io/MAI-UI-blog/).
 
 ## 📰 News
 
